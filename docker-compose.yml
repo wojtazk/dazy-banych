@@ -1,0 +1,13 @@
+services:
+  postgres:
+    build:
+      dockerfile: postgres.Dockerfile
+    ports:
+      - 5342:5432
+
+  pgadmin:
+    build:
+      dockerfile: pgadmin.Dockerfile
+    ports:
+      - 8080:8080
+      
