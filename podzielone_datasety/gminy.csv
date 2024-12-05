@@ -1,0 +1,2478 @@
+id,nazwa
+0201011,Bolesławiec
+0201022,Bolesławiec
+0201032,Gromadka
+0201043,Nowogrodziec
+0201052,Osiecznica
+0201062,Warta Bolesławiecka
+0202011,Bielawa
+0202021,Dzierżoniów
+0202033,Pieszyce
+0202041,Piława Górna
+0202052,Dzierżoniów
+0202062,Łagiewniki
+0202073,Niemcza
+0203011,Głogów
+0203022,Głogów
+0203032,Jerzmanowa
+0203042,Kotla
+0203052,Pęcław
+0203062,Żukowice
+0204013,Góra
+0204022,Jemielno
+0204032,Niechlów
+0204043,Wąsosz
+0205011,Jawor
+0205023,Bolków
+0205032,Męcinka
+0205042,Mściwojów
+0205052,Paszowice
+0205062,Wądroże Wielkie
+0206011,Karpacz
+0206021,Kowary
+0206031,Piechowice
+0206041,Szklarska Poręba
+0206052,Janowice Wielkie
+0206062,Jeżów Sudecki
+0206072,Mysłakowice
+0206082,Podgórzyn
+0206092,Stara Kamienica
+0207011,Kamienna Góra
+0207022,Kamienna Góra
+0207033,Lubawka
+0207042,Marciszów
+0208011,Duszniki-Zdrój
+0208021,Kłodzko
+0208031,Kudowa-Zdrój
+0208041,Nowa Ruda
+0208051,Polanica-Zdrój
+0208063,Bystrzyca Kłodzka
+0208072,Kłodzko
+0208083,Lądek-Zdrój
+0208092,Lewin Kłodzki
+0208103,Międzylesie
+0208112,Nowa Ruda
+0208123,Radków
+0208133,Stronie Śląskie
+0208143,Szczytna
+0209011,Chojnów
+0209022,Chojnów
+0209032,Krotoszyce
+0209042,Kunice
+0209052,Legnickie Pole
+0209062,Miłkowice
+0209073,Prochowice
+0209082,Ruja
+0210011,Lubań
+0210021,Świeradów-Zdrój
+0210033,Leśna
+0210042,Lubań
+0210053,Olszyna
+0210062,Platerówka
+0210072,Siekierczyn
+0211011,Lubin
+0211022,Lubin
+0211032,Rudna
+0211043,Ścinawa
+0212013,Gryfów Śląski
+0212023,Lubomierz
+0212033,Lwówek Śląski
+0212043,Mirsk
+0212053,Wleń
+0213012,Cieszków
+0213022,Krośnice
+0213033,Milicz
+0214011,Oleśnica
+0214023,Bierutów
+0214032,Dobroszyce
+0214042,Dziadowa Kłoda
+0214053,Międzybórz
+0214062,Oleśnica
+0214073,Syców
+0214083,Twardogóra
+0215011,Oława
+0215022,Domaniów
+0215033,Jelcz-Laskowice
+0215042,Oława
+0216013,Chocianów
+0216022,Gaworzyce
+0216032,Grębocice
+0216043,Polkowice
+0216053,Przemków
+0216062,Radwanice
+0217012,Borów
+0217022,Kondratowice
+0217032,Przeworno
+0217043,Strzelin
+0217053,Wiązów
+0218012,Kostomłoty
+0218022,Malczyce
+0218033,Miękinia
+0218043,Środa Śląska
+0218052,Udanin
+0219011,Świdnica
+0219021,Świebodzice
+0219032,Dobromierz
+0219043,Jaworzyna Śląska
+0219052,Marcinowice
+0219063,Strzegom
+0219072,Świdnica
+0219083,Żarów
+0220013,Oborniki Śląskie
+0220023,Prusice
+0220033,Trzebnica
+0220042,Wisznia Mała
+0220052,Zawonia
+0220063,Żmigród
+0221011,Boguszów-Gorce
+0221021,Jedlina-Zdrój
+0221031,Szczawno-Zdrój
+0221042,Czarny Bór
+0221053,Głuszyca
+0221063,Mieroszów
+0221072,Stare Bogaczowice
+0221082,Walim
+0222013,Brzeg Dolny
+0222022,Wińsko
+0222033,Wołów
+0223012,Czernica
+0223022,Długołęka
+0223032,Jordanów Śląski
+0223043,Kąty Wrocławskie
+0223052,Kobierzyce
+0223062,Mietków
+0223073,Sobótka
+0223083,Siechnice
+0223092,Żórawina
+0224013,Bardo
+0224022,Ciepłowody
+0224033,Kamieniec Ząbkowicki
+0224042,Stoszowice
+0224053,Ząbkowice Śląskie
+0224063,Ziębice
+0224073,Złoty Stok
+0225011,Zawidów
+0225021,Zgorzelec
+0225033,Bogatynia
+0225043,Pieńsk
+0225052,Sulików
+0225063,Węgliniec
+0225072,Zgorzelec
+0226011,Wojcieszów
+0226021,Złotoryja
+0226032,Pielgrzymka
+0226043,Świerzawa
+0226052,Zagrodno
+0226062,Złotoryja
+0261011,M. Jelenia Góra
+0262011,M. Legnica
+0264011,M. Wrocław
+0265011,M. Wałbrzych
+0401011,Aleksandrów Kujawski
+0401021,Ciechocinek
+0401031,Nieszawa
+0401042,Aleksandrów Kujawski
+0401052,Bądkowo
+0401062,Koneck
+0401072,Raciążek
+0401082,Waganiec
+0401092,Zakrzewo
+0402011,Brodnica
+0402022,Bobrowo
+0402032,Brodnica
+0402042,Brzozie
+0402053,Górzno
+0402062,Bartniczka
+0402073,Jabłonowo Pomorskie
+0402082,Osiek
+0402092,Świedziebnia
+0402102,Zbiczno
+0403012,Białe Błota
+0403022,Dąbrowa Chełmińska
+0403032,Dobrcz
+0403043,Koronowo
+0403052,Nowa Wieś Wielka
+0403062,Osielsko
+0403072,Sicienko
+0403083,Solec Kujawski
+0404011,Chełmno
+0404022,Chełmno
+0404032,Kijewo Królewskie
+0404042,Lisewo
+0404052,Papowo Biskupie
+0404062,Stolno
+0404072,Unisław
+0405011,Golub-Dobrzyń
+0405022,Ciechocin
+0405032,Golub-Dobrzyń
+0405043,Kowalewo Pomorskie
+0405052,Radomin
+0405062,Zbójno
+0406012,Grudziądz
+0406022,Gruta
+0406033,Łasin
+0406043,Radzyń Chełmiński
+0406052,Rogóźno
+0406062,Świecie nad Osą
+0407011,Inowrocław
+0407022,Dąbrowa Biskupia
+0407033,Gniewkowo
+0407042,Inowrocław
+0407053,Janikowo
+0407063,Kruszwica
+0407073,Pakość
+0407082,Rojewo
+0407092,Złotniki Kujawskie
+0408011,Lipno
+0408023,Bobrowniki
+0408032,Chrostkowo
+0408043,Dobrzyń nad Wisłą
+0408053,Kikół
+0408062,Lipno
+0408073,Skępe
+0408082,Tłuchowo
+0408092,Wielgie
+0409012,Dąbrowa
+0409022,Jeziora Wielkie
+0409033,Mogilno
+0409043,Strzelno
+0410013,Kcynia
+0410023,Mrocza
+0410033,Nakło nad Notecią
+0410042,Sadki
+0410053,Szubin
+0411011,Radziejów
+0411022,Bytoń
+0411032,Dobre
+0411042,Osięciny
+0411053,Piotrków Kujawski
+0411062,Radziejów
+0411072,Topólka
+0412011,Rypin
+0412022,Brzuze
+0412032,Rogowo
+0412042,Rypin
+0412052,Skrwilno
+0412062,Wąpielsk
+0413013,Kamień Krajeński
+0413023,Sępólno Krajeńskie
+0413032,Sośno
+0413043,Więcbork
+0414012,Bukowiec
+0414022,Dragacz
+0414032,Drzycim
+0414042,Jeżewo
+0414052,Lniano
+0414063,Nowe
+0414072,Osie
+0414083,Pruszcz
+0414093,Świecie
+0414102,Świekatowo
+0414112,Warlubie
+0415011,Chełmża
+0415022,Chełmża
+0415032,Czernikowo
+0415042,Lubicz
+0415052,Łubianka
+0415062,Łysomice
+0415072,Obrowo
+0415082,Wielka Nieszawka
+0415092,Zławieś Wielka
+0416012,Cekcyn
+0416022,Gostycyn
+0416032,Kęsowo
+0416042,Lubiewo
+0416052,Śliwice
+0416063,Tuchola
+0417011,Wąbrzeźno
+0417022,Dębowa Łąka
+0417032,Książki
+0417042,Płużnica
+0417052,Ryńsk
+0418011,Kowal
+0418022,Baruchowo
+0418032,Boniewo
+0418043,Brześć Kujawski
+0418052,Choceń
+0418063,Chodecz
+0418072,Fabianki
+0418083,Izbica Kujawska
+0418092,Kowal
+0418102,Lubanie
+0418113,Lubień Kujawski
+0418123,Lubraniec
+0418132,Włocławek
+0419013,Barcin
+0419023,Gąsawa
+0419033,Janowiec Wielkopolski
+0419043,Łabiszyn
+0419052,Rogowo
+0419063,Żnin
+0461011,M. Bydgoszcz
+0462011,M. Grudziądz
+0463011,M. Toruń
+0464011,M. Włocławek
+0601011,Międzyrzec Podlaski
+0601021,Terespol
+0601032,Biała Podlaska
+0601042,Drelów
+0601052,Janów Podlaski
+0601062,Kodeń
+0601072,Konstantynów
+0601082,Leśna Podlaska
+0601092,Łomazy
+0601102,Międzyrzec Podlaski
+0601113,Piszczac
+0601122,Rokitno
+0601132,Rossosz
+0601142,Sławatycze
+0601152,Sosnówka
+0601162,Terespol
+0601172,Tuczna
+0601182,Wisznice
+0601192,Zalesie
+0602011,Biłgoraj
+0602022,Aleksandrów
+0602032,Biłgoraj
+0602042,Biszcza
+0602053,Frampol
+0602063,Goraj
+0602073,Józefów
+0602082,Księżpol
+0602092,Łukowa
+0602102,Obsza
+0602112,Potok Górny
+0602123,Tarnogród
+0602132,Tereszpol
+0602143,Turobin
+0603011,Rejowiec Fabryczny
+0603022,Białopole
+0603032,Chełm
+0603042,Dorohusk
+0603052,Dubienka
+0603062,Kamień
+0603072,Leśniowice
+0603082,Rejowiec Fabryczny
+0603092,Ruda-Huta
+0603102,Sawin
+0603113,Siedliszcze
+0603122,Wierzbica
+0603132,Wojsławice
+0603142,Żmudź
+0603153,Rejowiec
+0604011,Hrubieszów
+0604022,Dołhobyczów
+0604032,Horodło
+0604042,Hrubieszów
+0604052,Mircze
+0604062,Trzeszczany
+0604072,Uchanie
+0604082,Werbkowice
+0605012,Batorz
+0605022,Chrzanów
+0605032,Dzwola
+0605042,Godziszów
+0605053,Janów Lubelski
+0605063,Modliborzyce
+0605072,Potok Wielki
+0606011,Krasnystaw
+0606022,Fajsławice
+0606032,Gorzków
+0606043,Izbica
+0606052,Krasnystaw
+0606062,Kraśniczyn
+0606072,Łopiennik Górny
+0606092,Rudnik
+0606102,Siennica Różana
+0606112,Żółkiewka
+0607011,Kraśnik
+0607023,Annopol
+0607032,Dzierzkowice
+0607042,Gościeradów
+0607052,Kraśnik
+0607062,Szastarka
+0607072,Trzydnik Duży
+0607083,Urzędów
+0607092,Wilkołaz
+0607102,Zakrzówek
+0608011,Lubartów
+0608022,Abramów
+0608032,Firlej
+0608042,Jeziorzany
+0608053,Kamionka
+0608063,Kock
+0608072,Lubartów
+0608082,Michów
+0608092,Niedźwiada
+0608103,Ostrów Lubelski
+0608112,Ostrówek
+0608122,Serniki
+0608132,Uścimów
+0609013,Bełżyce
+0609022,Borzechów
+0609033,Bychawa
+0609042,Garbów
+0609052,Głusk
+0609062,Jabłonna
+0609072,Jastków
+0609082,Konopnica
+0609092,Krzczonów
+0609102,Niedrzwica Duża
+0609112,Niemce
+0609122,Strzyżewice
+0609132,Wojciechów
+0609142,Wólka
+0609152,Wysokie
+0609162,Zakrzew
+0610012,Cyców
+0610022,Ludwin
+0610033,Łęczna
+0610042,Milejów
+0610052,Puchaczów
+0610062,Spiczyn
+0611011,Łuków
+0611021,Stoczek Łukowski
+0611032,Adamów
+0611042,Krzywda
+0611052,Łuków
+0611062,Serokomla
+0611072,Stanin
+0611082,Stoczek Łukowski
+0611092,Trzebieszów
+0611102,Wojcieszków
+0611112,Wola Mysłowska
+0612012,Chodel
+0612023,Józefów nad Wisłą
+0612032,Karczmiska
+0612042,Łaziska
+0612053,Opole Lubelskie
+0612063,Poniatowa
+0612072,Wilków
+0613012,Dębowa Kłoda
+0613022,Jabłoń
+0613032,Milanów
+0613043,Parczew
+0613052,Podedwórze
+0613062,Siemień
+0613072,Sosnowica
+0614011,Puławy
+0614022,Baranów
+0614032,Janowiec
+0614043,Kazimierz Dolny
+0614052,Końskowola
+0614062,Kurów
+0614072,Markuszów
+0614083,Nałęczów
+0614092,Puławy
+0614102,Wąwolnica
+0614112,Żyrzyn
+0615011,Radzyń Podlaski
+0615022,Borki
+0615033,Czemierniki
+0615042,Kąkolewnica
+0615052,Komarówka Podlaska
+0615062,Radzyń Podlaski
+0615072,Ulan-Majorat
+0615082,Wohyń
+0616011,Dęblin
+0616022,Kłoczew
+0616032,Nowodwór
+0616043,Ryki
+0616052,Stężyca
+0616062,Ułęż
+0617011,Świdnik
+0617022,Mełgiew
+0617033,Piaski
+0617042,Rybczewice
+0617052,Trawniki
+0618011,Tomaszów Lubelski
+0618022,Bełżec
+0618032,Jarczów
+0618042,Krynice
+0618053,Lubycza Królewska
+0618063,Łaszczów
+0618072,Rachanie
+0618082,Susiec
+0618092,Tarnawatka
+0618102,Telatyn
+0618112,Tomaszów Lubelski
+0618123,Tyszowce
+0618132,Ulhówek
+0619011,Włodawa
+0619022,Hanna
+0619032,Hańsk
+0619042,Stary Brus
+0619052,Urszulin
+0619062,Włodawa
+0619072,Wola Uhruska
+0619082,Wyryki
+0620012,Adamów
+0620022,Grabowiec
+0620032,Komarów-Osada
+0620043,Krasnobród
+0620052,Łabunie
+0620062,Miączyn
+0620072,Nielisz
+0620082,Radecznica
+0620092,Sitno
+0620102,Skierbieszów
+0620112,Stary Zamość
+0620122,Sułów
+0620133,Szczebrzeszyn
+0620142,Zamość
+0620153,Zwierzyniec
+0661011,M. Biała Podlaska
+0662011,M. Chełm
+0663011,M. Lublin
+0664011,M. Zamość
+0801011,Kostrzyn nad Odrą
+0801022,Bogdaniec
+0801032,Deszczno
+0801042,Kłodawa
+0801052,Lubiszyn
+0801062,Santok
+0801073,Witnica
+0802011,Gubin
+0802022,Bobrowice
+0802032,Bytnica
+0802042,Dąbie
+0802052,Gubin
+0802063,Krosno Odrzańskie
+0802072,Maszewo
+0803012,Bledzew
+0803023,Międzyrzecz
+0803032,Przytoczna
+0803042,Pszczew
+0803053,Skwierzyna
+0803063,Trzciel
+0804011,Nowa Sól
+0804023,Bytom Odrzański
+0804032,Kolsko
+0804043,Kożuchów
+0804052,Nowa Sól
+0804063,Nowe Miasteczko
+0804073,Otyń
+0804082,Siedlisko
+0805013,Cybinka
+0805022,Górzyca
+0805033,Ośno Lubuskie
+0805043,Rzepin
+0805053,Słubice
+0806013,Dobiegniew
+0806023,Drezdenko
+0806032,Stare Kurowo
+0806043,Strzelce Krajeńskie
+0806052,Zwierzyn
+0807012,Krzeszyce
+0807023,Lubniewice
+0807032,Słońsk
+0807043,Sulęcin
+0807053,Torzym
+0808012,Lubrza
+0808022,Łagów
+0808032,Skąpe
+0808042,Szczaniec
+0808053,Świebodzin
+0808063,Zbąszynek
+0809013,Babimost
+0809022,Bojadła
+0809033,Czerwieńsk
+0809043,Kargowa
+0809053,Nowogród Bobrzański
+0809063,Sulechów
+0809072,Świdnica
+0809082,Trzebiechów
+0809092,Zabór
+0810011,Gozdnica
+0810021,Żagań
+0810032,Brzeźnica
+0810043,Iłowa
+0810053,Małomice
+0810062,Niegosławice
+0810073,Szprotawa
+0810082,Wymiarki
+0810092,Żagań
+0811011,Łęknica
+0811021,Żary
+0811033,Brody
+0811043,Jasień
+0811052,Lipinki Łużyckie
+0811063,Lubsko
+0811072,Przewóz
+0811082,Trzebiel
+0811092,Tuplice
+0811102,Żary
+0812013,Sława
+0812023,Szlichtyngowa
+0812033,Wschowa
+0861011,M. Gorzów Wielkopolski
+0862011,M. Zielona Góra
+1001011,Bełchatów
+1001022,Bełchatów
+1001032,Drużbice
+1001042,Kleszczów
+1001052,Kluki
+1001062,Rusiec
+1001072,Szczerców
+1001083,Zelów
+1002011,Kutno
+1002022,Bedlno
+1002033,Dąbrowice
+1002043,Krośniewice
+1002052,Krzyżanów
+1002062,Kutno
+1002072,Łanięta
+1002082,Nowe Ostrowy
+1002092,Oporów
+1002102,Strzelce
+1002113,Żychlin
+1003012,Buczek
+1003023,Łask
+1003032,Sędziejowice
+1003042,Widawa
+1003052,Wodzierady
+1004011,Łęczyca
+1004022,Daszyna
+1004032,Góra Świętej Małgorzaty
+1004043,Grabów
+1004052,Łęczyca
+1004063,Piątek
+1004072,Świnice Warckie
+1004082,Witonia
+1005011,Łowicz
+1005022,Bielawy
+1005032,Chąśno
+1005042,Domaniewice
+1005053,Kiernozia
+1005062,Kocierzew Południowy
+1005072,Łowicz
+1005082,Łyszkowice
+1005092,Nieborów
+1005102,Zduny
+1006022,Andrespol
+1006032,Brójce
+1006073,Koluszki
+1006082,Nowosolna
+1006103,Rzgów
+1006113,Tuszyn
+1007013,Białaczów
+1007023,Drzewica
+1007032,Mniszków
+1007043,Opoczno
+1007052,Paradyż
+1007062,Poświętne
+1007072,Sławno
+1007083,Żarnów
+1008011,Konstantynów Łódzki
+1008021,Pabianice
+1008032,Dłutów
+1008042,Dobroń
+1008052,Ksawerów
+1008063,Lutomiersk
+1008072,Pabianice
+1009013,Działoszyn
+1009022,Kiełczygłów
+1009032,Nowa Brzeźnica
+1009043,Pajęczno
+1009052,Rząśnia
+1009062,Siemkowice
+1009072,Strzelce Wielkie
+1009082,Sulmierzyce
+1010012,Aleksandrów
+1010022,Czarnocin
+1010032,Gorzkowice
+1010042,Grabica
+1010052,Łęki Szlacheckie
+1010062,Moszczenica
+1010072,Ręczno
+1010083,Rozprza
+1010093,Sulejów
+1010102,Wola Krzysztoporska
+1010113,Wolbórz
+1011012,Dalików
+1011022,Pęczniew
+1011033,Poddębice
+1011043,Uniejów
+1011052,Wartkowice
+1011062,Zadzim
+1012011,Radomsko
+1012022,Dobryszyce
+1012032,Gidle
+1012042,Gomunice
+1012053,Kamieńsk
+1012062,Kobiele Wielkie
+1012072,Kodrąb
+1012082,Lgota Wielka
+1012092,Ładzice
+1012102,Masłowice
+1012113,Przedbórz
+1012122,Radomsko
+1012132,Wielgomłyny
+1012142,Żytno
+1013011,Rawa Mazowiecka
+1013023,Biała Rawska
+1013032,Cielądz
+1013042,Rawa Mazowiecka
+1013052,Regnów
+1013062,Sadkowice
+1014011,Sieradz
+1014023,Błaszki
+1014032,Brąszewice
+1014042,Brzeźnio
+1014052,Burzenin
+1014062,Goszczanów
+1014072,Klonowa
+1014082,Sieradz
+1014093,Warta
+1014102,Wróblew
+1014113,Złoczew
+1015013,Bolimów
+1015022,Głuchów
+1015032,Godzianów
+1015042,Kowiesy
+1015052,Lipce Reymontowskie
+1015062,Maków
+1015072,Nowy Kawęczyn
+1015082,Skierniewice
+1015092,Słupia
+1016011,Tomaszów Mazowiecki
+1016022,Będków
+1016032,Budziszewice
+1016042,Czerniewice
+1016053,Inowłódz
+1016062,Lubochnia
+1016072,Rokiciny
+1016082,Rzeczyca
+1016092,Tomaszów Mazowiecki
+1016103,Ujazd
+1016112,Żelechlinek
+1017012,Biała
+1017022,Czarnożyły
+1017032,Konopnica
+1017042,Mokrsko
+1017053,Osjaków
+1017062,Ostrówek
+1017072,Pątnów
+1017082,Skomlin
+1017093,Wieluń
+1017102,Wierzchlas
+1018013,Bolesławiec
+1018022,Czastary
+1018032,Galewice
+1018043,Lututów
+1018052,Łubnice
+1018062,Sokolniki
+1018073,Wieruszów
+1019011,Zduńska Wola
+1019023,Szadek
+1019032,Zapolice
+1019042,Zduńska Wola
+1020011,Głowno
+1020021,Ozorków
+1020031,Zgierz
+1020043,Aleksandrów Łódzki
+1020052,Głowno
+1020062,Ozorków
+1020073,Parzęczew
+1020083,Stryków
+1020092,Zgierz
+1021011,Brzeziny
+1021022,Brzeziny
+1021032,Dmosin
+1021043,Jeżów
+1021052,Rogów
+1061011,M. Łódź
+1062011,M. Piotrków Trybunalski
+1063011,M. Skierniewice
+1201011,Bochnia
+1201022,Bochnia
+1201032,Drwinia
+1201042,Lipnica Murowana
+1201052,Łapanów
+1201063,Nowy Wiśnicz
+1201072,Rzezawa
+1201082,Trzciana
+1201092,Żegocina
+1202012,Borzęcin
+1202023,Brzesko
+1202033,Czchów
+1202042,Dębno
+1202052,Gnojnik
+1202062,Iwkowa
+1202072,Szczurowa
+1203013,Alwernia
+1203022,Babice
+1203033,Chrzanów
+1203043,Libiąż
+1203053,Trzebinia
+1204012,Bolesław
+1204023,Dąbrowa Tarnowska
+1204032,Gręboszów
+1204042,Mędrzechów
+1204052,Olesno
+1204062,Radgoszcz
+1204073,Szczucin
+1205011,Gorlice
+1205023,Biecz
+1205033,Bobowa
+1205042,Gorlice
+1205052,Lipinki
+1205062,Łużna
+1205072,Moszczenica
+1205082,Ropa
+1205092,Sękowa
+1205102,Uście Gorlickie
+1206012,Czernichów
+1206022,Igołomia-Wawrzeńczyce
+1206032,Iwanowice
+1206042,Jerzmanowice-Przeginia
+1206052,Kocmyrzów-Luborzyca
+1206063,Krzeszowice
+1206072,Liszki
+1206082,Michałowice
+1206092,Mogilany
+1206103,Skała
+1206113,Skawina
+1206123,Słomniki
+1206132,Sułoszowa
+1206143,Świątniki Górne
+1206152,Wielka Wieś
+1206162,Zabierzów
+1206172,Zielonki
+1207011,Limanowa
+1207021,Mszana Dolna
+1207032,Dobra
+1207042,Jodłownik
+1207052,Kamienica
+1207062,Laskowa
+1207072,Limanowa
+1207082,Łukowica
+1207092,Mszana Dolna
+1207102,Niedźwiedź
+1207112,Słopnice
+1207122,Tymbark
+1208012,Charsznica
+1208022,Gołcza
+1208032,Kozłów
+1208043,Książ Wielki
+1208053,Miechów
+1208062,Racławice
+1208072,Słaboszów
+1209013,Dobczyce
+1209022,Lubień
+1209033,Myślenice
+1209042,Pcim
+1209052,Raciechowice
+1209062,Siepraw
+1209073,Sułkowice
+1209082,Tokarnia
+1209092,Wiśniowa
+1210011,Grybów
+1210022,Chełmiec
+1210032,Gródek nad Dunajcem
+1210042,Grybów
+1210052,Kamionka Wielka
+1210062,Korzenna
+1210073,Krynica-Zdrój
+1210082,Łabowa
+1210092,Łącko
+1210102,Łososina Dolna
+1210113,Muszyna
+1210122,Nawojowa
+1210133,Piwniczna-Zdrój
+1210142,Podegrodzie
+1210152,Rytro
+1210163,Stary Sącz
+1211011,Nowy Targ
+1211023,Szczawnica
+1211033,Czarny Dunajec
+1211042,Czorsztyn
+1211052,Jabłonka
+1211062,Krościenko nad Dunajcem
+1211072,Lipnica Wielka
+1211082,Łapsze Niżne
+1211092,Nowy Targ
+1211102,Ochotnica Dolna
+1211112,Raba Wyżna
+1211123,Rabka-Zdrój
+1211132,Spytkowice
+1211142,Szaflary
+1212011,Bukowno
+1212032,Bolesław
+1212042,Klucze
+1212053,Olkusz
+1212062,Trzyciąż
+1212073,Wolbrom
+1213011,Oświęcim
+1213023,Brzeszcze
+1213033,Chełmek
+1213043,Kęty
+1213052,Osiek
+1213062,Oświęcim
+1213072,Polanka Wielka
+1213082,Przeciszów
+1213093,Zator
+1214012,Koniusza
+1214023,Koszyce
+1214033,Nowe Brzesko
+1214042,Pałecznica
+1214053,Proszowice
+1214062,Radziemice
+1215011,Jordanów
+1215021,Sucha Beskidzka
+1215032,Budzów
+1215042,Bystra-Sidzina
+1215052,Jordanów
+1215063,Maków Podhalański
+1215072,Stryszawa
+1215082,Zawoja
+1215092,Zembrzyce
+1216013,Ciężkowice
+1216022,Gromnik
+1216032,Lisia Góra
+1216042,Pleśna
+1216053,Radłów
+1216063,Ryglice
+1216072,Rzepiennik Strzyżewski
+1216082,Skrzyszów
+1216092,Tarnów
+1216103,Tuchów
+1216112,Wierzchosławice
+1216122,Wietrzychowice
+1216133,Wojnicz
+1216143,Zakliczyn
+1216153,Żabno
+1216162,Szerzyny
+1217011,Zakopane
+1217022,Biały Dunajec
+1217032,Bukowina Tatrzańska
+1217042,Kościelisko
+1217052,Poronin
+1218013,Andrychów
+1218022,Brzeźnica
+1218033,Kalwaria Zebrzydowska
+1218042,Lanckorona
+1218052,Mucharz
+1218062,Spytkowice
+1218072,Stryszów
+1218082,Tomice
+1218093,Wadowice
+1218102,Wieprz
+1219012,Biskupice
+1219022,Gdów
+1219032,Kłaj
+1219043,Niepołomice
+1219053,Wieliczka
+1261011,M. Kraków
+1262011,M. Nowy Sącz
+1263011,M. Tarnów
+1401013,Białobrzegi
+1401022,Promna
+1401032,Radzanów
+1401042,Stara Błotnica
+1401052,Stromiec
+1401063,Wyśmierzyce
+1402011,Ciechanów
+1402022,Ciechanów
+1402033,Glinojeck
+1402042,Gołymin-Ośrodek
+1402052,Grudusk
+1402062,Ojrzeń
+1402072,Opinogóra Górna
+1402082,Regimin
+1402092,Sońsk
+1403011,Garwolin
+1403021,Łaskarzew
+1403032,Borowie
+1403042,Garwolin
+1403052,Górzno
+1403062,Łaskarzew
+1403073,Maciejowice
+1403082,Miastków Kościelny
+1403092,Parysów
+1403103,Pilawa
+1403112,Sobolew
+1403122,Trojanów
+1403132,Wilga
+1403143,Żelechów
+1404011,Gostynin
+1404022,Gostynin
+1404032,Pacyna
+1404043,Sanniki
+1404052,Szczawin Kościelny
+1405011,Milanówek
+1405021,Podkowa Leśna
+1405032,Baranów
+1405043,Grodzisk Mazowiecki
+1405052,Jaktorów
+1405062,Żabia Wola
+1406012,Belsk Duży
+1406022,Błędów
+1406032,Chynów
+1406042,Goszczyn
+1406053,Grójec
+1406062,Jasieniec
+1406073,Mogielnica
+1406083,Nowe Miasto nad Pilicą
+1406092,Pniewy
+1406113,Warka
+1407012,Garbatka-Letnisko
+1407023,Głowaczów
+1407032,Gniewoszów
+1407042,Grabów nad Pilicą
+1407053,Kozienice
+1407063,Magnuszew
+1407072,Sieciechów
+1408011,Legionowo
+1408022,Jabłonna
+1408032,Nieporęt
+1408043,Serock
+1408052,Wieliszew
+1409012,Chotcza
+1409023,Ciepielów
+1409033,Lipsko
+1409042,Rzeczniów
+1409053,Sienno
+1409063,Solec nad Wisłą
+1410012,Huszlew
+1410023,Łosice
+1410032,Olszanka
+1410042,Platerów
+1410052,Sarnaki
+1410062,Stara Kornica
+1411011,Maków Mazowiecki
+1411022,Czerwonka
+1411032,Karniewo
+1411042,Krasnosielc
+1411052,Młynarze
+1411062,Płoniawy-Bramura
+1411073,Różan
+1411082,Rzewnie
+1411092,Sypniewo
+1411102,Szelków
+1412011,Mińsk Mazowiecki
+1412043,Cegłów
+1412052,Dębe Wielkie
+1412063,Dobre
+1412073,Halinów
+1412082,Jakubów
+1412093,Kałuszyn
+1412103,Latowicz
+1412112,Mińsk Mazowiecki
+1412123,Mrozy
+1412133,Siennica
+1412142,Stanisławów
+1412151,Sulejówek
+1413011,Mława
+1413022,Dzierzgowo
+1413032,Lipowiec Kościelny
+1413042,Radzanów
+1413052,Strzegowo
+1413062,Stupsk
+1413072,Szreńsk
+1413082,Szydłowo
+1413092,Wieczfnia Kościelna
+1413102,Wiśniewo
+1414011,Nowy Dwór Mazowiecki
+1414022,Czosnów
+1414032,Leoncin
+1414043,Nasielsk
+1414052,Pomiechówek
+1414063,Zakroczym
+1415012,Baranowo
+1415022,Czarnia
+1415032,Czerwin
+1415042,Goworowo
+1415052,Kadzidło
+1415062,Lelis
+1415072,Łyse
+1415083,Myszyniec
+1415092,Olszewo-Borki
+1415102,Rzekuń
+1415112,Troszyn
+1416011,Ostrów Mazowiecka
+1416022,Andrzejewo
+1416032,Boguty-Pianki
+1416043,Brok
+1416052,Małkinia Górna
+1416062,Nur
+1416072,Ostrów Mazowiecka
+1416082,Stary Lubotyń
+1416092,Szulborze Wielkie
+1416102,Wąsewo
+1416112,Zaręby Kościelne
+1417011,Józefów
+1417021,Otwock
+1417032,Celestynów
+1417043,Karczew
+1417052,Kołbiel
+1417063,Osieck
+1417072,Sobienie-Jeziory
+1417082,Wiązowna
+1418013,Góra Kalwaria
+1418023,Konstancin-Jeziorna
+1418032,Lesznowola
+1418043,Piaseczno
+1418052,Prażmów
+1418063,Tarczyn
+1419012,Bielsk
+1419023,Bodzanów
+1419032,Brudzeń Duży
+1419042,Bulkowo
+1419053,Drobin
+1419063,Gąbin
+1419072,Łąck
+1419082,Mała Wieś
+1419092,Nowy Duninów
+1419102,Radzanowo
+1419112,Słubice
+1419122,Słupno
+1419132,Stara Biała
+1419142,Staroźreby
+1419153,Wyszogród
+1420011,Płońsk
+1420021,Raciąż
+1420032,Baboszewo
+1420043,Czerwińsk nad Wisłą
+1420052,Dzierzążnia
+1420062,Joniec
+1420072,Naruszewo
+1420083,Nowe Miasto
+1420092,Płońsk
+1420102,Raciąż
+1420113,Sochocin
+1420122,Załuski
+1421011,Piastów
+1421021,Pruszków
+1421033,Brwinów
+1421042,Michałowice
+1421052,Nadarzyn
+1421062,Raszyn
+1422011,Przasnysz
+1422023,Chorzele
+1422032,Czernice Borowe
+1422042,Jednorożec
+1422052,Krasne
+1422062,Krzynowłoga Mała
+1422072,Przasnysz
+1423012,Borkowice
+1423023,Gielniów
+1423032,Klwów
+1423043,Odrzywół
+1423052,Potworów
+1423063,Przysucha
+1423072,Rusinów
+1423082,Wieniawa
+1424012,Gzy
+1424022,Obryte
+1424032,Pokrzywnica
+1424043,Pułtusk
+1424052,Świercze
+1424062,Winnica
+1424072,Zatory
+1425011,Pionki
+1425022,Gózd
+1425033,Iłża
+1425042,Jastrzębia
+1425052,Jedlińsk
+1425063,Jedlnia-Letnisko
+1425072,Kowala
+1425082,Pionki
+1425093,Przytyk
+1425103,Skaryszew
+1425112,Wierzbica
+1425122,Wolanów
+1425132,Zakrzew
+1426012,Domanice
+1426022,Korczew
+1426032,Kotuń
+1426042,Mokobody
+1426053,Mordy
+1426062,Paprotnia
+1426072,Przesmyki
+1426082,Siedlce
+1426092,Skórzec
+1426102,Suchożebry
+1426112,Wiśniew
+1426122,Wodynie
+1426132,Zbuczyn
+1427011,Sierpc
+1427022,Gozdowo
+1427032,Mochowo
+1427042,Rościszewo
+1427052,Sierpc
+1427062,Szczutowo
+1427072,Zawidz
+1428011,Sochaczew
+1428022,Brochów
+1428032,Iłów
+1428042,Młodzieszyn
+1428052,Nowa Sucha
+1428062,Rybno
+1428072,Sochaczew
+1428082,Teresin
+1429011,Sokołów Podlaski
+1429022,Bielany
+1429032,Ceranów
+1429042,Jabłonna Lacka
+1429053,Kosów Lacki
+1429062,Repki
+1429072,Sabnie
+1429082,Sokołów Podlaski
+1429092,Sterdyń
+1430012,Chlewiska
+1430023,Jastrząb
+1430032,Mirów
+1430042,Orońsko
+1430053,Szydłowiec
+1432013,Błonie
+1432022,Izabelin
+1432032,Kampinos
+1432042,Leszno
+1432053,Łomianki
+1432063,Ożarów Mazowiecki
+1432072,Stare Babice
+1433011,Węgrów
+1433022,Grębków
+1433032,Korytnica
+1433042,Liw
+1433053,Łochów
+1433062,Miedzna
+1433072,Sadowne
+1433082,Stoczek
+1433092,Wierzbno
+1434011,Kobyłka
+1434021,Marki
+1434031,Ząbki
+1434041,Zielonka
+1434052,Dąbrówka
+1434063,Jadów
+1434072,Klembów
+1434082,Poświętne
+1434093,Radzymin
+1434102,Strachówka
+1434113,Tłuszcz
+1434123,Wołomin
+1435012,Brańszczyk
+1435022,Długosiodło
+1435032,Rząśnik
+1435042,Somianka
+1435053,Wyszków
+1435062,Zabrodzie
+1436012,Kazanów
+1436022,Policzna
+1436032,Przyłęk
+1436042,Tczów
+1436053,Zwoleń
+1437013,Bieżuń
+1437022,Kuczbork-Osada
+1437033,Lubowidz
+1437042,Lutocin
+1437052,Siemiątkowo
+1437063,Żuromin
+1438011,Żyrardów
+1438023,Mszczonów
+1438032,Puszcza Mariańska
+1438042,Radziejowice
+1438053,Wiskitki
+1461011,M. Ostrołęka
+1462011,M. Płock
+1463011,M. Radom
+1464011,M. Siedlce
+1465011,M. st. Warszawa
+1601011,Brzeg
+1601022,Skarbimierz
+1601033,Grodków
+1601043,Lewin Brzeski
+1601052,Lubsza
+1601062,Olszanka
+1602013,Baborów
+1602022,Branice
+1602033,Głubczyce
+1602043,Kietrz
+1603011,Kędzierzyn-Koźle
+1603022,Bierawa
+1603032,Cisek
+1603042,Pawłowiczki
+1603052,Polska Cerekiew
+1603062,Reńska Wieś
+1604013,Byczyna
+1604023,Kluczbork
+1604032,Lasowice Wielkie
+1604043,Wołczyn
+1605013,Gogolin
+1605023,Krapkowice
+1605033,Strzeleczki
+1605042,Walce
+1605053,Zdzieszowice
+1606012,Domaszowice
+1606023,Namysłów
+1606032,Pokój
+1606042,Świerczów
+1606052,Wilków
+1607013,Głuchołazy
+1607022,Kamiennik
+1607033,Korfantów
+1607042,Łambinowice
+1607053,Nysa
+1607063,Otmuchów
+1607073,Paczków
+1607082,Pakosławice
+1607092,Skoroszyce
+1608013,Dobrodzień
+1608023,Gorzów Śląski
+1608033,Olesno
+1608043,Praszka
+1608052,Radłów
+1608062,Rudniki
+1608072,Zębowice
+1609012,Chrząstowice
+1609022,Dąbrowa
+1609032,Dobrzeń Wielki
+1609042,Komprachcice
+1609052,Łubniany
+1609062,Murów
+1609073,Niemodlin
+1609083,Ozimek
+1609092,Popielów
+1609103,Prószków
+1609112,Tarnów Opolski
+1609123,Tułowice
+1609132,Turawa
+1610013,Biała
+1610023,Głogówek
+1610032,Lubrza
+1610043,Prudnik
+1611012,Izbicko
+1611022,Jemielnica
+1611033,Kolonowskie
+1611043,Leśnica
+1611053,Strzelce Opolskie
+1611063,Ujazd
+1611073,Zawadzkie
+1661011,M. Opole
+1801032,Czarna
+1801052,Lutowiska
+1801083,Ustrzyki Dolne
+1802013,Brzozów
+1802022,Domaradz
+1802032,Dydnia
+1802042,Haczów
+1802052,Jasienica Rosielna
+1802062,Nozdrzec
+1803011,Dębica
+1803023,Brzostek
+1803032,Czarna
+1803042,Dębica
+1803052,Jodłowa
+1803063,Pilzno
+1803072,Żyraków
+1804011,Jarosław
+1804021,Radymno
+1804032,Chłopice
+1804042,Jarosław
+1804052,Laszki
+1804062,Pawłosiów
+1804073,Pruchnik
+1804082,Radymno
+1804092,Rokietnica
+1804102,Roźwienica
+1804112,Wiązownica
+1805011,Jasło
+1805022,Brzyska
+1805032,Dębowiec
+1805042,Jasło
+1805053,Kołaczyce
+1805062,Krempna
+1805072,Nowy Żmigród
+1805082,Osiek Jasielski
+1805092,Skołyszyn
+1805112,Tarnowiec
+1806012,Cmolas
+1806023,Kolbuszowa
+1806032,Majdan Królewski
+1806042,Niwiska
+1806052,Raniżów
+1806062,Dzikowiec
+1807012,Chorkówka
+1807023,Dukla
+1807033,Iwonicz-Zdrój
+1807043,Jedlicze
+1807052,Korczyna
+1807062,Krościenko Wyżne
+1807072,Miejsce Piastowe
+1807083,Rymanów
+1807092,Wojaszówka
+1807102,Jaśliska
+1808011,Leżajsk
+1808022,Grodzisko Dolne
+1808032,Kuryłówka
+1808042,Leżajsk
+1808053,Nowa Sarzyna
+1809011,Lubaczów
+1809023,Cieszanów
+1809032,Horyniec-Zdrój
+1809042,Lubaczów
+1809053,Narol
+1809063,Oleszyce
+1809072,Stary Dzików
+1809082,Wielkie Oczy
+1810011,Łańcut
+1810022,Białobrzegi
+1810032,Czarna
+1810042,Łańcut
+1810052,Markowa
+1810062,Rakszawa
+1810072,Żołynia
+1811011,Mielec
+1811022,Borowa
+1811032,Czermin
+1811042,Gawłuszowice
+1811052,Mielec
+1811062,Padew Narodowa
+1811073,Przecław
+1811083,Radomyśl Wielki
+1811092,Tuszów Narodowy
+1811102,Wadowice Górne
+1812012,Harasiuki
+1812022,Jarocin
+1812032,Jeżowe
+1812042,Krzeszów
+1812053,Nisko
+1812063,Rudnik nad Sanem
+1812073,Ulanów
+1813013,Bircza
+1813023,Dubiecko
+1813032,Fredropol
+1813042,Krasiczyn
+1813052,Krzywcza
+1813062,Medyka
+1813072,Orły
+1813082,Przemyśl
+1813092,Stubno
+1813102,Żurawica
+1814011,Przeworsk
+1814022,Adamówka
+1814032,Gać
+1814043,Jawornik Polski
+1814053,Kańczuga
+1814062,Przeworsk
+1814073,Sieniawa
+1814082,Tryńcza
+1814092,Zarzecze
+1815012,Iwierzyce
+1815022,Ostrów
+1815033,Ropczyce
+1815043,Sędziszów Małopolski
+1815052,Wielopole Skrzyńskie
+1816011,Dynów
+1816023,Błażowa
+1816033,Boguchwała
+1816042,Chmielnik
+1816052,Dynów
+1816063,Głogów Małopolski
+1816072,Hyżne
+1816082,Kamień
+1816092,Krasne
+1816102,Lubenia
+1816113,Sokołów Małopolski
+1816122,Świlcza
+1816132,Trzebownisko
+1816143,Tyczyn
+1817011,Sanok
+1817022,Besko
+1817032,Bukowsko
+1817042,Komańcza
+1817052,Sanok
+1817062,Tyrawa Wołoska
+1817073,Zagórz
+1817082,Zarszyn
+1818011,Stalowa Wola
+1818022,Bojanów
+1818032,Pysznica
+1818042,Radomyśl nad Sanem
+1818053,Zaklików
+1818062,Zaleszany
+1819012,Czudec
+1819022,Frysztak
+1819032,Niebylec
+1819043,Strzyżów
+1819052,Wiśniowa
+1820013,Baranów Sandomierski
+1820022,Gorzyce
+1820032,Grębów
+1820043,Nowa Dęba
+1821012,Baligród
+1821022,Cisna
+1821033,Lesko
+1821042,Olszanica
+1821052,Solina
+1861011,M. Krosno
+1862011,M. Przemyśl
+1863011,M. Rzeszów
+1864011,M. Tarnobrzeg
+2001011,Augustów
+2001022,Augustów
+2001032,Bargłów Kościelny
+2001043,Lipsk
+2001052,Nowinka
+2001062,Płaska
+2001072,Sztabin
+2002013,Choroszcz
+2002023,Czarna Białostocka
+2002032,Dobrzyniewo Duże
+2002042,Gródek
+2002052,Juchnowiec Kościelny
+2002063,Łapy
+2002073,Michałowo
+2002082,Poświętne
+2002093,Supraśl
+2002103,Suraż
+2002112,Turośń Kościelna
+2002123,Tykocin
+2002133,Wasilków
+2002143,Zabłudów
+2002152,Zawady
+2003011,Bielsk Podlaski
+2003021,Brańsk
+2003032,Bielsk Podlaski
+2003042,Boćki
+2003052,Brańsk
+2003062,Orla
+2003072,Rudka
+2003082,Wyszki
+2004011,Grajewo
+2004022,Grajewo
+2004032,Radziłów
+2004043,Rajgród
+2004053,Szczuczyn
+2004062,Wąsosz
+2005011,Hajnówka
+2005022,Białowieża
+2005032,Czeremcha
+2005042,Czyże
+2005052,Dubicze Cerkiewne
+2005062,Hajnówka
+2005073,Kleszczele
+2005082,Narew
+2005092,Narewka
+2006011,Kolno
+2006022,Grabowo
+2006032,Kolno
+2006042,Mały Płock
+2006053,Stawiski
+2006062,Turośl
+2007013,Jedwabne
+2007022,Łomża
+2007032,Miastkowo
+2007043,Nowogród
+2007052,Piątnica
+2007062,Przytuły
+2007072,Śniadowo
+2007082,Wizna
+2007092,Zbójna
+2008013,Goniądz
+2008022,Jasionówka
+2008032,Jaświły
+2008043,Knyszyn
+2008052,Krypno
+2008063,Mońki
+2008072,Trzcianne
+2009011,Sejny
+2009022,Giby
+2009032,Krasnopol
+2009042,Puńsk
+2009052,Sejny
+2010011,Siemiatycze
+2010023,Drohiczyn
+2010032,Dziadkowice
+2010042,Grodzisk
+2010052,Mielnik
+2010062,Milejczyce
+2010072,Nurzec-Stacja
+2010082,Perlejewo
+2010092,Siemiatycze
+2011013,Dąbrowa Białostocka
+2011022,Janów
+2011032,Korycin
+2011043,Krynki
+2011052,Kuźnica
+2011062,Nowy Dwór
+2011072,Sidra
+2011083,Sokółka
+2011093,Suchowola
+2011102,Szudziałowo
+2012012,Bakałarzewo
+2012022,Filipów
+2012032,Jeleniewo
+2012042,Przerośl
+2012052,Raczki
+2012062,Rutka-Tartak
+2012072,Suwałki
+2012082,Szypliszki
+2012092,Wiżajny
+2013011,Wysokie Mazowieckie
+2013023,Ciechanowiec
+2013033,Czyżew
+2013042,Klukowo
+2013052,Kobylin-Borzymy
+2013062,Kulesze Kościelne
+2013072,Nowe Piekuty
+2013082,Sokoły
+2013093,Szepietowo
+2013102,Wysokie Mazowieckie
+2014011,Zambrów
+2014022,Kołaki Kościelne
+2014032,Rutki
+2014042,Szumowo
+2014052,Zambrów
+2061011,M. Białystok
+2062011,M. Łomża
+2063011,M. Suwałki
+2201012,Borzytuchom
+2201023,Bytów
+2201032,Czarna Dąbrówka
+2201042,Kołczygłowy
+2201052,Lipnica
+2201063,Miastko
+2201072,Parchowo
+2201082,Studzienice
+2201092,Trzebielino
+2201102,Tuchomie
+2202011,Chojnice
+2202023,Brusy
+2202032,Chojnice
+2202043,Czersk
+2202052,Konarzyny
+2203011,Człuchów
+2203023,Czarne
+2203032,Człuchów
+2203043,Debrzno
+2203052,Koczała
+2203062,Przechlewo
+2203072,Rzeczenica
+2204011,Pruszcz Gdański
+2204022,Cedry Wielkie
+2204032,Kolbudy
+2204042,Pruszcz Gdański
+2204052,Przywidz
+2204062,Pszczółki
+2204072,Suchy Dąb
+2204082,Trąbki Wielkie
+2205012,Chmielno
+2205023,Kartuzy
+2205032,Przodkowo
+2205042,Sierakowice
+2205052,Somonino
+2205062,Stężyca
+2205072,Sulęczyno
+2205083,Żukowo
+2206011,Kościerzyna
+2206022,Dziemiany
+2206032,Karsin
+2206042,Kościerzyna
+2206052,Liniewo
+2206062,Lipusz
+2206072,Nowa Karczma
+2206082,Stara Kiszewa
+2207011,Kwidzyn
+2207022,Gardeja
+2207032,Kwidzyn
+2207043,Prabuty
+2207052,Ryjewo
+2207062,Sadlinki
+2208011,Lębork
+2208021,Łeba
+2208032,Cewice
+2208042,Nowa Wieś Lęborska
+2208052,Wicko
+2209011,Malbork
+2209032,Lichnowy
+2209042,Malbork
+2209062,Miłoradz
+2209073,Nowy Staw
+2209082,Stare Pole
+2210011,Krynica Morska
+2210023,Nowy Dwór Gdański
+2210032,Ostaszewo
+2210042,Stegna
+2210052,Sztutowo
+2211011,Hel
+2211023,Jastarnia
+2211031,Puck
+2211043,Władysławowo
+2211052,Kosakowo
+2211062,Krokowa
+2211072,Puck
+2212011,Ustka
+2212022,Damnica
+2212032,Dębnica Kaszubska
+2212042,Główczyce
+2212053,Kępice
+2212062,Kobylnica
+2212072,Potęgowo
+2212082,Redzikowo
+2212092,Smołdzino
+2212102,Ustka
+2213013,Czarna Woda
+2213021,Skórcz
+2213031,Starogard Gdański
+2213042,Bobowo
+2213052,Kaliska
+2213062,Lubichowo
+2213072,Osieczna
+2213082,Osiek
+2213093,Skarszewy
+2213102,Skórcz
+2213112,Smętowo Graniczne
+2213122,Starogard Gdański
+2213132,Zblewo
+2214011,Tczew
+2214023,Gniew
+2214032,Morzeszczyn
+2214043,Pelplin
+2214052,Subkowy
+2214062,Tczew
+2215011,Reda
+2215021,Rumia
+2215031,Wejherowo
+2215042,Choczewo
+2215052,Gniewino
+2215062,Linia
+2215072,Luzino
+2215082,Łęczyce
+2215092,Szemud
+2215102,Wejherowo
+2216013,Dzierzgoń
+2216022,Mikołajki Pomorskie
+2216032,Stary Dzierzgoń
+2216042,Stary Targ
+2216053,Sztum
+2261011,M. Gdańsk
+2262011,M. Gdynia
+2263011,M. Słupsk
+2264011,M. Sopot
+2401011,Będzin
+2401021,Czeladź
+2401031,Wojkowice
+2401042,Bobrowniki
+2401052,Mierzęcice
+2401062,Psary
+2401073,Siewierz
+2401081,Sławków
+2402011,Szczyrk
+2402022,Bestwina
+2402032,Buczkowice
+2402043,Czechowice-Dziedzice
+2402052,Jasienica
+2402062,Jaworze
+2402072,Kozy
+2402082,Porąbka
+2402093,Wilamowice
+2402102,Wilkowice
+2403011,Cieszyn
+2403021,Ustroń
+2403031,Wisła
+2403042,Brenna
+2403052,Chybie
+2403062,Dębowiec
+2403072,Goleszów
+2403082,Hażlach
+2403092,Istebna
+2403103,Skoczów
+2403113,Strumień
+2403122,Zebrzydowice
+2404013,Blachownia
+2404022,Dąbrowa Zielona
+2404032,Janów
+2404042,Kamienica Polska
+2404052,Kłomnice
+2404063,Koniecpol
+2404072,Konopiska
+2404082,Kruszyna
+2404092,Lelów
+2404102,Mstów
+2404112,Mykanów
+2404123,Olsztyn
+2404132,Poczesna
+2404143,Przyrów
+2404152,Rędziny
+2404162,Starcza
+2405011,Knurów
+2405021,Pyskowice
+2405032,Gierałtowice
+2405042,Pilchowice
+2405052,Rudziniec
+2405063,Sośnicowice
+2405073,Toszek
+2405082,Wielowieś
+2406013,Kłobuck
+2406023,Krzepice
+2406032,Lipie
+2406042,Miedźno
+2406052,Opatów
+2406062,Panki
+2406072,Popów
+2406082,Przystajń
+2406092,Wręczyca Wielka
+2407011,Lubliniec
+2407022,Boronów
+2407032,Ciasna
+2407042,Herby
+2407052,Kochanowice
+2407062,Koszęcin
+2407072,Pawonków
+2407083,Woźniki
+2408011,Łaziska Górne
+2408021,Mikołów
+2408031,Orzesze
+2408042,Ornontowice
+2408052,Wyry
+2409011,Myszków
+2409023,Koziegłowy
+2409032,Niegowa
+2409042,Poraj
+2409053,Żarki
+2410012,Goczałkowice-Zdrój
+2410022,Kobiór
+2410032,Miedźna
+2410042,Pawłowice
+2410053,Pszczyna
+2410062,Suszec
+2411011,Racibórz
+2411022,Kornowac
+2411033,Krzanowice
+2411042,Krzyżanowice
+2411053,Kuźnia Raciborska
+2411062,Nędza
+2411072,Pietrowice Wielkie
+2411082,Rudnik
+2412013,Czerwionka-Leszczyny
+2412022,Gaszowice
+2412032,Jejkowice
+2412042,Lyski
+2412052,Świerklany
+2413011,Kalety
+2413021,Miasteczko Śląskie
+2413031,Radzionków
+2413041,Tarnowskie Góry
+2413052,Krupski Młyn
+2413062,Ożarowice
+2413072,Świerklaniec
+2413082,Tworóg
+2413092,Zbrosławice
+2414011,Bieruń
+2414021,Imielin
+2414031,Lędziny
+2414042,Bojszowy
+2414052,Chełm Śląski
+2415011,Pszów
+2415021,Radlin
+2415031,Rydułtowy
+2415041,Wodzisław Śląski
+2415052,Godów
+2415062,Gorzyce
+2415072,Lubomia
+2415082,Marklowice
+2415092,Mszana
+2416011,Poręba
+2416021,Zawiercie
+2416032,Irządze
+2416042,Kroczyce
+2416053,Łazy
+2416063,Ogrodzieniec
+2416073,Pilica
+2416083,Szczekociny
+2416093,Włodowice
+2416102,Żarnowiec
+2417011,Żywiec
+2417022,Czernichów
+2417032,Gilowice
+2417042,Jeleśnia
+2417052,Koszarawa
+2417062,Lipowa
+2417072,Łękawica
+2417082,Łodygowice
+2417092,Milówka
+2417102,Radziechowy-Wieprz
+2417112,Rajcza
+2417122,Ślemień
+2417132,Świnna
+2417142,Ujsoły
+2417152,Węgierska Górka
+2461011,M. Bielsko-Biała
+2462011,M. Bytom
+2463011,M. Chorzów
+2464011,M. Częstochowa
+2465011,M. Dąbrowa Górnicza
+2466011,M. Gliwice
+2467011,M. Jastrzębie-Zdrój
+2468011,M. Jaworzno
+2469011,M. Katowice
+2470011,M. Mysłowice
+2471011,M. Piekary Śląskie
+2472011,M. Ruda Śląska
+2473011,M. Rybnik
+2474011,M. Siemianowice Śląskie
+2475011,M. Sosnowiec
+2476011,M. Świętochłowice
+2477011,M. Tychy
+2478011,M. Zabrze
+2479011,M. Żory
+2601013,Busko-Zdrój
+2601022,Gnojno
+2601033,Nowy Korczyn
+2601043,Pacanów
+2601052,Solec-Zdrój
+2601063,Stopnica
+2601072,Tuczępy
+2601083,Wiślica
+2602012,Imielno
+2602023,Jędrzejów
+2602033,Małogoszcz
+2602042,Nagłowice
+2602052,Oksa
+2602063,Sędziszów
+2602072,Słupia
+2602082,Sobków
+2602093,Wodzisław
+2603012,Bejsce
+2603022,Czarnocin
+2603033,Kazimierza Wielka
+2603043,Opatowiec
+2603053,Skalbmierz
+2604012,Bieliny
+2604023,Bodzentyn
+2604033,Chęciny
+2604043,Chmielnik
+2604053,Daleszyce
+2604062,Górno
+2604073,Łagów
+2604083,Łopuszno
+2604092,Masłów
+2604102,Miedziana Góra
+2604112,Mniów
+2604123,Morawica
+2604133,Nowa Słupia
+2604143,Piekoszów
+2604153,Pierzchnica
+2604162,Raków
+2604172,Nowiny
+2604182,Strawczyn
+2604192,Zagnańsk
+2605012,Fałków
+2605023,Gowarczów
+2605033,Końskie
+2605043,Radoszyce
+2605052,Ruda Maleniecka
+2605062,Słupia Konecka
+2605072,Smyków
+2605083,Stąporków
+2606012,Baćkowice
+2606023,Iwaniska
+2606032,Lipnik
+2606043,Opatów
+2606053,Ożarów
+2606062,Sadowie
+2606072,Tarłów
+2606082,Wojciechowice
+2607011,Ostrowiec Świętokrzyski
+2607022,Bałtów
+2607032,Bodzechów
+2607043,Ćmielów
+2607053,Kunów
+2607062,Waśniów
+2608013,Działoszyce
+2608022,Kije
+2608032,Michałów
+2608043,Pińczów
+2608052,Złota
+2609011,Sandomierz
+2609022,Dwikozy
+2609033,Klimontów
+2609043,Koprzywnica
+2609052,Łoniów
+2609062,Obrazów
+2609072,Samborzec
+2609082,Wilczyce
+2609093,Zawichost
+2610011,Skarżysko-Kamienna
+2610022,Bliżyn
+2610032,Łączna
+2610042,Skarżysko Kościelne
+2610053,Suchedniów
+2611011,Starachowice
+2611022,Brody
+2611032,Mirzec
+2611042,Pawłów
+2611053,Wąchock
+2612013,Bogoria
+2612022,Łubnice
+2612033,Oleśnica
+2612043,Osiek
+2612053,Połaniec
+2612062,Rytwiany
+2612073,Staszów
+2612083,Szydłów
+2613012,Kluczewsko
+2613022,Krasocin
+2613032,Moskorzew
+2613042,Radków
+2613052,Secemin
+2613063,Włoszczowa
+2661011,M. Kielce
+2801011,Bartoszyce
+2801021,Górowo Iławeckie
+2801032,Bartoszyce
+2801043,Bisztynek
+2801052,Górowo Iławeckie
+2801063,Sępopol
+2802011,Braniewo
+2802022,Braniewo
+2802033,Frombork
+2802042,Lelkowo
+2802053,Pieniężno
+2802062,Płoskinia
+2802072,Wilczęta
+2803011,Działdowo
+2803022,Działdowo
+2803032,Iłowo-Osada
+2803043,Lidzbark
+2803052,Płośnica
+2803062,Rybno
+2804012,Elbląg
+2804022,Godkowo
+2804032,Gronowo Elbląskie
+2804042,Markusy
+2804052,Milejewo
+2804063,Młynary
+2804073,Pasłęk
+2804082,Rychliki
+2804093,Tolkmicko
+2805011,Ełk
+2805022,Ełk
+2805032,Kalinowo
+2805042,Prostki
+2805052,Stare Juchy
+2806011,Giżycko
+2806042,Giżycko
+2806052,Kruklanki
+2806062,Miłki
+2806083,Ryn
+2806102,Wydminy
+2807011,Iława
+2807021,Lubawa
+2807032,Iława
+2807043,Kisielice
+2807052,Lubawa
+2807063,Susz
+2807073,Zalewo
+2808011,Kętrzyn
+2808022,Barciany
+2808032,Kętrzyn
+2808043,Korsze
+2808053,Reszel
+2808062,Srokowo
+2809011,Lidzbark Warmiński
+2809022,Kiwity
+2809032,Lidzbark Warmiński
+2809042,Lubomino
+2809053,Orneta
+2810011,Mrągowo
+2810023,Mikołajki
+2810032,Mrągowo
+2810042,Piecki
+2810052,Sorkwity
+2811012,Janowiec Kościelny
+2811022,Janowo
+2811032,Kozłowo
+2811043,Nidzica
+2812011,Nowe Miasto Lubawskie
+2812022,Biskupiec
+2812032,Grodziczno
+2812042,Kurzętnik
+2812052,Nowe Miasto Lubawskie
+2813032,Kowale Oleckie
+2813043,Olecko
+2813052,Świętajno
+2813062,Wieliczki
+2814013,Barczewo
+2814023,Biskupiec
+2814033,Dobre Miasto
+2814042,Dywity
+2814052,Gietrzwałd
+2814063,Jeziorany
+2814072,Jonkowo
+2814082,Kolno
+2814093,Olsztynek
+2814102,Purda
+2814112,Stawiguda
+2814122,Świątki
+2815011,Ostróda
+2815022,Dąbrówno
+2815032,Grunwald
+2815042,Łukta
+2815052,Małdyty
+2815063,Miłakowo
+2815073,Miłomłyn
+2815083,Morąg
+2815092,Ostróda
+2816013,Biała Piska
+2816023,Orzysz
+2816033,Pisz
+2816043,Ruciane-Nida
+2817011,Szczytno
+2817022,Dźwierzuty
+2817032,Jedwabno
+2817043,Pasym
+2817052,Rozogi
+2817062,Szczytno
+2817072,Świętajno
+2817083,Wielbark
+2818012,Banie Mazurskie
+2818022,Dubeninki
+2818033,Gołdap
+2819012,Budry
+2819022,Pozezdrze
+2819033,Węgorzewo
+2861011,M. Elbląg
+2862011,M. Olsztyn
+3001011,Chodzież
+3001023,Budzyń
+3001032,Chodzież
+3001043,Margonin
+3001053,Szamocin
+3002011,Czarnków
+3002022,Czarnków
+3002032,Drawsko
+3002043,Krzyż Wielkopolski
+3002052,Lubasz
+3002062,Połajewo
+3002073,Trzcianka
+3002083,Wieleń
+3003011,Gniezno
+3003023,Czerniejewo
+3003032,Gniezno
+3003042,Kiszkowo
+3003053,Kłecko
+3003062,Łubowo
+3003072,Mieleszyn
+3003082,Niechanowo
+3003093,Trzemeszno
+3003103,Witkowo
+3004013,Borek Wielkopolski
+3004023,Gostyń
+3004033,Krobia
+3004042,Pępowo
+3004052,Piaski
+3004063,Pogorzela
+3004073,Poniec
+3005012,Granowo
+3005023,Grodzisk Wielkopolski
+3005032,Kamieniec
+3005043,Rakoniewice
+3005053,Wielichowo
+3006013,Jaraczewo
+3006023,Jarocin
+3006032,Kotlin
+3006043,Żerków
+3007012,Blizanów
+3007022,Brzeziny
+3007032,Ceków-Kolonia
+3007042,Godziesze Wielkie
+3007053,Koźminek
+3007062,Lisków
+3007072,Mycielin
+3007083,Opatówek
+3007093,Stawiszyn
+3007102,Szczytniki
+3007112,Żelazków
+3008012,Baranów
+3008022,Bralin
+3008033,Kępno
+3008042,Łęka Opatowska
+3008052,Perzów
+3008063,Rychtal
+3008072,Trzcinica
+3009011,Koło
+3009022,Babiak
+3009032,Chodów
+3009043,Dąbie
+3009052,Grzegorzew
+3009063,Kłodawa
+3009072,Koło
+3009082,Kościelec
+3009092,Olszówka
+3009102,Osiek Mały
+3009113,Przedecz
+3010013,Golina
+3010022,Grodziec
+3010032,Kazimierz Biskupi
+3010043,Kleczew
+3010052,Kramsk
+3010062,Krzymów
+3010073,Rychwał
+3010082,Rzgów
+3010092,Skulsk
+3010103,Sompolno
+3010112,Stare Miasto
+3010123,Ślesin
+3010132,Wierzbinek
+3010142,Wilczyn
+3011011,Kościan
+3011023,Czempiń
+3011032,Kościan
+3011043,Krzywiń
+3011053,Śmigiel
+3012011,Sulmierzyce
+3012023,Kobylin
+3012033,Koźmin Wielkopolski
+3012043,Krotoszyn
+3012052,Rozdrażew
+3012063,Zduny
+3013012,Krzemieniewo
+3013022,Lipno
+3013033,Osieczna
+3013043,Rydzyna
+3013052,Święciechowa
+3013062,Wijewo
+3013072,Włoszakowice
+3014012,Chrzypsko Wielkie
+3014022,Kwilcz
+3014033,Międzychód
+3014043,Sieraków
+3015012,Kuślin
+3015023,Lwówek
+3015032,Miedzichowo
+3015043,Nowy Tomyśl
+3015053,Opalenica
+3015063,Zbąszyń
+3016013,Oborniki
+3016023,Rogoźno
+3016032,Ryczywół
+3017011,Ostrów Wielkopolski
+3017023,Nowe Skalmierzyce
+3017033,Odolanów
+3017042,Ostrów Wielkopolski
+3017052,Przygodzice
+3017063,Raszków
+3017072,Sieroszewice
+3017082,Sośnie
+3018012,Czajków
+3018022,Doruchów
+3018033,Grabów nad Prosną
+3018042,Kobyla Góra
+3018052,Kraszewice
+3018063,Mikstat
+3018073,Ostrzeszów
+3019011,Piła
+3019022,Białośliwie
+3019033,Kaczory
+3019043,Łobżenica
+3019053,Miasteczko Krajeńskie
+3019062,Szydłowo
+3019073,Ujście
+3019083,Wyrzysk
+3019093,Wysoka
+3020013,Chocz
+3020022,Czermin
+3020033,Dobrzyca
+3020042,Gizałki
+3020052,Gołuchów
+3020063,Pleszew
+3021011,Luboń
+3021021,Puszczykowo
+3021033,Buk
+3021042,Czerwonak
+3021052,Dopiewo
+3021062,Kleszczewo
+3021072,Komorniki
+3021083,Kostrzyn
+3021093,Kórnik
+3021103,Mosina
+3021113,Murowana Goślina
+3021123,Pobiedziska
+3021132,Rokietnica
+3021143,Stęszew
+3021152,Suchy Las
+3021163,Swarzędz
+3021172,Tarnowo Podgórne
+3022013,Bojanowo
+3022023,Jutrosin
+3022033,Miejska Górka
+3022042,Pakosław
+3022053,Rawicz
+3023011,Słupca
+3023022,Lądek
+3023032,Orchowo
+3023042,Ostrowite
+3023052,Powidz
+3023062,Słupca
+3023072,Strzałkowo
+3023083,Zagórów
+3024011,Obrzycko
+3024022,Duszniki
+3024032,Kaźmierz
+3024042,Obrzycko
+3024053,Ostroróg
+3024063,Pniewy
+3024073,Szamotuły
+3024083,Wronki
+3025012,Dominowo
+3025022,Krzykosy
+3025032,Nowe Miasto nad Wartą
+3025043,Środa Wielkopolska
+3025052,Zaniemyśl
+3026012,Brodnica
+3026023,Dolsk
+3026033,Książ Wielkopolski
+3026043,Śrem
+3027011,Turek
+3027022,Brudzew
+3027033,Dobra
+3027042,Kawęczyn
+3027052,Malanów
+3027062,Przykona
+3027073,Tuliszków
+3027082,Turek
+3027092,Władysławów
+3028011,Wągrowiec
+3028022,Damasławek
+3028033,Gołańcz
+3028043,Mieścisko
+3028053,Skoki
+3028062,Wapno
+3028072,Wągrowiec
+3029012,Przemęt
+3029022,Siedlec
+3029033,Wolsztyn
+3030012,Kołaczkowo
+3030023,Miłosław
+3030033,Nekla
+3030043,Pyzdry
+3030053,Września
+3031011,Złotów
+3031023,Jastrowie
+3031033,Krajenka
+3031042,Lipka
+3031053,Okonek
+3031062,Tarnówka
+3031072,Zakrzewo
+3031082,Złotów
+3061011,M. Kalisz
+3062011,M. Konin
+3063011,M. Leszno
+3064011,M. Poznań
+3201011,Białogard
+3201022,Białogard
+3201033,Karlino
+3201043,Tychowo
+3202012,Bierzwnik
+3202023,Choszczno
+3202033,Drawno
+3202042,Krzęcin
+3202053,Pełczyce
+3202063,Recz
+3203013,Czaplinek
+3203023,Drawsko Pomorskie
+3203033,Kalisz Pomorski
+3203052,Wierzchowo
+3203063,Złocieniec
+3204023,Goleniów
+3204033,Maszewo
+3204043,Nowogard
+3204052,Osina
+3204062,Przybiernów
+3204073,Stepnica
+3205012,Brojce
+3205023,Gryfice
+3205032,Karnice
+3205043,Płoty
+3205072,Rewal
+3205083,Trzebiatów
+3206012,Banie
+3206023,Cedynia
+3206033,Chojna
+3206043,Gryfino
+3206053,Mieszkowice
+3206063,Moryń
+3206072,Stare Czarnowo
+3206083,Trzcińsko-Zdrój
+3206092,Widuchowa
+3207013,Dziwnów
+3207023,Golczewo
+3207033,Kamień Pomorski
+3207043,Międzyzdroje
+3207052,Świerzno
+3207063,Wolin
+3208011,Kołobrzeg
+3208022,Dygowo
+3208033,Gościno
+3208042,Kołobrzeg
+3208052,Rymań
+3208062,Siemyśl
+3208072,Ustronie Morskie
+3209012,Będzino
+3209022,Biesiekierz
+3209033,Bobolice
+3209042,Manowo
+3209053,Mielno
+3209063,Polanów
+3209073,Sianów
+3209082,Świeszyno
+3210013,Barlinek
+3210022,Boleszkowice
+3210033,Dębno
+3210043,Myślibórz
+3210052,Nowogródek Pomorski
+3211012,Dobra (Szczecińska)
+3211022,Kołbaskowo
+3211033,Nowe Warpno
+3211043,Police
+3212012,Bielice
+3212022,Kozielice
+3212033,Lipiany
+3212042,Przelewice
+3212053,Pyrzyce
+3212062,Warnice
+3213011,Darłowo
+3213021,Sławno
+3213032,Darłowo
+3213042,Malechowo
+3213052,Postomino
+3213062,Sławno
+3214011,Stargard
+3214023,Chociwel
+3214033,Dobrzany
+3214042,Dolice
+3214053,Ińsko
+3214062,Kobylanka
+3214082,Marianowo
+3214092,Stara Dąbrowa
+3214102,Stargard
+3214113,Suchań
+3215011,Szczecinek
+3215023,Barwice
+3215033,Biały Bór
+3215043,Borne Sulinowo
+3215052,Grzmiąca
+3215062,Szczecinek
+3216011,Świdwin
+3216022,Brzeżno
+3216033,Połczyn-Zdrój
+3216042,Rąbino
+3216052,Sławoborze
+3216062,Świdwin
+3217011,Wałcz
+3217023,Człopa
+3217033,Mirosławiec
+3217043,Tuczno
+3217052,Wałcz
+3218013,Dobra
+3218023,Łobez
+3218032,Radowo Małe
+3218043,Resko
+3218053,Węgorzyno
+3261011,M. Koszalin
+3262011,M. Szczecin
+3263011,M. Świnoujście

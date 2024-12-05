@@ -1,0 +1,8566 @@
+id,nazwa
+0,Abramów
+1,Adamów
+2,Adamowice
+3,Adamowizna
+4,Adamówka
+5,Adamowo
+6,Adelin
+7,Albigowa
+8,Aleksandria
+9,Aleksandria Pierwsza
+10,Aleksandrów
+11,Aleksandrów Kujawski
+12,Aleksandrów Łódzki
+13,Alfredówka
+14,Alojzów
+15,Alwernia
+16,Amelin
+17,Ameryka
+18,Andrespol
+19,Andrychów
+20,Andryjanki
+21,Andrzejewo
+22,Andrzejów
+23,Andrzejówka
+24,Anielew
+25,Anieliny
+26,Anielów
+27,Annobór
+28,Annopol
+29,Annopole Stare
+30,Antolka
+31,Antonie
+32,Antoniewo
+33,Antoniów
+34,Antoniówka
+35,Arcelin
+36,Augustów
+37,Augustówka
+38,Augustowo
+39,Azory
+40,Babiak
+41,Babica
+42,Babice
+43,Babice Nowe
+44,Babiczki
+45,Babięty Wielkie
+46,Babiki
+47,Babimost
+48,Babin
+49,Babki Oleckie
+50,Baborów
+51,Baborowo
+52,Baboszewo
+53,Babsk
+54,Baby
+55,Bachórz
+56,Bachórzec
+57,Bachorzew
+58,Bachów
+59,Bachowice
+60,Baciki Średnie
+61,Baćkowice
+62,Bącza-Kunina
+63,Bączal Dolny
+64,Baczków
+65,Baczyn
+66,Baczyna
+67,Bądki
+68,Bądków
+69,Bądkowo
+70,Bągart
+71,Bagatelka
+72,Bagny
+73,Bajdy
+74,Bakałarzewo
+75,Bąków
+76,Bąków Górny
+77,Bąkowa
+78,Bąkowa Góra
+79,Bąkowice
+80,Bąkowo
+81,Bałdrzychów
+82,Balice
+83,Baligród
+84,Balin
+85,Bałtów
+86,Banica
+87,Banie
+88,Banie Mazurskie
+89,Banino
+90,Baniocha
+91,Bańska Niżna
+92,Bańska Wyżna
+93,Baranów
+94,Baranów Sandomierski
+95,Baranowo
+96,Barciany
+97,Barcice
+98,Barcikowo
+99,Barcin
+100,Barcinek
+101,Barcino
+102,Barczew
+103,Barczewko
+104,Barczewo
+105,Barczygłów
+106,Bardo
+107,Bardzice
+108,Bargłów Kościelny
+109,Bargłówka
+110,Barkowo
+111,Barlewiczki
+112,Barlinek
+113,Barłogi
+114,Barłomino
+115,Barłożno
+116,Barnówko
+117,Barszczewo
+118,Bartąg
+119,Bartniki
+120,Bartodzieje
+121,Bartoszów
+122,Bartoszyce
+123,Barty
+124,Baruchowo
+125,Barwałd Dolny
+126,Barwałd Górny
+127,Barwałd Średni
+128,Barwice
+129,Barycz
+130,Barycz-Kolonia
+131,Baryczka
+132,Baszków
+133,Baszkówka
+134,Basznia Dolna
+135,Batorz Pierwszy
+136,Batycze
+137,Bażanowice
+138,Bażanówka
+139,Bażyny
+140,Bebelno-Wieś
+141,Bębło
+142,Bęczarka
+143,Bęczków
+144,Będargowo
+145,Będków
+146,Będkowice
+147,Bedlno
+148,Bednary
+149,Bedoń-Wieś
+150,Będzelin
+151,Będziemyśl
+152,Będzin
+153,Będzino
+154,Będzymin
+155,Bejsce
+156,Bekiesza
+157,Bełchatów
+158,Bełchów
+159,Bełczna
+160,Bełdów
+161,Belęcin
+162,Bełk
+163,Belno
+164,Belsk Duży
+165,Bełżec
+166,Bełżyce
+167,Bemowo
+168,Bemowo Piskie
+169,Benice
+170,Berest
+171,Berezka
+172,Berezówka
+173,Besiekierz Rudny
+174,Besko
+175,Bestwina
+176,Bestwinka
+177,Bezledy
+178,Bezmiechowa Dolna
+179,Bezrzecze
+180,Biadacz
+181,Biadki
+182,Biadoliny Radłowskie
+183,Biadoliny Szlacheckie
+184,Biała
+185,Biała Druga
+186,Biała Góra
+187,Biała Niżna
+188,Biała Nyska
+189,Biała Panieńska
+190,Biała Piska
+191,Biała Podlaska
+192,Biała Rawska
+193,Biała Rządowa
+194,Biała Wielka
+195,Biała-Parcela
+196,Białaczów
+197,Białaszewo
+198,Białe Błota
+199,Białężyn
+200,Białka
+201,Białka Tatrzańska
+202,Białki
+203,Białki Dolne
+204,Białków
+205,Białobiel
+206,Białobłoty
+207,Białoboki
+208,Białobrzegi
+209,Białochowo
+210,Białogard
+211,Białołęka
+212,Białopole
+213,Białośliwie
+214,Białostoczek
+215,Białotarsk
+216,Białousy
+217,Białowieża
+218,Białowola
+219,Białuń
+220,Białusny Lasek
+221,Białuty
+222,Biały Bór
+223,Biały Dunajec
+224,Biały Kościół
+225,Biały Zdrój
+226,Białynin
+227,Białystok
+228,Bibice
+229,Biczyce Dolne
+230,Bidziny
+231,Biecz
+232,Biedaczów
+233,Biedaszki
+234,Biedrusko
+235,Biedrzychowice
+236,Bieganin
+237,Bieganowo
+238,Biela
+239,Bielanka
+240,Bielany
+241,Bielany Wrocławskie
+242,Bielany-Jarosławy
+243,Bielawa
+244,Bielawki
+245,Bielawy
+246,Bielcza
+247,Bielewo
+248,Bielica
+249,Bielice
+250,Bielicha
+251,Bielino
+252,Bieliny
+253,Bielkówko
+254,Bielowice
+255,Bielsk
+256,Bielsk Podlaski
+257,Bielsko
+258,Bielsko-Biała
+259,Bieniądzice
+260,Bieniec
+261,Bieniędzice
+262,Bieniewice
+263,Bieniów
+264,Bieniowice
+265,Bieńkowice
+266,Bieńkówka
+267,Bierawa
+268,Bierdzany
+269,Bierkowice
+270,Bierkowo
+271,Bierna
+272,Biernatki
+273,Biertowice
+274,Bieruń
+275,Bierutów
+276,Bierwce
+277,Bierzwienna Długa
+278,Bierzwnica
+279,Bierzwnik
+280,Biesal
+281,Biesiadki
+282,Biesiekierz
+283,Biesna
+284,Bieśnik
+285,Biesowice
+286,Bieszków Dolny
+287,Biezdrowo
+288,Bieździadka
+289,Bieździedza
+290,Bieżeń
+291,Bieżuń
+292,Bieżyń
+293,Bikówek
+294,Bilcza
+295,Bilczew
+296,Bilczyce
+297,Biłgoraj
+298,Binarowa
+299,Binczarowa
+300,Biniew
+301,Biórków Wielki
+302,Bircza
+303,Biskupice
+304,Biskupice Ołoboczne
+305,Biskupice Podgórne
+306,Biskupice Radłowskie
+307,Biskupice Zabaryczne
+308,Biskupiec
+309,Biskupów
+310,Bistuszowa
+311,Biszcza
+312,Bisztynek
+313,Błachów
+314,Blachownia
+315,Błądzim
+316,Błaszki
+317,Błażejewice
+318,Błażejewo
+319,Błażek
+320,Błaziny Dolne
+321,Błażkowa
+322,Błażowa
+323,Błażowa Dolna
+324,Błędostowo
+325,Błędów
+326,Błędowa Zgłobieńska
+327,Bledzew
+328,Bledzewo
+329,Błenna
+330,Blichowo
+331,Blinów Drugi
+332,Blizanów Drugi
+333,Blizianka
+334,Blizne
+335,Blizne Jasińskiego
+336,Blizne Łaszczyńskiego
+337,Bliżyce
+338,Bliżyn
+339,Blochy
+340,Błogie Rządowe
+341,Blok Dobryszyce
+342,Błonie
+343,Błotnica Strzelecka
+344,Błotno
+345,Bluszczów
+346,Bobolice
+347,Bobowa
+348,Bobowicko
+349,Bobowo
+350,Bobrek
+351,Bobrek-Kolonia
+352,Bóbrka
+353,Bobrowa
+354,Bobrowce
+355,Bobrowice
+356,Bobrowiec
+357,Bobrówko
+358,Bobrowniki
+359,Bobrowniki Wielkie
+360,Bobrowo
+361,Boby-Kolonia
+362,Bochnia
+363,Bochotnica
+364,Boćki
+365,Boćwinka
+366,Boczów
+367,Bodaczów
+368,Bodaki
+369,Bodzanów
+370,Bodzanowice
+371,Bodzechów
+372,Bodzentyn
+373,Bodzewo
+374,Bodzyniewo
+375,Bogacica
+376,Bogaczewo
+377,Bogaczów
+378,Bogate
+379,Bogatynia
+380,Bogdaj
+381,Bogdańczowice
+382,Bogdaniec
+383,Bogdanka
+384,Bogdanów
+385,Bogdanowice
+386,Bogdanówka
+387,Bogdanowo
+388,Bogoniowice
+389,Bogoria
+390,Boguchwała
+391,Boguchwałowice
+392,Boguchwały
+393,Bogucice
+394,Bogucice Pierwsze
+395,Bogucin
+396,Bogumiłowice
+397,Bogurzyn
+398,Bogusławice
+399,Bogusza
+400,Bogusze
+401,Boguszewo
+402,Boguszów-Gorce
+403,Boguszyce
+404,Boguszyn
+405,Boguty-Pianki
+406,Bojadła
+407,Bojano
+408,Bojanów
+409,Bojanowo
+410,Bojmie
+411,Bojszów
+412,Bojszowy
+413,Bolechowice
+414,Bolechowo
+415,Bolechowo-Osiedle
+416,Bolęcin
+417,Bolemin
+418,Boleścice
+419,Boleścin
+420,Bolesław
+421,Bolesławice
+422,Bolesławiec
+423,Bolesławów
+424,Bolesławowo
+425,Bolestraszyce
+426,Boleszkowice
+427,Boleszyn
+428,Bolewice
+429,Bolewicko
+430,Bolimów
+431,Bolków
+432,Bolkowo
+433,Bolmin
+434,Bolszewo
+435,Bombla
+436,Boniewo
+437,Bonikowo
+438,Bonin
+439,Boniowice
+440,Bór
+441,Bór Zajaciński
+442,Boratyn
+443,Borawe
+444,Borcz
+445,Boreczek
+446,Boreczno
+447,Borek
+448,Borek Stary
+449,Borek Strzeliński
+450,Borek Szlachecki
+451,Borek Wielkopolski
+452,Borki
+453,Borki Małe
+454,Borki Nizińskie
+455,Borki Wielkie
+456,Borki-Kosy
+457,Borki-Wyrki
+458,Borków
+459,Borkowice
+460,Borkowo
+461,Borkowo Kościelne
+462,Borne Sulinowo
+463,Boronów
+464,Borów
+465,Borów Wielki
+466,Borowa
+467,Borowe
+468,Borowie
+469,Borowiec
+470,Borówiec
+471,Borowina
+472,Borowina Sitaniecka
+473,Borówno
+474,Borowno-Kolonia
+475,Borowo
+476,Borowy Młyn
+477,Borucin
+478,Boruja Kościelna
+479,Boruszowice
+480,Boruszyn
+481,Borysławice
+482,Borysławice Kościelne
+483,Boryszów
+484,Borzechów-Kolonia
+485,Borzechowo
+486,Borzęcice
+487,Borzęciczki
+488,Borzęcin
+489,Borzęcin Duży
+490,Borzęcino
+491,Borzestowo
+492,Borzęta
+493,Borzuchowo-Daćbogi
+494,Borzykowa
+495,Borzykowo
+496,Borzymin
+497,Borzymy
+498,Borzytuchom
+499,Boszkowo-Letnisko
+500,Boża Wola
+501,Boże
+502,Bożejewice
+503,Bożejowice
+504,Bożepole Małe
+505,Bożepole Wielkie
+506,Bożewo Nowe
+507,Bożków
+508,Bożnów
+509,Brachlewo
+510,Brąchnowo
+511,Braciejowice
+512,Braciejówka
+513,Bralin
+514,Bramka
+515,Bramki
+516,Branew Szlachecka
+517,Branica Radzyńska
+518,Branice
+519,Braniewo
+520,Brańsk
+521,Brańszczyk
+522,Brąszewice
+523,Braszowice
+524,Bratian
+525,Bratkowice
+526,Bratkówka
+527,Bratoszewice
+528,Brdów
+529,Bredynki
+530,Breń
+531,Breń Osuchowski
+532,Brenna
+533,Brenno
+534,Brochów
+535,Broczyno
+536,Bród Nowy
+537,Brodła
+538,Brodnica
+539,Brodnica Górna
+540,Brodowo
+541,Brody
+542,Brodziszewo
+543,Brojce
+544,Brójce
+545,Brok
+546,Broniewice
+547,Bronikowo
+548,Bronina
+549,Bronisławów
+550,Bronisze
+551,Broniszewice
+552,Broniszów
+553,Bronów
+554,Bronowice
+555,Broszki
+556,Broszków
+557,Brożec
+558,Brudki Stare
+559,Brudnowo
+560,Brudzeń Duży
+561,Brudzew
+562,Brudzewice-Kolonia
+563,Brudzice
+564,Brudzowice
+565,Bruk
+566,Bruki Unisławskie
+567,Brunary
+568,Brus
+569,Bruśnik
+570,Brusy
+571,Brwinów
+572,Brynek
+573,Brynica
+574,Bryńsk
+575,Brzączowice
+576,Brzana
+577,Brzechów
+578,Brzeg
+579,Brzeg Dolny
+580,Brzeg Głogowski
+581,Brzegi
+582,Brześć Kujawski
+583,Brześce
+584,Brzeście
+585,Brzesko
+586,Brzeszcze
+587,Brzeżanka
+588,Brzeźce
+589,Brzezia Łąka
+590,Brzezie
+591,Brzezie k. Sulechowa
+592,Brzezin
+593,Brzezina
+594,Brzezinka
+595,Brzezinka Średzka
+596,Brzezinki
+597,Brzezinki Stare
+598,Brzeziny
+599,Brzezna
+600,Brzeźnica
+601,Brzeźnica Bychawska
+602,Brzeźnica Książęca
+603,Brzeźnik
+604,Brzeźno
+605,Brzeżno
+606,Brzeźno Lęborskie
+607,Brzeźno Szlacheckie
+608,Brzeźno Wielkie
+609,Brzezówka
+610,Brzoskwinia
+611,Brzostek
+612,Brzostków
+613,Brzóstowa
+614,Brzostówiec
+615,Brzostówka
+616,Brzostowo
+617,Brzoza
+618,Brzóza
+619,Brzóza Królewska
+620,Brzóza Stadnicka
+621,Brzóze
+622,Brzozie
+623,Brzozie Lubawskie
+624,Brzozów
+625,Brzozów Stary
+626,Brzozowa
+627,Brzozowica Duża
+628,Brzozówka
+629,Brzozowo
+630,Brzozowy Kąt
+631,Brzuśnik
+632,Brzustów
+633,Brzustowiec
+634,Brzydowo
+635,Brzyska
+636,Brzyska Wola
+637,Brzyskorzystew
+638,Brzyszów
+639,Buchcice
+640,Bucz
+641,Bucze
+642,Buczek
+643,Buczkowice
+644,Buczyna
+645,Budki Drugie
+646,Budki Nowe
+647,Budki Piaseckie
+648,Budowo
+649,Budry
+650,Budy Głogowskie
+651,Budy Łańcuckie
+652,Budy Michałowskie
+653,Budy Siennickie
+654,Budziska
+655,Budzisław Kościelny
+656,Budzistowo
+657,Budziszewice
+658,Budziszewko
+659,Budziszów Wielki
+660,Budziszynek
+661,Budziwojów
+662,Budzów
+663,Budzyń
+664,Bugaj
+665,Bujaków
+666,Bujały-Mikosze
+667,Bujny
+668,Bujny Szlacheckie
+669,Buk
+670,Buków
+671,Bukowa
+672,Bukowa Śląska
+673,Bukowa Wielka
+674,Bukowice
+675,Bukowie
+676,Bukowiec
+677,Bukówiec Górny
+678,Bukowiec nad Pilicą
+679,Bukowiec Opoczyński
+680,Bukowina
+681,Bukowina Bobrzańska
+682,Bukowina Sycowska
+683,Bukowina Tatrzańska
+684,Bukownica
+685,Bukowno
+686,Bukówno
+687,Bukowo
+688,Bukowska Wola
+689,Bukowsko
+690,Bukwałd
+691,Bulkowo-Kolonia
+692,Bulowice
+693,Burgrabice
+694,Burkat
+695,Bursztynowo
+696,Burzec
+697,Burzenin
+698,Burzyn
+699,Busko-Zdrój
+700,Buszkowice
+701,Buszkowo
+702,Buszkowy
+703,Butryny
+704,Bychawa
+705,Bychawka Druga-Kolonia
+706,Bychlew
+707,Bycina
+708,Bycz
+709,Byczyna
+710,Bydgoszcz
+711,Bydlin
+712,Bylice-Kolonia
+713,Bynowo
+714,Bysina
+715,Bysław
+716,Bystra
+717,Bystra Podhalańska
+718,Bystre
+719,Bystrowice
+720,Bystry
+721,Bystrzejowice Pierwsze
+722,Bystrzyca
+723,Bystrzyca Dolna
+724,Bystrzyca Górna
+725,Bystrzyca Kłodzka
+726,Bystrzyca Stara
+727,Byszew
+728,Byszwałd
+729,Byszyce
+730,Bytnica
+731,Bytom
+732,Bytom Odrzański
+733,Bytomsko
+734,Bytonia
+735,Bytów
+736,Bytyń
+737,Bzianka
+738,Bzinica Stara
+739,Bzowiec
+740,Cedry Małe
+741,Cedry Wielkie
+742,Cedynia
+743,Cedzyna
+744,Cegielnia Lewicka
+745,Cegielnia Psucka
+746,Cegłów
+747,Cekcyn
+748,Ceków-Kolonia
+749,Celbówko
+750,Celestynów
+751,Celiny
+752,Cendrowice
+753,Ceradz Kościelny
+754,Ceranów
+755,Cerekiew
+756,Cerekwica
+757,Cerekwica Nowa
+758,Cerkwica
+759,Cetula
+760,Cewice
+761,Cewków
+762,Chabielice
+763,Chabówka
+764,Chajęty
+765,Chajew
+766,Chalin
+767,Chałupki
+768,Chałupki Dębniańskie
+769,Chamsk
+770,Charbielin
+771,Charbrowo
+772,Charlęż-Kolonia
+773,Charłupia Mała
+774,Charłupia Wielka
+775,Charnowo
+776,Charzewice
+777,Charzykowy
+778,Charzyno
+779,Chąśno
+780,Chechło
+781,Chechło Drugie
+782,Chęciny
+783,Chełchy
+784,Chełm
+785,Chełm Śląski
+786,Chełmce
+787,Chełmek
+788,Chełmiec
+789,Chełmno
+790,Chełmsko Śląskie
+791,Chełmża
+792,Chełst
+793,Chichy
+794,Chłaniów
+795,Chłapowo
+796,Chlebów
+797,Chlebówko
+798,Chlebowo
+799,Chlewice
+800,Chlewiska
+801,Chlewo
+802,Chlina
+803,Chłopice
+804,Chludnie
+805,Chludowo
+806,Chmielek
+807,Chmielew
+808,Chmielinko
+809,Chmielnik
+810,Chmielno
+811,Chmielów
+812,Chmielowice
+813,Chobienia
+814,Chobienice
+815,Chobot
+816,Chobrzany
+817,Choceń
+818,Chochołów
+819,Chocianów
+820,Chocianowice
+821,Chocicza
+822,Chociczka
+823,Chocieszów
+824,Chociszew
+825,Chociszewo
+826,Chociw
+827,Chociwel
+828,Chocz
+829,Choczewo
+830,Chocznia
+831,Chodaczów
+832,Chodecz
+833,Chodel
+834,Chodkowo Wielkie
+835,Chodkowo-Działki
+836,Chodnów
+837,Chodorówka Nowa
+838,Chodów
+839,Chodzież
+840,Choiny
+841,Chojewo
+842,Chojna
+843,Chojne
+844,Chojnice
+845,Chojnik
+846,Chojno
+847,Chojno-Wieś
+848,Chojnów
+849,Chojnowo
+850,Chojny
+851,Cholerzyn
+852,Cholewiana Góra
+853,Chomęcice
+854,Chomentów
+855,Chomentów-Puszcz
+856,Chomętowo
+857,Chomranice
+858,Chorki
+859,Chorkówka
+860,Choroń
+861,Choroszcz
+862,Chorzęcin
+863,Chorzele
+864,Chorzelów
+865,Chorzemin
+866,Chorzew
+867,Chorzów
+868,Choszczewo
+869,Choszczno
+870,Chotcza-Józefów
+871,Chotków
+872,Chotomów
+873,Chotowa
+874,Chotum
+875,Chotyłów
+876,Chotynia
+877,Chotyniec
+878,Chraplewo
+879,Chrapowo
+880,Chroberz
+881,Chronów
+882,Chrościce
+883,Chróścice
+884,Chróścin
+885,Chróścina
+886,Chrośla
+887,Chrośnica
+888,Chrostkowo
+889,Chruściel
+890,Chruślanki Józefowskie
+891,Chruślina
+892,Chrustowo
+893,Chrusty
+894,Chruszczobród
+895,Chrząchów
+896,Chrzan
+897,Chrzanów
+898,Chrzanów Pierwszy
+899,Chrzanowice
+900,Chrząstawa Mała
+901,Chrząstawa Wielka
+902,Chrząstów
+903,Chrząstowice
+904,Chrząstowo
+905,Chrzypsko Wielkie
+906,Chudek
+907,Chudoba
+908,Chudów
+909,Chwalibogowo
+910,Chwalibożyce
+911,Chwaliszew
+912,Chwałkowo Kościelne
+913,Chwałowice
+914,Chwarstnica
+915,Chwaszczyno
+916,Chwiram
+917,Chybice
+918,Chybie
+919,Chyby
+920,Chylice
+921,Chyliczki
+922,Chylin
+923,Chynów
+924,Chynowa
+925,Chyszówki
+926,Chyżne
+927,Ciachcin Nowy
+928,Ciągowice
+929,Cianowice
+930,Ciasna
+931,Ciążeń
+932,Cibórz
+933,Cichawka
+934,Ciche
+935,Cichobórz
+936,Cicibór Duży
+937,Ciechanki
+938,Ciechanów
+939,Ciechanowiec
+940,Ciechlin
+941,Ciechocin
+942,Ciechocinek
+943,Ciechów
+944,Ciecierzyce
+945,Ciecierzyn
+946,Cięcina
+947,Cieciułów
+948,Cieklin
+949,Ciekocino
+950,Cieksyn
+951,Cielądz
+952,Cielce
+953,Cielcza
+954,Ciele
+955,Cielechowizna
+956,Cielemęc
+957,Cielęta
+958,Ciełuchowo
+959,Ciemne
+960,Cieniawa
+961,Cienin Kościelny
+962,Cienin Zaborny
+963,Ciepielew Pierwszy
+964,Ciepielów
+965,Ciepła
+966,Ciepłowody
+967,Cierchy
+968,Cierpice
+969,Cierpisz
+970,Cieśle
+971,Cieszacin Wielki
+972,Cieszanów
+973,Cieszków
+974,Cieszkowy
+975,Cieszyn
+976,Cieszyna
+977,Cieszyno
+978,Ciężkowice
+979,Cigacice
+980,Cikowice
+981,Ciosaniec
+982,Cisek
+983,Cisew
+984,Cisie
+985,Cisie-Zagrudzie
+986,Cisiec
+987,Cisna
+988,Cisów
+989,Cisownica
+990,Ćmielów
+991,Ćmińsk
+992,Cmolas
+993,Coniew
+994,Cudzynowice
+995,Cukrówka
+996,Ćwiklice
+997,Cybinka
+998,Cychry
+999,Cyców
+1000,Cyganka
+1001,Cygany
+1002,Cynków
+1003,Cyprianka
+1004,Czachówek
+1005,Czacz
+1006,Czaczów
+1007,Czajcze
+1008,Czajków
+1009,Czajków Południowy
+1010,Czajkowa
+1011,Czajowice
+1012,Czaniec
+1013,Czapiewice
+1014,Czaple
+1015,Czaplinek
+1016,Czapury
+1017,Czarków
+1018,Czarna
+1019,Czarna Białostocka
+1020,Czarna Dąbrówka
+1021,Czarna Góra
+1022,Czarna Górna
+1023,Czarna Sędziszowska
+1024,Czarna Wieś
+1025,Czarna Wieś Kościelna
+1026,Czarna Woda
+1027,Czarnca
+1028,Czarne
+1029,Czarne Dolne
+1030,Czarnia
+1031,Czarniecka Góra
+1032,Czarnków
+1033,Czarnoborsko
+1034,Czarnochowice
+1035,Czarnocin
+1036,Czarnogłowy
+1037,Czarnolas
+1038,Czarnotki
+1039,Czarnotrzew
+1040,Czarnów
+1041,Czarnowice
+1042,Czarnowo
+1043,Czarnożyły
+1044,Czarny Bór
+1045,Czarny Dunajec
+1046,Czarny Las
+1047,Czarny Potok
+1048,Czarnylas
+1049,Czarnystok
+1050,Czartajew
+1051,Czartowczyk
+1052,Czarże
+1053,Czasław
+1054,Czastary
+1055,Cząstków Mazowiecki
+1056,Cząstkowice
+1057,Czaszyn
+1058,Czatkowice
+1059,Czchów
+1060,Czechowice-Dziedzice
+1061,Czechówka
+1062,Czechy
+1063,Czeczewo
+1064,Czeczotki
+1065,Czekanów
+1066,Czeladź
+1067,Czelatyce
+1068,Czelin
+1069,Czeluśnica
+1070,Czemierniki
+1071,Czempiń
+1072,Czempisz
+1073,Czepielowice
+1074,Czeremcha
+1075,Czerlejnko
+1076,Czerlejno
+1077,Czermin
+1078,Czermna
+1079,Czermno
+1080,Czerna
+1081,Czernic
+1082,Czernica
+1083,Czernice
+1084,Czernice Borowe
+1085,Czernichów
+1086,Czerniczyn
+1087,Czerniec
+1088,Czernięcin Główny
+1089,Czerniejewo
+1090,Czerniejów
+1091,Czerniewice
+1092,Czerniewo
+1093,Czerników
+1094,Czernikowo
+1095,Czernin
+1096,Czernina
+1097,Czersk
+1098,Czerśl
+1099,Czerteż
+1100,Czerwienne
+1101,Czerwieńsk
+1102,Czerwin
+1103,Czerwińsk nad Wisłą
+1104,Czerwionka-Leszczyny
+1105,Czerwona Woda
+1106,Czerwona Wola
+1107,Czerwonak
+1108,Czerwone
+1109,Czerwonka
+1110,Czerwonka Włościańska
+1111,Czerwony Bór
+1112,Cześniki
+1113,Czestków B
+1114,Częstkowo
+1115,Częstochowa
+1116,Częstoniew-Kolonia
+1117,Czeszewo
+1118,Czeszów
+1119,Człekówka
+1120,Człopa
+1121,Człuchów
+1122,Czmoń
+1123,Czółna
+1124,Czołowo
+1125,Czosnów
+1126,Czosnówka
+1127,Czostków
+1128,Czubrowice
+1129,Czuchów-Pieńki
+1130,Czudec
+1131,Czułczyce
+1132,Czułów
+1133,Czułówek
+1134,Czuszów
+1135,Czyczkowy
+1136,Czyrna
+1137,Czyże
+1138,Czyżew
+1139,Czyżów Szlachecki
+1140,Czyżowice
+1141,Czyżówka
+1142,Dąbcze
+1143,Dąbie
+1144,Dąbki
+1145,Dąbków
+1146,Dąbkowice Dolne
+1147,Dąbroszyn
+1148,Dąbrowa
+1149,Dąbrowa Białostocka
+1150,Dąbrowa Biskupia
+1151,Dąbrowa Bolesławiecka
+1152,Dąbrowa Chełmińska
+1153,Dąbrowa Górnicza
+1154,Dąbrowa nad Czarną
+1155,Dąbrowa Tarnowska
+1156,Dąbrowa Wielka
+1157,Dąbrowa Wronowska
+1158,Dąbrowa Zielona
+1159,Dąbrowica
+1160,Dąbrowice
+1161,Dąbrówka
+1162,Dąbrówka Duża
+1163,Dąbrówka Górna
+1164,Dąbrówka Kościelna
+1165,Dąbrówka Podłężna
+1166,Dąbrówka Tczewska
+1167,Dąbrówka Tuchowska
+1168,Dąbrówka Warszawska
+1169,Dąbrówka Wielka
+1170,Dąbrówka Wielkopolska
+1171,Dąbrówka Wisłocka
+1172,Dąbrówka-Ług
+1173,Dąbrówka-Stany
+1174,Dąbrówki
+1175,Dąbrówki Breńskie
+1176,Dąbrowno
+1177,Dąbrówno
+1178,Dąbrowy
+1179,Dachnów
+1180,Dachowa
+1181,Dakowy Mokre
+1182,Dalachów
+1183,Dalekie
+1184,Daleszyce
+1185,Daleszyn
+1186,Dalików
+1187,Damasławek
+1188,Damice
+1189,Damienice
+1190,Damnica
+1191,Damno
+1192,Daniec
+1193,Danielowice
+1194,Daniszyn
+1195,Dankowice
+1196,Danówek
+1197,Danowiec
+1198,Dargiń
+1199,Dargobądz
+1200,Dargomyśl
+1201,Dargosław
+1202,Darłowo
+1203,Daromin
+1204,Darzlubie
+1205,Daszewice
+1206,Daszewo
+1207,Daszyna
+1208,Dawidy
+1209,Dawidy Bankowe
+1210,Dęba
+1211,Dębe
+1212,Dębe Małe
+1213,Dębe Wielkie
+1214,Dębica
+1215,Dębice
+1216,Dębie
+1217,Dębina
+1218,Dębinki
+1219,Dęblin
+1220,Dębnica
+1221,Dębnica Kaszubska
+1222,Dębnik
+1223,Dębno
+1224,Dębno Polskie
+1225,Dębogórze
+1226,Dębołęka
+1227,Dęborzyn
+1228,Dębów
+1229,Dębowa
+1230,Dębowa Góra
+1231,Dębowa Kłoda
+1232,Dębowa Łąka
+1233,Dębowica
+1234,Dębowiec
+1235,Dębówiec
+1236,Dębowo
+1237,Debrzno
+1238,Dębsk
+1239,Dębska Kuźnia
+1240,Dębska Wola
+1241,Dębsko
+1242,Dęby Szlacheckie
+1243,Demlin
+1244,Dereźnia Solska
+1245,Deszczno
+1246,Desznica
+1247,Dłoń
+1248,Długa Goślina
+1249,Długa Kościelna
+1250,Długa Wieś
+1251,Długie
+1252,Długie Stare
+1253,Długobórz
+1254,Długołęka
+1255,Długołęka-Świerkla
+1256,Długomiłowice
+1257,Długopole Dolne
+1258,Długopole-Zdrój
+1259,Długosiodło
+1260,Długowola Pierwsza
+1261,Dłutów
+1262,Dłużec
+1263,Dłużyna
+1264,Dłużyna Dolna
+1265,Dmosin
+1266,Dobczyce
+1267,Dobczyn
+1268,Dobiegniew
+1269,Dobiesław
+1270,Dobiesławice
+1271,Dobiesz
+1272,Dobieszczyzna
+1273,Dobieszewo
+1274,Dobieszków
+1275,Dobieszowice
+1276,Dobieszyn
+1277,Dobieżyn
+1278,Dobkowice
+1279,Dobra
+1280,Dobra Nadzieja
+1281,Dobranowice
+1282,Dobrcz
+1283,Dobre
+1284,Dobre Miasto
+1285,Dobrków
+1286,Dobrociesz
+1287,Dobrocin
+1288,Dobrodzień
+1289,Dobromierz
+1290,Dobroń
+1291,Dobropole Pyrzyckie
+1292,Dobrosołowo
+1293,Dobroszyce
+1294,Dobrów
+1295,Dobrowo
+1296,Dobrowoda
+1297,Dobry Las
+1298,Dobryń Duży
+1299,Dobrynia
+1300,Dobrynin
+1301,Dobryszyce
+1302,Dobrzany
+1303,Dobrzechów
+1304,Dobrzejewice
+1305,Dobrzelów
+1306,Dobrzeń
+1307,Dobrzeń Mały
+1308,Dobrzeń Wielki
+1309,Dobrzeszów
+1310,Dobrzyca
+1311,Dobrzyjałowo
+1312,Dobrzyki
+1313,Dobrzyków
+1314,Dobrzykowice
+1315,Dobrzyń
+1316,Dobrzyń nad Wisłą
+1317,Dobrzyniewo Duże
+1318,Dobrzyniówka
+1319,Dojazdów
+1320,Dokudów Pierwszy
+1321,Dolany
+1322,Dołha
+1323,Dołhobrody
+1324,Dołhobyczów
+1325,Dołholiska
+1326,Dolice
+1327,Dolistowo Stare
+1328,Dolnik
+1329,Dolny Niechobrz
+1330,Dolsk
+1331,Dołuje
+1332,Domachowo
+1333,Domanice-Kolonia
+1334,Domaniew
+1335,Domaniewice
+1336,Domaniów
+1337,Domanowo
+1338,Domaradz
+1339,Domaszków
+1340,Domaszkowice
+1341,Domaszno
+1342,Domaszowice
+1343,Domatków
+1344,Domecko
+1345,Domiechowice
+1346,Dominikowice
+1347,Dominów
+1348,Dominowo
+1349,Domosławice
+1350,Domostawa
+1351,Donaborów
+1352,Dopiewiec
+1353,Dopiewo
+1354,Dorohucza
+1355,Dorohusk-Osada
+1356,Doruchów
+1357,Dowspuda
+1358,Dragacz
+1359,Draganowa
+1360,Dratów
+1361,Drawiny
+1362,Drawno
+1363,Drawski Młyn
+1364,Drawsko
+1365,Drawsko Pomorskie
+1366,Drążdżewo
+1367,Drążna
+1368,Drelów
+1369,Dręszew
+1370,Dretyń
+1371,Drewnica
+1372,Drezdenko
+1373,Drobin
+1374,Drobnice
+1375,Drobnin
+1376,Droginia
+1377,Drogomyśl
+1378,Drogosze
+1379,Drohiczyn
+1380,Drohobyczka
+1381,Drohojów
+1382,Drołtowice
+1383,Drop
+1384,Droszew
+1385,Droszków
+1386,Drozdowo
+1387,Drożdzienica
+1388,Drożki
+1389,Drugnia
+1390,Drużbice
+1391,Drużków Pusty
+1392,Drużyny
+1393,Drwalew
+1394,Drwęcz
+1395,Drwinia
+1396,Drygały
+1397,Drzeczkowo
+1398,Drzemlikowice
+1399,Drzewce
+1400,Drzewce-Kolonia
+1401,Drzewiany
+1402,Drzewica
+1403,Drzonowo
+1404,Drzycim
+1405,Dubeninki
+1406,Dubica Dolna
+1407,Dubicze Cerkiewne
+1408,Dubidze
+1409,Dubiecko
+1410,Dubielno
+1411,Dubienka
+1412,Dubin
+1413,Dubiny
+1414,Duchnice
+1415,Duczki
+1416,Duczymin
+1417,Dudy
+1418,Dukla
+1419,Dulcza Mała
+1420,Dulcza Wielka
+1421,Dulowa
+1422,Dulsk
+1423,Duninowo
+1424,Dunkowa
+1425,Duńkowice
+1426,Durąg
+1427,Durdy
+1428,Dursztyn
+1429,Dusocin
+1430,Duszniki
+1431,Duszniki-Zdrój
+1432,Duża Cerkwica
+1433,Dwikozy
+1434,Dworszowice Kościelne-Kolonia
+1435,Dworszowice Pakoszowe
+1436,Dwudniaki
+1437,Dybki
+1438,Dyblin
+1439,Dychów
+1440,Dydnia
+1441,Dygowo
+1442,Dylągowa
+1443,Dylągówka
+1444,Dylaki
+1445,Dylewo
+1446,Dymaczewo Stare
+1447,Dynów
+1448,Dys
+1449,Dytmarów
+1450,Dywity
+1451,Dyzin
+1452,Dzbenin
+1453,Dziadkowice
+1454,Dziadowa Kłoda
+1455,Dziadowice
+1456,Dziaduszyce
+1457,Dział
+1458,Działdowo
+1459,Działosza
+1460,Działoszyce
+1461,Działoszyn
+1462,Działyń
+1463,Dzianisz
+1464,Dzibice
+1465,Dzięcielin
+1466,Dzięgielów
+1467,Dziekanów Leśny
+1468,Dziekanów Polski
+1469,Dziekanowice
+1470,Dzielice
+1471,Dzielna
+1472,Dziembówko
+1473,Dziembowo
+1474,Dziemiany
+1475,Dziepółć
+1476,Dzierążnia
+1477,Dziergowice
+1478,Dzierżanowo
+1479,Dzierzążnia
+1480,Dzierżążno
+1481,Dzierżążno Wielkie
+1482,Dzierzbin-Kolonia
+1483,Dzierżenin
+1484,Dzierzgoń
+1485,Dzierzgówek
+1486,Dzierzgowo
+1487,Dzierzkówek Stary
+1488,Dzierzkowice-Wola
+1489,Dzierżoniów
+1490,Dzierżysław
+1491,Dzietrzkowice
+1492,Dzietrzniki
+1493,Dzietrzychowo
+1494,Dziewierzewo
+1495,Dziewiętlice
+1496,Dziewin
+1497,Dziewkowice
+1498,Dziewule
+1499,Dzieżki
+1500,Dzikowiec
+1501,Dziurów
+1502,Dziwnów
+1503,Dźwierszno Małe
+1504,Dźwierzuty
+1505,Dźwirzyno
+1506,Dzwola
+1507,Dzwono-Sierbowice
+1508,Egiertowo
+1509,Elbląg
+1510,Elgnówko
+1511,Elgnowo
+1512,Ełk
+1513,Elżbieciny
+1514,Erminów
+1515,Fabianki
+1516,Fabianów
+1517,Fajsławice
+1518,Falejówka
+1519,Falenty
+1520,Falenty Nowe
+1521,Faliszówka
+1522,Fałków
+1523,Falkowa
+1524,Fałkowo
+1525,Falmierowo
+1526,Fanianowo
+1527,Faściszowa
+1528,Fasty
+1529,Feliksów
+1530,Fijewo
+1531,Filipów
+1532,Filipowice
+1533,Firlej
+1534,Fiukówka
+1535,Florynka
+1536,Folusz
+1537,Frączków
+1538,Frampol
+1539,Franciszków
+1540,Franciszkowo
+1541,Frank
+1542,Franklinów
+1543,Franknowo
+1544,Frednowy
+1545,Fredropol
+1546,Frombork
+1547,Frycowa
+1548,Frydek
+1549,Frydman
+1550,Frydrychowice
+1551,Frygnowo
+1552,Frysztak
+1553,Furmany
+1554,Futoma
+1555,Futory
+1556,Gąbin
+1557,Gaboń
+1558,Gabryelin
+1559,Gać
+1560,Gace Słupieckie
+1561,Gacki-Osiedle
+1562,Gadka
+1563,Gądków Wielki
+1564,Gądkowice
+1565,Gągolin Południowy
+1566,Gaj
+1567,Gaj Mały
+1568,Gaj Wielki
+1569,Gajewo
+1570,Gajków
+1571,Gałązczyce
+1572,Gałczewo
+1573,Gałdowo
+1574,Galew
+1575,Galewice
+1576,Galiny
+1577,Gałki
+1578,Gałków Duży
+1579,Gałkówek-Kolonia
+1580,Gałkowice
+1581,Galowice
+1582,Gałowo
+1583,Galwiecie
+1584,Gamów
+1585,Gana
+1586,Garbatka-Letnisko
+1587,Garbatówka
+1588,Garbno
+1589,Garbów
+1590,Garczegorze
+1591,Garczyn
+1592,Gardeja
+1593,Gardno
+1594,Garki
+1595,Garłów
+1596,Garnek
+1597,Gartatowice
+1598,Garwolin
+1599,Garzyn
+1600,Gąsawa
+1601,Gąsawy Plebańskie
+1602,Gąsawy Rządowe
+1603,Gąsewo Poduchowne
+1604,Gąski
+1605,Gąskowo
+1606,Gąsocin
+1607,Gaszowice
+1608,Gaszyn
+1609,Gawliki Wielkie
+1610,Gawłów
+1611,Gawłuszowice
+1612,Gaworzyce
+1613,Gaworzyna
+1614,Gawroniec
+1615,Gawrych Ruda
+1616,Gazomia Stara
+1617,Gdańsk
+1618,Gdeszyn
+1619,Gdów
+1620,Gdynia
+1621,Gębice
+1622,Geniusze
+1623,Gęś
+1624,Gęsiniec
+1625,Gęstowice
+1626,Giby
+1627,Gidle
+1628,Giebło
+1629,Giebułtów
+1630,Giecz
+1631,Gieczno
+1632,Giedlarowa
+1633,Giełczew
+1634,Gielniów
+1635,Giemlice
+1636,Gierałcice
+1637,Gierałtów
+1638,Gierałtowice
+1639,Gierałtowiec
+1640,Gieraszowice
+1641,Gierczyce
+1642,Gierlachów
+1643,Gierzwałd
+1644,Gietrzwałd
+1645,Giewartów
+1646,Gilów
+1647,Gilowice
+1648,Gizałki
+1649,Giżyce
+1650,Giżycko
+1651,Gładyszów
+1652,Głaz
+1653,Głazów
+1654,Głębokie
+1655,Głębowice
+1656,Ględowo
+1657,Glesno
+1658,Glewiec
+1659,Glichów
+1660,Gliczarów Dolny
+1661,Gliczarów Górny
+1662,Glina
+1663,Glincz
+1664,Glinianka
+1665,Glinica
+1666,Glinik
+1667,Glinik Charzewski
+1668,Glinik Górny
+1669,Glinik Polski
+1670,Glinik Średni
+1671,Glinik Zaborowski
+1672,Glinka
+1673,Glinki
+1674,Glinnik
+1675,Glinno
+1676,Glinojeck
+1677,Gliny Małe
+1678,Glisne
+1679,Gliśnica
+1680,Gliwice
+1681,Głobikowa
+1682,Głobino
+1683,Głodno
+1684,Głodowo
+1685,Głogoczów
+1686,Głogów
+1687,Głogów Małopolski
+1688,Głogówek
+1689,Głogówko
+1690,Głogowo
+1691,Głojsce
+1692,Głosków
+1693,Głosków-Letnisko
+1694,Głotowo
+1695,Głowaczów
+1696,Głowaczowa
+1697,Główczyce
+1698,Głowienka
+1699,Głowno
+1700,Głubczyce
+1701,Głubczyn
+1702,Głuchołazy
+1703,Głuchów
+1704,Głuchowo
+1705,Głuszyca
+1706,Głuszyna
+1707,Głużek
+1708,Gniazdów
+1709,Gniechowice
+1710,Gnieszowice
+1711,Gniew
+1712,Gniewczyna Łańcucka
+1713,Gniewino
+1714,Gniewków
+1715,Gniewkówiec
+1716,Gniewkowo
+1717,Gniewoszów
+1718,Gnieżdżewo
+1719,Gnieździska
+1720,Gniezno
+1721,Gnojna
+1722,Gnojnica
+1723,Gnojnik
+1724,Gnojno
+1725,Gocław
+1726,Goczałków
+1727,Goczałkowice-Zdrój
+1728,Godkowo
+1729,Godów
+1730,Godowa
+1731,Godynice
+1732,Godzianów
+1733,Godzięcin
+1734,Godziesze Wielkie
+1735,Godziszewo
+1736,Godziszka
+1737,Godziszów
+1738,Godziszów Drugi
+1739,Godziszów Pierwszy
+1740,Godziszów Trzeci
+1741,Gogolewo
+1742,Gogolin
+1743,Gogołów
+1744,Gogołowa
+1745,Gójsk
+1746,Gola
+1747,Gołąb
+1748,Gołąbek
+1749,Gołąbki
+1750,Gołaczewy
+1751,Golądkowo
+1752,Gołańcz
+1753,Golanka
+1754,Golasowice
+1755,Gołaszyn
+1756,Goławice Pierwsze
+1757,Goławin
+1758,Golce
+1759,Golcowa
+1760,Gołcza
+1761,Golczewo
+1762,Gołdap
+1763,Gole
+1764,Gołębie
+1765,Gołębiew Stary
+1766,Gołębiewek Nowy
+1767,Golęczewo
+1768,Golędzinów
+1769,Golenice
+1770,Goleniów
+1771,Goleniowy
+1772,Golesze Duże
+1773,Goleszów
+1774,Goleszyn
+1775,Golice
+1776,Golina
+1777,Golina Wielka
+1778,Goliszew
+1779,Goliszów
+1780,Golkowice
+1781,Gołkowice
+1782,Gołkowice Dolne
+1783,Gołkowice Górne
+1784,Gołkowo
+1785,Gołosze
+1786,Gołotczyzna
+1787,Golub-Dobrzyń
+1788,Gołubie
+1789,Gołuchów
+1790,Gołuszowice
+1791,Gołymin-Ośrodek
+1792,Gomulin
+1793,Gomunice
+1794,Gończyce
+1795,Goniądz
+1796,Goniembice
+1797,Góra
+1798,Góra Kalwaria
+1799,Góra Motyczna
+1800,Góra Puławska
+1801,Góra Ropczycka
+1802,Góra Świętej Anny
+1803,Góra Świętej Małgorzaty
+1804,Goraj
+1805,Goraj-Zamek
+1806,Gorajec-Stara Wieś
+1807,Górale
+1808,Góralice
+1809,Gorawino
+1810,Górażdże
+1811,Gorczenica
+1812,Górecko Stare
+1813,Goręczyno
+1814,Gorenice
+1815,Górka Duchowna
+1816,Górka Lubartowska
+1817,Górki
+1818,Górki Duże
+1819,Górki Małe
+1820,Górki Noteckie
+1821,Górki Śląskie
+1822,Górki Wielkie
+1823,Górki-Grubaki
+1824,Gorlice
+1825,Gorliczyna
+1826,Górna Grupa
+1827,Górne Grądy
+1828,Górniki
+1829,Górno
+1830,Górowo Iławeckie
+1831,Górsk
+1832,Gortatowo
+1833,Góry
+1834,Góry Mokre
+1835,Góry Wysokie
+1836,Goryń
+1837,Gorysze
+1838,Górzanka
+1839,Gorzanów
+1840,Gorzędów
+1841,Gorzejowa
+1842,Gorzeń Górny
+1843,Gorzków
+1844,Gorzków-Osada
+1845,Gorzkowice
+1846,Górzna
+1847,Górzno
+1848,Gorzów
+1849,Gorzów Śląski
+1850,Gorzów Wielkopolski
+1851,Gorzupia
+1852,Górzyca
+1853,Gorzyce
+1854,Gorzyce Małe
+1855,Gorzyce Wielkie
+1856,Gorzyczki
+1857,Gorzykowo
+1858,Górzyn
+1859,Gosań
+1860,Gościce
+1861,Gościcino
+1862,Gościęcin
+1863,Gościejewice
+1864,Gościejewo
+1865,Gościeradów-Folwark
+1866,Gościeszowice
+1867,Gościeszyn
+1868,Gościkowo
+1869,Gościm
+1870,Gościmiec
+1871,Gościno
+1872,Gościszewo
+1873,Gościszka
+1874,Gościszów
+1875,Gosławice
+1876,Goślice
+1877,Goślinowo
+1878,Gosprzydowa
+1879,Gostchorz
+1880,Gostkowo
+1881,Gostomia
+1882,Gostwica
+1883,Gostycyn
+1884,Gostyczyna
+1885,Gostyń
+1886,Gostynin
+1887,Goświnowice
+1888,Goszcz
+1889,Goszcza
+1890,Goszczanów
+1891,Goszczanowo
+1892,Goszczyn
+1893,Goszczyna
+1894,Goszowice
+1895,Goszyce
+1896,Gotartów
+1897,Gotelp
+1898,Gotkowice
+1899,Gowarczów
+1900,Gowarzewo
+1901,Gowidlino
+1902,Gowino
+1903,Goworówek
+1904,Goworowo
+1905,Gózd
+1906,Gózd Lipiński
+1907,Gozdnica
+1908,Gozdów
+1909,Gozdowo
+1910,Goździków
+1911,Goźlice
+1912,Grab
+1913,Grabanów
+1914,Grabica
+1915,Grabice
+1916,Grabie
+1917,Grąbiec
+1918,Grabienice
+1919,Grabik
+1920,Grabin
+1921,Grabina
+1922,Grabiny
+1923,Grabiny-Zameczek
+1924,Grabków
+1925,Grabkowo
+1926,Grąblewo
+1927,Grabno
+1928,Grabonóg
+1929,Graboszyce
+1930,Grabów
+1931,Grabów nad Pilicą
+1932,Grabów nad Prosną
+1933,Grabów nad Wisłą
+1934,Grabów Szlachecki
+1935,Grabów-Wójtostwo
+1936,Grabowa
+1937,Grabówek
+1938,Grabowiec
+1939,Grabówka
+1940,Grabówki
+1941,Grabownica
+1942,Grabownica Starzeńska
+1943,Grabowno Wielkie
+1944,Grabowo
+1945,Grabowo Kościerskie
+1946,Grabowo Królewskie
+1947,Graby
+1948,Gracze
+1949,Gradowice
+1950,Grądy
+1951,Grądy-Woniecko
+1952,Grajewo
+1953,Grajów
+1954,Grala-Dąbrowizna
+1955,Gralewo
+1956,Granica
+1957,Granice
+1958,Granowiec
+1959,Granowo
+1960,Grążawy
+1961,Grębień
+1962,Grębków
+1963,Grębocice
+1964,Grębocin
+1965,Gręboszów
+1966,Grębów
+1967,Gręzówka
+1968,Grobelno
+1969,Grobla
+1970,Groble
+1971,Grobniki
+1972,Grochów Szlachecki
+1973,Grochowce
+1974,Grochowe
+1975,Grochowy
+1976,Gródek
+1977,Gródek nad Dunajcem
+1978,Gródek Rządowy
+1979,Gródek Szlachecki
+1980,Gródki
+1981,Gródki Drugie
+1982,Grodków
+1983,Gródków
+1984,Grodkowice
+1985,Grodziec
+1986,Grodzisk
+1987,Grodzisk Mazowiecki
+1988,Grodzisk Wielkopolski
+1989,Grodzisko
+1990,Grodzisko Dolne
+1991,Grodzisko Górne
+1992,Grodziszcze
+1993,Grodztwo
+1994,Grojec
+1995,Grójec
+1996,Grom
+1997,Gromada
+1998,Gromadka
+1999,Gromadzice
+2000,Gromiec
+2001,Gromnik
+2002,Gromoty
+2003,Groń
+2004,Gronków
+2005,Gronów
+2006,Gronowice
+2007,Gronowo
+2008,Gronowo Elbląskie
+2009,Gronowo Górne
+2010,Grotniki
+2011,Grotów
+2012,Grubno
+2013,Gruczno
+2014,Grudna Górna
+2015,Grudna Kępska
+2016,Grudusk
+2017,Grudziądz
+2018,Grudzielec
+2019,Grupa
+2020,Gruszczyce
+2021,Gruszczyn
+2022,Gruszów
+2023,Gruszów Wielki
+2024,Gruszowiec
+2025,Gruta
+2026,Grybów
+2027,Gryfice
+2028,Gryfino
+2029,Gryfów Śląski
+2030,Grygrów
+2031,Grywałd
+2032,Gryźliny
+2033,Grzebienisko
+2034,Grzebowilk
+2035,Grzechynia
+2036,Grzędzice
+2037,Grzegorzew
+2038,Grzegorzowice
+2039,Grzegorzowice Wielkie
+2040,Grzegorzówka
+2041,Grzęska
+2042,Grzmiąca
+2043,Grzybno
+2044,Grzybów
+2045,Grzybowa Góra
+2046,Grzybowo
+2047,Grzymałków
+2048,Grzymałów
+2049,Grzymiszew
+2050,Grzywna
+2051,Gubin
+2052,Gudowo
+2053,Gulcz
+2054,Gulin
+2055,Gułtowy
+2056,Gumniska
+2057,Gumowo
+2058,Gutkowo
+2059,Gutowiec
+2060,Gutowo Małe
+2061,Guzew
+2062,Guzów
+2063,Guzowatka
+2064,Gwda Wielka
+2065,Gwiazdowo
+2066,Gwieździn
+2067,Gwizdały
+2068,Gwiździny
+2069,Gwoździany
+2070,Gwoździec
+2071,Gwoźnica Dolna
+2072,Gwoźnica Górna
+2073,Gzowo
+2074,Gzy
+2075,Haczów
+2076,Hadle Szklarskie
+2077,Hadykówka
+2078,Hadynów
+2079,Hajnówka
+2080,Halasy
+2081,Halinów
+2082,Hańczowa
+2083,Handzlówka
+2084,Hanna
+2085,Hańsk Pierwszy
+2086,Hanulin
+2087,Harasiuki
+2088,Harbutowice
+2089,Harkabuz
+2090,Harklowa
+2091,Harmęże
+2092,Harta
+2093,Hartowiec
+2094,Hażlach
+2095,Hecznarowice
+2096,Hedwiżyn
+2097,Hejdyk
+2098,Hel
+2099,Henryków
+2100,Henryszew
+2101,Herby
+2102,Hermanów
+2103,Hermanowa
+2104,Hermanowice
+2105,Hipolitów
+2106,Hłudno
+2107,Hoczew
+2108,Holeszów
+2109,Holonki
+2110,Hołubla
+2111,Homrzyska
+2112,Honiatycze
+2113,Hopowo
+2114,Hornówek
+2115,Horodło
+2116,Horodyszcze
+2117,Horyniec-Zdrój
+2118,Horyszów Polski
+2119,Hostynne-Kolonia
+2120,Hrubieszów
+2121,Hrud
+2122,Hubinek
+2123,Hucina
+2124,Hucisko
+2125,Hucisko Jawornickie
+2126,Hulcze
+2127,Humięcino
+2128,Humin
+2129,Humniska
+2130,Hureczko
+2131,Husów
+2132,Husynne
+2133,Huszcza Pierwsza
+2134,Huszlew
+2135,Huta
+2136,Huta Dzierążyńska
+2137,Huta Józefów
+2138,Huta Komorowska
+2139,Huta Krzeszowska
+2140,Huta Nowa
+2141,Huta Podłysica
+2142,Huta Różaniecka
+2143,Huta Stara
+2144,Huta Stara A
+2145,Huta Stara B
+2146,Huta Żabiowolska
+2147,Huta-Dąbrowa
+2148,Hutki
+2149,Huwniki
+2150,Hyżne
+2151,Ibramowice
+2152,Idzbark
+2153,Idzikowice
+2154,Ignaców
+2155,Igołomia
+2156,Iława
+2157,Ilkowice
+2158,Iłów
+2159,Iłowa
+2160,Iłówiec
+2161,Iłownica
+2162,Iłowo-Osada
+2163,Iłża
+2164,Imbramowice
+2165,Imielin
+2166,Imielno
+2167,Inowłódz
+2168,Inowrocław
+2169,Ińsko
+2170,Inwałd
+2171,Irządze
+2172,Iskań
+2173,Iskrzyczyn
+2174,Iskrzynia
+2175,Ispina
+2176,Istebna
+2177,Iwaniska
+2178,Iwanowice
+2179,Iwanowice Duże
+2180,Iwanowice Włościańskie
+2181,Iwiec
+2182,Iwięcino
+2183,Iwierzyce
+2184,Iwin
+2185,Iwiny
+2186,Iwiny-Osiedle
+2187,Iwkowa
+2188,Iwla
+2189,Iwno
+2190,Iwonicz
+2191,Iwonicz-Zdrój
+2192,Iwowe
+2193,Izabelin
+2194,Izabelin C
+2195,Izabelin-Dziekanówek
+2196,Izabelów
+2197,Izbica
+2198,Izbica Kujawska
+2199,Izbicko
+2200,Izbiska
+2201,Izdebki
+2202,Izdebki-Kosny
+2203,Izdebnik
+2204,Izdebno
+2205,Izdebno Kościelne
+2206,Jabłkowo
+2207,Jabłoń
+2208,Jabłoń Kościelna
+2209,Jabłonica
+2210,Jabłonica Polska
+2211,Jabłonka
+2212,Jabłonka Kościelna
+2213,Jabłonki
+2214,Jabłonna
+2215,Jabłonna Druga
+2216,Jabłonna Lacka
+2217,Jabłonowo Pomorskie
+2218,Jabłońskie
+2219,Jabłowo
+2220,Jachówka
+2221,Jaciążek
+2222,Jacków
+2223,Jackowo Górne
+2224,Jaćmierz
+2225,Jacowlany
+2226,Jaczów
+2227,Jadachy
+2228,Jadamwola
+2229,Jadów
+2230,Jadowniki
+2231,Jadowniki Mokre
+2232,Jadwiniew
+2233,Jadwisin
+2234,Jagarzewo
+2235,Jagatowo
+2236,Jagiełła
+2237,Jagodne
+2238,Jagodnik
+2239,Jajczaki
+2240,Jajkowo
+2241,Jaksice
+2242,Jaktorów
+2243,Jakubice
+2244,Jakubów
+2245,Jakubowice Konińskie
+2246,Jakubówka
+2247,Jakusze
+2248,Jałowęsy
+2249,Jamielnik
+2250,Jamnica
+2251,Jamno
+2252,Jamy
+2253,Janczewice
+2254,Janczewo
+2255,Janczowa
+2256,Jangrot
+2257,Janik
+2258,Janików
+2259,Janikowo
+2260,Janisławice
+2261,Janiszewice
+2262,Janiszów
+2263,Janki
+2264,Janków Pierwszy
+2265,Janków Przygodzki
+2266,Janków Zaleśny
+2267,Jankowa
+2268,Jankowce
+2269,Jankowice
+2270,Jankowice Wielkie
+2271,Jankowo Dolne
+2272,Jankowo Gdańskie
+2273,Janów
+2274,Janów Lubelski
+2275,Janów Podlaski
+2276,Janów-Mikołajówka
+2277,Janówek
+2278,Janówek Pierwszy
+2279,Janowica
+2280,Janowice
+2281,Janowice Wielkie
+2282,Janowiec
+2283,Janowiec Kościelny
+2284,Janowiec Wielkopolski
+2285,Janówka
+2286,Janowo
+2287,Janowszczyzna
+2288,Jantar
+2289,Januszewice
+2290,Januszkowice
+2291,Januszkowo
+2292,Januszowa
+2293,Januszówka
+2294,Jaraczewo
+2295,Jarantów
+2296,Jarantowice
+2297,Jarczew
+2298,Jarczów
+2299,Jareniówka
+2300,Jarnołtów
+2301,Jarnołtówek
+2302,Jarnuty
+2303,Jarocin
+2304,Jarosław
+2305,Jarosławiec
+2306,Jarosty
+2307,Jaroszewice Grodzieckie
+2308,Jaroszki
+2309,Jaroszów
+2310,Jaroszowa Wola
+2311,Jaroszowice
+2312,Jaroszowiec
+2313,Jaroszówka
+2314,Jaroty
+2315,Jarszewo
+2316,Jaryszów
+2317,Jarząbki
+2318,Jarząbkowice
+2319,Jarząbkowo
+2320,Jasień
+2321,Jasienica
+2322,Jasienica Dolna
+2323,Jasienica Górna
+2324,Jasienica Rosielna
+2325,Jasienie
+2326,Jasieniec
+2327,Jasieniec Iłżecki Górny
+2328,Jasienna
+2329,Jasionka
+2330,Jasionna
+2331,Jasionów
+2332,Jasionówka
+2333,Jaśkowice
+2334,Jaskrów
+2335,Jaślany
+2336,Jaślików
+2337,Jaśliska
+2338,Jasło
+2339,Jastarnia
+2340,Jastkowice
+2341,Jastrowie
+2342,Jastrząb
+2343,Jastrząbka
+2344,Jastrzębia
+2345,Jastrzębia Góra
+2346,Jastrzębie
+2347,Jastrzębie-Zdrój
+2348,Jastrzębiec
+2349,Jastrzębik
+2350,Jastrzębniki
+2351,Jastrzębska Wola
+2352,Jastrzębsko Stare
+2353,Jaświły
+2354,Jaszczew
+2355,Jaszczów
+2356,Jaszczurowa
+2357,Jaszkotle
+2358,Jaszkowa Dolna
+2359,Jata
+2360,Jawidz
+2361,Jawiszowice
+2362,Jawor
+2363,Jawor Solecki
+2364,Jaworek
+2365,Jaworki
+2366,Jawornik
+2367,Jawornik Polski
+2368,Jaworów
+2369,Jaworsko
+2370,Jaworze
+2371,Jaworze Górne
+2372,Jaworzna
+2373,Jaworznia
+2374,Jaworznik
+2375,Jaworzno
+2376,Jaworzyna Śląska
+2377,Jaworzynka
+2378,Jawty Wielkie
+2379,Jazgarka
+2380,Jazgarzew
+2381,Jazgarzewszczyzna
+2382,Jazowsko
+2383,Jaźwiny
+2384,Jażyniec
+2385,Jedlanka
+2386,Jedlec
+2387,Jedlicze
+2388,Jedlina-Zdrój
+2389,Jedlińsk
+2390,Jedlnia
+2391,Jedlnia-Letnisko
+2392,Jedlno Pierwsze
+2393,Jednorożec
+2394,Jędrzejewo
+2395,Jędrzejów
+2396,Jędrzejów Nowy
+2397,Jędrzychów
+2398,Jędrzychowice
+2399,Jedwabne
+2400,Jedwabno
+2401,Jegłowa
+2402,Jegłownik
+2403,Jejkowice
+2404,Jelcz-Laskowice
+2405,Jeleń
+2406,Jelenia Góra
+2407,Jeleniec
+2408,Jeleniewo
+2409,Jelenin
+2410,Jeleniów
+2411,Jeleńska Huta
+2412,Jeleśnia
+2413,Jelna
+2414,Jelnia
+2415,Jelonki
+2416,Jelonko
+2417,Jełowa
+2418,Jemielnica
+2419,Jemielno
+2420,Jenin
+2421,Jeniniec
+2422,Jerka
+2423,Jeruty
+2424,Jeruzal
+2425,Jerzmanice-Zdrój
+2426,Jerzmanki
+2427,Jerzmanowa
+2428,Jerzmanowice
+2429,Jerzykowo
+2430,Jesionowo
+2431,Jeże
+2432,Jeżewo
+2433,Jeziernia
+2434,Jeziernik
+2435,Jezierzyce
+2436,Jezierzyce Kościelne
+2437,Jeziora
+2438,Jeziora Wielkie
+2439,Jeziorany
+2440,Jeziorki
+2441,Jeziorko
+2442,Jezioro
+2443,Jeziorsko
+2444,Jeziory Małe
+2445,Jeziorzany
+2446,Jeżów
+2447,Jeżów Sudecki
+2448,Jeżowe
+2449,Jeżówka
+2450,Jeżyczki
+2451,Jodłowa
+2452,Jodłówka
+2453,Jodłówka Tuchowska
+2454,Jodłówka-Wałki
+2455,Jodłownik
+2456,Joniec
+2457,Joniny
+2458,Jonkowo
+2459,Jora Wielka
+2460,Jordanów
+2461,Jordanów Śląski
+2462,Józefina
+2463,Józefosław
+2464,Józefów
+2465,Józefów nad Wisłą
+2466,Józefowice
+2467,Józefowo
+2468,Jóźwików
+2469,Juchnowiec Górny
+2470,Juchowo
+2471,Judziki
+2472,Jugów
+2473,Jugowice
+2474,Julianów
+2475,Julianpol
+2476,Julinek
+2477,Juliopol
+2478,Jurgów
+2479,Jurki
+2480,Jurków
+2481,Jurkowice
+2482,Jurowce
+2483,Jurzec Szlachecki
+2484,Justynów
+2485,Juszczyn
+2486,Juszczyna
+2487,Juszkowo
+2488,Jutrosin
+2489,Kacice
+2490,Kąclowa
+2491,Kacwin
+2492,Kaczanowo
+2493,Kaczki Średnie
+2494,Kaczórki
+2495,Kaczorów
+2496,Kaczory
+2497,Kaczyce
+2498,Kaczyna
+2499,Kadcza
+2500,Kadłub
+2501,Kadłub Turawski
+2502,Kadzidło
+2503,Kadzidłowa
+2504,Kajetanów
+2505,Kajetany
+2506,Kąkolewnica
+2507,Kąkolewo
+2508,Kąkolówka
+2509,Kąkowa Wola
+2510,Kaława
+2511,Kałęczyn
+2512,Kalej
+2513,Kaleń Drugi
+2514,Kalenice
+2515,Kaletnik
+2516,Kalety
+2517,Kalinowa
+2518,Kalinowice
+2519,Kalinówka
+2520,Kalinówka Kościelna
+2521,Kalinowo
+2522,Kaliska
+2523,Kaliska Kościerskie
+2524,Kalisz
+2525,Kalisz Pomorski
+2526,Kaliszki
+2527,Kaliszkowice Kaliskie
+2528,Kaliszkowice Ołobockie
+2529,Kałków
+2530,Kalna
+2531,Kalnik
+2532,Kalników
+2533,Kalonka
+2534,Kalsk
+2535,Kałuszyn
+2536,Kalwaria Zebrzydowska
+2537,Kamesznica
+2538,Kamień
+2539,Kamień Krajeński
+2540,Kamień Mały
+2541,Kamień Pomorski
+2542,Kamień Śląski
+2543,Kamień Wielki
+2544,Kamień-Kolonia
+2545,Kamieńczyce
+2546,Kamienica
+2547,Kamienica Dolna
+2548,Kamienica Górna
+2549,Kamienica Królewska
+2550,Kamienica Polska
+2551,Kamienica Szlachecka
+2552,Kamieniec
+2553,Kamieniec Wrocławski
+2554,Kamieniec Ząbkowicki
+2555,Kamienna
+2556,Kamienna Góra
+2557,Kamienna Nowa
+2558,Kamiennik
+2559,Kamienny Most
+2560,Kamieńsk
+2561,Kamieńskie Młyny
+2562,Kamion
+2563,Kamion Poduchowny
+2564,Kamionek
+2565,Kamionka
+2566,Kamionka Mała
+2567,Kamionka Wielka
+2568,Kamionki
+2569,Kamionna
+2570,Kamnica
+2571,Kampinos
+2572,Kamyk
+2573,Kańczuga
+2574,Kandyty
+2575,Kanibród
+2576,Kanie
+2577,Kaniewo
+2578,Kanina
+2579,Kaniów
+2580,Kapałów
+2581,Kąpiele Wielkie
+2582,Kąpino
+2583,Kaplonosy
+2584,Kaptury
+2585,Kaputy
+2586,Karbowo
+2587,Karchowice
+2588,Karczemki
+2589,Karczew
+2590,Karczmiska Pierwsze
+2591,Karczów
+2592,Karczyce
+2593,Kargoszyn
+2594,Kargowa
+2595,Karlino
+2596,Karłowice
+2597,Karłowice Wielkie
+2598,Karmanowice
+2599,Karmin
+2600,Karnice
+2601,Karniewo
+2602,Karniów
+2603,Karniszewo
+2604,Karnkowo
+2605,Karnowo
+2606,Karolew
+2607,Karolewo
+2608,Karpacz
+2609,Karpicko
+2610,Karścino
+2611,Karsibór
+2612,Karsin
+2613,Karsko
+2614,Kartuzy
+2615,Karwia
+2616,Karwin
+2617,Karwodrza
+2618,Karwowo
+2619,Kasina Wielka
+2620,Kasinka Mała
+2621,Kaski
+2622,Kąśna Dolna
+2623,Kaszczor
+2624,Kaszew
+2625,Kaszewice
+2626,Kaszewy Dworne
+2627,Kaszów
+2628,Kaszyce
+2629,Katowice
+2630,Kąty
+2631,Kąty Opolskie
+2632,Kąty Węgierskie
+2633,Kąty Wrocławskie
+2634,Kawęczyn
+2635,Kazanice
+2636,Kazanów
+2637,Kazimierz
+2638,Kazimierz Biskupi
+2639,Kazimierz Dolny
+2640,Kazimierza Wielka
+2641,Kazimierzew
+2642,Kaźmierz
+2643,Kaznów-Kolonia
+2644,Kazuń Nowy
+2645,Kazuń Polski
+2646,Kcynia
+2647,Kębło
+2648,Kębłowo
+2649,Kędzierzyn-Koźle
+2650,Kępa
+2651,Kępice
+2652,Kępki
+2653,Kępno
+2654,Kęsowo
+2655,Kęszyce-Wieś
+2656,Kętrzyn
+2657,Kętrzyno
+2658,Kęty
+2659,Kicin
+2660,Kicznia
+2661,Kiczory
+2662,Kiczyce
+2663,Kidałowice
+2664,Kiekrz
+2665,Kielanówka
+2666,Kielce
+2667,Kielcza
+2668,Kiełczew
+2669,Kiełczew Smużny Pierwszy
+2670,Kiełczewice Górne
+2671,Kiełczewo
+2672,Kiełczów
+2673,Kiełczówek
+2674,Kiełczygłów
+2675,Kielczykowizna
+2676,Kiełczyna
+2677,Kiełków
+2678,Kielnarowa
+2679,Kielno
+2680,Kiełpin
+2681,Kiełpino
+2682,Kiełpiny
+2683,Kierlikówka
+2684,Kiernozia
+2685,Kierz
+2686,Kierz Niedźwiedzi
+2687,Kierzków
+2688,Kietlin
+2689,Kietrz
+2690,Kieźliny
+2691,Kijany
+2692,Kijaszkowo
+2693,Kije
+2694,Kijewo
+2695,Kijewo Królewskie
+2696,Kikół
+2697,Kików
+2698,Kinkajmy
+2699,Kipszna
+2700,Kisielice
+2701,Kisielnica
+2702,Kisielów
+2703,Kisielsk
+2704,Kisiny
+2705,Kiszewo
+2706,Kiszkowo
+2707,Kiwity
+2708,Kłaj
+2709,Kłanino
+2710,Klaudyn
+2711,Klawkowo
+2712,Klebark Wielki
+2713,Klecie
+2714,Kłecko
+2715,Klecza Dolna
+2716,Kleczanów
+2717,Klęczany
+2718,Kleczew
+2719,Kleczkowo
+2720,Klęka
+2721,Klembów
+2722,Klementowice
+2723,Klementynów
+2724,Klenica
+2725,Kleosin
+2726,Klępino
+2727,Kleszczele
+2728,Kleszczewo
+2729,Kleszczewo Kościerskie
+2730,Kleszczów
+2731,Kleszczyna
+2732,Klew
+2733,Klewki
+2734,Kliczewo Duże
+2735,Kliczków Wielki
+2736,Klikuszowa
+2737,Klimaszewnica
+2738,Klimkówka
+2739,Klimontów
+2740,Kliniska Wielkie
+2741,Klisino
+2742,Kłobia
+2743,Kłóbka
+2744,Kłobuck
+2745,Kłobuczyno
+2746,Kłocko
+2747,Kłoczew
+2748,Kłodawa
+2749,Kłodne
+2750,Kłodnica Dolna
+2751,Kłodzino
+2752,Kłodzko
+2753,Kłokoczyn
+2754,Kłomnice
+2755,Klon
+2756,Klonowa
+2757,Kłonówek-Kolonia
+2758,Klonowo
+2759,Kłopoczyn
+2760,Kłucko
+2761,Kluczbork
+2762,Klucze
+2763,Kluczewo
+2764,Kluczewsko
+2765,Kluczkowice
+2766,Kluczkowice-Osiedle
+2767,Kluczkowo
+2768,Kłudno
+2769,Kluki
+2770,Klukowa Huta
+2771,Klukowo
+2772,Kluszkowce
+2773,Klwatka Królewska
+2774,Klwów
+2775,Kłyżów
+2776,Kmiecin
+2777,Kniażyce
+2778,Kniewo
+2779,Knurów
+2780,Knurowiec
+2781,Knyszyn
+2782,Kobiele Wielkie
+2783,Kobielice
+2784,Kobielnik
+2785,Kobierne
+2786,Kobiernice
+2787,Kobierno
+2788,Kobierzyce
+2789,Kobierzyn
+2790,Kobiór
+2791,Kobułty
+2792,Kobyla
+2793,Kobyla Góra
+2794,Kobylanka
+2795,Kobylany
+2796,Kobyle
+2797,Kobylec
+2798,Kobylin
+2799,Kobylin-Borzymy
+2800,Kobyłka
+2801,Kobylnica
+2802,Kobylniki
+2803,Kochanowice
+2804,Kochanówka
+2805,Kochcice
+2806,Kocierz Moszczanicki
+2807,Kocierzew Południowy
+2808,Kocioł Duży
+2809,Kociszew
+2810,Kock
+2811,Kocmyrzów
+2812,Kocudza Pierwsza
+2813,Koczała
+2814,Koczargi Stare
+2815,Kodeń
+2816,Kodeniec
+2817,Kodrąb
+2818,Kojszówka
+2819,Kokanin
+2820,Kokocko
+2821,Kokorzyn
+2822,Kokoszkowy
+2823,Kokotów
+2824,Kokuszka
+2825,Kołacin
+2826,Kołaczków
+2827,Kołaczkowice
+2828,Kołaczkowo
+2829,Kołaczyce
+2830,Kołaki Kościelne
+2831,Kolano-Kolonia
+2832,Kołbacz
+2833,Kołbaskowo
+2834,Kołbiel
+2835,Kolbudy
+2836,Kolbuszowa
+2837,Kolbuszowa Dolna
+2838,Kolbuszowa Górna
+2839,Kołczewo
+2840,Kołczygłowy
+2841,Kołczyn
+2842,Kolechowice
+2843,Koleczkowo
+2844,Kolnica
+2845,Kolniczki
+2846,Kolnik
+2847,Kolno
+2848,Koło
+2849,Kołobrzeg
+2850,Kołodziąż
+2851,Kołodziejewo
+2852,Kołomyja
+2853,Kolonia
+2854,Kolonia Bałucz
+2855,Kolonia Domaszewska
+2856,Kolonia Lipnik
+2857,Kolonia Lisowice
+2858,Kolonia Mrokowska
+2859,Kolonia Ossa
+2860,Kolonia Pliszczyn
+2861,Kolonia Poczesna
+2862,Kolonia Sielce
+2863,Kolonia Sitno
+2864,Kolonia Szczerbacka
+2865,Kolonowskie
+2866,Kołoząb
+2867,Kolsko
+2868,Koluszki
+2869,Komańcza
+2870,Komarno-Kolonia
+2871,Komarów-Osada
+2872,Komarówka Podlaska
+2873,Komarowo
+2874,Kombornia
+2875,Komornica
+2876,Komorniki
+2877,Komorów
+2878,Komorowo
+2879,Komorze Przybysławskie
+2880,Komorzno
+2881,Komprachcice
+2882,Konary
+2883,Konarzew
+2884,Konarzewo
+2885,Konarzyce
+2886,Konarzyny
+2887,Kończewice
+2888,Kończewo
+2889,Kończyce Małe
+2890,Kończyce Wielkie
+2891,Kończyce-Kolonia
+2892,Kondratowice
+2893,Koneck
+2894,Koniaków
+2895,Koniecpol
+2896,Konieczki
+2897,Konieczkowa
+2898,Konieczno
+2899,Koniemłoty
+2900,Koniewo
+2901,Konikowo
+2902,Konin
+2903,Konin Żagański
+2904,Konina
+2905,Koniusza
+2906,Koniuszowa
+2907,Konojad
+2908,Konopiska
+2909,Konopki-Monety
+2910,Konopki-Pokrzywnica
+2911,Konopnica
+2912,Konotop
+2913,Konradowo
+2914,Końskie
+2915,Końskowola
+2916,Konstancin-Jeziorna
+2917,Konstantynów
+2918,Konstantynów Łódzki
+2919,Kopalnia
+2920,Kopana
+2921,Kopanica
+2922,Kopanie Żołyńskie
+2923,Kopaniec
+2924,Kopanka
+2925,Kopanki
+2926,Kopaszewo
+2927,Kopcie
+2928,Koperniki
+2929,Kopice
+2930,Kopienica
+2931,Kopina
+2932,Kopki
+2933,Kopnica
+2934,Koprzywnica
+2935,Kopytkowo
+2936,Kopytowa
+2937,Korabiewice
+2938,Korbielów
+2939,Korchów Pierwszy
+2940,Korczew
+2941,Korczów
+2942,Korczowa
+2943,Korczowiska
+2944,Korczyn
+2945,Korczyna
+2946,Korfantów
+2947,Korlino
+2948,Kornatka
+2949,Korne
+2950,Kornelówka
+2951,Korniaktów Północny
+2952,Kórnica
+2953,Kornice
+2954,Kórnik
+2955,Kornowac
+2956,Korolówka-Osada
+2957,Koronowo
+2958,Korsze
+2959,Korycin
+2960,Koryta
+2961,Korytków Duży
+2962,Korytnica
+2963,Korytów A
+2964,Korytowo
+2965,Korzecko
+2966,Korzecznik
+2967,Korzenica
+2968,Korzeniew
+2969,Korzeniewo
+2970,Korzeniów
+2971,Korzeniówka
+2972,Korzenna
+2973,Korzeńsko
+2974,Korzkiew
+2975,Korzonek
+2976,Korzybie
+2977,Korzystno
+2978,Kosakowo
+2979,Kościan
+2980,Kościelec
+2981,Kościeliska
+2982,Kościelisko
+2983,Kościelna Wieś
+2984,Kościelnik
+2985,Kościerzyce
+2986,Kościerzyna
+2987,Kościno
+2988,Kosewo
+2989,Kosieczyn
+2990,Kosienice
+2991,Kosierz
+2992,Kosin
+2993,Kosina
+2994,Kośmidry
+2995,Kosmolów
+2996,Kosmów-Kolonia
+2997,Kosobudy
+2998,Kosorowice
+2999,Kosów
+3000,Kosów Lacki
+3001,Kosowo
+3002,Kosowy
+3003,Kostarowce
+3004,Kostkowo
+3005,Kostomłoty
+3006,Kostomłoty Drugie
+3007,Kostów
+3008,Kostowiec
+3009,Kostry-Noski
+3010,Kostrza
+3011,Kostrzyn
+3012,Kostrzyn nad Odrą
+3013,Koszalin
+3014,Koszarawa
+3015,Koszęcin
+3016,Koszelewy
+3017,Koszewnica
+3018,Koszewo
+3019,Kosztowo
+3020,Koszuty
+3021,Koszyce
+3022,Koszyce Małe
+3023,Koszyce Wielkie
+3024,Kotarwice
+3025,Kotla
+3026,Kotlarnia
+3027,Kotlice
+3028,Kotlin
+3029,Kotomierz
+3030,Kotórz Mały
+3031,Kotowa Wola
+3032,Kotowice
+3033,Kotowiecko
+3034,Kotulin
+3035,Kotuń
+3036,Kotunia
+3037,Kowal
+3038,Kowala
+3039,Kowala Druga
+3040,Kowala-Stępocina
+3041,Kowale
+3042,Kowale Oleckie
+3043,Kowale Pańskie-Kolonia
+3044,Kowalew
+3045,Kowalewo
+3046,Kowalewo Pomorskie
+3047,Kowalewo-Opactwo
+3048,Kowalewszczyzna
+3049,Kowalin
+3050,Kowalki
+3051,Kowalków-Kolonia
+3052,Kowalów
+3053,Kowalowa
+3054,Kowalówka
+3055,Kowanówko
+3056,Kowary
+3057,Kowiesy
+3058,Kozakowice Górne
+3059,Kozarzew
+3060,Kozenin
+3061,Kozerki
+3062,Kozice
+3063,Kozice Dolne-Kolonia
+3064,Koziebrody
+3065,Koziegłówki
+3066,Koziegłowy
+3067,Kozielec
+3068,Kozielice
+3069,Kozienice
+3070,Kozierów
+3071,Kozietuły
+3072,Koziki
+3073,Koźla
+3074,Koźle
+3075,Koźliny
+3076,Kozłów
+3077,Kozłów Biskupi
+3078,Kozłów Szlachecki
+3079,Kozłowice
+3080,Kozłowo
+3081,Kozły
+3082,Koźmice Wielkie
+3083,Koźmin
+3084,Koźmin Wielkopolski
+3085,Koźminek
+3086,Koźminiec
+3087,Kozodawy
+3088,Kozodrza
+3089,Kozubów
+3090,Kozubszczyzna
+3091,Kożuchów
+3092,Kożuchy
+3093,Kozy
+3094,Kożyczkowo
+3095,Kraczewice Prywatne
+3096,Kraczkowa
+3097,Krajenka
+3098,Krajkowo
+3099,Krajno Pierwsze
+3100,Krajowice
+3101,Kraków
+3102,Kraków-Krowodrza
+3103,Kraków-Nowa Huta
+3104,Kraków-Podgórze
+3105,Kraków-Śródmieście
+3106,Kramarzówka
+3107,Kramarzyny
+3108,Kramsk
+3109,Krąpiel
+3110,Krapkowice
+3111,Krąplewice
+3112,Krasew
+3113,Krasice
+3114,Krasiczyn
+3115,Krasiejów
+3116,Krasienin-Kolonia
+3117,Krasiniec
+3118,Krasna
+3119,Krasne
+3120,Krasne Potockie
+3121,Krasne-Lasocice
+3122,Kraśnica
+3123,Kraśniczyn
+3124,Kraśnik
+3125,Kraśnik Dolny
+3126,Krasnobród
+3127,Krasnopol
+3128,Krasnosielc
+3129,Krasnowo
+3130,Krasnybór
+3131,Krasnystaw
+3132,Krasocin
+3133,Kraszewice
+3134,Kraszewo
+3135,Kraszewo-Czubaki
+3136,Kraszkowice
+3137,Krauszów
+3138,Krawce
+3139,Krawczyki
+3140,Krążkowy
+3141,Kręcko
+3142,Kręgi
+3143,Krekole
+3144,Krempachy
+3145,Krempna
+3146,Krępa
+3147,Krępa Kościelna
+3148,Krępa Słupska
+3149,Krępiec
+3150,Krępsko
+3151,Krężnica Jara
+3152,Krobanów
+3153,Krobia
+3154,Kroczewo
+3155,Kroczyce
+3156,Krogulcza Sucha
+3157,Krojczyn
+3158,Krokocice
+3159,Krokowa
+3160,Królewiec
+3161,Królewo
+3162,Królik Polski
+3163,Królików
+3164,Królikowo
+3165,Królowa Górna
+3166,Królowa Polska
+3167,Królowa Wola
+3168,Królówka
+3169,Kromolin
+3170,Kronowo
+3171,Krościenko nad Dunajcem
+3172,Krościenko Wyżne
+3173,Krosinko
+3174,Krosna
+3175,Krośnica
+3176,Krośnice
+3177,Krośniewice
+3178,Krosno
+3179,Krosno Odrzańskie
+3180,Krosnowice
+3181,Krostoszowice
+3182,Kroszewo
+3183,Krotoszyce
+3184,Krotoszyn
+3185,Krotoszyny
+3186,Krowiarki
+3187,Krowica Sama
+3188,Krówniki
+3189,Krubin
+3190,Kruchowo
+3191,Krucz
+3192,Kruklanki
+3193,Krukowo
+3194,Krupe
+3195,Krupniki
+3196,Krupski Młyn
+3197,Krusin
+3198,Krusze
+3199,Kruszew
+3200,Kruszewiec
+3201,Kruszewo
+3202,Kruszwica
+3203,Kruszyn
+3204,Kruszyna
+3205,Kruszyny
+3206,Krużlowa Wyżna
+3207,Kruzy
+3208,Kryg
+3209,Kryłów
+3210,Krynica
+3211,Krynica Morska
+3212,Krynica-Zdrój
+3213,Krynice
+3214,Kryniczno
+3215,Krynka
+3216,Krynki
+3217,Krypno Kościelne
+3218,Krypy
+3219,Kryry
+3220,Krysiaki
+3221,Krysk
+3222,Kryspinów
+3223,Krzak
+3224,Krzaki
+3225,Krzanowice
+3226,Krzątka
+3227,Krzcięcice
+3228,Krzczonów
+3229,Krzęcin
+3230,Krzeczów
+3231,Krzeczowice
+3232,Krzeczyn Wielki
+3233,Krzelów
+3234,Krzemień Pierwszy
+3235,Krzemienica
+3236,Krzemieniewice
+3237,Krzemieniewo
+3238,Krzepice
+3239,Krzepielów
+3240,Krzeptów
+3241,Krzesimów
+3242,Krzesk-Królowa Niwa
+3243,Krzesławice
+3244,Krześlin
+3245,Krzeszów
+3246,Krzeszów Górny
+3247,Krzeszowice
+3248,Krzeszyce
+3249,Krzętów
+3250,Krzewica
+3251,Krzówka
+3252,Krzycko Wielkie
+3253,Krzydlina Mała
+3254,Krzydlina Wielka
+3255,Krzykawa
+3256,Krzykosy
+3257,Krzymów
+3258,Krzynowłoga Mała
+3259,Krzynowłoga Wielka
+3260,Krzyszkowice
+3261,Krzywa
+3262,Krzywaczka
+3263,Krzywcza
+3264,Krzywda
+3265,Krzywie
+3266,Krzywin
+3267,Krzywiń
+3268,Krzyworzeka
+3269,Krzywosądz
+3270,Krzyż
+3271,Krzyż Wielkopolski
+3272,Krzyżanów
+3273,Krzyżanowice
+3274,Krzyżanowo
+3275,Krzyżewo
+3276,Krzyżowa
+3277,Krzyżowice
+3278,Ksawerów
+3279,Ksebki
+3280,Książ Mały
+3281,Książ Wielki
+3282,Książ Wielkopolski
+3283,Książenice
+3284,Książki
+3285,Książnice
+3286,Książnice Wielkie
+3287,Księginice
+3288,Księżomierz-Kolonia
+3289,Księżpol
+3290,Księży Dwór
+3291,Księżyno
+3292,Ktery
+3293,Kucharki
+3294,Kuchary
+3295,Kuchary Kościelne
+3296,Kuciny
+3297,Kuczbork-Osada
+3298,Kuczki-Kolonia
+3299,Kuczków
+3300,Kuczyn
+3301,Kudowa-Zdrój
+3302,Kujakowice Dolne
+3303,Kuklinów
+3304,Kuklówka Radziejowicka
+3305,Kuków
+3306,Kuleje
+3307,Kulesze Kościelne
+3308,Kulice
+3309,Kunice
+3310,Kunin
+3311,Kuniów
+3312,Kunkowa
+3313,Kuńkowce
+3314,Kunów
+3315,Kunowa
+3316,Kunowice
+3317,Kunowo
+3318,Kuny
+3319,Kup
+3320,Kupiatycze
+3321,Kupinin
+3322,Kupno
+3323,Kurabka
+3324,Kuraszków
+3325,Kurdwanów
+3326,Kurki
+3327,Kurnos Drugi
+3328,Kuropatnik
+3329,Kurów
+3330,Kurowice
+3331,Kurozwęki
+3332,Kuryłówka
+3333,Kurzelów
+3334,Kurzętnik
+3335,Kurzyna Średnia
+3336,Kusięta
+3337,Kutno
+3338,Kuzie
+3339,Kuźnia
+3340,Kuźnia Raciborska
+3341,Kuźniaki
+3342,Kuźnica
+3343,Kuźnica Czarnkowska
+3344,Kuźnica Czeszycka
+3345,Kuźnica Grabowska
+3346,Kuźnica Kiedrzyńska
+3347,Kuźnica Stara
+3348,Kuźniczysko
+3349,Kuznocin
+3350,Kwaczała
+3351,Kwakowo
+3352,Kwasków
+3353,Kwaśniów Dolny
+3354,Kwiatkowice
+3355,Kwiatonowice
+3356,Kwidzyn
+3357,Kwieciszewo
+3358,Kwilcz
+3359,Łabętnik
+3360,Łabiszyn
+3361,Łabowa
+3362,Łabunie
+3363,Łabuńki Pierwsze
+3364,Łacha
+3365,Łachów
+3366,Lachowice
+3367,Lachowo
+3368,Łąck
+3369,Łącko
+3370,Łączany
+3371,Łączki
+3372,Łączki Brzeskie
+3373,Łączki Kucharskie
+3374,Łącznik
+3375,Łączno
+3376,Łada
+3377,Lądek
+3378,Lądek-Zdrój
+3379,Ładna
+3380,Ładzin
+3381,Ładzyń
+3382,Łąg
+3383,Łagiewniki
+3384,Łagiewniki Kościelne
+3385,Łagiewniki Małe
+3386,Łagiewniki Wielkie
+3387,Łagów
+3388,Łagowo
+3389,Łaguszew
+3390,Łaguszów
+3391,Łajsce
+3392,Łajski
+3393,Łąka
+3394,Łąka Prudnicka
+3395,Łąki
+3396,Łąkie
+3397,Łąkociny
+3398,Łąkorz
+3399,Łąkta Dolna
+3400,Łąkta Górna
+3401,Laliki
+3402,Lalin
+3403,Łambinowice
+3404,Lamki
+3405,Lamkowo
+3406,Łańce
+3407,Lanckorona
+3408,Łańcuchów
+3409,Łańcut
+3410,Landzmierz
+3411,Łanięta
+3412,Łankiejmy
+3413,Łany
+3414,Łapalice
+3415,Łapanów
+3416,Łapczyca
+3417,Łapszanka
+3418,Łapsze Niżne
+3419,Łapsze Wyżne
+3420,Łapy
+3421,Laseczno
+3422,Lasek
+3423,Łasin
+3424,Łask
+3425,Łaskarzew
+3426,Laski
+3427,Laski Wielkie
+3428,Łasko
+3429,Laskowa
+3430,Laskowice
+3431,Laskowiec
+3432,Laskówka Chorąska
+3433,Laskownica
+3434,Laskowo
+3435,Lasocice
+3436,Lasocin
+3437,Lasowice Wielkie
+3438,Łaszczów
+3439,Łaszczówka
+3440,Laszczyny
+3441,Łaszew
+3442,Łaszewo
+3443,Laszki
+3444,Łatana Wielka
+3445,Latchorzew
+3446,Latoszyn
+3447,Latowice
+3448,Latowicz
+3449,Ławnica
+3450,Ławsk
+3451,Łazany
+3452,Łążek
+3453,Łaziec
+3454,Łaziska
+3455,Łaziska Górne
+3456,Łaznów
+3457,Łazów
+3458,Łazy
+3459,Łazy Dębowieckie
+3460,Łążyn
+3461,Łeba
+3462,Łebcz
+3463,Łebień
+3464,Łebieńska Huta
+3465,Łebno
+3466,Lębork
+3467,Łebunia
+3468,Lechlin
+3469,Lechów
+3470,Lechówek
+3471,Lechowo
+3472,Lecka
+3473,Łęcze
+3474,Łęczeszyce
+3475,Łęczna
+3476,Łęczno
+3477,Łęczyca
+3478,Łęczyce
+3479,Lednica Górna
+3480,Lednogóra
+3481,Lędziny
+3482,Łęg
+3483,Łęg Probostwo
+3484,Łęg Przedmiejski
+3485,Łęg Starościński
+3486,Łęg Tarnowski
+3487,Łęgajny
+3488,Legbąd
+3489,Legionowo
+3490,Legnica
+3491,Legnickie Pole
+3492,Łęgowo
+3493,Lejkowo
+3494,Łęka
+3495,Łęka Mroczeńska
+3496,Łęka Opatowska
+3497,Łęka Wielka
+3498,Łękawa
+3499,Łękawica
+3500,Łękawka
+3501,Łęki
+3502,Łęki Dolne
+3503,Łęki Dukielskie
+3504,Łęki Górne
+3505,Łęki Strzyżowskie
+3506,Łęki Szlacheckie
+3507,Łękińsko
+3508,Łęknica
+3509,Łekno
+3510,Lekowo
+3511,Lelice
+3512,Lelis
+3513,Lelkowo
+3514,Lelów
+3515,Leman
+3516,Łempice
+3517,Lenartowice
+3518,Leńcze
+3519,Leokadiów
+3520,Leoncin
+3521,Leopoldów
+3522,Leśce
+3523,Lesiów
+3524,Lesko
+3525,Leśmierz
+3526,Leśna
+3527,Leśna Podlaska
+3528,Leśna-Stara Wieś
+3529,Leśniakowizna
+3530,Leśnica
+3531,Leśnice
+3532,Leśniewo
+3533,Leśniów Wielki
+3534,Leśniowice
+3535,Leśno
+3536,Leszczawa Dolna
+3537,Leszcze
+3538,Leszczydół Stary
+3539,Leszczydół-Nowiny
+3540,Leszczyn Szlachecki
+3541,Leszczyna
+3542,Leszczyny
+3543,Leszkowice
+3544,Leszno
+3545,Leszno Górne
+3546,Lesznowola
+3547,Łętkowice
+3548,Łętowe
+3549,Łętowice
+3550,Łętownia
+3551,Lewiczyn
+3552,Lewin Brzeski
+3553,Lewin Kłodzki
+3554,Lewków
+3555,Lewniowa
+3556,Leżajsk
+3557,Łężany
+3558,Leźnica Mała
+3559,Leźnica Wielka-Osiedle
+3560,Leźno
+3561,Łężyny
+3562,Lgiń
+3563,Lgoczanka
+3564,Lgota
+3565,Lgota Górna
+3566,Lgota Mała
+3567,Lgota Wielka
+3568,Libertów
+3569,Libiąż
+3570,Libidza
+3571,Libiszów
+3572,Librantowa
+3573,Libusza
+3574,Licheń Stary
+3575,Lichnowy
+3576,Lichwin
+3577,Licze
+3578,Lidzbark
+3579,Lidzbark Warmiński
+3580,Ligota
+3581,Ligota Książęca
+3582,Ligota Mała
+3583,Ligota Polska
+3584,Ligota Prószkowska
+3585,Ligota Turawska
+3586,Ligota Wielka
+3587,Ligota Zamecka
+3588,Ligowo
+3589,Limanowa
+3590,Lindów
+3591,Linia
+3592,Liniewo
+3593,Linów
+3594,Linowo
+3595,Lińsk
+3596,Lipa
+3597,Lipce Reymontowskie
+3598,Lipia Góra
+3599,Lipiany
+3600,Lipice
+3601,Lipicze
+3602,Lipie
+3603,Lipinki
+3604,Lipinki Łużyckie
+3605,Lipiny
+3606,Lipiny Dolne
+3607,Lipiny Górne-Borowina
+3608,Lipka
+3609,Lipki
+3610,Lipki Wielkie
+3611,Lipków
+3612,Lipna
+3613,Lipniak
+3614,Lipnica
+3615,Lipnica Dolna
+3616,Lipnica Górna
+3617,Lipnica Mała
+3618,Lipnica Murowana
+3619,Lipnica Wielka
+3620,Lipnik
+3621,Lipniki
+3622,Lipno
+3623,Lipowa
+3624,Lipowe Pole Skarbowe
+3625,Lipowiec
+3626,Lipowiec Kościelny
+3627,Lipowina
+3628,Lipowo
+3629,Lipsk
+3630,Lipsko
+3631,Lipusz
+3632,Lisewo
+3633,Lisewo Kościelne
+3634,Lisewo Malborskie
+3635,Lisi Ogon
+3636,Lisia Góra
+3637,Lisie Jamy
+3638,Lisiec Wielki
+3639,Lisięcice
+3640,Lisikierz
+3641,Lisiowólka
+3642,Liski
+3643,Lisków
+3644,Liśnik Duży
+3645,Lisnowo
+3646,Lisów
+3647,Lisowice
+3648,Lisy
+3649,Liszki
+3650,Liszkowo
+3651,Liszna
+3652,Liszno
+3653,Liszyno
+3654,Liw
+3655,Liwa
+3656,Lniano
+3657,Lnisno
+3658,Łobdowo
+3659,Łobez
+3660,Łobodno
+3661,Łobudzice
+3662,Łobżenica
+3663,Łobzów
+3664,Łochocin
+3665,Łochów
+3666,Łochowice
+3667,Łochowo
+3668,Łodygowice
+3669,Łódź
+3670,Łódź-Bałuty
+3671,Łódź-Górna
+3672,Łódź-Polesie
+3673,Łódź-Śródmieście
+3674,Łódź-Widzew
+3675,Łodzierz
+3676,Łojki
+3677,Łomazy
+3678,Łomia
+3679,Łomianki
+3680,Łomianki Dolne
+3681,Łomna
+3682,Łomnica
+3683,Łomnica-Zdrój
+3684,Łomno
+3685,Łomża
+3686,Łoniów
+3687,Łoniowa
+3688,Łopatki
+3689,Łopiennik Nadrzeczny
+3690,Łopienno
+3691,Łopoń
+3692,Łopuchowo
+3693,Łopuszka Wielka
+3694,Łopuszna
+3695,Łopuszno
+3696,Łoś
+3697,Łosice
+3698,Łosie
+3699,Łosień
+3700,Łosiewice
+3701,Łosiniec
+3702,Łosinno
+3703,Łosiów
+3704,Łososina Dolna
+3705,Łosośnica
+3706,Łostówka
+3707,Lotyń
+3708,Łowce
+3709,Łowczów
+3710,Łowicz
+3711,Łowiczki
+3712,Łowinek
+3713,Łowisko
+3714,Łowoszów
+3715,Łowyń
+3716,Łozina
+3717,Łoziska
+3718,Lubachów
+3719,Lubaczów
+3720,Lubań
+3721,Lubania
+3722,Lubanice
+3723,Lubanie
+3724,Lubanowo
+3725,Lubartów
+3726,Lubasz
+3727,Lubaszcz
+3728,Lubaszowa
+3729,Lubatowa
+3730,Lubatówka
+3731,Lubawa
+3732,Lubawka
+3733,Lubcz
+3734,Lubcz Wielki
+3735,Lubcza
+3736,Lubczyna
+3737,Lubczyno
+3738,Lubecko
+3739,Lubenia
+3740,Lubiana
+3741,Łubiana
+3742,Łubianka
+3743,Lubianków
+3744,Lubiąż
+3745,Lubichowo
+3746,Lubicz Dolny
+3747,Lubicz Górny
+3748,Lubiczów
+3749,Lubiec
+3750,Lubiechowa
+3751,Lubięcin
+3752,Lubień
+3753,Lubień Kujawski
+3754,Lubienia
+3755,Łubienko
+3756,Lubieszewo
+3757,Lubieszów
+3758,Lubiewo
+3759,Lubin
+3760,Lubiń
+3761,Łubin Kościelny
+3762,Lubiszewo Tczewskie
+3763,Lubiszyn
+3764,Łubki
+3765,Lubla
+3766,Lublewko
+3767,Lublewo Gdańskie
+3768,Lublica
+3769,Lublin
+3770,Lubliniec
+3771,Lubnia
+3772,Łubniany
+3773,Łubnica
+3774,Łubnice
+3775,Lubniewice
+3776,Lubno
+3777,Łubno
+3778,Łubno Szlacheckie
+3779,Lubnów
+3780,Lubnowy Małe
+3781,Lubochnia
+3782,Lubocino
+3783,Lubockie
+3784,Lubocz
+3785,Lubojna
+3786,Lubomia
+3787,Lubomierz
+3788,Lubomino
+3789,Luboń
+3790,Luboniek
+3791,Luborzyca
+3792,Lubostroń
+3793,Lubosz
+3794,Luboszyce
+3795,Lubowidz
+3796,Łubowo
+3797,Lubraniec
+3798,Lubraniec-Parcele
+3799,Lubrza
+3800,Lubsko
+3801,Lubstów
+3802,Lubsza
+3803,Lubycza Królewska
+3804,Lubzina
+3805,Luchów Dolny
+3806,Luchów Górny
+3807,Lucień
+3808,Łucka-Kolonia
+3809,Lucynów
+3810,Lucynów Duży
+3811,Łucznica
+3812,Łuczyce
+3813,Łuczywno
+3814,Ludomy
+3815,Ludów Polski
+3816,Ludwików
+3817,Ludwikowice Kłodzkie
+3818,Ludwin
+3819,Ludwin-Kolonia
+3820,Ludwinów
+3821,Ludzisko
+3822,Ludźmierz
+3823,Ługi
+3824,Ługi Wielkie
+3825,Łukawa
+3826,Łukawica
+3827,Łukawiec
+3828,Łuknajno
+3829,Łukom
+3830,Łukomie
+3831,Łuków
+3832,Łukowa
+3833,Łukowe
+3834,Łukowica
+3835,Łukowice Brzeskie
+3836,Łukta
+3837,Łuniewo Małe
+3838,Łupawa
+3839,Łupianka Stara
+3840,Łupice
+3841,Łupki
+3842,Lusina
+3843,Lusławice
+3844,Lusówko
+3845,Lusowo
+3846,Łuszczacz
+3847,Łuszczanów
+3848,Łuszczanowice
+3849,Łuszczów Drugi
+3850,Luszowice
+3851,Lutcza
+3852,Lutkówka
+3853,Lutocin
+3854,Lutogniew
+3855,Lutol Suchy
+3856,Lutom
+3857,Lutomia Dolna
+3858,Lutomiersk
+3859,Lutoryż
+3860,Lutostań
+3861,Łutowiec
+3862,Lutowiska
+3863,Lutowo
+3864,Lutry
+3865,Lututów
+3866,Lutynia
+3867,Luzino
+3868,Łużna
+3869,Lwówek
+3870,Lwówek Śląski
+3871,Łychów Gościeradowski
+3872,Łyczanka
+3873,Łyna
+3874,Łysa Góra
+3875,Łysaków
+3876,Łysaków Drugi
+3877,Łyse
+3878,Łysiny
+3879,Lyski
+3880,Łyśniewo Sierakowickie
+3881,Łysołaje
+3882,Łysomice
+3883,Łysów
+3884,Łyszkowice
+3885,Machcin
+3886,Machnów Nowy
+3887,Mąchocice Kapitulne
+3888,Mąchocice-Scholasteria
+3889,Machowa
+3890,Maciejów
+3891,Maciejów Stary
+3892,Maciejowa
+3893,Maciejowice
+3894,Maciejowiec
+3895,Macierzysz
+3896,Maciowakrze
+3897,Maćkowice
+3898,Maćkówka
+3899,Macoszyn Duży
+3900,Magnuszew
+3901,Majdan
+3902,Majdan Górny
+3903,Majdan Królewski
+3904,Majdan Nepryski
+3905,Majdan Nowy
+3906,Majdan Sieniawski
+3907,Majdan Sopocki Pierwszy
+3908,Majdan Stary
+3909,Majdan Wielki
+3910,Majdan Zbydniowski
+3911,Majdan-Grabina
+3912,Majdów
+3913,Majków
+3914,Majscowa
+3915,Mąkolice
+3916,Mąkolno
+3917,Mąkosy Stare
+3918,Mąkoszyce
+3919,Makoszyn
+3920,Maków
+3921,Maków Mazowiecki
+3922,Maków Podhalański
+3923,Mąkowarsko
+3924,Makowiec
+3925,Makowiska
+3926,Makowisko
+3927,Maksymilianów
+3928,Maksymilianowo
+3929,Mała
+3930,Mała Nieszawka
+3931,Mała Słońca
+3932,Mała Wieś
+3933,Malachin
+3934,Małachowo
+3935,Malanów
+3936,Małaszewicze
+3937,Malawa
+3938,Malawicze Dolne
+3939,Malbork
+3940,Malcanów
+3941,Malczyce
+3942,Małdyty
+3943,Małe Ciche
+3944,Małe Łunawy
+3945,Małe Walichnowy
+3946,Malec
+3947,Malechowo
+3948,Małęczyn
+3949,Maleniska
+3950,Malice
+3951,Malinie
+3952,Malinówka
+3953,Malinowo
+3954,Maliszewo
+3955,Małki
+3956,Małkinia Górna
+3957,Małkocin
+3958,Małkowice
+3959,Małkowo
+3960,Malnia
+3961,Małochwiej Duży
+3962,Małocice
+3963,Małogoszcz
+3964,Małomice
+3965,Małoszyce
+3966,Małusy Wielkie
+3967,Malużyn
+3968,Mały Płock
+3969,Mały Rudnik
+3970,Małyszyn Górny
+3971,Mamlicz
+3972,Manasterz
+3973,Manasterzec
+3974,Manieczki
+3975,Maniewo
+3976,Maniów
+3977,Maniowy
+3978,Mańkowice
+3979,Manowo
+3980,Marchwacz
+3981,Marcinkowice
+3982,Marcinkowo
+3983,Marcinowice
+3984,Marciszów
+3985,Marcówka
+3986,Marcyporęba
+3987,Mareza
+3988,Margonin
+3989,Marianka
+3990,Marianów
+3991,Marianówka
+3992,Marianowo
+3993,Mariańskie Porzecze
+3994,Mariew
+3995,Mariówka
+3996,Marki
+3997,Marklowice
+3998,Marklowice Górne
+3999,Markowa
+4000,Markowice
+4001,Markowicze
+4002,Markuszów
+4003,Markuszowa
+4004,Maróz
+4005,Marszałki
+4006,Marszew
+4007,Marszowice
+4008,Maruszewo
+4009,Maruszyna
+4010,Marwałd
+4011,Marynowy
+4012,Marzęcice
+4013,Marzęcino
+4014,Marzenin
+4015,Marzysz Drugi
+4016,Masanów
+4017,Masłońskie
+4018,Masłów
+4019,Masłów Pierwszy
+4020,Masłowice
+4021,Masłowo
+4022,Mastki
+4023,Maszewko
+4024,Maszewo
+4025,Maszewo Duże
+4026,Maszewo Lęborskie
+4027,Maszki
+4028,Maszkienice
+4029,Maszkowice
+4030,Matczyn
+4031,Mazańcowice
+4032,Mazew
+4033,Maziarze Stare
+4034,Mazowszany
+4035,Mazowsze
+4036,Mazury
+4037,Mchawa
+4038,Mchy
+4039,Mechlin
+4040,Mechnica
+4041,Mechnice
+4042,Mechowiec
+4043,Męcikał
+4044,Męcina
+4045,Męcinka
+4046,Mędrzechów
+4047,Medyka
+4048,Medynia Głogowska
+4049,Medynia Łańcucka
+4050,Mełgiew
+4051,Mełno
+4052,Meszna
+4053,Meszna Opacka
+4054,Meszno
+4055,Mętków
+4056,Mętów
+4057,Miączyn
+4058,Miały
+4059,Miąse
+4060,Miąskowo
+4061,Miąsowa
+4062,Miasteczko Krajeńskie
+4063,Miasteczko Śląskie
+4064,Miastko
+4065,Miastków Kościelny
+4066,Miastkowo
+4067,Michalczew
+4068,Michalczowa
+4069,Michale
+4070,Michalinów Oleśnicki
+4071,Michałki
+4072,Michalów
+4073,Michałów
+4074,Michałów-Grabina
+4075,Michałów-Parcele
+4076,Michałowice
+4077,Michałówka
+4078,Michałowo
+4079,Michorzewo
+4080,Michów
+4081,Michowice
+4082,Micigózd
+4083,Miechów
+4084,Miechów-Charsznica
+4085,Miechucino
+4086,Mięcierzyn
+4087,Mieczków
+4088,Mieczyn
+4089,Mieczysławów
+4090,Miedary
+4091,Miedniewice
+4092,Miedzichowo
+4093,Miedzierza
+4094,Miedzna
+4095,Miedźna
+4096,Miedzna Drewniana
+4097,Miedźno
+4098,Międzyborów
+4099,Międzybórz
+4100,Międzybrodzie Bialskie
+4101,Międzybrodzie Żywieckie
+4102,Międzychód
+4103,Międzyleś
+4104,Międzylesie
+4105,Międzyrzec Podlaski
+4106,Międzyrzecz
+4107,Międzyrzecze
+4108,Międzyrzecze Dolne
+4109,Międzyrzecze Górne
+4110,Międzyświeć
+4111,Międzyzdroje
+4112,Miejsce
+4113,Miejsce Piastowe
+4114,Miejska Górka
+4115,Miękinia
+4116,Miękisz Nowy
+4117,Miękisz Stary
+4118,Miękowo
+4119,Mielec
+4120,Mielęcin
+4121,Mielenko Drawskie
+4122,Mieleszyn
+4123,Mielnik
+4124,Mielno
+4125,Mielżyn
+4126,Mieniany
+4127,Mierków
+4128,Miernów
+4129,Mieroszów
+4130,Mieroszyno
+4131,Mierzawa
+4132,Mierzęcice
+4133,Mierzeszyn
+4134,Mierzwin
+4135,Mierzyce
+4136,Mierzyn
+4137,Mieścisko
+4138,Miesiączkowo
+4139,Mieszewo
+4140,Mieszków
+4141,Mieszkowice
+4142,Mietków
+4143,Miętne
+4144,Mietniów
+4145,Mikłusy
+4146,Mikluszowice
+4147,Mikołajewo
+4148,Mikołajki
+4149,Mikołajki Pomorskie
+4150,Mikołajowice
+4151,Mikołów
+4152,Mikorzyn
+4153,Mikoszewo
+4154,Mikoszów
+4155,Mikstat
+4156,Mikułowice
+4157,Miłaczew
+4158,Miłaków
+4159,Miłakowo
+4160,Milanów
+4161,Milanówek
+4162,Milcza
+4163,Milejczyce
+4164,Milejewo
+4165,Milejów
+4166,Milejów-Osada
+4167,Milicz
+4168,Milik
+4169,Milin
+4170,Miłki
+4171,Miłków
+4172,Miłkowa
+4173,Miłkowice
+4174,Miłkowice-Janki
+4175,Miłkowo
+4176,Miłobądz
+4177,Miłocin
+4178,Miłomłyn
+4179,Miłoradz
+4180,Miłoradzice
+4181,Miłosław
+4182,Miłoszewo
+4183,Miłoszyce
+4184,Miłowice
+4185,Milówka
+4186,Minkowice Oławskie
+4187,Minoga
+4188,Mińsk Mazowiecki
+4189,Miodnica
+4190,Mirachowo
+4191,Mircze
+4192,Mirków
+4193,Mirocice
+4194,Mirocin
+4195,Mirocin Dolny
+4196,Mirosławiec
+4197,Mirostowice Dolne
+4198,Mirotki
+4199,Mirów Stary
+4200,Mirowszczyzna
+4201,Mirsk
+4202,Mirzec Stary
+4203,Misie
+4204,Mistów
+4205,Miszewko
+4206,Miszewo
+4207,Miszewo Murowane
+4208,Miszkowice
+4209,Mizerów
+4210,Mława
+4211,Mlęcin
+4212,Mleczków
+4213,Mlewo
+4214,Młochów
+4215,Młock
+4216,Młodocin Mniejszy
+4217,Młodojewo
+4218,Młodów
+4219,Młodzawy Duże
+4220,Młodzieszyn
+4221,Młoszowa
+4222,Młynary
+4223,Młynarze
+4224,Młyńczyska
+4225,Młyniec Pierwszy
+4226,Młynisko
+4227,Młynkowo
+4228,Młynne
+4229,Mnich
+4230,Mnichów
+4231,Mnichowo
+4232,Mników
+4233,Mnin
+4234,Mniów
+4235,Mniszek
+4236,Mniszew
+4237,Mniszków
+4238,Mniszów
+4239,Mocarzewo
+4240,Mochnaczka Niżna
+4241,Mochnaczka Wyżna
+4242,Mochowo-Parcele
+4243,Mochy
+4244,Moczadła
+4245,Moderówka
+4246,Modła
+4247,Modła Królewska
+4248,Modliborzyce
+4249,Modlimowo
+4250,Modliszewice
+4251,Modliszewko
+4252,Modlna
+4253,Modlnica
+4254,Modlniczka
+4255,Modrze
+4256,Modrzejewo
+4257,Modrzejowice
+4258,Modzerowo
+4259,Mogielnica
+4260,Mogilany
+4261,Mogilno
+4262,Mogilno Duże
+4263,Mójcza
+4264,Mojusz
+4265,Mokas
+4266,Mokobody
+4267,Mokotów
+4268,Mokra
+4269,Mokra Lewa
+4270,Mokra Prawa
+4271,Mokra Wieś
+4272,Mokre
+4273,Mokronos
+4274,Mokronos Górny
+4275,Mokrsko
+4276,Mokrsko Dolne
+4277,Mokrzesz
+4278,Mokrzeszów
+4279,Mokrzyska
+4280,Molna
+4281,Mołodiatycze
+4282,Mołodycz
+4283,Mołtajny
+4284,Momina
+4285,Momoty Górne
+4286,Moniaki
+4287,Moniatycze
+4288,Mońki
+4289,Monkinie
+4290,Morąg
+4291,Morakowo
+4292,Morawa
+4293,Morawczyna
+4294,Morawica
+4295,Morawin
+4296,Morawsko
+4297,Morawy
+4298,Mordarka
+4299,Mordy
+4300,Moryń
+4301,Morzeszczyn
+4302,Morzewo
+4303,Morzyce
+4304,Morzyczyn
+4305,Mościska
+4306,Mościsko
+4307,Mosina
+4308,Moskorzew
+4309,Moskurnia
+4310,Mostki
+4311,Mostkowo
+4312,Mostów
+4313,Mosty
+4314,Moszczanka
+4315,Moszczenica
+4316,Moszczenica Niżna
+4317,Motarzyno
+4318,Motkowice
+4319,Motwica
+4320,Motycz
+4321,Mrągowo
+4322,Mrocza
+4323,Mroczeń
+4324,Mroczki Wielkie
+4325,Mroczków
+4326,Mroczków Gościnny
+4327,Mroczno
+4328,Mroków
+4329,Mrowino
+4330,Mrowiny
+4331,Mrowla
+4332,Mrozów
+4333,Mrozy
+4334,Mrozy Wielkie
+4335,Mrukowa
+4336,Mrzezino
+4337,Mrzeżyno
+4338,Mrzygłód
+4339,Mścice
+4340,Mściów
+4341,Mściszewice
+4342,Mstów
+4343,Mstyczów
+4344,Mszadla
+4345,Mszalnica
+4346,Mszana
+4347,Mszana Dolna
+4348,Mszana Górna
+4349,Mszanka
+4350,Mszczonów
+4351,Mszczyczyn
+4352,Mucharz
+4353,Muchówka
+4354,Munina
+4355,Murów
+4356,Murowana Goślina
+4357,Murowaniec
+4358,Murzasichle
+4359,Murzynno
+4360,Murzynówko
+4361,Murzynowo
+4362,Murzynowo Kościelne
+4363,Murzynowo Leśne
+4364,Muszaki
+4365,Muszyna
+4366,Muszynka
+4367,Mycielewo
+4368,Mycielin
+4369,Myczków
+4370,Myczkowce
+4371,Mydłów
+4372,Myjomice
+4373,Mykanów
+4374,Mymoń
+4375,Myscowa
+4376,Mysiadło
+4377,Myślachowice
+4378,Mysłaków
+4379,Mysłakowice
+4380,Mysłakówko
+4381,Myślenice
+4382,Myślibórz
+4383,Myślice
+4384,Myśligoszcz
+4385,Myśliszewice
+4386,Myśliwiec
+4387,Mysłów
+4388,Mysłowice
+4389,Mystków
+4390,Mystkowo
+4391,Myszadła
+4392,Myszków
+4393,Myszyniec
+4394,Naborówiec
+4395,Nabróż
+4396,Nabyszyce
+4397,Nacław
+4398,Nacpolsk
+4399,Naczęsławice
+4400,Nadarzyn
+4401,Nadbory
+4402,Nadbrzeż
+4403,Nadma
+4404,Nądnia
+4405,Nadróż
+4406,Nadrybie-Dwór
+4407,Nadzów
+4408,Nagawczyna
+4409,Nagłowice
+4410,Nagoszewka Druga
+4411,Nagoszyn
+4412,Nakla
+4413,Nakło
+4414,Nakło nad Notecią
+4415,Nakło Śląskie
+4416,Nakomiady
+4417,Nakonowo
+4418,Nałęczów
+4419,Namysłów
+4420,Napachanie
+4421,Napiwoda
+4422,Naprawa
+4423,Narama
+4424,Naramice
+4425,Narew
+4426,Narewka
+4427,Narok
+4428,Narol
+4429,Naruszewo
+4430,Narzym
+4431,Nasiadki
+4432,Nasiedle
+4433,Nasiegniewo
+4434,Nasielsk
+4435,Nasutów
+4436,Natalia
+4437,Natolin
+4438,Nawiady
+4439,Nawodna
+4440,Nawodzice
+4441,Nawojowa
+4442,Nawojowa Góra
+4443,Nawrocko
+4444,Nawsie
+4445,Nawsie Brzosteckie
+4446,Nebrowo Wielkie
+4447,Nędza
+4448,Nehrybka
+4449,Nekielka
+4450,Nekla
+4451,Neple
+4452,Nętno
+4453,Netta Pierwsza
+4454,Nicwałd
+4455,Nida
+4456,Nidek
+4457,Nidzica
+4458,Niebieszczany
+4459,Niebocko
+4460,Nieboczowy
+4461,Nieborów
+4462,Nieborowice
+4463,Niebylec
+4464,Niechanowo
+4465,Niechcice
+4466,Niechłonin
+4467,Niechlów
+4468,Niechobrz
+4469,Niechorze
+4470,Nieciecz Włościańska
+4471,Nieciecza
+4472,Nieciki
+4473,Niećkowo
+4474,Nieczajna Górna
+4475,Niedamowo
+4476,Niedarzyno
+4477,Niedomice
+4478,Niedoradz
+4479,Niedrzwica Duża
+4480,Niedrzwica Kościelna
+4481,Niedyszyna
+4482,Niedzbórz
+4483,Niedzica
+4484,Niedzieliska
+4485,Niedźwiada
+4486,Niedźwiadna
+4487,Niedźwice
+4488,Niedźwiedź
+4489,Niedźwiedza
+4490,Niedźwiedzice
+4491,Niegardów
+4492,Niegosław
+4493,Niegosławice
+4494,Niegów
+4495,Niegowa
+4496,Niegowić
+4497,Niegowonice
+4498,Niekłań Wielki
+4499,Nieledew
+4500,Nieledwia
+4501,Nielep
+4502,Nielepice
+4503,Nielisz
+4504,Nielubia
+4505,Niemce
+4506,Niemcz
+4507,Niemcza
+4508,Niemczyn
+4509,Niemica
+4510,Niemienice
+4511,Niemodlin
+4512,Niemojki
+4513,Niemstów
+4514,Niemysłów
+4515,Niemysłowice
+4516,Nienadowa
+4517,Nienadówka
+4518,Nienaszów
+4519,Nienowice
+4520,Niepart
+4521,Niepla
+4522,Niepoczołowice
+4523,Niepoględzie
+4524,Niepołomice
+4525,Nieporęt
+4526,Niepruszewo
+4527,Niestachów
+4528,Niestępowo
+4529,Niesułków
+4530,Niesulów
+4531,Nieświń
+4532,Nieszawa
+4533,Nieszkowice Małe
+4534,Nieszkowice Wielkie
+4535,Nietążkowo
+4536,Nietków
+4537,Nietkowice
+4538,Nietulisko Duże
+4539,Niewieścin
+4540,Niewistka
+4541,Niewodnica Kościelna
+4542,Niezabitów
+4543,Niezabyszewo
+4544,Niezdów
+4545,Nieznamierowice
+4546,Nieżychowice
+4547,Nieżywięć
+4548,Ninków
+4549,Nisko
+4550,Niskowa
+4551,Niszczewy
+4552,Niwica
+4553,Niwiska
+4554,Niwiski
+4555,Niwka
+4556,Niwnica
+4557,Niziny
+4558,Nochowo
+4559,Nockowa
+4560,Nojewo
+4561,Nosarzewo Borowe
+4562,Nosków
+4563,Nosówka
+4564,Nowa Biała
+4565,Nowa Brzeźnica
+4566,Nowa Cerekwia
+4567,Nowa Cerkiew
+4568,Nowa Dęba
+4569,Nowa Góra
+4570,Nowa Iwiczna
+4571,Nowa Jastrząbka
+4572,Nowa Jedlanka
+4573,Nowa Karczma
+4574,Nowa Krępa
+4575,Nowa Pawłówka
+4576,Nowa Pogorzel
+4577,Nowa Rokitnia
+4578,Nowa Ruda
+4579,Nowa Sarzyna
+4580,Nowa Słupia
+4581,Nowa Sól
+4582,Nowa Sucha
+4583,Nowa Wieś
+4584,Nowa Wieś Ełcka
+4585,Nowa Wieś Grodziska
+4586,Nowa Wieś Książęca
+4587,Nowa Wieś Lęborska
+4588,Nowa Wieś Malborska
+4589,Nowa Wieś Przywidzka
+4590,Nowa Wieś Szlachecka
+4591,Nowa Wieś Ujska
+4592,Nowa Wieś Wielka
+4593,Nowa Wola
+4594,Nowa Wrona
+4595,Nowaki
+4596,Nowakowo
+4597,Nowe
+4598,Nowe Aleksandrowo
+4599,Nowe Brzesko
+4600,Nowe Budy
+4601,Nowe Bystre
+4602,Nowe Chechło
+4603,Nowe Czaple
+4604,Nowe Czarnowo
+4605,Nowe Dąbie
+4606,Nowe Grabie
+4607,Nowe Grochale
+4608,Nowe Grodziczno
+4609,Nowe Grodzisko
+4610,Nowe Gulczewo
+4611,Nowe Iganie
+4612,Nowe Kanigowo
+4613,Nowe Kawkowo
+4614,Nowe Kramsko
+4615,Nowe Krubice
+4616,Nowe Kucice
+4617,Nowe Kupiski
+4618,Nowe Kurowo
+4619,Nowe Łubki
+4620,Nowe Miasteczko
+4621,Nowe Miasto
+4622,Nowe Miasto Lubawskie
+4623,Nowe Miasto nad Pilicą
+4624,Nowe Miasto nad Wartą
+4625,Nowe Miszewo
+4626,Nowe Niestępowo
+4627,Nowe Osiny
+4628,Nowe Piekuty
+4629,Nowe Polaszki
+4630,Nowe Proboszczewice
+4631,Nowe Radzikowo
+4632,Nowe Ręczaje
+4633,Nowe Rybie
+4634,Nowe Siodło
+4635,Nowe Sioło
+4636,Nowe Skalmierzyce
+4637,Nowe Warpno
+4638,Nowe Worowo
+4639,Nowe Zduny
+4640,Nowe Żukowice
+4641,Nowielin
+4642,Nowinka
+4643,Nowiny
+4644,Nowiny Wielkie
+4645,Nowodwór
+4646,Nowogard
+4647,Nowogród
+4648,Nowogród Bobrzański
+4649,Nowogródek Pomorski
+4650,Nowogrodziec
+4651,Nowolipsk
+4652,Nowosielce
+4653,Nowosielec
+4654,Nowosiółki
+4655,Nowotaniec
+4656,Nowy Antonin
+4657,Nowy Belęcin
+4658,Nowy Borek
+4659,Nowy Duninów
+4660,Nowy Dwór
+4661,Nowy Dwór Gdański
+4662,Nowy Dwór Mazowiecki
+4663,Nowy Dwór Wejherowski
+4664,Nowy Dwór-Parcela
+4665,Nowy Dziebałtów
+4666,Nowy Folwark
+4667,Nowy Glinik
+4668,Nowy Glinnik
+4669,Nowy Kamień
+4670,Nowy Kazanów
+4671,Nowy Klincz
+4672,Nowy Kobrzyniec
+4673,Nowy Korczyn
+4674,Nowy Kościół
+4675,Nowy Kurzeszyn
+4676,Nowy Lubliniec
+4677,Nowy Łupków
+4678,Nowy Nakwasin
+4679,Nowy Prażmów
+4680,Nowy Sącz
+4681,Nowy Skoszyn
+4682,Nowy Staw
+4683,Nowy Świat
+4684,Nowy Świętów
+4685,Nowy Targ
+4686,Nowy Tomyśl
+4687,Nowy Wiśnicz
+4688,Nowy Żabieniec
+4689,Nowy Zglechów
+4690,Nowy Żmigród
+4691,Nozdrzec
+4692,Nożyno
+4693,Nur
+4694,Nurzec-Stacja
+4695,Nysa
+4696,Obarzym
+4697,Obice
+4698,Obidowa
+4699,Obidza
+4700,Obiechów
+4701,Obierwia
+4702,Objazda
+4703,Objezierze
+4704,Oblęgorek
+4705,Oblekoń
+4706,Obojna
+4707,Obora
+4708,Oborniki
+4709,Oborniki Śląskie
+4710,Obory
+4711,Obra
+4712,Obrazów
+4713,Obrowiec
+4714,Obrowo
+4715,Obrubniki
+4716,Obryte
+4717,Obrzycko
+4718,Obrzynowo
+4719,Obsza
+4720,Ochaby Małe
+4721,Ochodze
+4722,Ochojno
+4723,Ochota
+4724,Ochotnica Dolna
+4725,Ochotnica Górna
+4726,Ochraniew
+4727,Ocice
+4728,Ocieka
+4729,Ociesęki
+4730,Odechów
+4731,Odolanów
+4732,Odonów
+4733,Odporyszów
+4734,Odrano-Wola
+4735,Odrowąż
+4736,Odrowążek
+4737,Odry
+4738,Odrzechowa
+4739,Odrzykoń
+4740,Odrzywół
+4741,Ogardy
+4742,Ogonowice
+4743,Ogorzelczyn
+4744,Ogorzeliny
+4745,Ogrodniczki
+4746,Ogrodniki
+4747,Ogrodzieniec
+4748,Ogrodzona
+4749,Ojrzanów
+4750,Ojrzanów-Towarzystwo
+4751,Ojrzanowo
+4752,Ojrzeń
+4753,Okalew
+4754,Okalewo
+4755,Okartowo
+4756,Okleśna
+4757,Okmiany
+4758,Okocim
+4759,Okół
+4760,Okonek
+4761,Okonin
+4762,Okrągła Łąka
+4763,Okrzeja
+4764,Oksa
+4765,Okszów
+4766,Okulice
+4767,Okunica
+4768,Okuniew
+4769,Okuninka
+4770,Okup Mały
+4771,Oława
+4772,Olbięcin
+4773,Olbrachcice
+4774,Olbrachcice Wielkie
+4775,Olbrachtów
+4776,Olchowa
+4777,Olchowiec
+4778,Ołdaki
+4779,Ołdaki-Polonia
+4780,Ołdrzychowice Kłodzkie
+4781,Olecko
+4782,Oleśnica
+4783,Oleśnica Mała
+4784,Oleśniki
+4785,Olesno
+4786,Oleszna
+4787,Oleszno
+4788,Oleszyce
+4789,Olkowice
+4790,Olkusz
+4791,Ołobok
+4792,Ołpiny
+4793,Olsza
+4794,Olszana
+4795,Olszanica
+4796,Olszanka
+4797,Olszany
+4798,Olszewka
+4799,Olszewnica
+4800,Olszewnica Stara
+4801,Olszewo
+4802,Olszewo-Borki
+4803,Olszowa
+4804,Olszowice
+4805,Olszówka
+4806,Olsztyn
+4807,Olsztynek
+4808,Olszyc Szlachecki
+4809,Olszyna
+4810,Olszynka
+4811,Olszyny
+4812,Ołtarzew
+4813,Olza
+4814,Opacie
+4815,Opacz
+4816,Opalenica
+4817,Opalenie
+4818,Opaleniska
+4819,Oparzno
+4820,Opatkowice
+4821,Opatów
+4822,Opatówek
+4823,Opatowiec
+4824,Opinogóra Górna
+4825,Opoczno
+4826,Opoka Duża
+4827,Opoki
+4828,Opole
+4829,Opole Lubelskie
+4830,Opolnica
+4831,Opolno-Zdrój
+4832,Oporów
+4833,Oporówko
+4834,Orątki Dolne
+4835,Orawka
+4836,Orchówek
+4837,Orchowo
+4838,Orla
+4839,Orle
+4840,Orło
+4841,Orłów Drewniany
+4842,Orłowo
+4843,Orły
+4844,Orneta
+4845,Ornontowice
+4846,Orońsko
+4847,Orpiszew
+4848,Orszymowo
+4849,Ortel Książęcy Drugi
+4850,Orzech
+4851,Orzechów
+4852,Orzechowce
+4853,Orzechówka
+4854,Orzechowo
+4855,Orzełek
+4856,Orzesze
+4857,Orzeszków
+4858,Orzeszkowo
+4859,Orzyny
+4860,Orzysz
+4861,Ościsłowo
+4862,Osie
+4863,Osięciny
+4864,Osieck
+4865,Osiecza Druga
+4866,Osieczany
+4867,Osieczna
+4868,Osiecznica
+4869,Osiedle Niewiadów
+4870,Osiedle Wilga
+4871,Osiek
+4872,Osiek Jasielski
+4873,Osiek Łużycki
+4874,Osiek Mały
+4875,Osiek nad Notecią
+4876,Osiek nad Wisłą
+4877,Osiek Wielki
+4878,Osielec
+4879,Osielsko
+4880,Osina
+4881,Osiny
+4882,Osjaków
+4883,Osmolice Pierwsze
+4884,Ośniszczewko
+4885,Ośno Górne
+4886,Ośno Lubuskie
+4887,Osobnica
+4888,Osolin
+4889,Osowa Sień
+4890,Osowiec
+4891,Osówka
+4892,Osowo
+4893,Ossala
+4894,Ossolin
+4895,Ossów
+4896,Ossówka
+4897,Ostaszewo
+4898,Ostojów
+4899,Ostrężnica
+4900,Ostróda
+4901,Ostrołęka
+4902,Ostromecko
+4903,Ostromice
+4904,Ostroróg
+4905,Ostroszowice
+4906,Ostrów
+4907,Ostrów Królewski
+4908,Ostrów Lubelski
+4909,Ostrów Mazowiecka
+4910,Ostrów Wielkopolski
+4911,Ostrowąs
+4912,Ostrowąż
+4913,Ostrówek
+4914,Ostrówek-Kolonia
+4915,Ostrowice
+4916,Ostrowiec
+4917,Ostrowiec Świętokrzyski
+4918,Ostrowieczno
+4919,Ostrowite
+4920,Ostrówki
+4921,Ostrowsko
+4922,Ostrowy
+4923,Ostrowy Baranowskie
+4924,Ostrowy nad Okszą
+4925,Ostrowy Tuszowskie
+4926,Ostrożany
+4927,Ostrożnica
+4928,Ostrzeszów
+4929,Ostrzyce
+4930,Osuchów
+4931,Oświęcim
+4932,Oszczepalin Drugi
+4933,Oszczywilk
+4934,Oszkowice
+4935,Otałęż
+4936,Otfinów
+4937,Otłowiec
+4938,Otmice
+4939,Otmuchów
+4940,Otoczna
+4941,Otorowo
+4942,Otrębusy
+4943,Otrocz
+4944,Otwock
+4945,Otwock Mały
+4946,Otwock Wielki
+4947,Otyń
+4948,Owadów
+4949,Owczarnia
+4950,Owidz
+4951,Owieczki
+4952,Owińska
+4953,Ownia
+4954,Owsiszcze
+4955,Ożańsk
+4956,Ożarów
+4957,Ożarów Mazowiecki
+4958,Ożarowice
+4959,Ozimek
+4960,Ozorków
+4961,Pabianice
+4962,Pacanów
+4963,Pachy
+4964,Paciorkowa Wola Nowa
+4965,Pacyna
+4966,Pączewo
+4967,Paczków
+4968,Paczkowo
+4969,Paczółtowice
+4970,Paczyna
+4971,Padew Narodowa
+4972,Padniewo
+4973,Pagorzyna
+4974,Pajęczno
+4975,Pakość
+4976,Pakosław
+4977,Pakosławice
+4978,Pakosławsko
+4979,Pakoszówka
+4980,Palcza
+4981,Palczowice
+4982,Pałecznica
+4983,Palędzie
+4984,Paleśnica
+4985,Palikije Pierwsze
+4986,Palikówka
+4987,Palmierowo
+4988,Palowice
+4989,Pamiątkowo
+4990,Panieńszczyzna
+4991,Paniewo
+4992,Panigródz
+4993,Paniówki
+4994,Panki
+4995,Pantalowice
+4996,Papowo Biskupie
+4997,Papowo Toruńskie
+4998,Paprocice
+4999,Paprotnia
+5000,Paradyż
+5001,Parchanie
+5002,Parchów
+5003,Parchowo
+5004,Parciaki
+5005,Parcice
+5006,Parczew
+5007,Parkosz
+5008,Parkowo
+5009,Parlin
+5010,Parlino
+5011,Parnowo
+5012,Parowa
+5013,Parsęcko
+5014,Parszów
+5015,Partynia
+5016,Parysów
+5017,Parzęczew
+5018,Parzęczewo
+5019,Parzew
+5020,Parznice
+5021,Parzniew
+5022,Parzniewice
+5023,Parzno
+5024,Parzymiechy
+5025,Parzynów
+5026,Pasieka Otfinowska
+5027,Pasieki
+5028,Pasierbiec
+5029,Paskudy
+5030,Pasłęk
+5031,Pastuchów
+5032,Pasym
+5033,Paszczyna
+5034,Paszenki
+5035,Paszki Duże
+5036,Paszkówka
+5037,Paszowice
+5038,Paszyn
+5039,Paterek
+5040,Pątnów
+5041,Patrzyków
+5042,Pawełki
+5043,Pawęzów
+5044,Pawlikowice
+5045,Pawłokoma
+5046,Pawłosiów
+5047,Pawłów
+5048,Pawłowice
+5049,Pawłowiczki
+5050,Pawłowo
+5051,Pawłowo Skockie
+5052,Pawłowo Żońskie
+5053,Pawonków
+5054,Pcim
+5055,Pęchery
+5056,Pęcice
+5057,Pęckowo
+5058,Pęclin
+5059,Pecna
+5060,Pęczniew
+5061,Pęgów
+5062,Pełczyce
+5063,Pełczyska
+5064,Pełkinie
+5065,Pełnatycze
+5066,Pelplin
+5067,Pełty
+5068,Pęperzyn
+5069,Pępowo
+5070,Perki-Karpie
+5071,Perlejewo
+5072,Perły
+5073,Perzów
+5074,Petrykozy
+5075,Petryłów
+5076,Pewel Mała
+5077,Pewel Ślemieńska
+5078,Pewel Wielka
+5079,Pewelka
+5080,Pęzino
+5081,Piaseczno
+5082,Piasek
+5083,Piaski
+5084,Piastoszyn
+5085,Piastów
+5086,Piaszczyna
+5087,Piątek
+5088,Piątki
+5089,Piątkowa
+5090,Piątkowisko
+5091,Piątnica Poduchowna
+5092,Pichlice
+5093,Piece
+5094,Piechcin
+5095,Piechowice
+5096,Piecki
+5097,Piecnik
+5098,Pięczkowo
+5099,Pieczyska
+5100,Piekary
+5101,Piekary Śląskie
+5102,Piekiełko
+5103,Piekielnik
+5104,Piękna Góra
+5105,Piekoszów
+5106,Pielgrzymka
+5107,Pielgrzymowice
+5108,Pielnia
+5109,Pień
+5110,Pieniążkowice
+5111,Pieniężnica
+5112,Pieniężno
+5113,Pieńsk
+5114,Pieranie
+5115,Pierściec
+5116,Pierszczewo
+5117,Pierzchnica
+5118,Pierzchów
+5119,Pieski
+5120,Pieszcz
+5121,Pieszków
+5122,Pieszyce
+5123,Pietrowice
+5124,Pietrowice Wielkie
+5125,Pietrusza Wola
+5126,Pietrzejowice
+5127,Pietrzwałd
+5128,Pietrzyków
+5129,Pietrzykowice
+5130,Pigłowice
+5131,Pigża
+5132,Pikulice
+5133,Piła
+5134,Pilawa
+5135,Piława Dolna
+5136,Piława Górna
+5137,Pilchów
+5138,Pilchowice
+5139,Pilchowo
+5140,Pilcza Żelichowska
+5141,Pilczyca
+5142,Pilica
+5143,Piłka
+5144,Pilona
+5145,Pilszcz
+5146,Pilzno
+5147,Pińczów
+5148,Pińczyce
+5149,Pinczyn
+5150,Pionki
+5151,Piórków
+5152,Piorunka
+5153,Piotrawin
+5154,Piotrków Kujawski
+5155,Piotrków Pierwszy
+5156,Piotrków Trybunalski
+5157,Piotrkówek
+5158,Piotrkowice
+5159,Piotrkowice Małe
+5160,Piotrkowo
+5161,Piotrów
+5162,Piotrów-Gułaczów
+5163,Piotrowice
+5164,Piotrówka
+5165,Pipie
+5166,Pisanica
+5167,Pisarowce
+5168,Pisary
+5169,Pisarzowa
+5170,Pisarzowice
+5171,Piski
+5172,Piskorowice
+5173,Pisz
+5174,Piszczac
+5175,Piszkowice
+5176,Piwniczna-Zdrój
+5177,Piwoda
+5178,Płaska
+5179,Platerów
+5180,Platerówka
+5181,Pławanice
+5182,Pławce
+5183,Pławna
+5184,Pławna Górna
+5185,Pławnica
+5186,Pławniowice
+5187,Pławno
+5188,Pławo
+5189,Płaza
+5190,Plecka Dąbrowa
+5191,Plemięta
+5192,Pleśna
+5193,Pleszew
+5194,Plewiska
+5195,Pliskowola
+5196,Płochocin
+5197,Płocicz
+5198,Płociczno-Tartak
+5199,Płock
+5200,Płocochowo
+5201,Płóczki Górne
+5202,Płoki
+5203,Płoniawy-Bramura
+5204,Płonka
+5205,Płonka Kościelna
+5206,Płonne
+5207,Płońsk
+5208,Płoski
+5209,Płoskie
+5210,Płoskinia
+5211,Płośnica
+5212,Płoszów
+5213,Płoty
+5214,Płouszowice
+5215,Płowce
+5216,Płowęż
+5217,Pludry
+5218,Pluskowęsy
+5219,Płużnica
+5220,Pniewnik
+5221,Pniewo
+5222,Pniewo Małe
+5223,Pniewy
+5224,Pniów
+5225,Pniówek
+5226,Pobiedna
+5227,Pobiedno
+5228,Pobiedziska
+5229,Pobiel
+5230,Pobierowo
+5231,Pobłocie
+5232,Pobyłkowo Duże
+5233,Pocierzyn
+5234,Poćkuny
+5235,Podbiel
+5236,Podborsko
+5237,Podborze
+5238,Podchojny
+5239,Podciernie
+5240,Podczerwone
+5241,Poddębice
+5242,Poddubówek
+5243,Podebłocie
+5244,Podedwórze
+5245,Podegrodzie
+5246,Podgłębokie
+5247,Podgóra
+5248,Podgórze
+5249,Podgórzyn
+5250,Podgrodzie
+5251,Podhorce
+5252,Podjazy
+5253,Podkowa Leśna
+5254,Podlasie
+5255,Podlesie
+5256,Podlesie Duże
+5257,Podleszany
+5258,Podłęże
+5259,Podlipie
+5260,Podłopień
+5261,Podmokle Małe
+5262,Podmokle Wielkie
+5263,Podniebyle
+5264,Podobin
+5265,Podolany
+5266,Podole Wielkie
+5267,Podole-Górowa
+5268,Podolsze
+5269,Podróżna
+5270,Podrzecze
+5271,Podrzewie
+5272,Podsarnie
+5273,Podstolice
+5274,Podszkle
+5275,Podwiesk
+5276,Podwilk
+5277,Podzamcze
+5278,Pogalewo Wielkie
+5279,Pogódki
+5280,Pogórska Wola
+5281,Pogorzałki
+5282,Pogórze
+5283,Pogorzel
+5284,Pogorzela
+5285,Pogorzyce
+5286,Pogrodzie
+5287,Pogroszyn
+5288,Pogrzebień
+5289,Pogrzybów
+5290,Pogwizdów
+5291,Poizdów
+5292,Pojałowice
+5293,Pokój
+5294,Pokrzydowo
+5295,Pokrzywianka
+5296,Pokrzywnica
+5297,Połajewo
+5298,Polakowice
+5299,Polana
+5300,Polanica-Zdrój
+5301,Połaniec
+5302,Polanka
+5303,Polanka Hallera
+5304,Polanka Wielka
+5305,Polanów
+5306,Polanowice
+5307,Polany
+5308,Połchowo
+5309,Półczno
+5310,Połczyn-Zdrój
+5311,Połczyno
+5312,Polesie
+5313,Police
+5314,Polichna Druga
+5315,Polichno
+5316,Polichty
+5317,Policzna
+5318,Polkowice
+5319,Polna
+5320,Polnica
+5321,Połom Duży
+5322,Połomia
+5323,Połoski
+5324,Półrzeczki
+5325,Polska Cerekiew
+5326,Polska Nowa Wieś
+5327,Polski Świętów
+5328,Polskie Gronowo
+5329,Polskowola
+5330,Polubicze Wiejskie Pierwsze
+5331,Połupin
+5332,Polwica
+5333,Półwiesk Mały
+5334,Pomarzanowice
+5335,Pomianowo
+5336,Pomiechówek
+5337,Pomieczyno
+5338,Pomieczyńska Huta
+5339,Pomierzyn
+5340,Pomlewo
+5341,Pomorska Wieś
+5342,Pomyków
+5343,Pomysk Mały
+5344,Pomysk Wielki
+5345,Ponętów Górny Drugi
+5346,Poniatów
+5347,Poniatowa
+5348,Poniatowa-Kolonia
+5349,Poniatowice
+5350,Poniatowo
+5351,Ponice
+5352,Poniec
+5353,Poniki
+5354,Ponikiew
+5355,Poniszowice
+5356,Popęszyce
+5357,Popielów
+5358,Popów
+5359,Popów Głowieński
+5360,Popowice
+5361,Popowo
+5362,Popowo Borowe
+5363,Popowo Kościelne
+5364,Porąbka
+5365,Porąbka Iwkowska
+5366,Porąbka Uszewska
+5367,Porąbki
+5368,Poraj
+5369,Porajów
+5370,Poraż
+5371,Porażyn
+5372,Porczyny
+5373,Poręba
+5374,Poręba Radlna
+5375,Poręba Spytkowska
+5376,Poręba Średnia
+5377,Poręba Wielka
+5378,Poręba Żegoty
+5379,Poręby Dymarskie
+5380,Poronin
+5381,Poryte
+5382,Poryte-Jabłoń
+5383,Porządzie
+5384,Porzecze
+5385,Posada Górna
+5386,Posada Zarszyńska
+5387,Posadowa Mogilska
+5388,Posadowo
+5389,Posądza
+5390,Poścień-Wieś
+5391,Poskwitów
+5392,Pośrednik
+5393,Postoliska
+5394,Postomino
+5395,Postronna
+5396,Poświętne
+5397,Potarzyca
+5398,Potęgowo
+5399,Potępa
+5400,Potoczek
+5401,Potok
+5402,Potok Górny
+5403,Potok Wielki
+5404,Potok-Stany
+5405,Potrzanowo
+5406,Potulice
+5407,Potuły
+5408,Potworów
+5409,Powidz
+5410,Powidzko
+5411,Powiercie
+5412,Powodowo
+5413,Powroźnik
+5414,Pozezdrze
+5415,Poznań
+5416,Poznań-Grunwald
+5417,Poznań-Jeżyce
+5418,Poznań-Nowe Miasto
+5419,Poznań-Stare Miasto
+5420,Poznań-Wilda
+5421,Pozowice
+5422,Prabuty
+5423,Prace Małe
+5424,Pradła
+5425,Praga-Północ
+5426,Praga-Południe
+5427,Prałkowce
+5428,Prandocin
+5429,Praszka
+5430,Prątnica
+5431,Prawiedniki
+5432,Prażmów
+5433,Pręgowo
+5434,Proboszczów
+5435,Próchenki
+5436,Próchnowo
+5437,Prochowice
+5438,Prokowo
+5439,Promna-Kolonia
+5440,Promnik
+5441,Prostki
+5442,Prostyń
+5443,Proszenie
+5444,Prószków
+5445,Proszkowo
+5446,Proszowice
+5447,Proszówki
+5448,Pruchna
+5449,Pruchnik
+5450,Prudnik
+5451,Prudziszki
+5452,Pruśce
+5453,Prusice
+5454,Prusicko
+5455,Prusiek
+5456,Prusinowice
+5457,Prusinowo
+5458,Prusy
+5459,Pruszcz
+5460,Pruszcz Gdański
+5461,Pruszewiec
+5462,Pruszków
+5463,Pruszyn
+5464,Pruszyn-Pieńki
+5465,Prymusowa Wola
+5466,Prząsław
+5467,Przasnysz
+5468,Przebędowo
+5469,Przebród
+5470,Przechlewo
+5471,Przechód
+5472,Przecieszyn
+5473,Przeciszewo
+5474,Przeciszów
+5475,Przecław
+5476,Przecza
+5477,Przeczyca
+5478,Przeczyce
+5479,Przedborowa
+5480,Przedbórz
+5481,Przedecz
+5482,Przedmieście Dalsze
+5483,Przedmieście Dubieckie
+5484,Przedmość
+5485,Przedmoście
+5486,Przędzel
+5487,Przegędza
+5488,Przeginia
+5489,Przeginia Duchowna
+5490,Przejazdowo
+5491,Przełęk
+5492,Przelewice
+5493,Przemęt
+5494,Przemiarowo
+5495,Przemków
+5496,Przemyśl
+5497,Przemystka
+5498,Przeorsk
+5499,Przepałkowo
+5500,Przerąb
+5501,Przeradz Mały
+5502,Przerośl
+5503,Przerzeczyn-Zdrój
+5504,Przesmyki
+5505,Przęsocin
+5506,Przewale
+5507,Przewłoka
+5508,Przewodów
+5509,Przewodowo Poduchowne
+5510,Przeworno
+5511,Przeworsk
+5512,Przewóz
+5513,Przewrotne
+5514,Przezchlebie
+5515,Przeźmierowo
+5516,Przodkowo
+5517,Przybędza
+5518,Przybiernów
+5519,Przyborów
+5520,Przyborowo
+5521,Przybówka
+5522,Przybradz
+5523,Przybranowo
+5524,Przybynów
+5525,Przybysławice
+5526,Przybyszew
+5527,Przychojec
+5528,Przydonica
+5529,Przydworzyce
+5530,Przygłów
+5531,Przygodzice
+5532,Przygodziczki
+5533,Przygórze
+5534,Przyjaźń
+5535,Przyjma
+5536,Przykona
+5537,Przyłęk
+5538,Przyłęk Duży
+5539,Przyłęki
+5540,Przyłęków
+5541,Przylep
+5542,Przylesie
+5543,Przyłubsko
+5544,Przymuszewo
+5545,Przypisówka
+5546,Przypki
+5547,Przyprostynia
+5548,Przyranie
+5549,Przyrów
+5550,Przysiek
+5551,Przysieka
+5552,Przysieki
+5553,Przysiersk
+5554,Przysietnica
+5555,Przystajń
+5556,Przystań
+5557,Przysucha
+5558,Przyszów
+5559,Przyszowa
+5560,Przyszowice
+5561,Przytkowice
+5562,Przytocko
+5563,Przytoczna
+5564,Przytocznica
+5565,Przytoczno
+5566,Przytok
+5567,Przytuły
+5568,Przytyk
+5569,Przywidz
+5570,Przywory
+5571,Przywózki
+5572,Psary
+5573,Psary Polskie
+5574,Psary-Kolonia
+5575,Psary-Stara Wieś
+5576,Pstrągowa
+5577,Pstrążna
+5578,Pstroszyce Pierwsze
+5579,Pszczela Wola
+5580,Pszczew
+5581,Pszczółki
+5582,Pszczonów
+5583,Pszczyna
+5584,Pszenno
+5585,Pszów
+5586,Ptaki
+5587,Ptaszków
+5588,Ptaszkowa
+5589,Ptaszkowo
+5590,Puchaczów
+5591,Puchały
+5592,Puck
+5593,Pudliszki
+5594,Pukinin
+5595,Puławy
+5596,Pułtusk
+5597,Puńców
+5598,Puńsk
+5599,Pupkowizna
+5600,Purda
+5601,Pustelnik
+5602,Pustków
+5603,Pustków Wilczkowski
+5604,Pustków Żurawski
+5605,Pustków-Osiedle
+5606,Pustynia
+5607,Puszcza Mariańska
+5608,Puszczykowo
+5609,Puszno Godowskie
+5610,Puzdrowo
+5611,Puznówka
+5612,Pyrzowice
+5613,Pyrzyce
+5614,Pyskowice
+5615,Pysząca
+5616,Pyszczyn
+5617,Pysznica
+5618,Pyzdry
+5619,Pyzówka
+5620,Raba Niżna
+5621,Raba Wyżna
+5622,Rąbień
+5623,Rąbień AB
+5624,Rąbino
+5625,Rabka-Zdrój
+5626,Rąbkowa
+5627,Rabowice
+5628,Rachanie
+5629,Rachcin
+5630,Raciąż
+5631,Raciążek
+5632,Raciborowice
+5633,Raciborowice Dolne
+5634,Raciborsko
+5635,Racibórz
+5636,Racice
+5637,Raciechowice
+5638,Racimierz
+5639,Raciszyn
+5640,Racławice
+5641,Racławice Śląskie
+5642,Racławiczki
+5643,Racławówka
+5644,Racot
+5645,Raczki
+5646,Rączki
+5647,Raczków
+5648,Rączna
+5649,Raczyce
+5650,Rączyna
+5651,Raczyny
+5652,Radawczyk
+5653,Radawczyk Drugi
+5654,Radawiec Duży
+5655,Radawnica
+5656,Radcze
+5657,Radecznica
+5658,Radgoszcz
+5659,Radków
+5660,Radkowice
+5661,Radkowice-Kolonia
+5662,Radliczyce
+5663,Radlin
+5664,Radlna
+5665,Radłów
+5666,Radocza
+5667,Radogoszcz
+5668,Radolina
+5669,Radom
+5670,Radomice
+5671,Radomicko
+5672,Radomierz
+5673,Radomierzyce
+5674,Radomin
+5675,Radomno
+5676,Radomsko
+5677,Radomyśl
+5678,Radomyśl nad Sanem
+5679,Radomyśl Wielki
+5680,Radoryż Kościelny
+5681,Radoryż Smolany
+5682,Radostków-Kolonia
+5683,Radostów Pierwszy
+5684,Radostów Średni
+5685,Radostowice
+5686,Radostowo
+5687,Radoszewice
+5688,Radoszki
+5689,Radoszyce
+5690,Radoszyn
+5691,Radowo Małe
+5692,Radowo Wielkie
+5693,Radule
+5694,Radwan
+5695,Radwanice
+5696,Radwanki
+5697,Radwanowice
+5698,Radymno
+5699,Radzanów
+5700,Radzanowo
+5701,Radzewo
+5702,Radziądz
+5703,Radzice Duże
+5704,Radziechowice Drugie
+5705,Radziechowy
+5706,Radzięcin
+5707,Radzieje
+5708,Radziejów
+5709,Radziejowice
+5710,Radziemice
+5711,Radziki Duże
+5712,Radzików
+5713,Radzików Wielki
+5714,Radziłów
+5715,Radzionków
+5716,Radziszewo
+5717,Radziszów
+5718,Radzowice
+5719,Radzymin
+5720,Radzyminek
+5721,Radzyń Chełmiński
+5722,Radzyń Podlaski
+5723,Radzynek
+5724,Rafałówka
+5725,Rajbrot
+5726,Rajcza
+5727,Rajgród
+5728,Rajkowy
+5729,Rajsko
+5730,Rajszew
+5731,Raki
+5732,Rakoniewice
+5733,Rakoszyce
+5734,Raków
+5735,Rakowice Wielkie
+5736,Rakowiec
+5737,Rakowiska
+5738,Rakówka
+5739,Rakownia
+5740,Rakowo-Boginie
+5741,Rakszawa
+5742,Ramiszów
+5743,Ramsowo
+5744,Raniżów
+5745,Rankowskie
+5746,Rąpin
+5747,Rasy
+5748,Raszczyce
+5749,Raszków
+5750,Raszowa
+5751,Raszówka
+5752,Raszyn
+5753,Rataje
+5754,Rataje Słupskie
+5755,Ratoszyn Drugi
+5756,Ratowice
+5757,Ratułów
+5758,Ratyń
+5759,Rawa Mazowiecka
+5760,Rawica-Kolonia
+5761,Rawicz
+5762,Rdzawka
+5763,Rdziostów
+5764,Rdzuchów
+5765,Rębiechowo
+5766,Rębielice Królewskie
+5767,Rębielice Szlacheckie
+5768,Rębiszów
+5769,Rębków
+5770,Rębowo
+5771,Recz
+5772,Ręczno
+5773,Reczpol
+5774,Reda
+5775,Redkowice
+5776,Redło
+5777,Redzikowo
+5778,Rędziny
+5779,Regimin
+5780,Regnów
+5781,Regulice
+5782,Reguły
+5783,Regut
+5784,Rejowiec
+5785,Rejowiec Fabryczny
+5786,Rękoraj
+5787,Ręków
+5788,Rekowo Górne
+5789,Rększowice
+5790,Rękusy
+5791,Rembertów
+5792,Rembieszów
+5793,Rembieszyce
+5794,Reńska Wieś
+5795,Repki
+5796,Reptowo
+5797,Resko
+5798,Reskowo
+5799,Restarzew Cmentarny
+5800,Reszel
+5801,Reszkowce
+5802,Rewa
+5803,Rewal
+5804,Robakowo
+5805,Robuń
+5806,Roczyny
+5807,Rodaki
+5808,Rodowo
+5809,Rogajny
+5810,Rogalin
+5811,Rogalinek
+5812,Rogaszyce
+5813,Rogi
+5814,Rogienice Wielkie
+5815,Rogolin
+5816,Rogotwórsk
+5817,Rogów
+5818,Rogów Opolski
+5819,Rogów Sobócki
+5820,Rogowice
+5821,Rogowo
+5822,Rogóż
+5823,Rogoziniec
+5824,Rogozino
+5825,Rogoźnica
+5826,Rogoźnik
+5827,Rogoźno
+5828,Rogóźno
+5829,Rogóżno
+5830,Rojęczyn
+5831,Rojewice
+5832,Rojewo
+5833,Rojków
+5834,Rojów
+5835,Rokiciny Podhalańskie
+5836,Rokiciny-Kolonia
+5837,Rokietnica
+5838,Rokitki
+5839,Rokitnica
+5840,Rokitno
+5841,Rokitno Szlacheckie
+5842,Rokity
+5843,Rokocin
+5844,Rolbik
+5845,Role
+5846,Romanowo Dolne
+5847,Romanowo Górne
+5848,Romany
+5849,Romany-Sebory
+5850,Ropa
+5851,Ropczyce
+5852,Ropica Górna
+5853,Ropica Polska
+5854,Ropienka
+5855,Rościszewo
+5856,Rosko
+5857,Rosnówko
+5858,Rosnowo
+5859,Rosocha
+5860,Rosochata
+5861,Rosochate Kościelne
+5862,Rosochy
+5863,Rososz
+5864,Rososzyca
+5865,Rossosz
+5866,Rossoszyca
+5867,Rostarzewo
+5868,Rostkowo
+5869,Roszki
+5870,Roszków
+5871,Roszkowice
+5872,Roszowicki Las
+5873,Rotmanka
+5874,Równe
+5875,Róża
+5876,Rozalin
+5877,Różan
+5878,Różaniec Drugi
+5879,Różaniec Pierwszy
+5880,Różanka
+5881,Różanki
+5882,Różanna
+5883,Różańsko
+5884,Różanystok
+5885,Rozbity Kamień
+5886,Rozbórz
+5887,Rozbórz Długi
+5888,Rożce
+5889,Rozdrażew
+5890,Rozdziele
+5891,Rożental
+5892,Różewo
+5893,Rozkopaczew
+5894,Rozłazino
+5895,Rozlazłów
+5896,Rozmierka
+5897,Rozniszew
+5898,Rożno-Parcele
+5899,Rożnów
+5900,Rożnowice
+5901,Rożnowo
+5902,Różnowo
+5903,Rożnowo Nowogardzkie
+5904,Rozogi
+5905,Rozprza
+5906,Rozpucie
+5907,Rozstrzębowo
+5908,Roztoka
+5909,Roztoka Wielka
+5910,Roztoka-Brzeziny
+5911,Roztoki
+5912,Rozumice
+5913,Rozwady
+5914,Roźwienica
+5915,Różyca
+5916,Rożyńsk Wielki
+5917,Różyny
+5918,Ruchna
+5919,Ruchocice
+5920,Ruciane-Nida
+5921,Ruda
+5922,Ruda Łańcucka
+5923,Ruda Maleniecka
+5924,Ruda Pilczycka
+5925,Ruda Różaniecka
+5926,Ruda Śląska
+5927,Ruda Strawczyńska
+5928,Ruda Talubska
+5929,Ruda Wielka
+5930,Ruda Wolińska
+5931,Ruda-Bugaj
+5932,Ruda-Huta
+5933,Rudawa
+5934,Rudenka
+5935,Rudka
+5936,Rudka Kozłowiecka
+5937,Rudki
+5938,Rudna
+5939,Rudna Mała
+5940,Rudna Wielka
+5941,Rudnica
+5942,Rudnik
+5943,Rudnik Drugi
+5944,Rudnik nad Sanem
+5945,Rudnik Szlachecki
+5946,Rudniki
+5947,Rudno
+5948,Rudołowice
+5949,Rudołtowice
+5950,Rudy
+5951,Rudy-Rysie
+5952,Rudze
+5953,Rudzica
+5954,Rudziczka
+5955,Rudzienice
+5956,Rudzienko
+5957,Rudziniec
+5958,Ruja
+5959,Rumia
+5960,Rumian
+5961,Rumienica
+5962,Rumy
+5963,Runowo
+5964,Runowo Krajeńskie
+5965,Runowo Pomorskie
+5966,Rupniów
+5967,Ruś
+5968,Rusiec
+5969,Rusinów
+5970,Rusinowice
+5971,Rusinowo
+5972,Rusko
+5973,Rusków
+5974,Rusocice
+5975,Rusocin
+5976,Russów
+5977,Ruszcza
+5978,Ruszelczyce
+5979,Ruszków Pierwszy
+5980,Ruszkowice
+5981,Ruszkowo
+5982,Ruszów
+5983,Rutka-Tartak
+5984,Rutki
+5985,Rutki Nowe
+5986,Rutki-Kossaki
+5987,Ruże
+5988,Rybarzowice
+5989,Rybczewice Drugie
+5990,Rybie
+5991,Rybna
+5992,Rybnik
+5993,Rybno
+5994,Rycerka Dolna
+5995,Rycerka Górna
+5996,Rychława
+5997,Rychlik
+5998,Rychliki
+5999,Rychłocice
+6000,Rychnów
+6001,Rychnowy
+6002,Rychtal
+6003,Rychwał
+6004,Rychwałd
+6005,Rychwałdek
+6006,Ryczów
+6007,Ryczówek
+6008,Ryczywół
+6009,Rydułtowy
+6010,Rydzewo
+6011,Rydzów
+6012,Rydzyna
+6013,Ryglice
+6014,Ryjewo
+6015,Ryki
+6016,Rykoszyn
+6017,Rymań
+6018,Rymanów
+6019,Rymanów-Zdrój
+6020,Ryn
+6021,Rynarzewo
+6022,Ryńsk
+6023,Rypin
+6024,Ryszewko
+6025,Ryszkowa Wola
+6026,Rytel
+6027,Rytro
+6028,Rytwiany
+6029,Rywałd
+6030,Rzadkowo
+6031,Rząsiny
+6032,Rząska
+6033,Rząśnia
+6034,Rząśnik
+6035,Rząśnik Włościański
+6036,Rzechta
+6037,Rzeczenica
+6038,Rzęczkowo
+6039,Rzeczniów
+6040,Rzeczyca
+6041,Rzeczyca Długa
+6042,Rzeczyca Księża
+6043,Rzeczyca Ziemiańska
+6044,Rzędów
+6045,Rzędowice
+6046,Rzędzianowice
+6047,Rzędziny
+6048,Rzęgnowo
+6049,Rzejowice
+6050,Rzekuń
+6051,Rzemień
+6052,Rzepczyno
+6053,Rzepedź
+6054,Rzepiennik Biskupi
+6055,Rzepiennik Marciszewski
+6056,Rzepiennik Strzyżewski
+6057,Rzepiennik Suchy
+6058,Rzepin
+6059,Rzepin Drugi
+6060,Rzepiska
+6061,Rzeplin
+6062,Rzeplino
+6063,Rzepnica
+6064,Rzerzęczyce
+6065,Rzeszotary
+6066,Rzeszów
+6067,Rzewnie
+6068,Rzezawa
+6069,Rzgów
+6070,Rzozów
+6071,Rzuchów
+6072,Rzuchowa
+6073,Rzuców
+6074,Rzyki
+6075,Rzymkowice
+6076,Sabaudia
+6077,Sabnie
+6078,Sączów
+6079,Sadek
+6080,Sadki
+6081,Sadków
+6082,Sadkowice
+6083,Sadlinki
+6084,Sadlno
+6085,Sadłowo
+6086,Sadów
+6087,Sadowa
+6088,Sadowice
+6089,Sadowie
+6090,Sadowiec-Wrzosy
+6091,Sadowne
+6092,Sadurki
+6093,Sady
+6094,Sady Górne
+6095,Sadykierz
+6096,Sahryń
+6097,Salamony
+6098,Samborowice
+6099,Samborowo
+6100,Samborsko
+6101,Samborzec
+6102,Samogoszcz
+6103,Samoklęski
+6104,Samorządki
+6105,Samostrzel
+6106,Sampława
+6107,Samsieczno
+6108,Samsonów
+6109,Sandomierz
+6110,Sanka
+6111,Sanniki
+6112,Sanoczek
+6113,Sanok
+6114,Santok
+6115,Sąpolno
+6116,Sarbia
+6117,Sarbice
+6118,Sarbice Drugie
+6119,Sarbiewo
+6120,Sarbinowo
+6121,Sarbinowo Drugie
+6122,Sarbka
+6123,Sarby
+6124,Sarnaki
+6125,Sarniak
+6126,Sarnów
+6127,Sarnówek Duży
+6128,Sarzyna
+6129,Sąspów
+6130,Sątoczno
+6131,Sątopy
+6132,Sawin
+6133,Schodnia
+6134,Ściborzyce Małe
+6135,Ściborzyce Wielkie
+6136,Ściechów
+6137,Ścięgny
+6138,Ścinawa
+6139,Ścinawa Mała
+6140,Ścinawa Nyska
+6141,Ścinawa Polska
+6142,Ścinawka Dolna
+6143,Ścinawka Średnia
+6144,Secemin
+6145,Sechna
+6146,Sędowice
+6147,Sędziejowice
+6148,Sędziejowice-Kolonia
+6149,Sędzimirów
+6150,Sędzimirowice
+6151,Sędzin
+6152,Sędzinko
+6153,Sędziszów
+6154,Sędziszów Małopolski
+6155,Sejny
+6156,Sękocin Stary
+6157,Sękowa
+6158,Sękowo
+6159,Seligów
+6160,Sępólno Krajeńskie
+6161,Sępolno Wielkie
+6162,Sępopol
+6163,Serby
+6164,Seredzice
+6165,Serniki
+6166,Serock
+6167,Seroczyn
+6168,Serokomla
+6169,Serpelice
+6170,Sętki
+6171,Sewerynów
+6172,Siadło Dolne
+6173,Siamoszyce
+6174,Sianów
+6175,Siary
+6176,Siąszyce
+6177,Sichów Duży
+6178,Sicienko
+6179,Siciny
+6180,Sidra
+6181,Sidzina
+6182,Siechnice
+6183,Siecieborzyce
+6184,Sieciechów
+6185,Sieciechowice
+6186,Siecień
+6187,Sieczychy
+6188,Siedlanka
+6189,Siedlce
+6190,Siedlec
+6191,Siedlec Duży
+6192,Siedlęcin
+6193,Siedleczka
+6194,Siedlemin
+6195,Siedlice
+6196,Siedlików
+6197,Siedlin
+6198,Siedliska
+6199,Siedliska Drugie
+6200,Siedliska-Bogusz
+6201,Siedlisko
+6202,Siedliszcze
+6203,Siedzów
+6204,Siekierczyn
+6205,Siekierczyna
+6206,Siekierki Wielkie
+6207,Sieklówka
+6208,Siekowo
+6209,Sielec
+6210,Sielinko
+6211,Sielsko
+6212,Siemianice
+6213,Siemianowice Śląskie
+6214,Siemiątkowo
+6215,Siemiatycze
+6216,Siemiechów
+6217,Siemień
+6218,Siemirowice
+6219,Siemkowice
+6220,Siemoń
+6221,Siemonia
+6222,Siemowo
+6223,Siemyśl
+6224,Sieniawa
+6225,Sieniawa Żarska
+6226,Sieniczno
+6227,Sieniec
+6228,Sienna
+6229,Siennica
+6230,Siennica Nadolna
+6231,Siennica Różana
+6232,Sienno
+6233,Siennów
+6234,Siepraw
+6235,Sieradz
+6236,Sieradza
+6237,Sierakośce
+6238,Sieraków
+6239,Sieraków Śląski
+6240,Sierakówek
+6241,Sierakowice
+6242,Sierakowice Prawe
+6243,Sierakowo
+6244,Siercza
+6245,Sierockie
+6246,Sieroniowice
+6247,Sierosław
+6248,Sierosławice
+6249,Sieroszewice
+6250,Sierpc
+6251,Sierzchowy
+6252,Siesławice
+6253,Sietesz
+6254,Siewierz
+6255,Sikórz
+6256,Sikorzyn
+6257,Silniczka
+6258,Silno
+6259,Simoradz
+6260,Siniarzewo
+6261,Siołkowa
+6262,Siostrzytów
+6263,Sitaniec
+6264,Sitnica
+6265,Sitnik
+6266,Sitno
+6267,Sitowiec
+6268,Skała
+6269,Skałągi
+6270,Skalbmierz
+6271,Skalmierzyce
+6272,Skąpe
+6273,Skaratki
+6274,Skarbimierz-Osiedle
+6275,Skarlin
+6276,Skarszew
+6277,Skarszewy
+6278,Skaryszew
+6279,Skarżyn
+6280,Skarżysko Kościelne
+6281,Skarżysko-Kamienna
+6282,Skaszewo Włościańskie
+6283,Skaszyn
+6284,Skawa
+6285,Skawica
+6286,Skawina
+6287,Skawinki
+6288,Skępe
+6289,Skibin
+6290,Skibniew-Podawce
+6291,Skidziń
+6292,Skierbieszów
+6293,Skierdy
+6294,Skierniewice
+6295,Składowice
+6296,Skłoby
+6297,Skoczów
+6298,Skoki
+6299,Skoków
+6300,Skokowa
+6301,Skołoszów
+6302,Skołyszyn
+6303,Skomielna Biała
+6304,Skomielna Czarna
+6305,Skomlin
+6306,Skopanie
+6307,Skoraszewice
+6308,Skórcz
+6309,Skorczyce
+6310,Skórka
+6311,Skorogoszcz
+6312,Skoroszowice
+6313,Skoroszyce
+6314,Skórowo
+6315,Skórzec
+6316,Skorzeszyce
+6317,Skorzewo
+6318,Skórzewo
+6319,Skotniki
+6320,Skowarcz
+6321,Skowierzyn
+6322,Skowieszynek
+6323,Skowronno Dolne
+6324,Skrbeńsko
+6325,Skrobów-Kolonia
+6326,Skronina
+6327,Skroniów
+6328,Skrudki
+6329,Skrudzina
+6330,Skrwilno
+6331,Skrzatusz
+6332,Skrzeszew
+6333,Skrzeszewo
+6334,Skrzeszewy
+6335,Skrzętla-Rojówka
+6336,Skrzydlna
+6337,Skrzydlów
+6338,Skrzynice Pierwsze
+6339,Skrzynka
+6340,Skrzynno
+6341,Skrzyńsko
+6342,Skrzypne
+6343,Skrzyszów
+6344,Skudzawy
+6345,Skulsk
+6346,Skuły
+6347,Skwierzyna
+6348,Słabkowice
+6349,Słaborowice
+6350,Śladów
+6351,Sława
+6352,Sławacinek Stary
+6353,Sławatycze
+6354,Sławęcin
+6355,Sławęcinek
+6356,Sławianowo
+6357,Sławków
+6358,Sławkowice
+6359,Sławkowo
+6360,Sławniowice
+6361,Sławno
+6362,Sławoborze
+6363,Sławoszewek
+6364,Sławoszyno
+6365,Sławsk
+6366,Sławsk Wielki
+6367,Sławsko
+6368,Słębowo
+6369,Śledzianów
+6370,Śledziejowice
+6371,Ślemień
+6372,Ślesin
+6373,Śleszowice
+6374,Ślęza
+6375,Ślęzaki
+6376,Ślęzany
+6377,Śliwice
+6378,Śliwiczki
+6379,Słobity
+6380,Słobódka
+6381,Słocin
+6382,Słodków
+6383,Słodków Trzeci
+6384,Słomczyn
+6385,Słomin
+6386,Słomków
+6387,Słomków Mokry
+6388,Słomniki
+6389,Słone
+6390,Słonecznik
+6391,Słonowice
+6392,Słońsk
+6393,Słopiec Szlachecki
+6394,Słopnice
+6395,Słosinko
+6396,Słotowa
+6397,Słotwina
+6398,Słowik
+6399,Słowiki Stare
+6400,Słowikowo
+6401,Słowino
+6402,Słubice
+6403,Ślubów
+6404,Słucz
+6405,Sługi
+6406,Słup
+6407,Słupca
+6408,Słupcza
+6409,Słupia
+6410,Słupia Kapitulna
+6411,Słupia pod Kępnem
+6412,Słupia Wielka
+6413,Słupica
+6414,Słupiec
+6415,Słupno
+6416,Słupsk
+6417,Słupsko
+6418,Słupy
+6419,Służewo
+6420,Smarchowice Wielkie
+6421,Smardzewice
+6422,Smardzewo
+6423,Smardzowice
+6424,Smarżowa
+6425,Smęgorzów
+6426,Smerdyna
+6427,Smerekowiec
+6428,Smętowo Graniczne
+6429,Śmiardowo Krajeńskie
+6430,Śmiary
+6431,Śmicz
+6432,Śmiechowice
+6433,Śmieszkowo
+6434,Śmigiel
+6435,Śmigno
+6436,Śmiłów
+6437,Śmiłowice
+6438,Śmiłowo
+6439,Smogóry
+6440,Smogulec
+6441,Smolajny
+6442,Smolarzyny
+6443,Smołdzino
+6444,Smolec
+6445,Smolice
+6446,Smolna
+6447,Smolnica
+6448,Smolnik
+6449,Smólnik
+6450,Smolniki
+6451,Smólsko Małe
+6452,Smroków
+6453,Smyków
+6454,Śniadka Druga
+6455,Śniadowo
+6456,Śniaty
+6457,Śnieciska
+6458,Śnietnica
+6459,Snopki
+6460,Snopków
+6461,Snowidza
+6462,Sobiałkowo
+6463,Sobianowice
+6464,Sobiechy
+6465,Sobiekursk
+6466,Sobiemyśl
+6467,Sobienie-Jeziory
+6468,Sobienki
+6469,Sobiesęki
+6470,Sobiesęki Drugie
+6471,Sobieszczany
+6472,Sobieszyn
+6473,Sobków
+6474,Soblówka
+6475,Sobocisko
+6476,Sobole
+6477,Sobolew
+6478,Sobolewo
+6479,Sobolów
+6480,Soborzyce
+6481,Sobota
+6482,Sobótka
+6483,Sobowidz
+6484,Sochaczew
+6485,Sochocin
+6486,Sochonie
+6487,Soczewka
+6488,Sokół
+6489,Sokolina
+6490,Sokółka
+6491,Sokółki
+6492,Sokolniki
+6493,Sokolniki Mokre
+6494,Sokolniki Wielkie
+6495,Sokołów
+6496,Sokołów Dolny
+6497,Sokołów Małopolski
+6498,Sokołów Podlaski
+6499,Sokołowice
+6500,Sokołowiec
+6501,Sokołowo
+6502,Sokołowo Włościańskie
+6503,Sokołowsko
+6504,Sokoły
+6505,Sól
+6506,Sól-Kiczora
+6507,Solarnia
+6508,Solca Wielka
+6509,Solec
+6510,Solec Kujawski
+6511,Solec nad Wisłą
+6512,Solec-Zdrój
+6513,Sołonka
+6514,Sołtyków
+6515,Somianka
+6516,Somonino
+6517,Sompolno
+6518,Sonina
+6519,Sońsk
+6520,Sopot
+6521,Sopotnia Mała
+6522,Sopotnia Wielka
+6523,Sorbin
+6524,Sorkwity
+6525,Sośnica
+6526,Sośnicowice
+6527,Sośniczany
+6528,Sośnie
+6529,Sośno
+6530,Sosnowica
+6531,Sosnowice
+6532,Sosnowiec
+6533,Sosnówka
+6534,Sosnowo
+6535,Sosny
+6536,Sowczyce
+6537,Sowia Wola
+6538,Sowin
+6539,Sowina
+6540,Sowno
+6541,Sowy
+6542,Spała
+6543,Spalice
+6544,Spalona
+6545,Spiczyn
+6546,Spręcowo
+6547,Spychowo
+6548,Spytkowice
+6549,Spytkowo
+6550,Srebrna
+6551,Srebrna Góra
+6552,Średnia Wieś
+6553,Śrem
+6554,Srock
+6555,Środa Śląska
+6556,Środa Wielkopolska
+6557,Śródmieście
+6558,Srogów Górny
+6559,Srokowo
+6560,Sromowce Niżne
+6561,Sromowce Wyżne
+6562,Stachlew
+6563,Stadła
+6564,Stadnicka Wola
+6565,Stadniki
+6566,Stajenczynki
+6567,Stale
+6568,Stalowa Wola
+6569,Staniątki
+6570,Stanica
+6571,Staniewice
+6572,Stanin
+6573,Stanisław Dolny
+6574,Stanisław Górny
+6575,Stanisławice
+6576,Stanisławka
+6577,Stanisławów
+6578,Stanisławów Drugi
+6579,Stanisławów Pierwszy
+6580,Staniszcze Małe
+6581,Staniszcze Wielkie
+6582,Staniszewo
+6583,Stańkowa
+6584,Stankowice
+6585,Stanomino
+6586,Stanowice
+6587,Stany
+6588,Stąporków
+6589,Stara Biała
+6590,Stara Błotnica
+6591,Stara Dąbia
+6592,Stara Dąbrowa
+6593,Stara Gadka
+6594,Stara Huta
+6595,Stara Iwiczna
+6596,Stara Jastrząbka
+6597,Stara Kakawa
+6598,Stara Kamienica
+6599,Stara Kamionka
+6600,Stara Kaźmierka
+6601,Stara Kiszewa
+6602,Stara Kornica
+6603,Stara Krobia
+6604,Stara Kuźnia
+6605,Stara Łomnica
+6606,Stara Łubianka
+6607,Stara Niedziałka
+6608,Stara Obra
+6609,Stara Prawda
+6610,Stara Przysieka Druga
+6611,Stara Róża
+6612,Stara Rozedranka
+6613,Stara Ruskołęka
+6614,Stara Słupia
+6615,Stara Sobótka
+6616,Stara Wieś
+6617,Stara Wieś Druga
+6618,Stara Wiśniewka
+6619,Stara Wojska
+6620,Stara Zagość
+6621,Starachowice
+6622,Starawieś
+6623,Starcza
+6624,Stare Babice
+6625,Stare Bajki
+6626,Stare Bielice
+6627,Stare Bogaczowice
+6628,Stare Boiska
+6629,Stare Bojanowo
+6630,Stare Bosewo
+6631,Stare Bożejewo
+6632,Stare Budkowice
+6633,Stare Bystre
+6634,Stare Dłutowo
+6635,Stare Drzewce
+6636,Stare Faszczyce
+6637,Stare Grabie
+6638,Stare Gralewo
+6639,Stare Gronowo
+6640,Stare Jabłonki
+6641,Stare Juchy
+6642,Stare Kobiałki
+6643,Stare Kosiny
+6644,Stare Koźle
+6645,Stare Kurowo
+6646,Stare Lipiny
+6647,Stare Lubiejewo
+6648,Stare Miasto
+6649,Stare Oborzyska
+6650,Stare Oleszyce
+6651,Stare Orzechowo
+6652,Stare Pieścirogi
+6653,Stare Polaszki
+6654,Stare Pole
+6655,Stare Polichno
+6656,Stare Proboszczewice
+6657,Stare Rybie
+6658,Stare Siekluki
+6659,Stare Siołkowice
+6660,Stare Skoszewy
+6661,Stare Strącze
+6662,Stare Szpaki
+6663,Stare Zadybie
+6664,Stare Zakrzewo
+6665,Stare Załubice
+6666,Stare Zawady
+6667,Stare Żukowice
+6668,Stargard
+6669,Starkówiec Piątkowski
+6670,Starkowo
+6671,Starochęciny
+6672,Starogard
+6673,Starogard Gdański
+6674,Starogród
+6675,Starokrzepice
+6676,Starorypin Rządowy
+6677,Starościn
+6678,Starosiedle
+6679,Starowa Góra
+6680,Staroźreby
+6681,Stary Bazanów
+6682,Stary Bidaczów
+6683,Stary Borek
+6684,Stary Bostów
+6685,Stary Broniszew
+6686,Stary Brus
+6687,Stary Brześć
+6688,Stary Chwalim
+6689,Stary Cykarzew
+6690,Stary Dworek
+6691,Stary Dybów
+6692,Stary Dzierzgoń
+6693,Stary Dzików
+6694,Stary Folwark
+6695,Stary Garbów
+6696,Stary Goniwilk
+6697,Stary Gózd
+6698,Stary Jarosław
+6699,Stary Jaworów
+6700,Stary Kębłów
+6701,Stary Kocin
+6702,Stary Konik
+6703,Stary Korczyn
+6704,Stary Kraszew
+6705,Stary Las
+6706,Stary Łom
+6707,Stary Lubiel
+6708,Stary Lubosz
+6709,Stary Lubotyń
+6710,Stary Nart
+6711,Stary Ochędzyn
+6712,Stary Paczków
+6713,Stary Pilczyn
+6714,Stary Pożóg
+6715,Stary Przylep
+6716,Stary Raduszec
+6717,Stary Sącz
+6718,Stary Skarżyn
+6719,Stary Szelków
+6720,Stary Targ
+6721,Stary Toruń
+6722,Stary Uścimów
+6723,Stary Waliszew
+6724,Stary Waliszów
+6725,Stary Węgrzynów
+6726,Stary Widzim
+6727,Stary Wiśnicz
+6728,Stary Wołów
+6729,Stary Żmigród
+6730,Starzyno
+6731,Stasi Las
+6732,Stasikówka
+6733,Stasin
+6734,Stasiówka
+6735,Staświny
+6736,Staszkówka
+6737,Staszów
+6738,Staw
+6739,Staw Kunowski
+6740,Stawek
+6741,Stawiguda
+6742,Stawiski
+6743,Stawiszyn
+6744,Stawki
+6745,Stawnica
+6746,Stawy
+6747,Stębark
+6748,Steblów
+6749,Stefankowice
+6750,Stefanów
+6751,Stefanowo
+6752,Stegna
+6753,Steklin
+6754,Stemplew
+6755,Steniatyn
+6756,Stępina
+6757,Stepnica
+6758,Stępocice
+6759,Stępowo
+6760,Sterdyń
+6761,Sterdyń Poduchowna
+6762,Sterkowiec
+6763,Sternalice
+6764,Stęszew
+6765,Stężyca
+6766,Stężyca-Kolonia
+6767,Stobiecko Szlacheckie
+6768,Stobierna
+6769,Stobnica
+6770,Stobno
+6771,Stobno Siódme
+6772,Stobrawa
+6773,Stoczek
+6774,Stoczek Łukowski
+6775,Stodoły-Kolonie
+6776,Stojadła
+6777,Stojeszyn Pierwszy
+6778,Stok Lacki
+6779,Stok Lacki-Folwark
+6780,Stołczno
+6781,Stolec
+6782,Stołeczna
+6783,Stolno
+6784,Stołpie
+6785,Stopnica
+6786,Stoszowice
+6787,Stowięcino
+6788,Stożne
+6789,Strabla
+6790,Strachocin
+6791,Strachocina
+6792,Strachosław
+6793,Strachówka
+6794,Strączno
+6795,Stradomia Wierzchnia
+6796,Stradunia
+6797,Straduny
+6798,Straszęcin
+6799,Straszewo
+6800,Straszów
+6801,Straszydle
+6802,Straszyn
+6803,Strawczyn
+6804,Strażów
+6805,Stręgielek
+6806,Strojec
+6807,Stromiec
+6808,Stronie
+6809,Stronie Śląskie
+6810,Stropkowo
+6811,Stróża
+6812,Stróża-Kolonia
+6813,Stróże
+6814,Stróżewko
+6815,Stróżewo
+6816,Stróżna
+6817,Stróżówka
+6818,Struga
+6819,Strumiany
+6820,Strumień
+6821,Strupin Duży
+6822,Stryjki
+6823,Stryków
+6824,Strykowo
+6825,Stryszawa
+6826,Stryszów
+6827,Strzałków
+6828,Strzałkowo
+6829,Strzebielino
+6830,Strzebielino-Osiedle
+6831,Strzebiń
+6832,Strzegocice
+6833,Strzegocin
+6834,Strzegom
+6835,Strzegomek
+6836,Strzegów
+6837,Strzegowo
+6838,Strzelce
+6839,Strzelce Górne
+6840,Strzelce Krajeńskie
+6841,Strzelce Małe
+6842,Strzelce Opolskie
+6843,Strzelce Wielkie
+6844,Strzeleczki
+6845,Strzelewo
+6846,Strzelin
+6847,Strzelno
+6848,Strzepcz
+6849,Strzeszkowice Duże
+6850,Strzeszów
+6851,Strzeszyn
+6852,Strzyboga
+6853,Strzygi
+6854,Strzyżew
+6855,Strzyżewice
+6856,Strzyżewo
+6857,Strzyżów
+6858,Strzyżowice
+6859,Stubienko
+6860,Stubno
+6861,Stuchowo
+6862,Studzian
+6863,Studzianki
+6864,Studzienice
+6865,Studzieniec
+6866,Studzionka
+6867,Stuposiany
+6868,Stupsk
+6869,Styków
+6870,Styrzyniec
+6871,Subkowy
+6872,Sucha
+6873,Sucha Beskidzka
+6874,Sucha Koszalińska
+6875,Sucha Struga
+6876,Suchacz
+6877,Suchań
+6878,Suchawa
+6879,Suchcice
+6880,Suche
+6881,Suchedniów
+6882,Suchodolina
+6883,Suchoraba
+6884,Suchorze
+6885,Suchostruga
+6886,Suchowola
+6887,Suchożebry
+6888,Suchy Bór
+6889,Suchy Dąb
+6890,Suchy Dwór
+6891,Suchy Las
+6892,Sudragi
+6893,Sufczyn
+6894,Sufczyna
+6895,Suków
+6896,Sulbiny
+6897,Sulechów
+6898,Sulęcin
+6899,Sulęcin Szlachecki
+6900,Sulęcinek
+6901,Sulęczyno
+6902,Sulejów
+6903,Sulejówek
+6904,Sulewo-Kownaty
+6905,Sulików
+6906,Sulisławice
+6907,Sulistrowa
+6908,Suliszewo
+6909,Sułków
+6910,Sułkowice
+6911,Sulmice
+6912,Sulmierzyce
+6913,Sulmin
+6914,Sułoszowa
+6915,Sulów
+6916,Sułów
+6917,Sumin
+6918,Supraśl
+6919,Surały
+6920,Suraż
+6921,Surochów
+6922,Surowe
+6923,Susiec
+6924,Suskowola
+6925,Susz
+6926,Suszec
+6927,Suszno
+6928,Sutków
+6929,Suwałki
+6930,Swarożyn
+6931,Swarzędz
+6932,Swarzewo
+6933,Swarzynice
+6934,Swaty
+6935,Świątki
+6936,Świątkowo
+6937,Świątniki
+6938,Świątniki Górne
+6939,Świba
+6940,Świbie
+6941,Świdnica
+6942,Świdnik
+6943,Świdnik Mały
+6944,Świdry
+6945,Świdwin
+6946,Świebodna
+6947,Świebodzice
+6948,Świebodzin
+6949,Świeca
+6950,Święcany
+6951,Święcica
+6952,Święcice
+6953,Świecie
+6954,Świecie nad Osą
+6955,Święciec
+6956,Świeciechów Duży
+6957,Święciechowa
+6958,Święcieniec
+6959,Święck Wielki
+6960,Świecko
+6961,Świedziebnia
+6962,Świekatowo
+6963,Świemino
+6964,Świeradów-Zdrój
+6965,Świercze
+6966,Świerczów
+6967,Świerczyna
+6968,Świerczyniec
+6969,Świerczynki
+6970,Świerklaniec
+6971,Świerklany
+6972,Świerkówiec
+6973,Świerszczów
+6974,Świerzawa
+6975,Świerże
+6976,Świerże Górne
+6977,Świerzno
+6978,Świerzowa Polska
+6979,Świeszyno
+6980,Święta
+6981,Święta Katarzyna
+6982,Świętajno
+6983,Święte
+6984,Święte Laski
+6985,Świętno
+6986,Świętochłowice
+6987,Świętochów
+6988,Świętoniowa
+6989,Świętosław
+6990,Świętoszów
+6991,Świętoszowice
+6992,Świętoszówka
+6993,Świlcza
+6994,Świniarsko
+6995,Świniary
+6996,Świniary Stare
+6997,Świnice Warckie
+6998,Świniec
+6999,Świnków
+7000,Świnna
+7001,Świnna Poręba
+7002,Świnoujście
+7003,Świrydy
+7004,Swobnica
+7005,Swoboda
+7006,Swojczany
+7007,Swojęcin
+7008,Swornegacie
+7009,Swory
+7010,Swoszowa
+7011,Syberia
+7012,Sycewice
+7013,Sychowo
+7014,Syców
+7015,Sycyn
+7016,Sycyna-Kolonia
+7017,Sygneczów
+7018,Sypitki
+7019,Sypniewo
+7020,Syrynia
+7021,Szabda
+7022,Sząbruk
+7023,Szadek
+7024,Szadkowice
+7025,Szadłowice
+7026,Szaflary
+7027,Szalejów Dolny
+7028,Szalejów Górny
+7029,Szalowa
+7030,Szałsza
+7031,Szamocin
+7032,Szamotuły
+7033,Szaniawy-Matysy
+7034,Szaniec
+7035,Szarbków
+7036,Szare
+7037,Szarłata
+7038,Szarocin
+7039,Szarów
+7040,Szarowola
+7041,Szarwark
+7042,Szastarka
+7043,Szatarpy
+7044,Szczaniec
+7045,Szczawa
+7046,Szczawin
+7047,Szczawin Duży
+7048,Szczawin Kościelny
+7049,Szczawnica
+7050,Szczawnik
+7051,Szczawno
+7052,Szczawno-Zdrój
+7053,Szczebrzeszyn
+7054,Szczecin
+7055,Szczecinek
+7056,Szczecno
+7057,Szczecyn
+7058,Szczedrzyk
+7059,Szczeglice
+7060,Szczejkowice
+7061,Szczekarków
+7062,Szczekociny
+7063,Szczenurze
+7064,Szczepańcowa
+7065,Szczepankowo
+7066,Szczepanów
+7067,Szczepanowice
+7068,Szczepanowo
+7069,Szczepidło
+7070,Szczepocice Rządowe
+7071,Szczerbice
+7072,Szczerców
+7073,Szczereż
+7074,Szczęsne
+7075,Szczodre
+7076,Szczodrkowice
+7077,Szczodrowo
+7078,Szczodrzykowo
+7079,Szczucin
+7080,Szczuczyn
+7081,Szczuka
+7082,Szczukowskie Górki
+7083,Szczurowa
+7084,Szczury
+7085,Szczutowo
+7086,Szczyrk
+7087,Szczyrzyc
+7088,Szczyt
+7089,Szczytna
+7090,Szczytnica
+7091,Szczytniki
+7092,Szczytniki Duchowne
+7093,Szczytno
+7094,Szczyty
+7095,Szebnie
+7096,Szelejewo Pierwsze
+7097,Szembekowo
+7098,Szembruczek
+7099,Szemrowice
+7100,Szemud
+7101,Szepietowo
+7102,Szerokie
+7103,Szerominek
+7104,Szerszenie
+7105,Szerzawy
+7106,Szerzyny
+7107,Szestno
+7108,Szewce
+7109,Szewce Nadolne
+7110,Szewna
+7111,Szewnia Górna
+7112,Szewnica
+7113,Szkaradowo
+7114,Szklana
+7115,Szklarka Przygodzicka
+7116,Szklarska Poręba
+7117,Szklary
+7118,Szklary Dolne
+7119,Szklary Górne
+7120,Szklary-Huta
+7121,Szkodna
+7122,Szkotowo
+7123,Szlachta
+7124,Szlachtowa
+7125,Szlembark
+7126,Szlichtyngowa
+7127,Szonów
+7128,Szonowice
+7129,Szonowo
+7130,Szopa
+7131,Szopinek
+7132,Szosa Turecka
+7133,Szóstka
+7134,Szówsko
+7135,Szpetal Górny
+7136,Szpikołosy
+7137,Szprotawa
+7138,Szreniawa
+7139,Szreńsk
+7140,Szropy
+7141,Sztabin
+7142,Sztum
+7143,Sztutowo
+7144,Sztynwag
+7145,Szubin
+7146,Szudziałowo
+7147,Szufnarowa
+7148,Szulborze Wielkie
+7149,Szulmierz
+7150,Szumowo
+7151,Szumsko
+7152,Szwagrów
+7153,Szwarcenowo
+7154,Szwarszowice
+7155,Szwecja
+7156,Szybowice
+7157,Szyce
+7158,Szychowice Nowe
+7159,Szydłów
+7160,Szydłów-Kolonia
+7161,Szydłowiec
+7162,Szydłówka
+7163,Szydłowo
+7164,Szyk
+7165,Szyldak
+7166,Szyleny
+7167,Szymankowo
+7168,Szymanów
+7169,Szymanowo
+7170,Szymany
+7171,Szymbark
+7172,Szymiszów
+7173,Szymonków
+7174,Szymonowo
+7175,Szynczyce
+7176,Szynkielów
+7177,Szynwałd
+7178,Szyszki
+7179,Szyszków
+7180,Szyszkowa
+7181,Szyszyńskie Holendry
+7182,Taczanów Drugi
+7183,Tadzin
+7184,Tajęcina
+7185,Tajno Stare
+7186,Talki
+7187,Tanowo
+7188,Tapin
+7189,Tąpkowice
+7190,Tarce
+7191,Tarchały Wielkie
+7192,Tarczyn
+7193,Targanice
+7194,Targoszyn
+7195,Targowa Górka
+7196,Targówek
+7197,Targowiska
+7198,Targowisko
+7199,Tarło
+7200,Tarłów
+7201,Tarnawa
+7202,Tarnawa Dolna
+7203,Tarnawa Górna
+7204,Tarnawatka
+7205,Tarnawka
+7206,Tarnobrzeg
+7207,Tarnogóra
+7208,Tarnogóra-Kolonia
+7209,Tarnogród
+7210,Tarnoszyn
+7211,Tarnów
+7212,Tarnów Opolski
+7213,Tarnowa
+7214,Tarnowiec
+7215,Tarnówka
+7216,Tarnowo Podgórne
+7217,Tarnowska Wola
+7218,Tarnowskie Góry
+7219,Tartak Brzózki
+7220,Tarzymiechy Pierwsze
+7221,Tchórzew-Kolonia
+7222,Tczew
+7223,Tczów
+7224,Tczyca
+7225,Tęgoborze
+7226,Teklinów
+7227,Telatyn
+7228,Templewo
+7229,Tenczyn
+7230,Tenczynek
+7231,Teodorówka
+7232,Teodory
+7233,Teratyn
+7234,Teresin
+7235,Terespol
+7236,Terespol Pomorski
+7237,Tereszewo
+7238,Tereszpol-Kukiełki
+7239,Tereszpol-Zaorenda
+7240,Terpentyna
+7241,Tłoki
+7242,Tłokinia Wielka
+7243,Tłuchowo
+7244,Tłuczań
+7245,Tłuściec
+7246,Tłuszcz
+7247,Toczyska
+7248,Tokarnia
+7249,Tokary Pierwsze
+7250,Tołcze
+7251,Tolkmicko
+7252,Tolko
+7253,Tołwin
+7254,Tomaszkowice
+7255,Tomaszów
+7256,Tomaszów Bolesławiecki
+7257,Tomaszów Lubelski
+7258,Tomaszów Mazowiecki
+7259,Tomaszowice
+7260,Tomaszowice-Kolonia
+7261,Tomaszowo
+7262,Tomice
+7263,Tomisław
+7264,Topczewo
+7265,Topola
+7266,Topola Królewska
+7267,Topola Mała
+7268,Topólka
+7269,Topór
+7270,Toporów
+7271,Toporzyk
+7272,Toporzysko
+7273,Torki
+7274,Toruń
+7275,Torzeniec
+7276,Torzym
+7277,Toszek
+7278,Trąbczyn Dworski
+7279,Trąbin
+7280,Trąbki
+7281,Trąbki Wielkie
+7282,Trawniki
+7283,Trębaczew
+7284,Trębaczów
+7285,Trębki
+7286,Trębowiec Duży
+7287,Trelkowo
+7288,Trepcza
+7289,Trojanów
+7290,Trojanowice
+7291,Trójca
+7292,Trójczyce
+7293,Tropie
+7294,Tropiszów
+7295,Troszyn
+7296,Trumieje
+7297,Trumiejki
+7298,Truskolasy
+7299,Trute
+7300,Trybsz
+7301,Tryl
+7302,Tryńcza
+7303,Trynosy-Osiedle
+7304,Trzciana
+7305,Trzcianka
+7306,Trzcianki
+7307,Trzcianna
+7308,Trzcianne
+7309,Trzciel
+7310,Trzcinica
+7311,Trzciniec
+7312,Trzcińsk
+7313,Trzcińsko-Zdrój
+7314,Trzebaw
+7315,Trzebcz Szlachecki
+7316,Trzebczyk
+7317,Trzebiatów
+7318,Trzebicz
+7319,Trzebiechów
+7320,Trzebiegoszcz
+7321,Trzebiel
+7322,Trzebielino
+7323,Trzebień
+7324,Trzebieszów Drugi
+7325,Trzebieszowice
+7326,Trzebież
+7327,Trzebinia
+7328,Trzebiszewo
+7329,Trzebnica
+7330,Trzebnice
+7331,Trzeboś
+7332,Trzebosz
+7333,Trzeboszowice
+7334,Trzebów
+7335,Trzebownisko
+7336,Trzebucza
+7337,Trzebuń
+7338,Trzebunia
+7339,Trzebuska
+7340,Trzeciewnica
+7341,Trzemesna
+7342,Trzemeśnia
+7343,Trzemeszno
+7344,Trzemeszno Lubuskie
+7345,Trzemiętowo
+7346,Trzemżal
+7347,Trzepnica-Kolonia
+7348,Trześń
+7349,Trzęśniew
+7350,Trześniów
+7351,Trzęsówka
+7352,Trzeszczany Pierwsze
+7353,Trzetrzewina
+7354,Trzonki
+7355,Trzyciąż
+7356,Trzycierz
+7357,Trzydnik Duży
+7358,Trzygłów
+7359,Tuchlino
+7360,Tuchola
+7361,Tuchom
+7362,Tuchomie
+7363,Tuchorza
+7364,Tuchów
+7365,Tuchowicz
+7366,Tuczempy
+7367,Tuczępy
+7368,Tuczna
+7369,Tuczno
+7370,Tujsk
+7371,Tuławki
+7372,Tulce
+7373,Tuligłowy
+7374,Tuliłów
+7375,Tuliszków
+7376,Tułowice
+7377,Tumlin-Węgle
+7378,Tupadły
+7379,Tuplice
+7380,Tur
+7381,Turawa
+7382,Turbia
+7383,Turek
+7384,Turew
+7385,Turka
+7386,Turkowice
+7387,Turobin
+7388,Turośl
+7389,Turośń Dolna
+7390,Turośń Kościelna
+7391,Turów
+7392,Turowa Wola
+7393,Turówka Nowa
+7394,Turowo
+7395,Tursko
+7396,Turza
+7397,Turza Mała
+7398,Turza Śląska
+7399,Turza Wielka
+7400,Turzany
+7401,Turze
+7402,Turze Pole
+7403,Turze Rogi
+7404,Turzno
+7405,Turzyn
+7406,Tuszewo
+7407,Tuszów
+7408,Tuszów Narodowy
+7409,Tuszyma
+7410,Tuszyn
+7411,Twardawa
+7412,Twardocice
+7413,Twardogóra
+7414,Twardorzeczka
+7415,Tworków
+7416,Tworkowa
+7417,Tworóg
+7418,Tworyczów
+7419,Tyble
+7420,Tychnowy
+7421,Tychów Nowy
+7422,Tychów Stary
+7423,Tychowo
+7424,Tychy
+7425,Tyczyn
+7426,Tykocin
+7427,Tylawa
+7428,Tylice
+7429,Tylicz
+7430,Tylkowo
+7431,Tylmanowa
+7432,Tymawa
+7433,Tymbark
+7434,Tymianki-Bucie
+7435,Tymień
+7436,Tymienica Stara
+7437,Tymienice
+7438,Tymowa
+7439,Tyniec Mały
+7440,Tyniowice
+7441,Typin
+7442,Tyrawa Solna
+7443,Tyrawa Wołoska
+7444,Tyrowo
+7445,Tyśmienica
+7446,Tyszowce
+7447,Tywonia
+7448,Ubieszyn
+7449,Uchanie
+7450,Uciechów
+7451,Udanin
+7452,Udorpie
+7453,Udrycze-Koniec
+7454,Ugniewo
+7455,Ugoda
+7456,Ugoszcz
+7457,Uher
+7458,Uherce Mineralne
+7459,Uhowo
+7460,Uhrusk
+7461,Ujanowice
+7462,Ujazd
+7463,Ujazd Górny
+7464,Ujeździec
+7465,Ujeździec Wielki
+7466,Ujezna
+7467,Ujkowice
+7468,Ujście
+7469,Ujsoły
+7470,Ukta
+7471,Ulan-Majorat
+7472,Ulanica
+7473,Ulanów
+7474,Ulasek
+7475,Ulatowo-Adamy
+7476,Ułazów
+7477,Ulhówek
+7478,Ulim
+7479,Umiastów
+7480,Umieszcz
+7481,Uniechów
+7482,Unieck
+7483,Uniejów
+7484,Uniejów-Rędziny
+7485,Uników
+7486,Unikowice
+7487,Unin
+7488,Unisław
+7489,Uniszki Zawadzkie
+7490,Upałty
+7491,Uraz
+7492,Urbanowo
+7493,Urle
+7494,Ursus
+7495,Ursynów
+7496,Urszulin
+7497,Urzędów
+7498,Urzejowice
+7499,Uściany Stare
+7500,Uście Gorlickie
+7501,Uście Solne
+7502,Uśnice
+7503,Ustanów
+7504,Ustjanowa Górna
+7505,Ustka
+7506,Ustków
+7507,Ustrobna
+7508,Ustroń
+7509,Ustronie Morskie
+7510,Ustrzyki Dolne
+7511,Uszczyn
+7512,Uszew
+7513,Uszyce
+7514,Uwieliny
+7515,Uzdowo
+7516,Wabienice
+7517,Wąbrzeźno
+7518,Wach
+7519,Wąchock
+7520,Wachów
+7521,Wadlew
+7522,Wadowice
+7523,Wadowice Dolne
+7524,Wadowice Górne
+7525,Wądroże Wielkie
+7526,Waganowice
+7527,Wagi
+7528,Wągłczew
+7529,Wąglikowice
+7530,Wągrodno
+7531,Wągrowiec
+7532,Wągry
+7533,Waksmund
+7534,Walawa
+7535,Wałbrzych
+7536,Walce
+7537,Wałcz
+7538,Wałdowo
+7539,Wałdowo Szlacheckie
+7540,Waleńczów
+7541,Waleriany
+7542,Walewice
+7543,Walichnowy
+7544,Walim
+7545,Walinna
+7546,Walkowice
+7547,Wałsnów
+7548,Wambierzyce
+7549,Wampierzów
+7550,Wancerzów
+7551,Wandalin
+7552,Wandów
+7553,Wandowo
+7554,Wandzin
+7555,Waniorowo
+7556,Wąpielsk
+7557,Wąpiersk
+7558,Waplewo
+7559,Waplewo Wielkie
+7560,Wapnica
+7561,Wapno
+7562,Wapowce
+7563,Wara
+7564,Warcino
+7565,Warcz
+7566,Warka
+7567,Warlubie
+7568,Warmątowice
+7569,Warmiak
+7570,Warnice
+7571,Warnino
+7572,Warszawa
+7573,Warszawiaki
+7574,Warszawice
+7575,Warszewice
+7576,Warszkowo
+7577,Warszowice
+7578,Warta
+7579,Warta Bolesławiecka
+7580,Wartkowice
+7581,Warząchewka Polska
+7582,Warzęgowo
+7583,Warzyce
+7584,Warzyn Pierwszy
+7585,Wąsewo
+7586,Wąsice
+7587,Wasilków
+7588,Waśniewo-Grabowo
+7589,Waśniów
+7590,Wąsosz
+7591,Wąsosz Górny
+7592,Wąsosze
+7593,Wąsowo
+7594,Waszkowskie
+7595,Watraszew
+7596,Wąwał
+7597,Wawelno
+7598,Wąwelno
+7599,Wawer
+7600,Wąwolnica
+7601,Wawrochy
+7602,Wawrów
+7603,Wawrzeńczyce
+7604,Wawrzka
+7605,Wawrzyszów
+7606,Węchadłów
+7607,Wędrzyn
+7608,Wędzina
+7609,Węgielsztyn
+7610,Węgierka
+7611,Węgiersk
+7612,Węgierska Górka
+7613,Węgleszyn
+7614,Węglew
+7615,Węglewo
+7616,Węgliniec
+7617,Węgliska
+7618,Węglowice
+7619,Węglówka
+7620,Węgój
+7621,Węgorzewo
+7622,Węgorzyno
+7623,Węgrów
+7624,Węgrowo
+7625,Węgry
+7626,Węgrzce
+7627,Węgrzce Wielkie
+7628,Węgrzynowo
+7629,Wejdo
+7630,Wejherowo
+7631,Wełnin
+7632,Werbkowice
+7633,Werblinia
+7634,Werchrata
+7635,Werynia
+7636,Węsiory
+7637,Wesoła
+7638,Westrza
+7639,Wetlina
+7640,Węzina
+7641,Wężyska
+7642,Wiączyń Dolny
+7643,Wiaderno
+7644,Wiadrów
+7645,Wiąg
+7646,Wiatowice
+7647,Wiatrowiec
+7648,Wiatrowo
+7649,Wiązów
+7650,Wiązowna
+7651,Wiązownica
+7652,Wiązownica Duża
+7653,Wichowo
+7654,Wichrowice
+7655,Wiciejów
+7656,Wicina
+7657,Wicko
+7658,Widacz
+7659,Widawa
+7660,Widełka
+7661,Widełki
+7662,Widoma
+7663,Widuchowa
+7664,Widugiery
+7665,Widzew
+7666,Widzów
+7667,Więcbork
+7668,Wiechlice
+7669,Więcki
+7670,Więckowice
+7671,Więckowy
+7672,Więcławice Stare
+7673,Wieczfnia Kościelna
+7674,Wieczyn
+7675,Większyce
+7676,Wielącza Poduchowna
+7677,Wielącza-Kolonia
+7678,Wielbark
+7679,Wiele
+7680,Wieleń
+7681,Wielenin-Kolonia
+7682,Wielgie
+7683,Wielgłowy
+7684,Wielgolas
+7685,Wielgolas Brzeziński
+7686,Wielgomłyny
+7687,Wielgus
+7688,Wielichowo
+7689,Wieliczka
+7690,Wieliczki
+7691,Wielisławice
+7692,Wieliszew
+7693,Wielka Łąka
+7694,Wielka Wieś
+7695,Wielki Buczek
+7696,Wielki Bukowiec
+7697,Wielki Dwór
+7698,Wielki Klincz
+7699,Wielki Komorsk
+7700,Wielki Łęck
+7701,Wielki Podleś
+7702,Wielkie
+7703,Wielkie Chełmy
+7704,Wielkie Drogi
+7705,Wielkie Leźno
+7706,Wielkie Oczy
+7707,Wielkie Radowiska
+7708,Wielkie Rychnowo
+7709,Wielkolas
+7710,Wielmoża
+7711,Wielogłowy
+7712,Wielopole Skrzyńskie
+7713,Wielowieś
+7714,Wieluń
+7715,Wieniawa
+7716,Wieniec
+7717,Wieprz
+7718,Wieprzec
+7719,Wierbka
+7720,Wiercany
+7721,Wierchomla Wielka
+7722,Wiercień
+7723,Wierszczyca
+7724,Wieruszów
+7725,Wierzawice
+7726,Wierzba
+7727,Wierzbica
+7728,Wierzbica Górna
+7729,Wierzbica-Kolonia
+7730,Wierzbica-Osiedle
+7731,Wierzbice
+7732,Wierzbick
+7733,Wierzbie
+7734,Wierzbięcin
+7735,Wierzbin
+7736,Wierzbinek
+7737,Wierzbna
+7738,Wierzbnik
+7739,Wierzbno
+7740,Wierzbowo
+7741,Wierzchlas
+7742,Wierzchosławice
+7743,Wierzchowiny
+7744,Wierzchowiska Drugie
+7745,Wierzchowisko
+7746,Wierzchowo
+7747,Wierzchowo-Dworzec
+7748,Wierzchucin Królewski
+7749,Wierzchucino
+7750,Wierzchy
+7751,Wierzonka
+7752,Więsławice
+7753,Wieszczęta
+7754,Wieszczyczyn
+7755,Wieszowa
+7756,Wietlin
+7757,Wietrzno
+7758,Wietrzychowice
+7759,Wiewiec
+7760,Wiewiórczyn
+7761,Wiewiórka
+7762,Wieżyca
+7763,Wijewo
+7764,Wikielec
+7765,Wiktorówko
+7766,Wilamów
+7767,Wilamowice
+7768,Wilanów
+7769,Wilanowo
+7770,Wilcza
+7771,Wilcza Góra
+7772,Wilcza Wola
+7773,Wilczęta
+7774,Wilczków
+7775,Wilczkowice
+7776,Wilczkowice Górne
+7777,Wilczkowo
+7778,Wilczogóra
+7779,Wilczopole-Kolonia
+7780,Wilczyce
+7781,Wilczyn
+7782,Wilczyska
+7783,Wilga
+7784,Wilkanów
+7785,Wilkasy
+7786,Wilkołaz Pierwszy
+7787,Wilków
+7788,Wilków Drugi
+7789,Wilków-Osiedle
+7790,Wilkowa
+7791,Wilkowice
+7792,Wilkowiecko
+7793,Wilkowisko
+7794,Wilkowo
+7795,Wilkowo Polskie
+7796,Wilkowyja
+7797,Wilkszyn
+7798,Winda
+7799,Windyki
+7800,Winiary
+7801,Winna Góra
+7802,Winnica
+7803,Winowno
+7804,Wińsko
+7805,Wiórek
+7806,Wioska
+7807,Wipsowo
+7808,Wirkowice Drugie
+7809,Wiry
+7810,Wisełka
+7811,Wiskitki
+7812,Wisła
+7813,Wisła Mała
+7814,Wisła Wielka
+7815,Wiślica
+7816,Wiślina
+7817,Wiślinka
+7818,Wisłok Wielki
+7819,Wiśniew
+7820,Wiśniewa
+7821,Wiśniewo
+7822,Wiśniowa
+7823,Wiśniowa Góra
+7824,Wiśniowo Ełckie
+7825,Wisznia Mała
+7826,Wisznice
+7827,Wiszniów
+7828,Witankowo
+7829,Witanowice
+7830,Witaszyce
+7831,Witeradów
+7832,Witków
+7833,Witkowice
+7834,Witkowo
+7835,Witkowo Drugie
+7836,Witnica
+7837,Witoldowo
+7838,Witonia
+7839,Witoroż
+7840,Witosław
+7841,Witoszów Dolny
+7842,Witoszyce
+7843,Witoszyn
+7844,Witów
+7845,Witów-Kolonia
+7846,Witowice Dolne
+7847,Witowo
+7848,Wiżajny
+7849,Wizna
+7850,Władysławów
+7851,Władysławowo
+7852,Wleń
+7853,Wlewsk
+7854,Włochy
+7855,Włocin-Kolonia
+7856,Włocławek
+7857,Włodary
+7858,Włodawa
+7859,Włodowice
+7860,Włodzice Wielkie
+7861,Włodzienin
+7862,Włodzimierzów
+7863,Włóki
+7864,Włosań
+7865,Włościejewice
+7866,Włościejewki
+7867,Włosień
+7868,Włosienica
+7869,Włostów
+7870,Włoszakowice
+7871,Włoszczowa
+7872,Włoszczowice
+7873,Włyń
+7874,Włynkówko
+7875,Wnętrzne
+7876,Wocławy
+7877,Wodynie
+7878,Wodzin Prywatny
+7879,Wodzisław
+7880,Wodzisław Śląski
+7881,Wohyń
+7882,Wojakowa
+7883,Wojanowo
+7884,Wojaszówka
+7885,Wojbórz
+7886,Wójcice
+7887,Wojciechów
+7888,Wojciechów-Kolonia
+7889,Wojciechowice
+7890,Wojciechowo
+7891,Wojciechy
+7892,Wojcieszków
+7893,Wojcieszów
+7894,Wojcieszyce
+7895,Wójcin
+7896,Wójcin A
+7897,Wójcza
+7898,Wojewodzin
+7899,Wojkowice
+7900,Wojkowice Kościelne
+7901,Wojnarowa
+7902,Wojnicz
+7903,Wojnów
+7904,Wojnowice
+7905,Wojnowo
+7906,Wojny-Krupy
+7907,Wojska
+7908,Wojsławice
+7909,Wojsławice-Kolonia
+7910,Wojszczyce
+7911,Wojtaszyce
+7912,Wojtkowa
+7913,Wójtowa
+7914,Wola
+7915,Wola Baranowska
+7916,Wola Batorska
+7917,Wola Blakowa
+7918,Wola Błędowska
+7919,Wola Bystrzycka
+7920,Wola Chodkowska
+7921,Wola Chomejowa
+7922,Wola Cyrusowa
+7923,Wola Dalsza
+7924,Wola Dębińska
+7925,Wola Dębowiecka
+7926,Wola Dereźniańska
+7927,Wola Droszewska
+7928,Wola Ducka
+7929,Wola Filipowska
+7930,Wola Gałęzowska
+7931,Wola Gołkowska
+7932,Wola Goryńska
+7933,Wola Grzymalina
+7934,Wola Gułowska
+7935,Wola Hankowska
+7936,Wola Jachowa
+7937,Wola Jasienicka
+7938,Wola Kalinowska
+7939,Wola Kamocka
+7940,Wola Kiełpińska
+7941,Wola Kopcowa
+7942,Wola Korycka Górna
+7943,Wola Krakowiańska
+7944,Wola Krzysztoporska
+7945,Wola Książęca
+7946,Wola Łaskarzewska
+7947,Wola Lipieniecka Duża
+7948,Wola Lubecka
+7949,Wola Łużańska
+7950,Wola Makowska
+7951,Wola Mała
+7952,Wola Mędrzechowska
+7953,Wola Mielecka
+7954,Wola Młocka
+7955,Wola Mokrzeska
+7956,Wola Morawicka
+7957,Wola Moszczenicka
+7958,Wola Mrokowska
+7959,Wola Mystkowska
+7960,Wola Obszańska
+7961,Wola Ociecka
+7962,Wola Okrzejska
+7963,Wola Osowińska
+7964,Wola Paprotnia
+7965,Wola Pławska
+7966,Wola Podłężna
+7967,Wola Przemykowska
+7968,Wola Przybysławska
+7969,Wola Radłowska
+7970,Wola Radzięcka
+7971,Wola Radziszowska
+7972,Wola Rafałowska
+7973,Wola Rakowa
+7974,Wola Raniżowska
+7975,Wola Rasztowska
+7976,Wola Rębkowska
+7977,Wola Rowska
+7978,Wola Różaniecka
+7979,Wola Roźwienicka
+7980,Wola Rusinowska
+7981,Wola Rzeczycka
+7982,Wola Rzędzińska
+7983,Wola Sękowa
+7984,Wola Sernicka
+7985,Wola Skromowska
+7986,Wola Solecka Pierwsza
+7987,Wola Starogrodzka
+7988,Wola Szczygiełkowa
+7989,Wola Taczowska
+7990,Wola Trzydnicka
+7991,Wola Uhruska
+7992,Wola Wapowska
+7993,Wola Węgierska
+7994,Wola Wereszczyńska
+7995,Wola Wiązowa
+7996,Wola Wielka
+7997,Wola Wierzbowska
+7998,Wola Wiewiecka
+7999,Wola Wiśniowa
+8000,Wola Władysławowska
+8001,Wola Zabierzowska
+8002,Wola Zachariaszowska
+8003,Wola Zadybska
+8004,Wola Załężna
+8005,Wola Zaradzyńska
+8006,Wola Zarczycka
+8007,Wola Żelechowska
+8008,Wola Zgłobieńska
+8009,Wolanów
+8010,Wolbórz
+8011,Wolbrom
+8012,Wołczkowo
+8013,Wołczyn
+8014,Wolibórz
+8015,Wolica
+8016,Wolin
+8017,Wólka
+8018,Wólka Czepowa
+8019,Wólka Dąbrowicka
+8020,Wólka Dobryńska
+8021,Wólka Domaszewska
+8022,Wólka Grodziska
+8023,Wólka Hyżneńska
+8024,Wólka Kańska
+8025,Wólka Kosowska
+8026,Wólka Kozodawska
+8027,Wólka Lesiewska
+8028,Wólka Łętowska
+8029,Wólka Niedźwiedzka
+8030,Wólka Pełkińska
+8031,Wólka Podleśna
+8032,Wólka Radzymińska
+8033,Wólka Ratajska
+8034,Wólka Rokicka
+8035,Wólka Sokołowska
+8036,Wólka Tanewska
+8037,Wólka Tyrzyńska
+8038,Wólka Wieprzecka
+8039,Wolkowe
+8040,Wołkowyja
+8041,Wołomin
+8042,Wołoskowola
+8043,Wołów
+8044,Wołowice
+8045,Wolsztyn
+8046,Wołuszewo
+8047,Wonieść
+8048,Worowice
+8049,Woskrzenice Duże
+8050,Woszczele
+8051,Woźniki
+8052,Wożuczyn
+8053,Wręcza
+8054,Wręczyca Wielka
+8055,Wróblew
+8056,Wróblewo
+8057,Wróblik Szlachecki
+8058,Wróbliniec
+8059,Wróblowa
+8060,Wróblowice
+8061,Wrocanka
+8062,Wrociszew
+8063,Wrocki
+8064,Wrocław
+8065,Wrocław-Fabryczna
+8066,Wrocław-Krzyki
+8067,Wrocław-Psie Pole
+8068,Wrocław-Śródmieście
+8069,Wrocław-Stare Miasto
+8070,Wroczyny
+8071,Wronczyn
+8072,Wroniawy
+8073,Wronie
+8074,Wronin
+8075,Wronki
+8076,Wronów
+8077,Wrząca Wielka
+8078,Wrząsowice
+8079,Wrzawy
+8080,Wrzępia
+8081,Wrzeście
+8082,Wrzesina
+8083,Września
+8084,Wrześnica
+8085,Wrzeszczewice
+8086,Wrzeszczów
+8087,Wrzos
+8088,Wrzosowa
+8089,Wrzosowo
+8090,Wschowa
+8091,Wsola
+8092,Wszachów
+8093,Wszebory
+8094,Wszechświęte
+8095,Wszedzień
+8096,Wszembórz
+8097,Wszewilki
+8098,Wtelno
+8099,Wtórek
+8100,Wudzyn
+8101,Wujskie
+8102,Wybcz
+8103,Wyczechy
+8104,Wyczółki
+8105,Wydminy
+8106,Wydmusy
+8107,Wydrna
+8108,Wydrza
+8109,Wydrze
+8110,Wydrzno
+8111,Wydrzyn
+8112,Wygiełzów
+8113,Wygnanów
+8114,Wygoda
+8115,Wykowo
+8116,Wykrot
+8117,Wykroty
+8118,Wylatowo
+8119,Wylewa
+8120,Wymysłów
+8121,Wymysłowo
+8122,Wymysły
+8123,Wyrozęby-Podawce
+8124,Wyry
+8125,Wyryki-Połód
+8126,Wyrzysk
+8127,Wysin
+8128,Wysiołek Luborzycki
+8129,Wyskitna
+8130,Wyśmierzyce
+8131,Wysocice
+8132,Wysocko Małe
+8133,Wysocko Wielkie
+8134,Wysogotowo
+8135,Wysoka
+8136,Wysoka Głogowska
+8137,Wysoka Kamieńska
+8138,Wysoka Strzyżowska
+8139,Wysokie
+8140,Wysokie Koło
+8141,Wysokie Mazowieckie
+8142,Wysokienice
+8143,Wysowa-Zdrój
+8144,Występ
+8145,Wyszanów
+8146,Wyszatyce
+8147,Wyszecino
+8148,Wyszki
+8149,Wyszków
+8150,Wyszogród
+8151,Wyszonki Kościelne
+8152,Wyszyna
+8153,Wyszyny
+8154,Wyszyny Kościelne
+8155,Wytomyśl
+8156,Wytrzyszczka
+8157,Wytyczno
+8158,Wywłoczka
+8159,Wyżne
+8160,Wyżnianka-Kolonia
+8161,Wyżnica
+8162,Wzdów
+8163,Wziąchowo Wielkie
+8164,Ząb
+8165,Zabawa
+8166,Zabełków
+8167,Żabi Róg
+8168,Żabia Wola
+8169,Żabice
+8170,Zabiele
+8171,Zabiele Wielkie
+8172,Zabierzów
+8173,Zabierzów Bocheński
+8174,Żabików
+8175,Żabiny
+8176,Ząbki
+8177,Ząbkowice Śląskie
+8178,Zabłędza
+8179,Zabłocie
+8180,Zabłudów
+8181,Żabnica
+8182,Żabno
+8183,Zabór
+8184,Zaborów
+8185,Zaborowice
+8186,Zaborowo
+8187,Zaborze
+8188,Żabów
+8189,Żabowo
+8190,Zabraniec
+8191,Zabratówka
+8192,Zabrnie
+8193,Zabrodzie
+8194,Ząbrowo
+8195,Zabrze
+8196,Zabrzeg
+8197,Zabrzeż
+8198,Zaburze
+8199,Zacharzyn
+8200,Zachełmna
+8201,Zachorzów
+8202,Zachowice
+8203,Zaczarnie
+8204,Zaczernie
+8205,Zadąbrowie
+8206,Zadroże
+8207,Zaduszniki
+8208,Zagaje
+8209,Żagań
+8210,Zagłoba
+8211,Zagnańsk
+8212,Zagórnik
+8213,Zagórów
+8214,Zagórz
+8215,Zagórzany
+8216,Zagórze
+8217,Zagórzyca
+8218,Zagorzyce
+8219,Zagorzyn
+8220,Zagościniec
+8221,Zągoty
+8222,Zagroba
+8223,Zagrodno
+8224,Zagwiździe
+8225,Zahutyń
+8226,Zajączki Drugie
+8227,Zajączki Pierwsze
+8228,Zajączków
+8229,Zajączkowo
+8230,Zajezierze
+8231,Zajeziorze
+8232,Zakęcie
+8233,Zakliczyn
+8234,Zaklików
+8235,Zakopane
+8236,Żaków
+8237,Żakowola Poprzeczna
+8238,Zakręt
+8239,Zakrocz
+8240,Zakroczym
+8241,Zakrzew
+8242,Zakrzewek
+8243,Zakrzewo
+8244,Zakrzów
+8245,Zakrzówek
+8246,Zakrzówek-Wieś
+8247,Zakrzyn-Baranek
+8248,Załakowo
+8249,Zalas
+8250,Zalasewo
+8251,Zalasowa
+8252,Załęcze Małe
+8253,Załęcze Wielkie
+8254,Zalesice
+8255,Zalesie
+8256,Zalesie Górne
+8257,Zalesie Małe
+8258,Zalesie Śląskie
+8259,Zaleskie
+8260,Zaleszany
+8261,Zalewo
+8262,Załęże
+8263,Zalezianka
+8264,Zalipie
+8265,Żalno
+8266,Załom
+8267,Załucze
+8268,Załuczne
+8269,Załuki
+8270,Załuski
+8271,Załusków
+8272,Zalutyń
+8273,Załuże
+8274,Zamarski
+8275,Zamarte
+8276,Zambrów
+8277,Zambski Kościelne
+8278,Zamch
+8279,Zamęcin
+8280,Zamek Bierzgłowski
+8281,Zamiechów
+8282,Zamienie
+8283,Zamość
+8284,Zamoście-Kolonia
+8285,Zaniemyśl
+8286,Zapałów
+8287,Zapolice
+8288,Zaraszów
+8289,Żarczyce Duże
+8290,Żardeniki
+8291,Zaręba
+8292,Zarębki
+8293,Zaręby
+8294,Zaręby Kościelne
+8295,Żarki
+8296,Żarki Wielkie
+8297,Żarki-Letnisko
+8298,Żarnów
+8299,Żarnowa
+8300,Żarnowiec
+8301,Żarnówka
+8302,Żarnowo Drugie
+8303,Żarów
+8304,Żarówka
+8305,Żarska Wieś
+8306,Zarszyn
+8307,Żary
+8308,Zaryń
+8309,Zarzecz Łukowski
+8310,Zarzecze
+8311,Zarzyce Wielkie
+8312,Zasadne
+8313,Zasady Nowe
+8314,Zasań
+8315,Zaskale
+8316,Zaskrodzie
+8317,Zasole
+8318,Zasów
+8319,Zastawie
+8320,Zastruże
+8321,Zasutowo
+8322,Zaświatycze
+8323,Zator
+8324,Zatory
+8325,Zawada
+8326,Zawada Książęca
+8327,Zawadka
+8328,Zawadka Osiecka
+8329,Zawadów
+8330,Zawadówka
+8331,Zawady
+8332,Zawadzkie
+8333,Zawalów
+8334,Zawda
+8335,Zawichost
+8336,Zawidów
+8337,Zawidz Kościelny
+8338,Zawieprzyce
+8339,Zawiercie
+8340,Zawierzbie
+8341,Zawoja
+8342,Zawonia
+8343,Zawóz
+8344,Zaździerz
+8345,Zbąszyń
+8346,Zbąszynek
+8347,Zbelutka-Stara Wieś
+8348,Zbiczno
+8349,Zbiersk-Cukrownia
+8350,Zbijów Mały
+8351,Żbikowice
+8352,Zblewo
+8353,Zbludowice
+8354,Zbludza
+8355,Zbójna
+8356,Zbójno
+8357,Zborów
+8358,Zborowice
+8359,Zborowskie
+8360,Zboże
+8361,Zbrachlin
+8362,Zbrosławice
+8363,Zbrosza Duża
+8364,Zbrudzewo
+8365,Zbuczyn
+8366,Zbydniów
+8367,Zbylitowska Góra
+8368,Zbylutów
+8369,Zbytków
+8370,Zbytowa
+8371,Żdanów
+8372,Zdów
+8373,Zdrochec
+8374,Zduńska Dąbrowa
+8375,Zduńska Wola
+8376,Zduny
+8377,Żdżary
+8378,Zdziarzec
+8379,Zdziechowa
+8380,Zdziechowice
+8381,Zdziechowice Drugie
+8382,Zdzięsławice
+8383,Zdzieszowice
+8384,Zdziłowice Czwarte
+8385,Zdziwój Nowy
+8386,Zębice
+8387,Żębocin
+8388,Zębowice
+8389,Zębowo
+8390,Zebrzydowice
+8391,Zederman
+8392,Żędowice
+8393,Zegartowice
+8394,Żegiestów
+8395,Żeglce
+8396,Żegocin
+8397,Żegocina
+8398,Żegoty
+8399,Żegrówko
+8400,Zegrze
+8401,Zegrze Południowe
+8402,Zegrze Pomorskie
+8403,Żelazków
+8404,Żelazna
+8405,Żelazna Rządowa
+8406,Żelazno
+8407,Żelazówka
+8408,Zelczyna
+8409,Żelechlinek
+8410,Żelechów
+8411,Żeleźnikowa Mała
+8412,Żeleźnikowa Wielka
+8413,Zelgniewo
+8414,Zelgno
+8415,Zelgoszcz
+8416,Żelice
+8417,Żelisławice
+8418,Żelistrzewo
+8419,Żeliszew Podkościelny
+8420,Żeliszów
+8421,Zelków
+8422,Żelków-Kolonia
+8423,Żelkowo
+8424,Zelów
+8425,Żelowice
+8426,Zemborzyce Tereszyńskie
+8427,Zembrzyce
+8428,Zeńbok
+8429,Zendek
+8430,Żerków
+8431,Żernica
+8432,Żerniki
+8433,Żerniki Wrocławskie
+8434,Żerocin
+8435,Żeronice
+8436,Zezulin Niższy
+8437,Zgierz
+8438,Zgłobice
+8439,Zgłobień
+8440,Zgłowiączka
+8441,Zgorzała
+8442,Zgórze
+8443,Zgorzelec
+8444,Ziębice
+8445,Ziębów
+8446,Zielęcin
+8447,Zieleń
+8448,Zielenice
+8449,Zieleniewo
+8450,Zielin
+8451,Zielina
+8452,Zielkowice
+8453,Zielona
+8454,Zielona Góra
+8455,Zielona Wieś
+8456,Zielonka
+8457,Zielonka Pasłęcka
+8458,Zielonki
+8459,Zielonki-Parcela
+8460,Zieluń-Osada
+8461,Ziemięcice
+8462,Zimin
+8463,Zimna Wódka
+8464,Zimnice Wielkie
+8465,Zimno
+8466,Zimnowoda
+8467,Ziółkowo
+8468,Ziomek
+8469,Złatna
+8470,Zławieś Mała
+8471,Zławieś Wielka
+8472,Złochowice
+8473,Złocieniec
+8474,Złockie
+8475,Złoczew
+8476,Złojec
+8477,Złota
+8478,Złotków
+8479,Złotnik
+8480,Złotniki
+8481,Złotniki Kujawskie
+8482,Złotokłos
+8483,Złotoria
+8484,Złotoryja
+8485,Złotów
+8486,Złotowo
+8487,Złoty Potok
+8488,Złoty Stok
+8489,Żmiąca
+8490,Zmiennica
+8491,Żmigród
+8492,Żmudź
+8493,Żnin
+8494,Zofiówka
+8495,Zofiowo
+8496,Żohatyn
+8497,Żołędnica
+8498,Żołędowo
+8499,Żoliborz
+8500,Żółkiewka
+8501,Żółkiewka-Osada
+8502,Żółtańce-Kolonia
+8503,Żółtnica
+8504,Żółwin
+8505,Żołynia
+8506,Żórawina
+8507,Żory
+8508,Zosin
+8509,Zrębice Pierwsze
+8510,Zrębin
+8511,Zręcin
+8512,Zręczyce
+8513,Zubowice
+8514,Żubryn
+8515,Zubrzyca Dolna
+8516,Zubrzyca Górna
+8517,Żukczyn
+8518,Żuki
+8519,Żuków
+8520,Żukowo
+8521,Żulin
+8522,Żupawa
+8523,Żurada
+8524,Żuraw
+8525,Żurawica
+8526,Żurawice
+8527,Żurawiczki
+8528,Żurawiec
+8529,Żurawnica
+8530,Żuromin
+8531,Żurowa
+8532,Zuzela
+8533,Zwardoń
+8534,Zwiernik
+8535,Zwierzewo
+8536,Zwierzno
+8537,Zwierzyn
+8538,Zwierzyniec
+8539,Zwierzyniec Pierwszy
+8540,Zwierzyniec Wielki
+8541,Zwiniarz
+8542,Zwola
+8543,Zwoleń
+8544,Zwonowice
+8545,Zwrócona
+8546,Żychlin
+8547,Życzyn
+8548,Żydów
+8549,Żydowo
+8550,Zygmuntowo
+8551,Zygry
+8552,Zyndaki
+8553,Żyraków
+8554,Żyrardów
+8555,Żyrowa
+8556,Żyrzyn
+8557,Żytkiejmy
+8558,Żytniów
+8559,Żytno
+8560,Żytowice
+8561,Żytowiecko
+8562,Żywiec
+8563,Żywocice
+8564,Żyznów
