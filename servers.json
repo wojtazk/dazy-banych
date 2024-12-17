@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "NaszaOswiata",
+      "Group": "Servers",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "nasza_oswiata",
+      "Username": "admin",
+      "SSLMode": "prefer"
+    }
+  }
+}
