@@ -4,6 +4,8 @@ CREATE TABLE role (
     nazwa VARCHAR(20) UNIQUE NOT NULL
 );
 
+INSERT INTO role (nazwa) VALUES ('administrator'), ('administrator_szkoly'), ('zwykly_uzytkownik'), ('moderator'), ('zbanowany'), ('usuniety');
+
 -- ok
 CREATE TABLE gminy (
     id VARCHAR(7) PRIMARY KEY,
@@ -73,7 +75,12 @@ CREATE TABLE organy_prowadzace (
 -- ok
 CREATE TABLE kody_pocztowe (
     id SERIAL PRIMARY KEY,
-    kod VARCHAR(10) UNIQUE NOT NULL
+    kod VARCHAR(10) UNIQUE NOT NULL,
+
+    -- kod powinine miec format XX-XXX
+    CONSTRAINT kody_pocztowe_kod_constraint CHECK (
+        kod ~ '^[0-9]{2}-[0-9]{3}$'
+    )
 );
 
 -- Tabela placówek oświatowych
@@ -91,7 +98,7 @@ CREATE TABLE placowki_oswiatowe (
     id_specyfika_szkoly INTEGER NOT NULL,
     id_typ_organu_prowadzacego INTEGER NOT NULL,
     liczba_uczniow_ogolem INTEGER,
-    liczba_uczennic INTEGER,
+    liczba_uczennic INTEGER CHECK (liczba_uczennic <= liczba_uczniow_ogolem),
     FOREIGN KEY (id_typ_podmiotu) REFERENCES typy_podmiotow(id),
     FOREIGN KEY (id_rodzaj_placowki) REFERENCES rodzaje_placowek(id),
     FOREIGN KEY (id_kategoria_uczniow) REFERENCES kategorie_uczniow(id),
@@ -136,7 +143,17 @@ CREATE TABLE dane_kontaktowe (
     nr_tel VARCHAR(15),
     email VARCHAR(255),
     strona_www VARCHAR(500),
-    FOREIGN KEY (rspo) REFERENCES placowki_oswiatowe(rspo)
+    FOREIGN KEY (rspo) REFERENCES placowki_oswiatowe(rspo),
+
+    -- ? -> 0 or 1, + - 1 or more
+    CONSTRAINT dane_kontaktowe_nr_tel_constraint CHECK (
+        nr_tel ~ '^[+]?[0-9 -]+$'
+    ),
+
+    -- sprawdzenie czy w emailu jest '@'
+    CONSTRAINT dane_konstaktowe_email_constraint CHECK (
+        email LIKE '%@%'
+    )
 );
 
 -- Użytkownicy i powiązane tabele
@@ -145,11 +162,25 @@ CREATE TABLE uzytkownicy (
     nazwa_uzytkownika VARCHAR(50) NOT NULL UNIQUE,
     haslo_hash TEXT NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
-    numer_tel VARCHAR(20) NOT NULL UNIQUE,
+    nr_tel VARCHAR(20) NOT NULL UNIQUE,
     id_rola INTEGER NOT NULL,
     data_utworzenia TIMESTAMPTZ DEFAULT now(),
-    data_ostatniego_logowania TIMESTAMPTZ,
-    FOREIGN KEY (id_rola) REFERENCES role(id)
+    data_ostatniej_proby_logowania TIMESTAMPTZ,
+    FOREIGN KEY (id_rola) REFERENCES role(id),
+
+    CONSTRAINT uzytkownicy_nr_tel_constraint CHECK (
+        nr_tel ~ '^[+]?[0-9 -]+$'
+    ),
+
+    CONSTRAINT uzytkownicy_email_constraint CHECK (
+        email LIKE '%@%'
+    ),
+
+    -- sprawdzenie czy data ostatniego logowania jest poznij niz data utworzenia
+    CONSTRAINT uzytkownicy_data_ostatniej_proby_logowania_constraint CHECK (
+        data_ostatniej_proby_logowania >= data_utworzenia
+        OR data_ostatniej_proby_logowania IS NULL
+    )
 );
 
 CREATE TABLE admini_szkoly (
@@ -169,7 +200,14 @@ CREATE TABLE opinie (
     widoczna BOOLEAN DEFAULT FALSE,
     data_utworzenia TIMESTAMPTZ DEFAULT now(),
     FOREIGN KEY (uzytkownik_id) REFERENCES uzytkownicy(id),
-    FOREIGN KEY (rspo) REFERENCES placowki_oswiatowe(rspo)
+    FOREIGN KEY (rspo) REFERENCES placowki_oswiatowe(rspo),
+
+    -- ocena powinna miec wartosc od 1 do 10 w inkrementach po 0.5
+    CONSTRAINT opinie_ocena_constraint CHECK (
+        ocena >= 1
+        AND ocena <= 10
+        AND ocena * 2 = FLOOR(ocena * 2)
+    )
 );
 
 CREATE TABLE zgloszone_opinie (
