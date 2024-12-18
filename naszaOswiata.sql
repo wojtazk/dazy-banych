@@ -4,67 +4,80 @@ CREATE TABLE role (
     nazwa VARCHAR(20) UNIQUE NOT NULL
 );
 
+-- ok
 CREATE TABLE gminy (
     id VARCHAR(7) PRIMARY KEY,
     nazwa VARCHAR(50) NOT NULL
 );
 
+-- ok
 CREATE TABLE wojewodztwa (
     id VARCHAR(2) PRIMARY KEY,
     nazwa VARCHAR(50) UNIQUE NOT NULL
 );
 
+-- ok
 CREATE TABLE powiaty (
     id VARCHAR(4) PRIMARY KEY,
-    nazwa VARCHAR(50) UNIQUE NOT NULL
+    nazwa VARCHAR(50) NOT NULL
 );
 
+-- ok
 CREATE TABLE miejscowosci (
     id SERIAL PRIMARY KEY,
     nazwa VARCHAR(50) UNIQUE NOT NULL
 );
 
+-- ok
 CREATE TABLE typy_podmiotow (
     id SERIAL PRIMARY KEY,
-    nazwa VARCHAR(50) UNIQUE NOT NULL
+    nazwa VARCHAR(100) UNIQUE NOT NULL
 );
 
+-- ok
 CREATE TABLE rodzaje_placowek (
     id SERIAL PRIMARY KEY,
-    nazwa VARCHAR(50) UNIQUE NOT NULL
+    nazwa VARCHAR(100) UNIQUE NOT NULL
 );
 
+-- ok
 CREATE TABLE kategorie_uczniow (
     id SERIAL PRIMARY KEY,
     nazwa VARCHAR(50) UNIQUE NOT NULL
 );
 
+-- ok
 CREATE TABLE rodzaje_publicznosci (
     id SERIAL PRIMARY KEY,
-    nazwa VARCHAR(50) UNIQUE NOT NULL
+    nazwa VARCHAR(100) UNIQUE NOT NULL
 );
 
+-- ok
 CREATE TABLE specyfiki_szkol (
     id SERIAL PRIMARY KEY,
     nazwa VARCHAR(50) UNIQUE NOT NULL
 );
 
+-- ok
 CREATE TABLE typy_organow_prowadzacych (
     id SERIAL PRIMARY KEY,
-    nazwa VARCHAR(50) UNIQUE NOT NULL
+    nazwa VARCHAR(100) UNIQUE NOT NULL
 );
 
+-- ok
 CREATE TABLE organy_prowadzace (
     id SERIAL PRIMARY KEY,
-    nazwa VARCHAR(200) UNIQUE NOT NULL
+    nazwa VARCHAR(200) NOT NULL
 );
 
+-- ok
 CREATE TABLE kody_pocztowe (
     id SERIAL PRIMARY KEY,
     kod VARCHAR(10) UNIQUE NOT NULL
 );
 
 -- Tabela placówek oświatowych
+-- placowki_oswiatowe_czyste -> ok (kto wpisywal te dane ja pier.....)
 CREATE TABLE placowki_oswiatowe (
     rspo VARCHAR(10) PRIMARY KEY,
     regon VARCHAR(14) UNIQUE NOT NULL,
@@ -88,14 +101,16 @@ CREATE TABLE placowki_oswiatowe (
 );
 
 -- Tabela łącząca placówki z organami prowadzącymi
+-- ok
 CREATE TABLE placowki_organy_prowadzace (
-    rspo VARCHAR(10) PRIMARY KEY,
+    rspo VARCHAR(10) NOT NULL,
     id_organ_prowadzacy INTEGER NOT NULL,
     FOREIGN KEY (rspo) REFERENCES placowki_oswiatowe(rspo),
     FOREIGN KEY (id_organ_prowadzacy) REFERENCES organy_prowadzace(id)
 );
 
 -- Adresy placówek
+-- ok
 CREATE TABLE adresy (
     rspo VARCHAR(10) PRIMARY KEY,
     ulica VARCHAR(100),
@@ -115,6 +130,7 @@ CREATE TABLE adresy (
 );
 
 -- Dane kontaktowe placówek
+-- ok
 CREATE TABLE dane_kontaktowe (
     rspo VARCHAR(10) PRIMARY KEY,
     nr_tel VARCHAR(15),
