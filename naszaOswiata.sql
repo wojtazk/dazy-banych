@@ -99,6 +99,7 @@ CREATE TABLE placowki_oswiatowe (
     id_typ_organu_prowadzacego INTEGER NOT NULL,
     liczba_uczniow_ogolem INTEGER,
     liczba_uczennic INTEGER CHECK (liczba_uczennic <= liczba_uczniow_ogolem),
+
     FOREIGN KEY (id_typ_podmiotu) REFERENCES typy_podmiotow(id),
     FOREIGN KEY (id_rodzaj_placowki) REFERENCES rodzaje_placowek(id),
     FOREIGN KEY (id_kategoria_uczniow) REFERENCES kategorie_uczniow(id),
@@ -199,6 +200,7 @@ CREATE TABLE opinie (
     zweryfikowana BOOLEAN DEFAULT FALSE,
     widoczna BOOLEAN DEFAULT FALSE,
     data_utworzenia TIMESTAMPTZ DEFAULT now(),
+    data_wygasniecia TIMESTAMPTZ DEFAULT now() + INTERVAL '31 days',
     FOREIGN KEY (uzytkownik_id) REFERENCES uzytkownicy(id),
     FOREIGN KEY (rspo) REFERENCES placowki_oswiatowe(rspo),
 
@@ -208,6 +210,11 @@ CREATE TABLE opinie (
         AND ocena <= 10
         AND ocena * 2 = FLOOR(ocena * 2)
     )
+);
+
+CREATE TABLE usuniete_opinie (
+    opinia_id INTEGER PRIMARY KEY,
+    dane JSONB NOT NULL
 );
 
 CREATE TABLE zgloszone_opinie (
@@ -241,3 +248,60 @@ CREATE TABLE ogloszenia_placowek (
     data_utworzenia TIMESTAMPTZ DEFAULT now(),
     FOREIGN KEY (rspo) REFERENCES placowki_oswiatowe(rspo)
 );
+
+-- Tabela z logami dla placowki_oswiatowe
+CREATE TABLE placowki_oswiatowe_log (
+    id SERIAL PRIMARY KEY,
+    rspo VARCHAR(10) NOT NULL,
+    rodzaj_operacji VARCHAR(10) NOT NULL,
+    data_modyfikacji TIMESTAMPTZ NOT NULL DEFAULT now(),
+    stare_dane JSONB,
+    nowe_dane JSONB,
+
+    FOREIGN KEY (rspo) REFERENCES placowki_oswiatowe(rspo)
+);
+
+
+------------------------------------------------------------------------
+-- Funkcje i Triggery
+
+------------------------------------------------------------------------
+-- Funkcja do zapisywania logowow dla placowek oswiatowych
+CREATE OR REPLACE FUNCTION placowki_oswiatowe_logger() RETURNS TRIGGER AS $$
+BEGIN
+    IF TG_OP = 'INSERT' THEN
+        INSERT INTO placowki_oswiatowe_log (rspo, uzytkownik_id, rodzaj_operacji, nowe_dane)
+        VALUES (NEW.rspo, user_id, 'INSERT', row_to_json(NEW));
+    ELSIF TG_OP = 'UPDATE' THEN
+        INSERT INTO placowki_oswiatowe_log (rspo, uzytkownik_id, rodzaj_operacji, stare_dane, nowe_dane)
+        VALUES (OLD.rspo, user_id, 'UPDATE', row_to_json(OLD), row_to_json(NEW));
+    ELSEIF TG_OP = 'DELETE' THEN
+        INSERT INTO placowki_oswiatowe_log (rspo, uzytkownik_id, rodzaj_operacji, stare_dane)
+        VALUES (OLD.rspo, user_id, 'DELETE', row_to_json(OLD));
+    END IF;
+    RETURN NULL;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Trigger do wywolywania funkcji do logowania zmian
+CREATE TRIGGER placowki_oswiatowe_log_trigger
+AFTER INSERT OR UPDATE OR DELETE ON placowki_oswiatowe
+FOR EACH ROW
+EXECUTE FUNCTION placowki_oswiatowe_logger();
+
+------------------------------------------------------------------------
+-- Zapisywanie usunietych opinii do tabeli usuniete_opinie
+CREATE OR REPLACE FUNCTION log_usuniete_opinie()
+RETURNS TRIGGER AS $$
+BEGIN
+    INSERT INTO usuniete_opinie (opinia_id, dane)
+    VALUES (OLD.id, row_to_json(OLD));
+    RETURN NULL;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER before_delete_opinia
+BEFORE DELETE ON opinie
+FOR EACH ROW
+EXECUTE FUNCTION log_usuniete_opinie();
+------------------------------------------------------------------------
