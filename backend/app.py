@@ -1,0 +1,146 @@
+import os
+
+from flask import Flask, request, Blueprint
+from flask_bcrypt import Bcrypt
+from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
+from flask_cors import CORS
+
+import psycopg2
+
+# initialize flask
+app = Flask(__name__)
+app.secret_key = 'SHREK FOREVER!!!'
+
+CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
+
+# initialize blueprint
+api_blueprint = Blueprint('api', __name__, url_prefix='/api')
+
+# initialize bcrypt
+app.config["BCRYPT_LOG_ROUNDS"] = 14  # increase bcrypt rounds to 14
+bcrypt = Bcrypt(app)
+# initialize login
+login_manager = LoginManager()
+login_manager.init_app(app)
+login_manager.login_view = 'login'
+
+
+# database con settings
+DB_HOST = os.getenv("DB_HOST", "localhost")
+DB_PORT = int(os.getenv("DB_PORT", 5342))
+DB_NAME = os.getenv("DB_NAME", "nasza_oswiata")
+DB_USER = os.getenv("DB_USER", "kot_backendu")
+DB_PASSWORD = os.getenv("DB_PASSWORD", "kot_backendu")
+
+def get_db_connection():
+    """Establish a database connection."""
+    return psycopg2.connect(
+        host=DB_HOST,
+        port=DB_PORT,
+        database=DB_NAME,
+        user=DB_USER,
+        password=DB_PASSWORD
+    )
+
+##################
+## FLASK LOGIN
+class User(UserMixin):
+    def __init__(self, id, username):
+        self.id = id
+        self.username = username
+
+@login_manager.user_loader
+def load_user(user_id):
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "SELECT id, nazwa_uzytkownika, email, nr_tel, data_utworzenia FROM uzytkownicy WHERE id = %s",
+        (user_id,)
+    )
+    user_data = cur.fetchone()
+    cur.close()
+    conn.close()
+
+    if user_data:
+        return User(user_data[0], user_data[1])
+    return None
+
+@api_blueprint.route("/register", methods=["POST"])
+def register():
+    data = request.get_json()
+
+    nazwa = data.get("nazwa")
+    haslo = data.get("haslo")
+    haslo_hash = bcrypt.generate_password_hash(haslo).decode()
+    email = data.get("email")
+    nr_tel = data.get("nr_tel")
+    id_rola = 3  # zwykly user
+
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    query = """
+                INSERT INTO uzytkownicy (nazwa_uzytkownika, haslo_hash, email, nr_tel, id_rola)
+                VALUES (%s, %s, %s, %s, %s)
+                RETURNING id;
+                """
+    try:
+        cur.execute(
+            query, (nazwa, haslo_hash, email, nr_tel, id_rola)
+        )
+        user_id = cur.fetchone()[0]
+        conn.commit()
+    except psycopg2.IntegrityError:
+        return {"error", "User already exists!"}, 400
+    finally:
+        cur.close()
+        conn.close()
+
+    return {"message": "Pomyslnie zarejestrowano"}, 201
+
+@api_blueprint.route("/login", methods=["POST"])
+def login():
+    data = request.get_json()
+
+    nazwa_uzytkownika = data.get("username")
+    haslo = data.get("password")
+
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "SELECT id, nazwa_uzytkownika, haslo_hash FROM uzytkownicy WHERE nazwa_uzytkownika = %s",
+        (nazwa_uzytkownika,)
+    )
+    user_data = cur.fetchone()
+
+    cur.execute(
+        "UPDATE uzytkownicy SET data_ostatniej_proby_logowania = now() WHERE nazwa_uzytkownika = %s",
+        (nazwa_uzytkownika,)
+    )
+
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    if not bcrypt.check_password_hash(user_data[2], haslo):
+        return {"error": "Logowanie nie powiodlo sie."}, 403
+
+    user = User(user_data[0], user_data[1])
+    login_user(user)
+    return {"message": "Logowanie powiodlo sie."}, 200
+
+@api_blueprint.route("/logout", methods=["POST"])
+@login_required
+def logout():
+    logout_user()
+    return {"message": "Wylogowano."}, 200
+
+
+# register flask blueprints
+app.register_blueprint(api_blueprint)
+
+if __name__ == "__main__":
+    # run the app
+    app.run(debug=True, host= 'localhost', port=5000)
