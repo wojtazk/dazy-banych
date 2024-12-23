@@ -444,3 +444,11 @@ BEGIN
         ORDER BY rank DESC LIMIT 50;
 END;
 $$;
+
+------------------------------------------------------------------------
+-- Create username for backend
+CREATE USER kot_backendu WITH PASSWORD 'kot_backendu';
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO kot_backendu;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO kot_backendu;
+-- zezwala na inkrementacje primary key w uzytkownikacj
+GRANT USAGE, SELECT, UPDATE ON SEQUENCE uzytkownicy_id_seq TO kot_backendu;
