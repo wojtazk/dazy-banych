@@ -5,9 +5,12 @@ import { Button, Form, Input } from "@nextui-org/react";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 
-export default function Login({}) {
+export default function Register({}) {
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
+	const [retypedPassword, setRetypedPassword] = useState("");
+	const [email, setEmail] = useState("");
+	const [tel, setTel] = useState("");
 	const [submitted, setSubmitted] = useState(false);
 
 	const router = useRouter();
@@ -17,7 +20,7 @@ export default function Login({}) {
 
 		setSubmitted(true);
 
-		const response = await fetch("http://127.0.0.1:5000/api/login", {
+		const response = await fetch("http://127.0.0.1:5000/api/register", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
@@ -25,6 +28,8 @@ export default function Login({}) {
 			body: JSON.stringify({
 				username,
 				password,
+                email,
+                tel
 			}),
 		});
 
@@ -32,7 +37,7 @@ export default function Login({}) {
 
 		if (response.ok) {
 			toast.success(data.message);
-			router.push("/");
+			router.push("/login");
 		} else {
 			toast.error(data.error);
 			setSubmitted(false);
@@ -69,6 +74,45 @@ export default function Login({}) {
 				variant="faded"
 				color="default"
 			/>
+			<Input
+				isRequired
+				isClearable
+				validate={(value) => {
+					if (value !== password) {
+						return "Hasła muszą się zgadzać";
+					}
+				}}
+				label="Powtórz hasło"
+				labelPlacement="inside"
+				name="retyped_password"
+				type="password"
+				value={retypedPassword}
+				onValueChange={setRetypedPassword}
+				variant="faded"
+				color="default"
+			/>
+			<Input
+				isClearable
+				label="E-mail"
+				labelPlacement="inside"
+				name="email"
+				type="email"
+				value={email}
+				onValueChange={setEmail}
+				variant="faded"
+				color="default"
+			/>
+			<Input
+				isClearable
+				label="Numer telefonu"
+				labelPlacement="inside"
+				name="phone"
+				type="tel"
+				value={tel}
+				onValueChange={setTel}
+				variant="faded"
+				color="default"
+			/>
 			<Button
 				type="submit"
 				variant="solid"
@@ -76,7 +120,7 @@ export default function Login({}) {
 				isLoading={submitted}
 				className="w-full mt-2"
 			>
-				Zaloguj
+				Zarejestruj
 			</Button>
 		</Form>
 	);
