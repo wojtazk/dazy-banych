@@ -186,7 +186,7 @@ CREATE TABLE uzytkownicy (
     haslo_hash TEXT NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
     nr_tel VARCHAR(20) NOT NULL UNIQUE,
-    id_rola INTEGER NOT NULL,
+    id_rola INTEGER NOT NULL DEFAULT 3,
     data_utworzenia TIMESTAMPTZ DEFAULT now(),
     data_ostatniej_proby_logowania TIMESTAMPTZ,
     FOREIGN KEY (id_rola) REFERENCES role(id),
