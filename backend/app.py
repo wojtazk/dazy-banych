@@ -11,7 +11,7 @@ import psycopg2
 app = Flask(__name__)
 app.secret_key = 'SHREK FOREVER!!!'
 
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # initialize blueprint
 api_blueprint = Blueprint('api', __name__, url_prefix='/api')
@@ -70,11 +70,15 @@ def load_user(user_id):
 def register():
     data = request.get_json()
 
-    nazwa = data.get("nazwa")
-    haslo = data.get("haslo")
+    nazwa = data.get("username")
+    haslo = data.get("password")
+
+    if len(haslo) < 8:
+        return {"error": "Hasło jest za krótkie."}, 400
+
     haslo_hash = bcrypt.generate_password_hash(haslo).decode()
-    email = data.get("email")
-    nr_tel = data.get("nr_tel")
+    email = data.get("email", None)
+    nr_tel = data.get("tel", None)
     id_rola = 3  # zwykly user
 
     conn = get_db_connection()
@@ -91,13 +95,13 @@ def register():
         )
         user_id = cur.fetchone()[0]
         conn.commit()
-    except psycopg2.IntegrityError:
-        return {"error", "User already exists!"}, 400
+    except psycopg2.IntegrityError as e:
+        return {"error", e}, 400
     finally:
         cur.close()
         conn.close()
 
-    return {"message": "Pomyslnie zarejestrowano"}, 201
+    return {"user_id": user_id, "message": "Pomyślnie zarejestrowano"}, 201
 
 @api_blueprint.route("/login", methods=["POST"])
 def login():
@@ -115,6 +119,9 @@ def login():
     )
     user_data = cur.fetchone()
 
+    if not user_data:
+        return {"error": "Użytkownik o podanej nazwie nie istnieje."}, 400
+
     cur.execute(
         "UPDATE uzytkownicy SET data_ostatniej_proby_logowania = now() WHERE nazwa_uzytkownika = %s",
         (nazwa_uzytkownika,)
@@ -125,11 +132,11 @@ def login():
     conn.close()
 
     if not bcrypt.check_password_hash(user_data[2], haslo):
-        return {"error": "Logowanie nie powiodlo sie."}, 403
+        return {"error": "Logowanie nie powiodło się."}, 403
 
     user = User(user_data[0], user_data[1])
     login_user(user)
-    return {"message": "Logowanie powiodlo sie."}, 200
+    return {"user_id": user_data[0], "message": "Logowanie powiodło się."}, 200
 
 @api_blueprint.route("/logout", methods=["POST"])
 @login_required
