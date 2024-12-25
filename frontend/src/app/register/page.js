@@ -6,6 +6,7 @@ import { toast } from "react-toastify";
 import { redirect } from "next/navigation";
 
 import { UserContext } from "../layout";
+import { API_URL } from "../config";
 
 export default function Register({}) {
 	let redirected = false;
@@ -33,7 +34,7 @@ export default function Register({}) {
 
 		setSubmitted(true);
 
-		const response = await fetch("http://127.0.0.1:5000/api/register", {
+		const response = await fetch(API_URL + "/api/register", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",

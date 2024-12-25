@@ -5,6 +5,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Slide, ToastContainer, toast } from "react-toastify";
 import "./globals.css";
 import { useState, useEffect, createContext } from "react";
+import { API_URL } from "./config";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -24,7 +25,7 @@ export default function RootLayout({ children }) {
 
 	useEffect(() => {
 		(async () => {
-			const response = await fetch("http://127.0.0.1:5000/api/user", {
+			const response = await fetch(API_URL + "/api/user", {
 				method: "GET",
 				headers: {
 					"Content-Type": "application/json",
@@ -48,6 +49,10 @@ export default function RootLayout({ children }) {
 		<html lang="pl">
 			<head>
 				<meta charSet="utf-8" />
+				<meta
+					name="viewport"
+					content="width=device-width, initial-scale=1.0"
+				/>
 				<title>Nasza Oświata</title>
 				<meta
 					name="author"
@@ -92,6 +97,7 @@ export default function RootLayout({ children }) {
 					pauseOnHover
 					theme="colored"
 					transition={Slide}
+					toastClassName="max-w-[80%] m-1.5"
 				/>
 			</body>
 		</html>

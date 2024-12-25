@@ -6,6 +6,7 @@ import { toast } from "react-toastify";
 import { redirect } from "next/navigation";
 
 import { UserContext } from "../layout";
+import { API_URL } from "../config";
 
 export default function UserInfo({}) {
 	let firstLoad = true;
@@ -34,7 +35,7 @@ export default function UserInfo({}) {
 
 		setSubmitted(true);
 
-		const response = await fetch("http://127.0.0.1:5000/api/logout", {
+		const response = await fetch(API_URL + "/api/logout", {
 			method: "GET",
 			headers: {
 				"Content-Type": "application/json",
