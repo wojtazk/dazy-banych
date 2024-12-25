@@ -1,9 +1,10 @@
 "use client";
 
-import { NextUIProvider } from "@nextui-org/react";
+import { NextUIProvider, User } from "@nextui-org/react";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Slide, ToastContainer } from "react-toastify";
+import { Slide, ToastContainer, toast } from "react-toastify";
 import "./globals.css";
+import { useState, useEffect, createContext } from "react";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -15,7 +16,34 @@ const geistMono = Geist_Mono({
 	subsets: ["latin"],
 });
 
+// create context to store current user info
+export const UserContext = createContext();
+
 export default function RootLayout({ children }) {
+	const [user, setUser] = useState(null);
+
+	useEffect(() => {
+		(async () => {
+			const response = await fetch("http://127.0.0.1:5000/api/user", {
+				method: "GET",
+				headers: {
+					"Content-Type": "application/json",
+				},
+				credentials: "include",
+			});
+
+			const data = await response.json();
+
+			if (response.ok) {
+				setUser(data.current_user);
+				// toast.success(`Zalogowano jako: ${data.current_user.username}`);
+			} else {
+				if (user !== null) toast.warn("Nie jesteś zalogowany");
+				setUser(null);
+			}
+		})();
+	}, []);
+
 	return (
 		<html lang="pl">
 			<head>
@@ -49,7 +77,9 @@ export default function RootLayout({ children }) {
 				<link rel="manifest" href="/site.webmanifest" />
 			</head>
 			<body className={`${geistSans.variable} ${geistMono.variable}`}>
-				<NextUIProvider>{children}</NextUIProvider>
+				<UserContext.Provider value={{ user, setUser }}>
+					<NextUIProvider>{children}</NextUIProvider>
+				</UserContext.Provider>
 				<ToastContainer
 					position="top-left"
 					autoClose={5000}

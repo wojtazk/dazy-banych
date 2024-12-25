@@ -1,19 +1,32 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useContext, useEffect } from "react";
 import { Button, Form, Input } from "@nextui-org/react";
 import { toast } from "react-toastify";
-import { useRouter } from "next/navigation";
+import { redirect } from "next/navigation";
+
+import { UserContext } from "../layout";
 
 export default function Register({}) {
+	let redirected = false;
+	const { user } = useContext(UserContext);
+
+	useEffect(() => {
+		if (user !== null) {
+			if (!redirected) {
+				toast.info(`Jesteś zalogowany jako ${user.username}`);
+				redirected = true;
+			}
+			redirect("/");
+		}
+	});
+
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
 	const [retypedPassword, setRetypedPassword] = useState("");
 	const [email, setEmail] = useState("");
 	const [tel, setTel] = useState("");
 	const [submitted, setSubmitted] = useState(false);
-
-	const router = useRouter();
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
@@ -28,8 +41,8 @@ export default function Register({}) {
 			body: JSON.stringify({
 				username,
 				password,
-                email,
-                tel
+				email,
+				tel,
 			}),
 		});
 
@@ -37,7 +50,7 @@ export default function Register({}) {
 
 		if (response.ok) {
 			toast.success(data.message);
-			router.push("/login");
+			redirect("/login");
 		} else {
 			toast.error(data.error);
 			setSubmitted(false);

@@ -11,6 +11,10 @@ export default function Home() {
 			<NextUIProvider>
 				<h1>Hello There</h1>
 				<Link href={"/login"}>Login</Link>
+				<br />
+				<Link href={"/register"}>Register</Link>
+				<br />
+				<Link href={"/user"}>User</Link>
 			</NextUIProvider>
 		</div>
 	);

@@ -1,16 +1,30 @@
 "use client";
 
-import { useState } from "react";
-import { Button, Form, Input } from "@nextui-org/react";
+import { useEffect, useContext, useState } from "react";
+import { Button, Form, Input, Checkbox } from "@nextui-org/react";
 import { toast } from "react-toastify";
-import { useRouter } from "next/navigation";
+import { redirect } from "next/navigation";
+
+import { UserContext } from "../layout";
 
 export default function Login({}) {
+	let redirected = false;
+	const { user, setUser } = useContext(UserContext);
+
+	useEffect(() => {
+		if (user !== null) {
+			if (!redirected) {
+				toast.info(`Jesteś zalogowany jako ${user.username}`);
+				redirected = true;
+			}
+			redirect("/");
+		}
+	});
+
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
+	const [rememberme, setRememberme] = useState(true);
 	const [submitted, setSubmitted] = useState(false);
-
-	const router = useRouter();
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
@@ -22,17 +36,20 @@ export default function Login({}) {
 			headers: {
 				"Content-Type": "application/json",
 			},
+			credentials: "include",
 			body: JSON.stringify({
 				username,
 				password,
+				rememberme,
 			}),
 		});
 
 		const data = await response.json();
 
 		if (response.ok) {
+			setUser(data.current_user);
 			toast.success(data.message);
-			router.push("/");
+			redirect("/");
 		} else {
 			toast.error(data.error);
 			setSubmitted(false);
@@ -46,6 +63,7 @@ export default function Login({}) {
 			className="max-w-80 m-auto mt-16"
 		>
 			<Input
+				autoFocus
 				isRequired
 				isClearable
 				label="Nazwa użytkownika"
@@ -69,6 +87,14 @@ export default function Login({}) {
 				variant="faded"
 				color="default"
 			/>
+			<Checkbox
+				name="remember_me"
+				value="true"
+				isSelected={rememberme}
+				onValueChange={setRememberme}
+			>
+				Pozostań zalogowany
+			</Checkbox>
 			<Button
 				type="submit"
 				variant="solid"
