@@ -1,8 +1,9 @@
 import os
 
-from flask import Flask, request, Blueprint
+from flask import Flask, request, Blueprint, jsonify
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
+from datetime import timedelta
 from flask_cors import CORS
 
 import psycopg2
@@ -11,7 +12,7 @@ import psycopg2
 app = Flask(__name__)
 app.secret_key = 'SHREK FOREVER!!!'
 
-CORS(app, resources={r"/*": {"origins": "*"}})
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 # initialize blueprint
 api_blueprint = Blueprint('api', __name__, url_prefix='/api')
@@ -20,9 +21,12 @@ api_blueprint = Blueprint('api', __name__, url_prefix='/api')
 app.config["BCRYPT_LOG_ROUNDS"] = 14  # increase bcrypt rounds to 14
 bcrypt = Bcrypt(app)
 # initialize login
+app.config['SESSION_COOKIE_SAMESITE'] = 'None'
+app.config['SESSION_COOKIE_SECURE'] = True
+app.config['REMEMBER_COOKIE_DURATION'] = timedelta(days=30)
 login_manager = LoginManager()
 login_manager.init_app(app)
-login_manager.login_view = 'login'
+# login_manager.login_view = 'login'
 
 
 # database con settings
@@ -45,9 +49,12 @@ def get_db_connection():
 ##################
 ## FLASK LOGIN
 class User(UserMixin):
-    def __init__(self, id, username):
+    def __init__(self, id, username, email, nr_tel, data_utworzenia):
         self.id = id
         self.username = username
+        self.email = email
+        self.nr_tel = nr_tel
+        self.data_utworzenia = data_utworzenia
 
 @login_manager.user_loader
 def load_user(user_id):
@@ -63,7 +70,7 @@ def load_user(user_id):
     conn.close()
 
     if user_data:
-        return User(user_data[0], user_data[1])
+        return User(*user_data)
     return None
 
 @api_blueprint.route("/register", methods=["POST"])
@@ -109,12 +116,13 @@ def login():
 
     nazwa_uzytkownika = data.get("username")
     haslo = data.get("password")
+    zapamietaj_mnie = data.get("rememberme", False)
 
     conn = get_db_connection()
     cur = conn.cursor()
 
     cur.execute(
-        "SELECT id, nazwa_uzytkownika, haslo_hash FROM uzytkownicy WHERE nazwa_uzytkownika = %s",
+        "SELECT id, nazwa_uzytkownika, email, nr_tel, data_utworzenia, haslo_hash FROM uzytkownicy WHERE nazwa_uzytkownika = %s",
         (nazwa_uzytkownika,)
     )
     user_data = cur.fetchone()
@@ -131,19 +139,27 @@ def login():
     cur.close()
     conn.close()
 
-    if not bcrypt.check_password_hash(user_data[2], haslo):
+    if not bcrypt.check_password_hash(user_data[-1], haslo):
         return {"error": "Logowanie nie powiodło się."}, 403
 
-    user = User(user_data[0], user_data[1])
-    login_user(user)
-    return {"user_id": user_data[0], "message": "Logowanie powiodło się."}, 200
+    user = User(*user_data[:-1])
+    login_user(user, remember=zapamietaj_mnie)
+    return {"current_user": current_user.__dict__, "message": "Logowanie powiodło się."}, 200
 
-@api_blueprint.route("/logout", methods=["POST"])
+@login_manager.unauthorized_handler
+def unauthorized():
+    return {"error": "Nieautoryzowany dostęp."}, 401
+
+@api_blueprint.route("/logout", methods=["GET"])
 @login_required
 def logout():
     logout_user()
     return {"message": "Wylogowano."}, 200
 
+@api_blueprint.route("/user", methods=["GET"])
+@login_required
+def user_info():
+    return {"current_user": current_user.__dict__}, 200
 
 # register flask blueprints
 app.register_blueprint(api_blueprint)
