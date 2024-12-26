@@ -21,7 +21,8 @@ api_blueprint = Blueprint('api', __name__, url_prefix='/api')
 app.config["BCRYPT_LOG_ROUNDS"] = 14  # increase bcrypt rounds to 14
 bcrypt = Bcrypt(app)
 # initialize login
-app.config['SESSION_COOKIE_SAMESITE'] = 'None'
+app.config['SESSION_COOKIE_SAMESITE'] = "Strict"  # allo only cookies from the same site
+# app.config['SESSION_COOKIE_DOMAIN'] = None
 app.config['SESSION_COOKIE_SECURE'] = True
 app.config['REMEMBER_COOKIE_DURATION'] = timedelta(days=30)
 login_manager = LoginManager()
@@ -77,15 +78,27 @@ def load_user(user_id):
 def register():
     data = request.get_json()
 
-    nazwa = data.get("username")
-    haslo = data.get("password")
+    accept_terms = data.get("accept_terms", False)
+    if not accept_terms:
+        return {"error": "No dawaj te nery nooo."}, 400
 
+    nazwa = data.get("username")
+    if len(nazwa) < 4:
+        return {"error": "Nazwa użytkownika jest za krótka."}, 400
+
+    haslo = data.get("password")
     if len(haslo) < 8:
         return {"error": "Hasło jest za krótkie."}, 400
 
-    haslo_hash = bcrypt.generate_password_hash(haslo).decode()
     email = data.get("email", None)
+    if not email:
+        return {"error": "Adres email jest wymagany."}, 400
+
     nr_tel = data.get("tel", None)
+    if not nr_tel:
+        return {"error": "Numer telefonu jest wymagany."}, 400
+
+    haslo_hash = bcrypt.generate_password_hash(haslo).decode()
     id_rola = 3  # zwykly user
 
     conn = get_db_connection()
@@ -100,15 +113,16 @@ def register():
         cur.execute(
             query, (nazwa, haslo_hash, email, nr_tel, id_rola)
         )
-        user_id = cur.fetchone()[0]
+        # user_id = cur.fetchone()[0]
         conn.commit()
-    except psycopg2.IntegrityError as e:
-        return {"error", e}, 400
-    finally:
         cur.close()
         conn.close()
+    except psycopg2.IntegrityError as e:
+        print(e)
+        message = str(e)[:str(e).index("DETAIL")]
+        return {"error": message}, 400
 
-    return {"user_id": user_id, "message": "Pomyślnie zarejestrowano"}, 201
+    return {"message": "Pomyślnie zarejestrowano"}, 201
 
 @api_blueprint.route("/login", methods=["POST"])
 def login():
