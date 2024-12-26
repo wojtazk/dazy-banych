@@ -191,6 +191,10 @@ CREATE TABLE uzytkownicy (
     data_ostatniej_proby_logowania TIMESTAMPTZ,
     FOREIGN KEY (id_rola) REFERENCES role(id),
 
+    CONSTRAINT uzytkownicy_nazwa_uzytkownika_min_dlugosc_constraint CHECK (
+        char_length(nazwa_uzytkownika) >= 4
+    ),
+
     CONSTRAINT uzytkownicy_nr_tel_constraint CHECK (
         nr_tel ~ '^[+]?[0-9 -]+$'
     ),
