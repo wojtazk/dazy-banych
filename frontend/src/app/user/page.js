@@ -9,16 +9,10 @@ import { UserContext } from "../layout";
 import { API_URL } from "../config";
 
 export default function UserInfo({}) {
-	let firstLoad = true;
 	let redirected = false;
 	const { user, setUser } = useContext(UserContext);
 
 	useEffect(() => {
-		if (firstLoad) {
-			firstLoad = false;
-			return;
-		}
-
 		if (user === null) {
 			if (!redirected) {
 				toast.warn(`Nie jesteś zalogowany`);

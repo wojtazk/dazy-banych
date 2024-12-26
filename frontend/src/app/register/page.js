@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useContext, useEffect } from "react";
-import { Button, Form, Input } from "@nextui-org/react";
+import { Button, Form, Input, Checkbox } from "@nextui-org/react";
 import { toast } from "react-toastify";
 import { redirect } from "next/navigation";
 
@@ -27,6 +27,7 @@ export default function Register({}) {
 	const [retypedPassword, setRetypedPassword] = useState("");
 	const [email, setEmail] = useState("");
 	const [tel, setTel] = useState("");
+	const [acceptTerms, setAcceptTerms] = useState(false);
 	const [submitted, setSubmitted] = useState(false);
 
 	const handleSubmit = async (e) => {
@@ -44,6 +45,7 @@ export default function Register({}) {
 				password,
 				email,
 				tel,
+				accept_terms: acceptTerms,
 			}),
 		});
 
@@ -106,6 +108,7 @@ export default function Register({}) {
 				color="default"
 			/>
 			<Input
+				isRequired
 				isClearable
 				label="E-mail"
 				labelPlacement="inside"
@@ -117,7 +120,14 @@ export default function Register({}) {
 				color="default"
 			/>
 			<Input
+				isRequired
 				isClearable
+				validate={(value) => {
+					const regex = value.match("^[+]?[0-9 -]+$");
+					if (regex === null) return "Zły format";
+					if (regex[0].length < 9)
+						return "Numer telefonu jest za krótki";
+				}}
 				label="Numer telefonu"
 				labelPlacement="inside"
 				name="phone"
@@ -127,7 +137,16 @@ export default function Register({}) {
 				variant="faded"
 				color="default"
 			/>
+			<Checkbox
+				name="accept_terms"
+				value="false"
+				isSelected={acceptTerms}
+				onValueChange={setAcceptTerms}
+			>
+				Akceptuję regulamin serwisu (bierzcie moje nerki)
+			</Checkbox>
 			<Button
+				isDisabled={!acceptTerms}
 				type="submit"
 				variant="solid"
 				color="primary"
