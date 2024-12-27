@@ -15,16 +15,19 @@ import {
 	DropdownMenu,
 	DropdownItem,
 	DropdownSection,
+	NavbarMenuToggle,
+	NavbarMenu,
+	NavbarMenuItem,
 } from "@nextui-org/react";
 import Link from "next/link";
 import { redirect, usePathname } from "next/navigation";
 import { toast } from "react-toastify";
 import { API_URL } from "./config";
-
+import { useState } from "react";
 
 const fontMonoton = Monoton({
-    weight: '400',
-    subsets: ["latin"],
+	weight: "400",
+	subsets: ["latin"],
 });
 
 const MoonIcon = (props) => {
@@ -55,6 +58,8 @@ const navItems = [
 export default function Navigation({ darkMode, setDarkMode, user, setUser }) {
 	const currentPath = usePathname();
 
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
+
 	const handleLogout = async () => {
 		const response = await fetch(API_URL + "/api/logout", {
 			method: "GET",
@@ -76,11 +81,27 @@ export default function Navigation({ darkMode, setDarkMode, user, setUser }) {
 	};
 
 	return (
-		<Navbar shouldHideOnScroll isBordered isBlurred maxWidth="full">
+		<Navbar
+			shouldHideOnScroll
+			isBordered
+			isBlurred
+			maxWidth="full"
+			isMenuOpen={isMenuOpen}
+			onMenuOpenChange={setIsMenuOpen}
+		>
+			<NavbarMenuToggle
+				aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+				className="md:hidden"
+			/>
 			<NavbarBrand>
-				<p className={`text-3xl ${fontMonoton.className}`}>Nasza Oświata</p>
+				<Link
+					href="/"
+					className={`text-md sm:text-lg md:text-xl lg:text-2xl ${fontMonoton.className}`}
+				>
+					Nasza Oświata
+				</Link>
 			</NavbarBrand>
-			<NavbarContent justify="center">
+			<NavbarContent justify="center" className="hidden md:flex">
 				{navItems.map((item, index) => (
 					<NavbarItem
 						key={index}
@@ -109,6 +130,7 @@ export default function Navigation({ darkMode, setDarkMode, user, setUser }) {
 					<>
 						<NavbarItem>
 							<Button
+								className="hidden md:flex"
 								as={Link}
 								color="primary"
 								href="/login"
@@ -119,6 +141,7 @@ export default function Navigation({ darkMode, setDarkMode, user, setUser }) {
 						</NavbarItem>
 						<NavbarItem>
 							<Button
+								className="hidden md:flex"
 								as={Link}
 								color="primary"
 								href="/register"
@@ -181,6 +204,52 @@ export default function Navigation({ darkMode, setDarkMode, user, setUser }) {
 					</NavbarItem>
 				)}
 			</NavbarContent>
+			<NavbarMenu>
+				{navItems.map((item, index) => (
+					<NavbarMenuItem
+						key={index}
+						isActive={item.href === currentPath}
+						className={
+							item.href == currentPath
+								? "text-primary block"
+								: "text-foreground block"
+						}
+					>
+						<Link
+							href={item.href}
+							onClick={() => setIsMenuOpen(false)}
+						>
+							{item.title}
+						</Link>
+					</NavbarMenuItem>
+				))}
+				{user === null && (
+					<>
+						<NavbarMenuItem>
+							<Button
+								as={Link}
+								color="primary"
+								href="/login"
+								variant="solid"
+								onPress={() => setIsMenuOpen(false)}
+							>
+								Zaloguj
+							</Button>
+						</NavbarMenuItem>
+						<NavbarMenuItem>
+							<Button
+								as={Link}
+								color="primary"
+								href="/register"
+								variant="bordered"
+								onPress={() => setIsMenuOpen(false)}
+							>
+								Zarejestruj
+							</Button>
+						</NavbarMenuItem>
+					</>
+				)}
+			</NavbarMenu>
 		</Navbar>
 	);
 }

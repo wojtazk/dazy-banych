@@ -1,7 +1,5 @@
 "use client";
 
-import { NextUIProvider } from "@nextui-org/react";
-
 import Link from "next/link";
 import styles from "./page.module.css";
 

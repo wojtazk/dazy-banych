@@ -19,6 +19,7 @@ body {
 	box-sizing: border-box;
 }
 
+/* styling for current navbar element */
 nav [data-active=true]{
   border-bottom: .15rem solid;
   padding-bottom: .2rem;
