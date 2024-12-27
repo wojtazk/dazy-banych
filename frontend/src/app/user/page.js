@@ -54,7 +54,7 @@ export default function UserInfo({}) {
 			<Form
 				validationBehavior="native"
 				onSubmit={handleLogout}
-				className="max-w-80 m-auto mt-16"
+				className="max-w-80 m-auto pt-16"
 			>
 				<Input
 					isReadOnly

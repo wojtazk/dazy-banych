@@ -1,11 +1,13 @@
 "use client";
 
-import { NextUIProvider, User } from "@nextui-org/react";
+import { NextUIProvider } from "@nextui-org/react";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Slide, ToastContainer, toast } from "react-toastify";
 import "./globals.css";
 import { useState, useEffect, createContext } from "react";
+
 import { API_URL } from "./config";
+import Navigation from "./navigation";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -22,6 +24,7 @@ export const UserContext = createContext();
 
 export default function RootLayout({ children }) {
 	const [user, setUser] = useState(null);
+	const [darkMode, setDarkMode] = useState(false);
 
 	useEffect(() => {
 		(async () => {
@@ -81,10 +84,22 @@ export default function RootLayout({ children }) {
 				/>
 				<link rel="manifest" href="/site.webmanifest" />
 			</head>
-			<body className={`${geistSans.variable} ${geistMono.variable}`}>
-				<UserContext.Provider value={{ user, setUser }}>
-					<NextUIProvider>{children}</NextUIProvider>
-				</UserContext.Provider>
+			<body
+				className={`${geistSans.variable} ${geistMono.variable} ${
+					darkMode ? "dark" : "light"
+				} text-foreground bg-background`}
+			>
+				<NextUIProvider>
+					<Navigation
+						darkMode={darkMode}
+						setDarkMode={setDarkMode}
+						user={user}
+						setUser={setUser}
+					/>
+					<UserContext.Provider value={{ user, setUser }}>
+						{children}
+					</UserContext.Provider>
+				</NextUIProvider>
 				<ToastContainer
 					position="top-left"
 					autoClose={5000}
@@ -95,9 +110,9 @@ export default function RootLayout({ children }) {
 					pauseOnFocusLoss
 					draggable
 					pauseOnHover
-					theme="colored"
+					theme={darkMode ? "dark" : "light"}
 					transition={Slide}
-					toastClassName="max-w-[80%] m-1.5"
+					toastClassName={`max-w-[80%] m-1.5 text-foreground`}
 				/>
 			</body>
 		</html>

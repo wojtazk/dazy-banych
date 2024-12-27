@@ -64,7 +64,7 @@ export default function Register({}) {
 		<Form
 			validationBehavior="native"
 			onSubmit={handleSubmit}
-			className="max-w-80 m-auto mt-16"
+			className="max-w-80 m-auto pt-16"
 		>
 			<Input
 				isRequired
