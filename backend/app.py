@@ -175,6 +175,106 @@ def logout():
 def user_info():
     return {"current_user": current_user.__dict__}, 200
 
+# basic selects for search query parameters
+@api_blueprint.route("/miejscowosci", methods=["GET"])
+def get_miejscowosci():
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "SELECT json_agg(row_to_json(t)) FROM miejscowosci as t",
+    )
+    miejscowosci = cur.fetchone()[0]
+
+    return {"miejscowosci": miejscowosci}, 200
+
+@api_blueprint.route("/wojewodztwa", methods=["GET"])
+def get_wojewodztwa():
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "SELECT json_agg(row_to_json(t)) FROM wojewodztwa as t",
+    )
+    wojewodztwa = cur.fetchone()[0]
+
+    return {"wojewodztwa": wojewodztwa}, 200
+
+@api_blueprint.route("/powiaty", methods=["GET"])
+def get_powiaty():
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "SELECT json_agg(row_to_json(t)) FROM powiaty as t",
+    )
+    powiaty = cur.fetchone()[0]
+
+    return {"powiaty": powiaty}, 200
+
+@api_blueprint.route("/gminy", methods=["GET"])
+def get_gminy():
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "SELECT json_agg(row_to_json(t)) FROM gminy as t",
+    )
+    gminy = cur.fetchone()[0]
+
+    return {"gminy": gminy}, 200
+
+@api_blueprint.route("/typy_podmiotow", methods=["GET"])
+def get_typy_podmiotow():
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "SELECT json_agg(row_to_json(t)) FROM typy_podmiotow as t",
+    )
+    typy_podmiotow = cur.fetchone()[0]
+
+    return {"typy_podmiotow": typy_podmiotow}, 200
+
+@api_blueprint.route("/rodzaje_placowek", methods=["GET"])
+def get_rodzaje_placowek():
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "SELECT json_agg(row_to_json(t)) FROM rodzaje_placowek as t",
+    )
+    rodzaje_placowek = cur.fetchone()[0]
+
+    return {"rodzaje_placowek": rodzaje_placowek}, 200
+
+@api_blueprint.route("/specyfiki_szkol", methods=["GET"])
+def get_specyfiki_szkol():
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "SELECT json_agg(row_to_json(t)) FROM specyfiki_szkol as t",
+    )
+    specyfiki = cur.fetchone()[0]
+
+    return {"specyfiki_szkol": specyfiki}, 200
+
+@api_blueprint.route("/rodzaje_publicznosci", methods=["GET"])
+def get_rodzaje_publicznosci():
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "SELECT json_agg(row_to_json(t)) FROM rodzaje_publicznosci as t",
+    )
+    rodzaje_publicznosci = cur.fetchone()[0]
+
+    return {"rodzaje_publicznosci": rodzaje_publicznosci}, 200
+
+# wyszukiwanie
+# SELECT json_agg(row_to_json(t)) FROM wyszukaj_placowki_rozszerzone('nr 10') as t;
+
 # register flask blueprints
 app.register_blueprint(api_blueprint)
 
