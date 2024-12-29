@@ -439,13 +439,133 @@ BEGIN
         SELECT
             p.rspo,
             p.nazwa_placowki,
-            ts_rank_cd(
-            to_tsvector('simple', p.nazwa_placowki),
-            to_tsquery('simple', query_text)
-            ) AS rank
+            COALESCE(ts_rank_cd(
+                to_tsvector('simple', p.nazwa_placowki),
+                to_tsquery('simple', query_text)
+            ), 0) AS rank
         FROM placowki_oswiatowe AS p
         WHERE to_tsvector('simple', p.nazwa_placowki) @@ plainto_tsquery('simple', query_text)
         ORDER BY rank DESC LIMIT 50;
+END;
+$$;
+
+-- zaawansowanie wyszukiwanie
+CREATE OR REPLACE FUNCTION wyszukaj_placowki_rozszerzone(
+    _query_text TEXT DEFAULT NULL,
+    _id_miejscowosc         INT        DEFAULT NULL,
+    _id_wojewodztwo         VARCHAR(2) DEFAULT NULL,
+    _id_powiat              VARCHAR(4) DEFAULT NULL,
+    _id_gmina               VARCHAR(7) DEFAULT NULL,
+    _id_typ_podmiotu        INT        DEFAULT NULL,
+    _id_rodzaj_placowki     INT        DEFAULT NULL,
+    _id_specyfika_szkoly    INT        DEFAULT NULL,
+    _id_rodzaj_publicznosci INT     DEFAULT NULL
+)
+RETURNS TABLE (
+    rspo                      VARCHAR(10),
+    nazwa_placowki            TEXT,
+    nazwa_typ_podmiotu        VARCHAR(100),
+    nazwa_rodzaj_placowki     VARCHAR(100),
+    nazwa_specyfika_szkoly    VARCHAR(50),
+    nazwa_rodzaj_publicznosci VARCHAR(100),
+    nazwa_wojewodztwa         VARCHAR(50),
+    nazwa_powiatu             VARCHAR(50),
+    nazwa_gminy               VARCHAR(50),
+    nazwa_miejscowosci        VARCHAR(50),
+    rank                      REAL
+)
+LANGUAGE plpgsql
+AS
+$$
+BEGIN
+    RETURN QUERY
+    SELECT
+        p.rspo,
+        p.nazwa_placowki,
+        t.nazwa  AS nazwa_typ_podmiotu,
+        ro.nazwa AS nazwa_rodzaj_placowki,
+        s.nazwa  AS nazwa_specyfika_szkoly,
+        rp.nazwa AS nazwa_rodzaj_publicznosci,
+        w.nazwa  AS nazwa_wojewodztwa,
+        po.nazwa AS nazwa_powiatu,
+        g.nazwa  AS nazwa_gminy,
+        m.nazwa  AS nazwa_miejscowosci,
+
+        -- ranga full-text search (jeśli _query_text nie jest pusty/NULL)
+        COALESCE(
+            ts_rank_cd(
+                to_tsvector('simple', p.nazwa_placowki),
+                plainto_tsquery('simple', _query_text)
+            ),
+            0
+        ) AS rank
+
+    FROM placowki_oswiatowe p
+         JOIN typy_podmiotow            t  ON p.id_typ_podmiotu         = t.id
+         JOIN rodzaje_placowek          ro ON p.id_rodzaj_placowki      = ro.id
+         JOIN specyfiki_szkol           s  ON p.id_specyfika_szkoly     = s.id
+         JOIN rodzaje_publicznosci      rp ON p.id_rodzaj_publicznosci  = rp.id
+         JOIN adresy                    a  ON p.rspo                    = a.rspo
+         JOIN wojewodztwa               w  ON a.id_wojewodztwo          = w.id
+         JOIN powiaty                   po ON a.id_powiat               = po.id
+         JOIN gminy                     g  ON a.id_gmina                = g.id
+         JOIN miejscowosci              m  ON a.id_miejscowosc          = m.id
+
+    WHERE
+        -- jeżeli nie podano _query_text (lub jest pusty), pomijamy filtr full-text
+        (
+           _query_text IS NULL
+           OR _query_text = ''
+           OR to_tsvector('simple', p.nazwa_placowki)
+              @@ plainto_tsquery('simple', _query_text)
+        )
+
+        -- filtry opcjonalne na województwo, powiat, gminę, miejscowość
+        AND (
+            _id_wojewodztwo IS NULL
+            OR a.id_wojewodztwo = _id_wojewodztwo
+        )
+        AND (
+            _id_powiat IS NULL
+            OR a.id_powiat = _id_powiat
+        )
+        AND (
+            _id_gmina IS NULL
+            OR a.id_gmina = _id_gmina
+        )
+        AND (
+            _id_miejscowosc IS NULL
+            OR a.id_miejscowosc = _id_miejscowosc
+        )
+
+        -- filtr opcjonalny na typ podmiotu
+        AND (
+            _id_typ_podmiotu IS NULL
+            OR p.id_typ_podmiotu = _id_typ_podmiotu
+        )
+
+        -- filtr opcjonalny na rodzaj placówki
+        AND (
+            _id_rodzaj_placowki IS NULL
+            OR p.id_rodzaj_placowki = _id_rodzaj_placowki
+        )
+
+        -- filtr opcjonalny na specyfikę szkoły
+        AND (
+            _id_specyfika_szkoly IS NULL
+            OR p.id_specyfika_szkoly = _id_specyfika_szkoly
+        )
+
+        -- filtr opcjonalny na rodzaj publiczności
+        AND (
+            _id_rodzaj_publicznosci IS NULL
+            OR p.id_rodzaj_publicznosci = _id_rodzaj_publicznosci
+        )
+
+    ORDER BY
+        rank DESC,
+        p.nazwa_placowki
+    LIMIT 50;
 END;
 $$;
 
