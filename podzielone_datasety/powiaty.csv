@@ -1,95 +1,95 @@
 id,nazwa
-0201,bolesławiecki
-0202,dzierżoniowski
-0203,głogowski
-0204,górowski
-0205,jaworski
-0206,karkonoski
-0207,kamiennogórski
-0208,kłodzki
-0209,legnicki
-0210,lubański
-0211,lubiński
-0212,lwówecki
-0213,milicki
-0214,oleśnicki
-0215,oławski
-0216,polkowicki
-0217,strzeliński
-0218,średzki
-0219,świdnicki
-0220,trzebnicki
-0221,wałbrzyski
-0222,wołowski
-0223,wrocławski
-0224,ząbkowicki
-0225,zgorzelecki
-0226,złotoryjski
-0261,m. Jelenia Góra
-0262,m. Legnica
-0264,m. Wrocław
-0265,m. Wałbrzych
-0401,aleksandrowski
-0402,brodnicki
-0403,bydgoski
-0404,chełmiński
-0405,golubsko-dobrzyński
-0406,grudziądzki
-0407,inowrocławski
-0408,lipnowski
-0409,mogileński
-0410,nakielski
-0411,radziejowski
-0412,rypiński
-0413,sępoleński
-0414,świecki
-0415,toruński
-0416,tucholski
-0417,wąbrzeski
-0418,włocławski
-0419,żniński
-0461,m. Bydgoszcz
-0462,m. Grudziądz
-0463,m. Toruń
-0464,m. Włocławek
-0601,bialski
-0602,biłgorajski
-0603,chełmski
-0604,hrubieszowski
-0605,janowski
-0606,krasnostawski
-0607,kraśnicki
-0608,lubartowski
-0609,lubelski
-0610,łęczyński
-0611,łukowski
-0612,opolski
-0613,parczewski
-0614,puławski
-0615,radzyński
-0616,rycki
-0617,świdnicki
-0618,tomaszowski
-0619,włodawski
-0620,zamojski
-0661,m. Biała Podlaska
-0662,m. Chełm
-0663,m. Lublin
-0664,m. Zamość
-0801,gorzowski
-0802,krośnieński
-0803,międzyrzecki
-0804,nowosolski
-0805,słubicki
-0806,strzelecko-drezdenecki
-0807,sulęciński
-0808,świebodziński
-0809,zielonogórski
-0810,żagański
-0811,żarski
-0812,wschowski
-0861,m. Gorzów Wielkopolski
-0862,m. Zielona Góra
+201,bolesławiecki
+202,dzierżoniowski
+203,głogowski
+204,górowski
+205,jaworski
+206,karkonoski
+207,kamiennogórski
+208,kłodzki
+209,legnicki
+210,lubański
+211,lubiński
+212,lwówecki
+213,milicki
+214,oleśnicki
+215,oławski
+216,polkowicki
+217,strzeliński
+218,średzki
+219,świdnicki
+220,trzebnicki
+221,wałbrzyski
+222,wołowski
+223,wrocławski
+224,ząbkowicki
+225,zgorzelecki
+226,złotoryjski
+261,m. Jelenia Góra
+262,m. Legnica
+264,m. Wrocław
+265,m. Wałbrzych
+401,aleksandrowski
+402,brodnicki
+403,bydgoski
+404,chełmiński
+405,golubsko-dobrzyński
+406,grudziądzki
+407,inowrocławski
+408,lipnowski
+409,mogileński
+410,nakielski
+411,radziejowski
+412,rypiński
+413,sępoleński
+414,świecki
+415,toruński
+416,tucholski
+417,wąbrzeski
+418,włocławski
+419,żniński
+461,m. Bydgoszcz
+462,m. Grudziądz
+463,m. Toruń
+464,m. Włocławek
+601,bialski
+602,biłgorajski
+603,chełmski
+604,hrubieszowski
+605,janowski
+606,krasnostawski
+607,kraśnicki
+608,lubartowski
+609,lubelski
+610,łęczyński
+611,łukowski
+612,opolski
+613,parczewski
+614,puławski
+615,radzyński
+616,rycki
+617,świdnicki
+618,tomaszowski
+619,włodawski
+620,zamojski
+661,m. Biała Podlaska
+662,m. Chełm
+663,m. Lublin
+664,m. Zamość
+801,gorzowski
+802,krośnieński
+803,międzyrzecki
+804,nowosolski
+805,słubicki
+806,strzelecko-drezdenecki
+807,sulęciński
+808,świebodziński
+809,zielonogórski
+810,żagański
+811,żarski
+812,wschowski
+861,m. Gorzów Wielkopolski
+862,m. Zielona Góra
 1001,bełchatowski
 1002,kutnowski
 1003,łaski
