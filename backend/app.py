@@ -1,12 +1,11 @@
 import os
-
-from flask import Flask, request, Blueprint, jsonify
-from flask_bcrypt import Bcrypt
-from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
 from datetime import timedelta
-from flask_cors import CORS
 
 import psycopg2
+from flask import Flask, request, Blueprint
+from flask_bcrypt import Bcrypt
+from flask_cors import CORS
+from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
 
 # initialize flask
 app = Flask(__name__)
@@ -37,6 +36,7 @@ DB_NAME = os.getenv("DB_NAME", "nasza_oswiata")
 DB_USER = os.getenv("DB_USER", "kot_backendu")
 DB_PASSWORD = os.getenv("DB_PASSWORD", "kot_backendu")
 
+
 def get_db_connection():
     """Establish a database connection."""
     return psycopg2.connect(
@@ -47,6 +47,7 @@ def get_db_connection():
         password=DB_PASSWORD
     )
 
+
 ##################
 ## FLASK LOGIN
 class User(UserMixin):
@@ -56,6 +57,7 @@ class User(UserMixin):
         self.email = email
         self.nr_tel = nr_tel
         self.data_utworzenia = data_utworzenia
+
 
 @login_manager.user_loader
 def load_user(user_id):
@@ -73,6 +75,7 @@ def load_user(user_id):
     if user_data:
         return User(*user_data)
     return None
+
 
 @api_blueprint.route("/register", methods=["POST"])
 def register():
@@ -124,6 +127,7 @@ def register():
 
     return {"message": "Pomyślnie zarejestrowano"}, 201
 
+
 @api_blueprint.route("/login", methods=["POST"])
 def login():
     data = request.get_json()
@@ -160,9 +164,11 @@ def login():
     login_user(user, remember=zapamietaj_mnie)
     return {"current_user": current_user.__dict__, "message": "Logowanie powiodło się."}, 200
 
+
 @login_manager.unauthorized_handler
 def unauthorized():
     return {"error": "Nieautoryzowany dostęp."}, 401
+
 
 @api_blueprint.route("/logout", methods=["GET"])
 @login_required
@@ -170,10 +176,12 @@ def logout():
     logout_user()
     return {"message": "Wylogowano."}, 200
 
+
 @api_blueprint.route("/user", methods=["GET"])
 @login_required
 def user_info():
     return {"current_user": current_user.__dict__}, 200
+
 
 # basic selects for search query parameters
 @api_blueprint.route("/miejscowosci", methods=["GET"])
@@ -186,7 +194,12 @@ def get_miejscowosci():
     )
     miejscowosci = cur.fetchone()[0]
 
+    conn.commit()
+    cur.close()
+    conn.close()
+
     return {"miejscowosci": miejscowosci}, 200
+
 
 @api_blueprint.route("/wojewodztwa", methods=["GET"])
 def get_wojewodztwa():
@@ -198,7 +211,12 @@ def get_wojewodztwa():
     )
     wojewodztwa = cur.fetchone()[0]
 
+    conn.commit()
+    cur.close()
+    conn.close()
+
     return {"wojewodztwa": wojewodztwa}, 200
+
 
 @api_blueprint.route("/powiaty", methods=["GET"])
 def get_powiaty():
@@ -210,7 +228,12 @@ def get_powiaty():
     )
     powiaty = cur.fetchone()[0]
 
+    conn.commit()
+    cur.close()
+    conn.close()
+
     return {"powiaty": powiaty}, 200
+
 
 @api_blueprint.route("/gminy", methods=["GET"])
 def get_gminy():
@@ -222,7 +245,12 @@ def get_gminy():
     )
     gminy = cur.fetchone()[0]
 
+    conn.commit()
+    cur.close()
+    conn.close()
+
     return {"gminy": gminy}, 200
+
 
 @api_blueprint.route("/typy_podmiotow", methods=["GET"])
 def get_typy_podmiotow():
@@ -234,7 +262,12 @@ def get_typy_podmiotow():
     )
     typy_podmiotow = cur.fetchone()[0]
 
+    conn.commit()
+    cur.close()
+    conn.close()
+
     return {"typy_podmiotow": typy_podmiotow}, 200
+
 
 @api_blueprint.route("/rodzaje_placowek", methods=["GET"])
 def get_rodzaje_placowek():
@@ -246,7 +279,12 @@ def get_rodzaje_placowek():
     )
     rodzaje_placowek = cur.fetchone()[0]
 
+    conn.commit()
+    cur.close()
+    conn.close()
+
     return {"rodzaje_placowek": rodzaje_placowek}, 200
+
 
 @api_blueprint.route("/specyfiki_szkol", methods=["GET"])
 def get_specyfiki_szkol():
@@ -258,7 +296,12 @@ def get_specyfiki_szkol():
     )
     specyfiki = cur.fetchone()[0]
 
+    conn.commit()
+    cur.close()
+    conn.close()
+
     return {"specyfiki_szkol": specyfiki}, 200
+
 
 @api_blueprint.route("/rodzaje_publicznosci", methods=["GET"])
 def get_rodzaje_publicznosci():
@@ -270,10 +313,48 @@ def get_rodzaje_publicznosci():
     )
     rodzaje_publicznosci = cur.fetchone()[0]
 
+    conn.commit()
+    cur.close()
+    conn.close()
+
     return {"rodzaje_publicznosci": rodzaje_publicznosci}, 200
 
+
 # wyszukiwanie
-# SELECT json_agg(row_to_json(t)) FROM wyszukaj_placowki_rozszerzone('nr 10') as t;
+# SELECT json_agg(row_to_json(t)) FROM wyszukaj_placowki_po_nazwach('nr 10', 'Toruń') as t
+@api_blueprint.route("/search", methods=["GET"])
+def search():
+    query = request.args.get('query') or None
+    nazwa_miejscowosci = request.args.get('miejscowosc') or None
+    nazwa_wojewodztwa = request.args.get('wojewodztwo') or None
+    nazwa_powiatu = request.args.get('powiat') or None
+    nazwa_gminy = request.args.get('gmina') or None
+    nazwa_typ_podmiotu = request.args.get('typ_podmiotu') or None
+    nazwa_rodzaj_placowki = request.args.get('rodzaj_placowki') or None
+    nazwa_specyfika_szkoly = request.args.get('specyfika_szkoly') or None
+    nazwa_rodzaj_publicznosci = request.args.get('rodzaj_publicznosci') or None
+
+    args = (query, nazwa_miejscowosci, nazwa_wojewodztwa, nazwa_powiatu, nazwa_gminy, nazwa_typ_podmiotu,
+            nazwa_rodzaj_placowki, nazwa_specyfika_szkoly, nazwa_rodzaj_publicznosci)
+
+    if all(param is None for param in args):
+        return {"error": "Niepoprawne parametry zapytania"}, 400
+
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "SELECT json_agg(row_to_json(t)) FROM wyszukaj_placowki_rozszerzone(%s, %s, %s, %s, %s, %s, %s, %s, %s) as t",
+        args,
+    )
+    search_results = cur.fetchone()[0]
+
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    return {"search_results": search_results}, 200
+
 
 # register flask blueprints
 app.register_blueprint(api_blueprint)

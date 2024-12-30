@@ -3,59 +3,7 @@
 import { Button, Form, Input, Select, SelectItem } from "@nextui-org/react";
 import { useEffect, useState } from "react";
 import { API_URL } from "./config";
-
-// export async function fetchQueryParameters() {
-// 	let response = await fetch(API_URL + "/api/miejscowosci", {
-// 		cache: "force-cache", // cache the response
-// 	});
-// 	const miejscowosci = await response.json();
-
-// 	response = await fetch(API_URL + "/api/wojewodztwa", {
-// 		cache: "force-cache", // cache the response
-// 	});
-// 	const wojewodztwa = await response.json();
-
-// 	response = await fetch(API_URL + "/api/powiaty", {
-// 		cache: "force-cache", // cache the response
-// 	});
-// 	const powiaty = await response.json();
-
-// 	response = await fetch(API_URL + "/api/gminy", {
-// 		cache: "force-cache", // cache the response
-// 	});
-// 	const gminy = await response.json();
-
-// 	response = await fetch(API_URL + "/api/typy_podmiotow", {
-// 		cache: "force-cache", // cache the response
-// 	});
-// 	const typy_podmiotow = await response.json();
-
-// 	response = await fetch(API_URL + "/api/rodzaje_placowek", {
-// 		cache: "force-cache", // cache the response
-// 	});
-// 	const rodzaje_placowek = await response.json();
-
-// 	response = await fetch(API_URL + "/api/specyfiki_szkol", {
-// 		cache: "force-cache", // cache the response
-// 	});
-// 	const specyfiki_szkol = await response.json();
-
-// 	response = await fetch(API_URL + "/api/rodzaje_publicznosci", {
-// 		cache: "force-cache", // cache the response
-// 	});
-// 	const rodzaje_publicznosci = await response.json();
-
-// 	return {
-// 		...miejscowosci,
-// 		...wojewodztwa,
-// 		...powiaty,
-// 		...gminy,
-// 		...typy_podmiotow,
-// 		...rodzaje_placowek,
-// 		...specyfiki_szkol,
-// 		...rodzaje_publicznosci
-// 	};
-// }
+import { useRouter } from "next/navigation";
 
 export async function fetchQueryParameters() {
 	const endpoints = [
@@ -81,13 +29,22 @@ export async function fetchQueryParameters() {
 }
 
 export default function Home() {
+	const router = useRouter();
+
 	const [queryParameters, setQueryParameters] = useState({});
-
 	const [submitted, setSubmitted] = useState(false);
-	const [searchQuery, setSearchQuery] = useState("");
-	const [searchResults, setSearchResults] = useState({});
 
-	console.log(queryParameters);
+	const [searchQuery, setSearchQuery] = useState("");
+	const [miejscowosc, setMiejscowosc] = useState(new Set());
+	const [wojewodztwo, setWojewodztwo] = useState(new Set());
+	const [powiat, setPowiat] = useState(new Set());
+	const [gmina, setGmina] = useState(new Set());
+	const [typ_podmiotu, setTypPodmiotu] = useState(new Set());
+	const [rodzaj_placowki, setRodzajPlacowki] = useState(new Set());
+	const [specyfika_szkoly, setSpecyfikaSzkoly] = useState(new Set());
+	const [rodzaj_publicznosci, setRodzajPublicznosci] = useState(new Set());
+
+	const [searchResults, setSearchResults] = useState({});
 
 	useEffect(() => {
 		(async () => {
@@ -95,34 +52,50 @@ export default function Home() {
 		})();
 	}, []);
 
-	// const handleSubmit = async (e) => {
-	// 	e.preventDefault();
+	const handleSubmit = async (e) => {
+		e.preventDefault();
 
-	// 	setSubmitted(true);
+		const params = {
+			query: searchQuery,
+			miejscowosc: miejscowosc.values().next().value || "",
+			wojewodztwo: wojewodztwo.values().next().value || "",
+			powiat: powiat.values().next().value || "",
+			gmina: gmina.values().next().value || "",
+			typ_podmiotu: typ_podmiotu.values().next().value || "",
+			rodzaj_placowki: rodzaj_placowki.values().next().value || "",
+			specyfika_szkoly: specyfika_szkoly.values().next().value || "",
+			rodzaj_publicznosci:
+				rodzaj_publicznosci.values().next().value || "",
+		};
 
-	// 	const response = await fetch(API_URL + "/api/user", {
-	// 		method: "POST",
-	// 		headers: {
-	// 			"Content-Type": "application/json",
-	// 		},
-	// 		body: JSON.stringify({
-	// 			searchQuery,
-	// 		}),
-	// 	});
+		setSubmitted(true);
 
-	// 	const data = await response.json();
+		const response = await fetch(
+			API_URL + `/api/search?${new URLSearchParams(params).toString()}`,
+			{
+				method: "GET",
+				headers: {
+					"Content-Type": "application/json",
+				},
+			}
+		);
 
-	// 	if (response.ok) {
-	// 		toast.success(data.message);
-	// 	} else {
-	// 		toast.error(data.error);
-	// 	}
+		const data = await response.json();
 
-	// 	setSubmitted(false);
-	// };
+		if (response.ok) {
+			console.log(data.search_results);
+		} else {
+			console.warn(data.error);
+		}
+
+		setSubmitted(false);
+	};
 
 	return (
-		<Form className="w-11/12 md:w-9/12 lg:w-7/12 m-auto pt-16">
+		<Form
+			className="w-11/12 md:w-9/12 lg:w-7/12 m-auto pt-16"
+			onSubmit={handleSubmit}
+		>
 			<div className="flex flex-nowrap gap-4 w-full pt-4">
 				<Input
 					className="w-10/12"
@@ -143,12 +116,15 @@ export default function Home() {
 					size="lg"
 					color="primary"
 					variant="shadow"
+					isLoading={submitted}
 				>
 					Szukaj
 				</Button>
 			</div>
 			<div className="flex flex-nowrap gap-4 w-full pt-4">
 				<Select
+					selectedKeys={miejscowosc}
+					onSelectionChange={setMiejscowosc}
 					className="w-1/4"
 					color="primary"
 					labelPlacement="inside"
@@ -162,6 +138,8 @@ export default function Home() {
 					))}
 				</Select>
 				<Select
+					selectedKeys={wojewodztwo}
+					onSelectionChange={setWojewodztwo}
 					className="w-1/4"
 					color="primary"
 					labelPlacement="inside"
@@ -175,6 +153,8 @@ export default function Home() {
 					))}
 				</Select>
 				<Select
+					selectedKeys={gmina}
+					onSelectionChange={setGmina}
 					className="w-1/4"
 					color="primary"
 					labelPlacement="inside"
@@ -188,6 +168,8 @@ export default function Home() {
 					))}
 				</Select>
 				<Select
+					selectedKeys={powiat}
+					onSelectionChange={setPowiat}
 					className="w-1/4"
 					color="primary"
 					labelPlacement="inside"
@@ -204,6 +186,8 @@ export default function Home() {
 
 			<div className="flex flex-nowrap gap-4 w-full pt-4">
 				<Select
+					selectedKeys={typ_podmiotu}
+					onSelectionChange={setTypPodmiotu}
 					className="w-3/6"
 					labelPlacement="inside"
 					scrollShadowProps={{
@@ -216,6 +200,8 @@ export default function Home() {
 					))}
 				</Select>
 				<Select
+					selectedKeys={rodzaj_placowki}
+					onSelectionChange={setRodzajPlacowki}
 					className="w-3/6"
 					labelPlacement="inside"
 					scrollShadowProps={{
@@ -230,7 +216,9 @@ export default function Home() {
 			</div>
 			<div className="flex flex-nowrap gap-4 w-full">
 				<Select
-					className="w-3/6"
+					selectedKeys={specyfika_szkoly}
+					onSelectionChange={setSpecyfikaSzkoly}
+					className="w-3/12"
 					labelPlacement="inside"
 					scrollShadowProps={{
 						isEnabled: false,
@@ -242,7 +230,9 @@ export default function Home() {
 					))}
 				</Select>
 				<Select
-					className="w-3/6"
+					selectedKeys={rodzaj_publicznosci}
+					onSelectionChange={setRodzajPublicznosci}
+					className="w-9/12"
 					labelPlacement="inside"
 					scrollShadowProps={{
 						isEnabled: false,
