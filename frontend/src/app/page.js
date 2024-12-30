@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Form, Input, Select, SelectItem } from "@nextui-org/react";
+import { Autocomplete, AutocompleteItem, Button, Form, Input, Select, SelectItem } from "@nextui-org/react";
 import { useEffect, useState } from "react";
 import { API_URL } from "./config";
 import { useRouter } from "next/navigation";
@@ -35,14 +35,14 @@ export default function Home() {
 	const [submitted, setSubmitted] = useState(false);
 
 	const [searchQuery, setSearchQuery] = useState("");
-	const [miejscowosc, setMiejscowosc] = useState(new Set());
-	const [wojewodztwo, setWojewodztwo] = useState(new Set());
-	const [powiat, setPowiat] = useState(new Set());
-	const [gmina, setGmina] = useState(new Set());
-	const [typ_podmiotu, setTypPodmiotu] = useState(new Set());
-	const [rodzaj_placowki, setRodzajPlacowki] = useState(new Set());
-	const [specyfika_szkoly, setSpecyfikaSzkoly] = useState(new Set());
-	const [rodzaj_publicznosci, setRodzajPublicznosci] = useState(new Set());
+	const [miejscowosc, setMiejscowosc] = useState();
+	const [wojewodztwo, setWojewodztwo] = useState();
+	const [powiat, setPowiat] = useState();
+	const [gmina, setGmina] = useState();
+	const [typ_podmiotu, setTypPodmiotu] = useState();
+	const [rodzaj_placowki, setRodzajPlacowki] = useState();
+	const [specyfika_szkoly, setSpecyfikaSzkoly] = useState();
+	const [rodzaj_publicznosci, setRodzajPublicznosci] = useState();
 
 	const [searchResults, setSearchResults] = useState({});
 
@@ -57,15 +57,15 @@ export default function Home() {
 
 		const params = {
 			query: searchQuery,
-			miejscowosc: miejscowosc.values().next().value || "",
-			wojewodztwo: wojewodztwo.values().next().value || "",
-			powiat: powiat.values().next().value || "",
-			gmina: gmina.values().next().value || "",
-			typ_podmiotu: typ_podmiotu.values().next().value || "",
-			rodzaj_placowki: rodzaj_placowki.values().next().value || "",
-			specyfika_szkoly: specyfika_szkoly.values().next().value || "",
+			miejscowosc: miejscowosc || "",
+			wojewodztwo: wojewodztwo || "",
+			powiat: powiat || "",
+			gmina: gmina || "",
+			typ_podmiotu: typ_podmiotu || "",
+			rodzaj_placowki: rodzaj_placowki || "",
+			specyfika_szkoly: specyfika_szkoly || "",
 			rodzaj_publicznosci:
-				rodzaj_publicznosci.values().next().value || "",
+				rodzaj_publicznosci || "",
 		};
 
 		setSubmitted(true);
@@ -122,7 +122,7 @@ export default function Home() {
 				</Button>
 			</div>
 			<div className="flex flex-nowrap gap-4 w-full pt-4">
-				<Select
+				<Autocomplete
 					selectedKeys={miejscowosc}
 					onSelectionChange={setMiejscowosc}
 					className="w-1/4"
@@ -134,10 +134,10 @@ export default function Home() {
 					label="Miejscowość"
 				>
 					{queryParameters.miejscowosci?.map((typ) => (
-						<SelectItem key={typ.id}>{typ.nazwa}</SelectItem>
+						<AutocompleteItem key={typ.id}>{typ.nazwa}</AutocompleteItem>
 					))}
-				</Select>
-				<Select
+				</Autocomplete>
+				<Autocomplete
 					selectedKeys={wojewodztwo}
 					onSelectionChange={setWojewodztwo}
 					className="w-1/4"
@@ -149,10 +149,10 @@ export default function Home() {
 					label="Województwo"
 				>
 					{queryParameters.wojewodztwa?.map((typ) => (
-						<SelectItem key={typ.id}>{typ.nazwa}</SelectItem>
+						<AutocompleteItem key={typ.id}>{typ.nazwa}</AutocompleteItem>
 					))}
-				</Select>
-				<Select
+				</Autocomplete>
+				<Autocomplete
 					selectedKeys={gmina}
 					onSelectionChange={setGmina}
 					className="w-1/4"
@@ -164,10 +164,10 @@ export default function Home() {
 					label="Gmina"
 				>
 					{queryParameters.gminy?.map((typ) => (
-						<SelectItem key={typ.id}>{typ.nazwa}</SelectItem>
+						<AutocompleteItem key={typ.id}>{typ.nazwa}</AutocompleteItem>
 					))}
-				</Select>
-				<Select
+				</Autocomplete>
+				<Autocomplete
 					selectedKeys={powiat}
 					onSelectionChange={setPowiat}
 					className="w-1/4"
@@ -179,13 +179,13 @@ export default function Home() {
 					label="Powiat"
 				>
 					{queryParameters.powiaty?.map((typ) => (
-						<SelectItem key={typ.id}>{typ.nazwa}</SelectItem>
+						<AutocompleteItem key={typ.id}>{typ.nazwa}</AutocompleteItem>
 					))}
-				</Select>
+				</Autocomplete>
 			</div>
 
 			<div className="flex flex-nowrap gap-4 w-full pt-4">
-				<Select
+				<Autocomplete
 					selectedKeys={typ_podmiotu}
 					onSelectionChange={setTypPodmiotu}
 					className="w-3/6"
@@ -196,10 +196,10 @@ export default function Home() {
 					label="Typ podmiotu"
 				>
 					{queryParameters.typy_podmiotow?.map((typ) => (
-						<SelectItem key={typ.id}>{typ.nazwa}</SelectItem>
+						<AutocompleteItem key={typ.id}>{typ.nazwa}</AutocompleteItem>
 					))}
-				</Select>
-				<Select
+				</Autocomplete>
+				<Autocomplete
 					selectedKeys={rodzaj_placowki}
 					onSelectionChange={setRodzajPlacowki}
 					className="w-3/6"
@@ -210,12 +210,12 @@ export default function Home() {
 					label="Rodzaj placówki"
 				>
 					{queryParameters.rodzaje_placowek?.map((typ) => (
-						<SelectItem key={typ.id}>{typ.nazwa}</SelectItem>
+						<AutocompleteItem key={typ.id}>{typ.nazwa}</AutocompleteItem>
 					))}
-				</Select>
+				</Autocomplete>
 			</div>
 			<div className="flex flex-nowrap gap-4 w-full">
-				<Select
+				<Autocomplete
 					selectedKeys={specyfika_szkoly}
 					onSelectionChange={setSpecyfikaSzkoly}
 					className="w-3/12"
@@ -226,10 +226,10 @@ export default function Home() {
 					label="Specyfika szkoły"
 				>
 					{queryParameters.specyfiki_szkol?.map((typ) => (
-						<SelectItem key={typ.id}>{typ.nazwa}</SelectItem>
+						<AutocompleteItem key={typ.id}>{typ.nazwa}</AutocompleteItem>
 					))}
-				</Select>
-				<Select
+				</Autocomplete>
+				<Autocomplete
 					selectedKeys={rodzaj_publicznosci}
 					onSelectionChange={setRodzajPublicznosci}
 					className="w-9/12"
@@ -240,9 +240,9 @@ export default function Home() {
 					label="Rodzaj publiczności"
 				>
 					{queryParameters.rodzaje_publicznosci?.map((typ) => (
-						<SelectItem key={typ.id}>{typ.nazwa}</SelectItem>
+						<AutocompleteItem key={typ.id}>{typ.nazwa}</AutocompleteItem>
 					))}
-				</Select>
+				</Autocomplete>
 			</div>
 		</Form>
 	);
