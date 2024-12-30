@@ -568,6 +568,115 @@ BEGIN
     LIMIT 50;
 END;
 $$;
+-- CREATE OR REPLACE FUNCTION wyszukaj_placowki_rozszerzone(
+--     _query_text TEXT DEFAULT NULL,
+--     _nazwa_miejscowosc         TEXT DEFAULT NULL,
+--     _nazwa_wojewodztwo         TEXT DEFAULT NULL,
+--     _nazwa_powiat              TEXT DEFAULT NULL,
+--     _nazwa_gmina               TEXT DEFAULT NULL,
+--     _nazwa_typ_podmiotu        TEXT DEFAULT NULL,
+--     _nazwa_rodzaj_placowki     TEXT DEFAULT NULL,
+--     _nazwa_specyfika_szkoly    TEXT DEFAULT NULL,
+--     _nazwa_rodzaj_publicznosci TEXT DEFAULT NULL
+-- )
+-- RETURNS TABLE (
+--     rspo                      VARCHAR(10),
+--     nazwa_placowki            TEXT,
+--     nazwa_typ_podmiotu        VARCHAR(100),
+--     nazwa_rodzaj_placowki     VARCHAR(100),
+--     nazwa_specyfika_szkoly    VARCHAR(50),
+--     nazwa_rodzaj_publicznosci VARCHAR(100),
+--     nazwa_wojewodztwa         VARCHAR(50),
+--     nazwa_powiatu             VARCHAR(50),
+--     nazwa_gminy               VARCHAR(50),
+--     nazwa_miejscowosci        VARCHAR(50),
+--     rank                      REAL
+-- )
+-- LANGUAGE plpgsql
+-- AS
+-- $$
+-- BEGIN
+--     RETURN QUERY
+--     SELECT
+--         p.rspo,
+--         p.nazwa_placowki,
+--         t.nazwa  AS nazwa_typ_podmiotu,
+--         ro.nazwa AS nazwa_rodzaj_placowki,
+--         s.nazwa  AS nazwa_specyfika_szkoly,
+--         rp.nazwa AS nazwa_rodzaj_publicznosci,
+--         w.nazwa  AS nazwa_wojewodztwa,
+--         po.nazwa AS nazwa_powiatu,
+--         g.nazwa  AS nazwa_gminy,
+--         m.nazwa  AS nazwa_miejscowosci,
+--
+--         -- ranga full-text search (jeśli _query_text nie jest pusty/NULL)
+--         COALESCE(
+--             ts_rank_cd(
+--                 to_tsvector('simple', p.nazwa_placowki),
+--                 plainto_tsquery('simple', _query_text)
+--             ),
+--             0
+--         ) AS rank
+--
+--     FROM placowki_oswiatowe p
+--          JOIN typy_podmiotow            t  ON p.id_typ_podmiotu             = t.id
+--          JOIN rodzaje_placowek          ro ON p.id_rodzaj_placowki          = ro.id
+--          JOIN specyfiki_szkol           s  ON p.id_specyfika_szkoly         = s.id
+--          JOIN rodzaje_publicznosci      rp ON p.id_rodzaj_publicznosci      = rp.id
+--          JOIN adresy                    a  ON p.rspo                        = a.rspo
+--          JOIN wojewodztwa               w   ON a.id_wojewodztwo             = w.id
+--          JOIN powiaty                   po  ON a.id_powiat                  = po.id
+--          JOIN gminy                     g   ON a.id_gmina                   = g.id
+--          JOIN miejscowosci              m   ON a.id_miejscowosc             = m.id
+--
+--     WHERE
+--         (
+--            _query_text IS NULL
+--            OR _query_text = ''
+--            OR to_tsvector('simple', p.nazwa_placowki)
+--               @@ plainto_tsquery('simple', _query_text)
+--         )
+--
+--         AND (
+--             _nazwa_wojewodztwo IS NULL
+--             OR w.nazwa = _nazwa_wojewodztwo
+--         )
+--         AND (
+--             _nazwa_powiat IS NULL
+--             OR po.nazwa = _nazwa_powiat
+--         )
+--         AND (
+--             _nazwa_gmina IS NULL
+--             OR g.nazwa = _nazwa_gmina
+--         )
+--         AND (
+--             _nazwa_miejscowosc IS NULL
+--             OR m.nazwa = _nazwa_miejscowosc
+--         )
+--         AND (
+--             _nazwa_typ_podmiotu IS NULL
+--             OR t.nazwa = _nazwa_typ_podmiotu
+--         )
+--         AND (
+--             _nazwa_rodzaj_placowki IS NULL
+--             OR ro.nazwa = _nazwa_rodzaj_placowki
+--         )
+--         AND (
+--             _nazwa_specyfika_szkoly IS NULL
+--             OR s.nazwa = _nazwa_specyfika_szkoly
+--         )
+--         AND (
+--             _nazwa_rodzaj_publicznosci IS NULL
+--             OR rp.nazwa = _nazwa_rodzaj_publicznosci
+--         )
+--
+--     ORDER BY
+--         rank DESC,
+--         p.nazwa_placowki
+--     LIMIT 50;
+-- END;
+-- $$;
+
 
 ------------------------------------------------------------------------
 -- Create username for backend
