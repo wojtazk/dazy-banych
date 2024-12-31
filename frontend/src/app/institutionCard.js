@@ -22,7 +22,7 @@ export default function InstitutionCard({
 	rspo,
 }) {
 	return (
-		<Card className="w-full rounded-xl mt-3 mb-3 mr-1 ml-1">
+		<Card className="w-full rounded-xl m-auto mt-3 mb-3">
 			<CardHeader>
 				<div>
 					<p className="text-medium">
