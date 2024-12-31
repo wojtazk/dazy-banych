@@ -565,7 +565,7 @@ BEGIN
     ORDER BY
         rank DESC,
         p.nazwa_placowki
-    LIMIT 50;
+    LIMIT 300;
 END;
 $$;
 -- CREATE OR REPLACE FUNCTION wyszukaj_placowki_rozszerzone(
@@ -673,7 +673,7 @@ $$;
 --     ORDER BY
 --         rank DESC,
 --         p.nazwa_placowki
---     LIMIT 50;
+--     LIMIT 300;
 -- END;
 -- $$;
 
