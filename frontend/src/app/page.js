@@ -4,12 +4,20 @@ import {
 	Autocomplete,
 	AutocompleteItem,
 	Button,
+	Divider,
 	Form,
 	Input,
+	Card,
+	CardHeader,
+	CardBody,
+	CardFooter,
+	Skeleton,
+	SkeletonText,
 } from "@nextui-org/react";
 import { useEffect, useState } from "react";
 import { API_URL } from "./config";
-import { redirect, usePathname, useSearchParams } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import InstitutionCard from "./institutionCard";
 
 export async function fetchAutocompleteValues() {
 	const endpoints = [
@@ -44,12 +52,36 @@ export default function Home() {
 	}, []);
 
 	// get pathname and search params
+	const router = useRouter();
 	const pathname = usePathname();
 	const searchParams = useSearchParams();
 
+	// controlled form madness
+	const [searchQuery, setSearchQuery] = useState("");
+	const [miejscowosc, setMiejscowosc] = useState("");
+	const [wojewodztwo, setWojewodztwo] = useState("");
+	const [powiat, setPowiat] = useState("");
+	const [gmina, setGmina] = useState("");
+	const [typ_podmiotu, setTypPodmiotu] = useState("");
+	const [rodzaj_placowki, setRodzajPlacowki] = useState("");
+	const [specyfika_szkoly, setSpecyfikaSzkoly] = useState("");
+	const [rodzaj_publicznosci, setRodzajPublicznosci] = useState("");
+
 	// handle searchParams change
-	const [searchResults, setSearchResults] = useState({});
+	const [searchResults, setSearchResults] = useState([]);
+	const [submitted, setSubmitted] = useState(false);
 	useEffect(() => {
+		setSearchQuery(searchParams.get("query") || "");
+		setMiejscowosc(searchParams.get("miejscowosc") || "");
+		setWojewodztwo(searchParams.get("wojewodztwo") || "");
+		setPowiat(searchParams.get("powiat") || "");
+		setGmina(searchParams.get("gmina") || "");
+		setTypPodmiotu(searchParams.get("typ_podmiotu") || "");
+		setRodzajPlacowki(searchParams.get("rodzaj_placowki") || "");
+		setSpecyfikaSzkoly(searchParams.get("specyfika_szkoly") || "");
+		setRodzajPublicznosci(searchParams.get("rodzaj_publicznosci") || "");
+		setSearchResults([]);
+
 		if (searchParams.size < 1) return;
 
 		(async () => {
@@ -69,6 +101,7 @@ export default function Home() {
 
 			if (response.ok) {
 				console.log(data.search_results);
+				setSearchResults(data.search_results);
 			} else {
 				console.warn(data.error);
 			}
@@ -76,30 +109,6 @@ export default function Home() {
 			setSubmitted(false);
 		})();
 	}, [searchParams]);
-
-	// controlled form madness
-	const [submitted, setSubmitted] = useState(false);
-	const [searchQuery, setSearchQuery] = useState(searchParams.get("query"));
-	const [miejscowosc, setMiejscowosc] = useState(
-		searchParams.get("miejscowosc")
-	);
-	const [wojewodztwo, setWojewodztwo] = useState(
-		searchParams.get("wojewodztwo")
-	);
-	const [powiat, setPowiat] = useState(searchParams.get("powiat"));
-	const [gmina, setGmina] = useState(searchParams.get("gmina"));
-	const [typ_podmiotu, setTypPodmiotu] = useState(
-		searchParams.get("typ_podmiotu")
-	);
-	const [rodzaj_placowki, setRodzajPlacowki] = useState(
-		searchParams.get("rodzaj_placowki")
-	);
-	const [specyfika_szkoly, setSpecyfikaSzkoly] = useState(
-		searchParams.get("specyfika_szkoly")
-	);
-	const [rodzaj_publicznosci, setRodzajPublicznosci] = useState(
-		searchParams.get("rodzaj_publicznosci")
-	);
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
@@ -116,7 +125,7 @@ export default function Home() {
 			rodzaj_publicznosci: rodzaj_publicznosci || "",
 		};
 
-		redirect(`${pathname}?${new URLSearchParams(params).toString()}`);
+		router.push(`${pathname}?${new URLSearchParams(params).toString()}`);
 	};
 
 	return (
@@ -290,6 +299,33 @@ export default function Home() {
 					</Autocomplete>
 				</div>
 			</Form>
+
+			<Divider className="w-11/12 md:w-9/12 lg:w-7/12 m-auto mt-4 font-black" />
+
+			<div className="w-11/12 md:w-9/12 lg:w-7/12 m-auto h-fit pt-4 pb-4">
+				{submitted &&
+					Array(5)
+						.fill(null)
+						.map((_, index) => (
+							<Skeleton
+								key={index}
+								className="rounded-xl mt-3 mb-3 mr-1 ml-1"
+							>
+								<InstitutionCard />
+							</Skeleton>
+						))}
+				{!submitted &&
+					searchResults &&
+					searchResults.map((result, index) => (
+						<InstitutionCard
+							key={index}
+							{...result}
+						></InstitutionCard>
+					))}
+				{!submitted && !searchResults && (
+					<p className="w-fit m-auto">Brak wyników...</p>
+				)}
+			</div>
 		</>
 	);
 }
