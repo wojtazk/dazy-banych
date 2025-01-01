@@ -31,7 +31,7 @@ login_manager.init_app(app)
 
 # database con settings
 DB_HOST = os.getenv("DB_HOST", "localhost")
-DB_PORT = int(os.getenv("DB_PORT", 5342))
+DB_PORT = int(os.getenv("DB_PORT", 5432))
 DB_NAME = os.getenv("DB_NAME", "nasza_oswiata")
 DB_USER = os.getenv("DB_USER", "kot_backendu")
 DB_PASSWORD = os.getenv("DB_PASSWORD", "kot_backendu")

@@ -3,7 +3,7 @@ services:
     build:
       dockerfile: postgres.Dockerfile
     ports:
-      - 5342:5432
+      - 5432:5432
 
   pgadmin:
     build:
