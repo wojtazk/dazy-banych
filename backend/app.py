@@ -355,6 +355,24 @@ def search():
 
     return {"search_results": search_results}, 200
 
+@api_blueprint.route("/institution/<string:rspo>", methods=["GET"])
+def get_institution_info(rspo):
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "select * from pobierz_informacje_o_placowce(%s)",
+        (rspo,),
+    )
+    institution_info = cur.fetchone()[0]
+
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    return {"institution_info": institution_info}, 200
+
+
 
 # register flask blueprints
 app.register_blueprint(api_blueprint)

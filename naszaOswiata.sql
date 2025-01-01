@@ -677,6 +677,152 @@ $$;
 -- END;
 -- $$;
 
+-- Function for gettin info about school
+CREATE OR REPLACE FUNCTION pobierz_informacje_o_placowce(_rspo VARCHAR(10))
+RETURNS JSONB
+LANGUAGE plpgsql
+AS $$
+DECLARE
+    wynik JSONB;
+BEGIN
+    /*
+        pobieramy informacje
+        o samej placówce (nazwa, typ podmiotu, rodzaj placówki itp.),
+        a także jej adres (ulica, miejscowość, województwo itd.)
+        i dane kontaktowe.
+    */
+    WITH placowka_info AS (
+        SELECT
+            p.rspo,
+            p.regon,
+            p.nazwa_placowki,
+            t.nazwa   AS typ_podmiotu,
+            ro.nazwa  AS rodzaj_placowki,
+            ku.nazwa  AS kategoria_uczniow,
+            rp.nazwa  AS rodzaj_publicznosci,
+            ss.nazwa  AS specyfika_szkoly,
+            top.nazwa AS typ_organu_prowadzacego,
+
+            p.liczba_uczniow_ogolem,
+            p.liczba_uczennic,
+
+            a.ulica,
+            a.numer_domu,
+            a.numer_lokalu,
+            k.kod      AS kod_pocztowy,
+            m.nazwa    AS miejscowosc,
+            w.nazwa    AS wojewodztwo,
+            po.nazwa   AS powiat,
+            g.nazwa    AS gmina,
+
+            d.nr_tel,
+            d.email,
+            d.strona_www
+
+        FROM placowki_oswiatowe p
+        LEFT JOIN typy_podmiotow            t   ON p.id_typ_podmiotu             = t.id
+        LEFT JOIN rodzaje_placowek          ro  ON p.id_rodzaj_placowki          = ro.id
+        LEFT JOIN kategorie_uczniow         ku  ON p.id_kategoria_uczniow        = ku.id
+        LEFT JOIN rodzaje_publicznosci      rp  ON p.id_rodzaj_publicznosci      = rp.id
+        LEFT JOIN specyfiki_szkol           ss  ON p.id_specyfika_szkoly         = ss.id
+        LEFT JOIN typy_organow_prowadzacych top ON p.id_typ_organu_prowadzacego  = top.id
+
+        LEFT JOIN adresy a           ON p.rspo              = a.rspo
+        LEFT JOIN kody_pocztowe k    ON a.id_kod_pocztowy   = k.id
+        LEFT JOIN miejscowosci m     ON a.id_miejscowosc    = m.id
+        LEFT JOIN wojewodztwa w      ON a.id_wojewodztwo    = w.id
+        LEFT JOIN powiaty po         ON a.id_powiat         = po.id
+        LEFT JOIN gminy   g          ON a.id_gmina          = g.id
+
+        LEFT JOIN dane_kontaktowe d  ON p.rspo              = d.rspo
+
+        WHERE p.rspo = _rspo
+        LIMIT 1
+    ),
+
+    /*
+        zbieramy wszystkie ogłoszenia z tabeli
+        `ogloszenia_placowek`, które są:
+        - widoczne = TRUE
+        - oraz data_wygasniecia >= teraz (ogłoszenie niewygasłe).
+        Zwracamy je jako tablicę JSON (json_agg).
+    */
+    ogloszenia_info AS (
+        SELECT
+            COALESCE(
+                json_agg(
+                    json_build_object(
+                        'id', o.id,
+                        'tytul', o.tytul,
+                        'tresc', o.tresc,
+                        'data_utworzenia', o.data_utworzenia,
+                        'data_wygasniecia', o.data_wygasniecia
+                    )
+                    ORDER BY o.data_utworzenia DESC
+                ),
+                '[]'::json
+            ) AS ogloszenia
+        FROM ogloszenia_placowek o
+        WHERE o.rspo = _rspo
+          AND o.widoczne = TRUE
+          AND o.data_wygasniecia >= now()
+    ),
+
+    /*
+        pobieramy wszystkie opinie widoczne (widoczna = TRUE)
+        i zwracamy je w formacie JSON. Dołączamy nazwę użytkownika (o ile istnieje;
+        jeśli użytkownik został usunięty, nazwa może być NULL – można wtedy użyć COALESCE).
+    */
+    opinie_info AS (
+        SELECT
+            COALESCE(
+                json_agg(
+                    json_build_object(
+                        'id', op.id,
+                        'ocena', op.ocena,
+                        'tresc', op.tresc,
+                        'data_utworzenia', op.data_utworzenia,
+                        'autor', COALESCE(u.nazwa_uzytkownika, 'Usunięty')
+                    )
+                    ORDER BY op.data_utworzenia DESC
+                ),
+                '[]'::json
+            ) AS opinie
+        FROM opinie op
+        LEFT JOIN uzytkownicy u ON op.uzytkownik_id = u.id
+        WHERE op.rspo = _rspo
+          AND op.widoczna = TRUE
+    ),
+
+    -- srednia z wystawionych ocen
+    srednia_ocena AS (
+        SELECT
+            COALESCE(ROUND(AVG(op.ocena)::numeric, 1), 0) AS avg_ocena
+        FROM opinie op
+        WHERE op.rspo = _rspo
+          AND op.widoczna = TRUE
+    )
+
+    -- zwracamy polaczenie poprzednich zapytan
+    SELECT jsonb_build_object(
+        'placowka',
+            to_jsonb(pi),  -- podstawowe info o placówce (z placowka_info)
+            -- - 'rspo',     -- ewentualnie można wykluczyć klucze, których nie chcemy w JSON
+        'ogloszenia', oi.ogloszenia,   -- tablica z ogłoszeniami
+        'opinie',     oi2.opinie,      -- tablica z opiniami
+        'srednia_ocena', soc.avg_ocena
+    )
+    INTO wynik
+    FROM placowka_info pi
+    CROSS JOIN ogloszenia_info oi
+    CROSS JOIN opinie_info     oi2
+    CROSS JOIN srednia_ocena   soc;
+
+    RETURN wynik;
+END;
+$$;
+
+
 
 ------------------------------------------------------------------------
 -- Create username for backend
