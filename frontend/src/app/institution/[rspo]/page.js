@@ -146,6 +146,10 @@ export default function InstutionInfo() {
 					title="Organ prowadzący"
 				>
 					<p className="text-default-600">
+						organ prowadzący:{" "}
+						{placowka.organy_prowadzace.join(", ")}
+					</p>
+					<p className="text-default-600">
 						typ organu prowadzącego:{" "}
 						{placowka.typ_organu_prowadzacego}
 					</p>

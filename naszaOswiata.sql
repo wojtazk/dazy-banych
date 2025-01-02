@@ -703,6 +703,13 @@ BEGIN
             ss.nazwa  AS specyfika_szkoly,
             top.nazwa AS typ_organu_prowadzacego,
 
+            COALESCE(
+                (
+                    SELECT json_agg(op.nazwa) FROM organy_prowadzace op LEFT JOIN placowki_organy_prowadzace pop ON op.id = pop.id_organ_prowadzacy WHERE pop.rspo = p.rspo
+                ),
+                '[]'
+            ) AS organy_prowadzace,
+
             p.liczba_uczniow_ogolem,
             p.liczba_uczennic,
 
@@ -720,12 +727,12 @@ BEGIN
             d.strona_www
 
         FROM placowki_oswiatowe p
-        LEFT JOIN typy_podmiotow            t   ON p.id_typ_podmiotu             = t.id
-        LEFT JOIN rodzaje_placowek          ro  ON p.id_rodzaj_placowki          = ro.id
-        LEFT JOIN kategorie_uczniow         ku  ON p.id_kategoria_uczniow        = ku.id
-        LEFT JOIN rodzaje_publicznosci      rp  ON p.id_rodzaj_publicznosci      = rp.id
-        LEFT JOIN specyfiki_szkol           ss  ON p.id_specyfika_szkoly         = ss.id
-        LEFT JOIN typy_organow_prowadzacych top ON p.id_typ_organu_prowadzacego  = top.id
+        LEFT JOIN typy_podmiotow            t       ON p.id_typ_podmiotu             = t.id
+        LEFT JOIN rodzaje_placowek          ro      ON p.id_rodzaj_placowki          = ro.id
+        LEFT JOIN kategorie_uczniow         ku      ON p.id_kategoria_uczniow        = ku.id
+        LEFT JOIN rodzaje_publicznosci      rp      ON p.id_rodzaj_publicznosci      = rp.id
+        LEFT JOIN specyfiki_szkol           ss      ON p.id_specyfika_szkoly         = ss.id
+        LEFT JOIN typy_organow_prowadzacych top     ON p.id_typ_organu_prowadzacego  = top.id
 
         LEFT JOIN adresy a           ON p.rspo              = a.rspo
         LEFT JOIN kody_pocztowe k    ON a.id_kod_pocztowy   = k.id

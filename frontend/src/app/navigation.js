@@ -50,8 +50,8 @@ const MoonIcon = (props) => {
 };
 
 const navItems = [
-	{ title: "Strona Główna", href: "/" },
-	{ title: "Hello There", href: "/login" },
+	{ title: "Wyszukiwarka", href: "/" },
+	{ title: "Wyszukaj po RSPO", href: "/institution" },
 	{ title: "Hello There", href: "/register" },
 ];
 
