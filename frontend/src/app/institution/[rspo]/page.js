@@ -155,8 +155,10 @@ export default function InstutionInfo() {
 						kategoria uczniów: {placowka.kategoria_uczniow}
 					</p>
 					<p className="text-default-600">
-						uczniów ogółem: {placowka.liczba_uczniow_ogolem}, w tym
-						uczennic: {placowka.liczba_uczennic}
+						uczniów ogółem:{" "}
+						{placowka.liczba_uczniow_ogolem || "<brak informacji>"},
+						w tym uczennic:{" "}
+						{placowka.liczba_uczennic || "<brak informacji>"}
 					</p>
 					<p className="text-default-600">
 						poziom męskości:{" "}
@@ -169,7 +171,7 @@ export default function InstutionInfo() {
 									: "text-danger"
 							}
 						>
-							{poziomMeskosci}%
+							{poziomMeskosci || 0}%
 						</span>
 					</p>
 				</AccordionItem>
