@@ -372,6 +372,37 @@ def get_institution_info(rspo):
 
     return {"institution_info": institution_info}, 200
 
+@api_blueprint.route("/add_opinion", methods=["POST"])
+@login_required
+def add_opinion():
+    data = request.get_json()
+
+    rspo = data.get('rspo', False)
+    if not rspo:
+        return {"error": "Nie podanno rspo"}, 400
+
+    tresc = data.get('tresc', False)
+    if not tresc:
+        return {"error": "Nie podanno tresci"}, 400
+
+    ocena =data.get('ocena', False)
+    if not ocena:
+        return {"error": "Nie podanno oceny"}, 400
+
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "select * from dodaj_opinie(%s, %s, %s, %s)",
+        (current_user.id, rspo, tresc, ocena),
+    )
+    message = cur.fetchone()[0]
+
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    return {"message": message}, 201
 
 
 # register flask blueprints

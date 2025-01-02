@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useContext, useState } from "react";
-import { Button, Form, Input, Checkbox } from "@nextui-org/react";
+import { Button, Form, Input } from "@nextui-org/react";
 import { toast } from "react-toastify";
 import { redirect } from "next/navigation";
 
@@ -42,7 +42,7 @@ export default function UserInfo({}) {
 		if (response.ok) {
 			toast.success(data.message);
 			setUser(null);
-			redirect("/");
+			// redirect("/");
 		} else {
 			toast.error(data.error);
 			setSubmitted(false);

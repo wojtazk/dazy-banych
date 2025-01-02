@@ -20,7 +20,7 @@ import {
 	NavbarMenuItem,
 } from "@nextui-org/react";
 import Link from "next/link";
-import { redirect, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { toast } from "react-toastify";
 import { API_URL } from "./config";
 import { useState } from "react";
@@ -74,7 +74,7 @@ export default function Navigation({ darkMode, setDarkMode, user, setUser }) {
 		if (response.ok) {
 			toast.success(data.message);
 			setUser(null);
-			redirect("/");
+			// redirect("/");
 		} else {
 			toast.error(data.error);
 		}
@@ -130,7 +130,6 @@ export default function Navigation({ darkMode, setDarkMode, user, setUser }) {
 					<>
 						<NavbarItem className="hidden lg:flex">
 							<Button
-								
 								as={Link}
 								color="primary"
 								href="/login"
@@ -141,7 +140,6 @@ export default function Navigation({ darkMode, setDarkMode, user, setUser }) {
 						</NavbarItem>
 						<NavbarItem className="hidden lg:flex">
 							<Button
-								
 								as={Link}
 								color="primary"
 								href="/register"

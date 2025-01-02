@@ -3,7 +3,7 @@
 import { useEffect, useContext, useState } from "react";
 import { Button, Form, Input, Checkbox } from "@nextui-org/react";
 import { toast } from "react-toastify";
-import { redirect } from "next/navigation";
+import { redirect, useRouter } from "next/navigation";
 
 import { UserContext } from "../layout";
 import { API_URL } from "../config";
@@ -11,6 +11,8 @@ import { API_URL } from "../config";
 export default function Login({}) {
 	let redirected = false;
 	const { user, setUser } = useContext(UserContext);
+
+	const router = useRouter();
 
 	useEffect(() => {
 		if (user !== null) {
@@ -50,7 +52,8 @@ export default function Login({}) {
 		if (response.ok) {
 			setUser(data.current_user);
 			toast.success(data.message);
-			redirect("/");
+			// redirect("/");
+			router.back();
 		} else {
 			toast.error(data.error);
 			setSubmitted(false);

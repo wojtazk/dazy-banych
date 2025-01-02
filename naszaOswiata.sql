@@ -421,6 +421,60 @@ BEFORE UPDATE ON opinie
 FOR EACH ROW
 EXECUTE FUNCTION weryfikacja_opinii();
 ------------------------------------------------------------------------
+-- Sprawdzanie czy użytkownik nie przekroczył już limitu dodanych opinii
+CREATE OR REPLACE FUNCTION limit_opinii_dla_uzytkownika()
+RETURNS TRIGGER AS $$
+DECLARE
+    liczba_opinii INT;
+BEGIN
+    SELECT COUNT(*)
+      INTO liczba_opinii
+      FROM opinie
+     WHERE uzytkownik_id = NEW.uzytkownik_id;
+
+    IF liczba_opinii >= 10 THEN
+        RAISE EXCEPTION 'Użytkownik (ID=%) osiągnął limit 10 opinii i nie może dodać kolejnej.',
+            NEW.uzytkownik_id
+            USING ERRCODE = 'check_violation';
+    END IF;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER limit_opinii_before_insert
+BEFORE INSERT ON opinie
+FOR EACH ROW
+EXECUTE FUNCTION limit_opinii_dla_uzytkownika();
+------------------------------------------------------------------------
+-- sprawdzanie czy użytkownik nie dodał już opinii do danej placówki
+CREATE OR REPLACE FUNCTION enforce_one_opinion_per_school()
+RETURNS TRIGGER AS $$
+DECLARE
+    cnt INT;
+BEGIN
+    SELECT COUNT(*)
+      INTO cnt
+      FROM opinie
+     WHERE uzytkownik_id = NEW.uzytkownik_id
+       AND rspo = NEW.rspo;
+
+    IF cnt > 0 THEN
+        RAISE EXCEPTION 'Użytkownik (ID=%) posiada już opinię do placówki (rspo=%).',
+            NEW.uzytkownik_id,
+            NEW.rspo
+            USING ERRCODE = 'check_violation';
+    END IF;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER check_one_opinion_per_school
+BEFORE INSERT ON opinie
+FOR EACH ROW
+EXECUTE FUNCTION enforce_one_opinion_per_school();
+------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 -- functions
@@ -829,6 +883,53 @@ BEGIN
 END;
 $$;
 
+-- funkcja do dodawania opinii
+CREATE OR REPLACE FUNCTION dodaj_opinie(
+    _uzytkownik_id INTEGER,
+    _rspo VARCHAR(10),
+    _tresc VARCHAR(200),
+    _ocena NUMERIC(3,1)  -- ocena od 1 do 10, krok 0.5 (pokrywa CHECK w tabeli)
+)
+RETURNS TEXT
+LANGUAGE plpgsql
+AS $$
+DECLARE
+    new_opinia_id INTEGER;
+BEGIN
+    INSERT INTO opinie (uzytkownik_id, rspo, tresc, ocena)
+    VALUES (_uzytkownik_id, _rspo, _tresc, _ocena)
+    RETURNING id INTO new_opinia_id;
+
+    RETURN format('Pomyślnie dodano opinię. ID: %s', new_opinia_id);
+END;
+$$;
+
+-- funkcja do usuwania opinii
+CREATE OR REPLACE FUNCTION usun_opinie(
+    _uzytkownik_id INTEGER,  -- ID użytkownika próbującego usunąć opinię
+    _opinia_id     INTEGER   -- ID opinii do usunięcia
+)
+RETURNS TEXT
+LANGUAGE plpgsql
+AS $$
+BEGIN
+    DELETE FROM opinie
+     WHERE id = _opinia_id
+       AND uzytkownik_id = _uzytkownik_id;
+
+    IF NOT FOUND THEN
+        RETURN format(
+            'Brak opinii o ID=% lub brak uprawnień do jej usunięcia (użytkownik: %).',
+            _opinia_id, _uzytkownik_id
+        );
+    ELSE
+        RETURN format(
+            'Opinia o ID=% (użytkownik_id=%) została usunięta.',
+            _opinia_id, _uzytkownik_id
+        );
+    END IF;
+END;
+$$;
 
 
 ------------------------------------------------------------------------
@@ -838,3 +939,4 @@ GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO kot_backendu;
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO kot_backendu;
 -- zezwala na inkrementacje primary key w uzytkownikacj
 GRANT USAGE, SELECT, UPDATE ON SEQUENCE uzytkownicy_id_seq TO kot_backendu;
+GRANT USAGE, SELECT, UPDATE ON SEQUENCE opinie_id_seq TO kot_backendu;

@@ -1,12 +1,22 @@
 "use client";
 
 import { API_URL } from "@/app/config";
-import { Accordion, AccordionItem, Skeleton } from "@nextui-org/react";
+import {
+	Accordion,
+	AccordionItem,
+	Progress,
+	Skeleton,
+} from "@nextui-org/react";
 import { notFound, usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import AddOpinion from "./addOpinion";
+import OpinionCard from "./opinionCard";
+import { UserContext } from "@/app/layout";
 
 export default function InstutionInfo() {
 	const pathname = usePathname();
+
+	const { user } = useContext(UserContext);
 
 	const [invalidInstitution, setInvalidInstitution] = useState(false);
 
@@ -92,8 +102,25 @@ export default function InstutionInfo() {
 					{placowka.rodzaj_placowki}
 				</p>
 			</div>
+
+			<div>
+				{/* <p className="text-large m-2 mt-6">
+					Średnia ocena: {sredniaOcena} / 10
+				</p> */}
+				<Progress
+					className="w-11/12 m-auto mt-6"
+					color="primary"
+					// formatOptions={{  }}
+					label={`Średnia ocena: ${sredniaOcena} / 10`}
+					maxValue={10}
+					showValueLabel={false}
+					size="md"
+					value={sredniaOcena}
+				/>
+			</div>
+
 			<Accordion
-				className="w-full m-auto mt-6"
+				className="w-full m-auto mt-2"
 				selectionMode="multiple"
 				// isCompact
 				variant="bordered"
@@ -159,10 +186,8 @@ export default function InstutionInfo() {
 						kategoria uczniów: {placowka.kategoria_uczniow}
 					</p>
 					<p className="text-default-600">
-						uczniów ogółem:{" "}
-						{placowka.liczba_uczniow_ogolem || "<brak informacji>"},
-						w tym uczennic:{" "}
-						{placowka.liczba_uczennic || "<brak informacji>"}
+						uczniów ogółem: {placowka.liczba_uczniow_ogolem || 0}, w
+						tym uczennic: {placowka.liczba_uczennic || 0}
 					</p>
 					<p className="text-default-600">
 						poziom męskości:{" "}
@@ -178,6 +203,39 @@ export default function InstutionInfo() {
 							{poziomMeskosci || 0}%
 						</span>
 					</p>
+				</AccordionItem>
+			</Accordion>
+
+			<Accordion
+				className="w-full m-auto mt-6"
+				selectionMode="multiple"
+				// isCompact
+				variant="bordered"
+			>
+				<AccordionItem aria-label="Ogłoszenia" title="Ogłoszenia">
+					<p className="text-default-600">404 Not Implemented Yet</p>
+				</AccordionItem>
+			</Accordion>
+
+			<Accordion
+				className="w-full m-auto mt-6"
+				selectionMode="multiple"
+				// isCompact
+				variant="bordered"
+			>
+				{user && (
+					<AccordionItem
+						aria-label="Dodaj opinie"
+						title="Dodaj opinie"
+					>
+						<AddOpinion rspo={placowka.rspo} />
+					</AccordionItem>
+				)}
+
+				<AccordionItem aria-label="Opinie" title="Opinie">
+					{opinie.map((opinion, index) => (
+						<OpinionCard key={index} {...opinion} />
+					))}
 				</AccordionItem>
 			</Accordion>
 		</div>
