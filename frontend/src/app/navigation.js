@@ -91,7 +91,7 @@ export default function Navigation({ darkMode, setDarkMode, user, setUser }) {
 		>
 			<NavbarMenuToggle
 				aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-				className="md:hidden"
+				className="lg:hidden"
 			/>
 			<NavbarBrand>
 				<Link
@@ -101,7 +101,7 @@ export default function Navigation({ darkMode, setDarkMode, user, setUser }) {
 					Nasza Oświata
 				</Link>
 			</NavbarBrand>
-			<NavbarContent justify="center" className="hidden md:flex">
+			<NavbarContent justify="center" className="hidden lg:flex">
 				{navItems.map((item, index) => (
 					<NavbarItem
 						key={index}
@@ -128,9 +128,9 @@ export default function Navigation({ darkMode, setDarkMode, user, setUser }) {
 				</NavbarItem>
 				{user === null && (
 					<>
-						<NavbarItem>
+						<NavbarItem className="hidden lg:flex">
 							<Button
-								className="hidden md:flex"
+								
 								as={Link}
 								color="primary"
 								href="/login"
@@ -139,9 +139,9 @@ export default function Navigation({ darkMode, setDarkMode, user, setUser }) {
 								Zaloguj
 							</Button>
 						</NavbarItem>
-						<NavbarItem>
+						<NavbarItem className="hidden lg:flex">
 							<Button
-								className="hidden md:flex"
+								
 								as={Link}
 								color="primary"
 								href="/register"
