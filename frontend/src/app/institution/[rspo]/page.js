@@ -12,6 +12,8 @@ import { useContext, useEffect, useState } from "react";
 import AddOpinion from "./addOpinion";
 import OpinionCard from "./opinionCard";
 import { UserContext } from "@/app/layout";
+import AddAnnouncement from "./addAnnouncement";
+import AnnouncementCard from "./announcementCard";
 
 export default function InstutionInfo() {
 	const pathname = usePathname();
@@ -212,8 +214,19 @@ export default function InstutionInfo() {
 				// isCompact
 				variant="bordered"
 			>
+				{user?.zarzadzane_placowki.includes(placowka.rspo) && (
+					<AccordionItem
+						aria-label="Dodaj ogłoszenie"
+						title="Dodaj ogłoszenie"
+					>
+						<AddAnnouncement rspo={placowka.rspo} />
+					</AccordionItem>
+				)}
+
 				<AccordionItem aria-label="Ogłoszenia" title="Ogłoszenia">
-					<p className="text-default-600">404 Not Implemented Yet</p>
+					{ogloszenia.map((announcement, index) => (
+						<AnnouncementCard key={index} {...announcement} />
+					))}
 				</AccordionItem>
 			</Accordion>
 

@@ -919,15 +919,69 @@ BEGIN
 
     IF NOT FOUND THEN
         RETURN format(
-            'Brak opinii o ID=% lub brak uprawnień do jej usunięcia (użytkownik: %).',
+            'Brak opinii o ID=%s lub brak uprawnień do jej usunięcia (użytkownik: %s).',
             _opinia_id, _uzytkownik_id
         );
     ELSE
         RETURN format(
-            'Opinia o ID=% (użytkownik_id=%) została usunięta.',
+            'Opinia o ID=%s (użytkownik_id=%s) została usunięta.',
             _opinia_id, _uzytkownik_id
         );
     END IF;
+END;
+$$;
+
+
+-- funkcja do dodawania ogłoszenia
+CREATE OR REPLACE FUNCTION dodaj_ogloszenie_placowki(
+    _uzytkownik_id    INTEGER,
+    _rspo            VARCHAR(10),
+    _tytul           VARCHAR(30),
+    _tresc           VARCHAR(1000),
+    _data_wygasniecia TIMESTAMPTZ DEFAULT (now() + INTERVAL '31 days')
+)
+RETURNS TEXT
+LANGUAGE plpgsql
+AS $$
+DECLARE
+    is_admin BOOLEAN;
+    new_announcement_id INTEGER;
+BEGIN
+    SELECT EXISTS(
+        SELECT 1
+          FROM admini_szkoly
+         WHERE uzytkownik_id = _uzytkownik_id
+           AND rspo = _rspo
+    )
+    INTO is_admin;
+
+    IF NOT is_admin THEN
+        RAISE EXCEPTION
+            'Brak uprawnień: użytkownik (ID=%s) nie jest administratorem placówki (rspo=%s).',
+            _uzytkownik_id, _rspo
+            USING ERRCODE = 'check_violation';
+    END IF;
+
+    INSERT INTO ogloszenia_placowek (
+        tytul,
+        tresc,
+        rspo,
+        data_wygasniecia
+    )
+    VALUES (
+        _tytul,
+        _tresc,
+        _rspo,
+        _data_wygasniecia::timestamptz
+    )
+    RETURNING id INTO new_announcement_id;
+
+    RETURN format(
+        'Utworzono ogłoszenie o ID=%s dla placówki (rspo=%s) przez użytkownika (ID=%s).',
+        new_announcement_id,
+        _rspo,
+        _uzytkownik_id
+    );
 END;
 $$;
 
@@ -940,3 +994,4 @@ GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO kot_backendu;
 -- zezwala na inkrementacje primary key w uzytkownikacj
 GRANT USAGE, SELECT, UPDATE ON SEQUENCE uzytkownicy_id_seq TO kot_backendu;
 GRANT USAGE, SELECT, UPDATE ON SEQUENCE opinie_id_seq TO kot_backendu;
+GRANT USAGE, SELECT, UPDATE ON SEQUENCE ogloszenia_placowek_id_seq TO kot_backendu;

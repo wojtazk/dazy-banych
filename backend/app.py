@@ -51,12 +51,13 @@ def get_db_connection():
 ##################
 ## FLASK LOGIN
 class User(UserMixin):
-    def __init__(self, id, username, email, nr_tel, data_utworzenia):
+    def __init__(self, id, username, email, nr_tel, data_utworzenia, zarzadzane_placowki):
         self.id = id
         self.username = username
         self.email = email
         self.nr_tel = nr_tel
         self.data_utworzenia = data_utworzenia
+        self.zarzadzane_placowki = zarzadzane_placowki
 
 
 @login_manager.user_loader
@@ -69,11 +70,19 @@ def load_user(user_id):
         (user_id,)
     )
     user_data = cur.fetchone()
+
+    # get all institutions rspos of which the user is an admin
+    cur.execute(
+        "SELECT COALESCE(json_agg(DISTINCT rspo), '[]') FROM admini_szkoly WHERE uzytkownik_id = %s",
+        (user_id,)
+    )
+    zarzadzane_placowki = cur.fetchone()[0]
+
     cur.close()
     conn.close()
 
     if user_data:
-        return User(*user_data)
+        return User(*user_data, zarzadzane_placowki)
     return None
 
 
@@ -140,7 +149,7 @@ def login():
     cur = conn.cursor()
 
     cur.execute(
-        "SELECT id, nazwa_uzytkownika, email, nr_tel, data_utworzenia, haslo_hash FROM uzytkownicy WHERE nazwa_uzytkownika = %s",
+        "SELECT id, haslo_hash FROM uzytkownicy WHERE nazwa_uzytkownika = %s",
         (nazwa_uzytkownika,)
     )
     user_data = cur.fetchone()
@@ -160,7 +169,7 @@ def login():
     if not bcrypt.check_password_hash(user_data[-1], haslo):
         return {"error": "Logowanie nie powiodło się."}, 403
 
-    user = User(*user_data[:-1])
+    user = load_user(user_data[0])
     login_user(user, remember=zapamietaj_mnie)
     return {"current_user": current_user.__dict__, "message": "Logowanie powiodło się."}, 200
 
@@ -379,31 +388,77 @@ def add_opinion():
 
     rspo = data.get('rspo', False)
     if not rspo:
-        return {"error": "Nie podanno rspo"}, 400
+        return {"error": "Nie podano rspo"}, 400
 
     tresc = data.get('tresc', False)
     if not tresc:
-        return {"error": "Nie podanno tresci"}, 400
+        return {"error": "Nie podano tresci"}, 400
 
     ocena =data.get('ocena', False)
     if not ocena:
-        return {"error": "Nie podanno oceny"}, 400
+        return {"error": "Nie podano oceny"}, 400
 
-    conn = get_db_connection()
-    cur = conn.cursor()
+    try:
+        conn = get_db_connection()
+        cur = conn.cursor()
 
-    cur.execute(
-        "select * from dodaj_opinie(%s, %s, %s, %s)",
-        (current_user.id, rspo, tresc, ocena),
-    )
-    message = cur.fetchone()[0]
+        cur.execute(
+            "select * from dodaj_opinie(%s, %s, %s, %s)",
+            (current_user.id, rspo, tresc, ocena),
+        )
+        message = cur.fetchone()[0]
 
-    conn.commit()
-    cur.close()
-    conn.close()
+        conn.commit()
+        cur.close()
+        conn.close()
 
-    return {"message": message}, 201
+        return {"message": message}, 201
 
+    except psycopg2.errors.Error as e:
+        return {"error": str(e)[:str(e).index("\n")]}, 400
+
+
+@api_blueprint.route("/add_announcement", methods=["POST"])
+@login_required
+def add_announcement():
+    data = request.get_json()
+
+    rspo = data.get('rspo', False)
+    if not rspo:
+        return {"error": "Nie podano rspo"}, 400
+
+    tytul = data.get('tytul', False)
+    if not tytul:
+        return {"error": "Nie podano tytulu"}, 400
+
+    tresc = data.get('tresc', False)
+    if not tresc:
+        return {"error": "Nie podano tresci"}, 400
+
+    data_wygasniecia = data.get('data_wygasniecia', False)
+    print(data_wygasniecia)
+    if not data_wygasniecia:
+        return {"error": "Nie podano daty wygasniecia"}, 400
+
+    try:
+        conn = get_db_connection()
+        cur = conn.cursor()
+
+        cur.execute(
+            "select * from dodaj_ogloszenie_placowki(%s, %s, %s, %s, %s)",
+            (current_user.id, rspo, tytul, tresc, data_wygasniecia),
+        )
+        message = cur.fetchone()[0]
+
+        conn.commit()
+        cur.close()
+        conn.close()
+
+        return {"message": message}, 201
+
+    except psycopg2.errors.Error as e:
+        print(e)
+        return {"error": str(e)[:str(e).index("\n")]}, 400
 
 # register flask blueprints
 app.register_blueprint(api_blueprint)

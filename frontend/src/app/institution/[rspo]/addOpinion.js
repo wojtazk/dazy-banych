@@ -32,6 +32,7 @@ export default function AddOpinion({ rspo }) {
 
 		if (response.ok) {
 			toast.success(data.message);
+			setOpinion("")
 		} else {
 			toast.error(data.error);
 		}
