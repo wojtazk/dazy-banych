@@ -35,13 +35,11 @@ export default function InstitutionCard({
 			</CardHeader>
 			<CardBody>
 				<Accordion selectionMode="multiple" isCompact>
-                <AccordionItem
+					<AccordionItem
 						aria-label="RSPO (Rejestr szkół i placówek oświatowych)"
 						title="RSPO"
 					>
-						<p className="text-default-500">
-							{rspo}
-						</p>
+						<p className="text-default-500">{rspo}</p>
 					</AccordionItem>
 					<AccordionItem
 						aria-label="Rodzaj placówki"
@@ -51,10 +49,7 @@ export default function InstitutionCard({
 							{nazwa_rodzaj_placowki}
 						</p>
 					</AccordionItem>
-					<AccordionItem
-						aria-label="Specyfika"
-						title="Specyfika"
-					>
+					<AccordionItem aria-label="Specyfika" title="Specyfika">
 						<p className="text-default-500">
 							{nazwa_specyfika_szkoly}
 						</p>
@@ -68,7 +63,12 @@ export default function InstitutionCard({
 			</CardBody>
 			<Divider />
 			<CardFooter>
-				<NextLink as={Link} isExternal isBlock href={`/institution/${rspo}`}>
+				<NextLink
+					as={Link}
+					isExternal
+					isBlock
+					href={`/institution/${rspo}`}
+				>
 					Zobacz szczegóły
 					<LinkIcon />
 				</NextLink>

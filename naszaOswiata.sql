@@ -369,7 +369,7 @@ RETURNS TRIGGER AS $$
 BEGIN
     INSERT INTO usuniete_opinie (opinia_id, dane)
     VALUES (OLD.id, row_to_json(OLD));
-    RETURN NULL;
+    RETURN OLD;
 END;
 $$ LANGUAGE plpgsql;
 
@@ -984,6 +984,40 @@ BEGIN
     );
 END;
 $$;
+
+-- funkcja pobierajaca wszystkie komentarze uzytkownika
+CREATE OR REPLACE FUNCTION pobierz_opinie_uzytkownika_json(
+    _uzytkownik_id INT
+)
+RETURNS JSONB
+LANGUAGE plpgsql
+AS $$
+DECLARE
+    wynik JSONB;
+BEGIN
+    SELECT COALESCE(
+        json_agg(
+            json_build_object(
+                'id',               o.id,
+                'tresc',            o.tresc,
+                'ocena',            o.ocena,
+                'data_utworzenia',  o.data_utworzenia,
+                'rspo',             o.rspo,
+                'nazwa_placowki',   p.nazwa_placowki
+            )
+            ORDER BY o.data_utworzenia DESC
+        ),
+        '[]'::json
+    )
+    INTO wynik
+    FROM opinie o
+    JOIN placowki_oswiatowe p ON o.rspo = p.rspo
+    WHERE o.uzytkownik_id = _uzytkownik_id;
+
+    RETURN wynik;
+END;
+$$;
+
 
 
 ------------------------------------------------------------------------

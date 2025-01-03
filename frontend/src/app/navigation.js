@@ -74,7 +74,7 @@ export default function Navigation({ darkMode, setDarkMode, user, setUser }) {
 		if (response.ok) {
 			toast.success(data.message);
 			setUser(null);
-			// redirect("/");
+			window.location.reload();
 		} else {
 			toast.error(data.error);
 		}

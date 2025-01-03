@@ -418,6 +418,35 @@ def add_opinion():
         return {"error": str(e)[:str(e).index("\n")]}, 400
 
 
+@api_blueprint.route("/delete_opinion", methods=["POST"])
+@login_required
+def delete_opinion():
+    data = request.get_json()
+
+    opinia_id = data.get('opinion_id', False)
+    if not opinia_id:
+        return {"error": "Nie podano id opinii"}, 400
+
+    try:
+        conn = get_db_connection()
+        cur = conn.cursor()
+
+        cur.execute(
+            "select * from usun_opinie(%s, %s)",
+            (current_user.id, opinia_id),
+        )
+        message = cur.fetchone()[0]
+
+        conn.commit()
+        cur.close()
+        conn.close()
+
+        return {"message": message}, 201
+
+    except psycopg2.errors.Error as e:
+        return {"error": str(e)[:str(e).index("\n")]}, 400
+
+
 @api_blueprint.route("/add_announcement", methods=["POST"])
 @login_required
 def add_announcement():
@@ -459,6 +488,25 @@ def add_announcement():
     except psycopg2.errors.Error as e:
         print(e)
         return {"error": str(e)[:str(e).index("\n")]}, 400
+
+
+@api_blueprint.route("/user_comments", methods=["GET"])
+@login_required
+def get_user_comments():
+    conn = get_db_connection()
+    cur = conn.cursor()
+
+    cur.execute(
+        "select * from pobierz_opinie_uzytkownika_json(%s)",
+        (current_user.id,),
+    )
+    user_comments = cur.fetchone()[0]
+
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    return {"user_comments": user_comments}, 200
 
 # register flask blueprints
 app.register_blueprint(api_blueprint)

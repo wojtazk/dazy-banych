@@ -224,8 +224,11 @@ export default function InstutionInfo() {
 				)}
 
 				<AccordionItem aria-label="Ogłoszenia" title="Ogłoszenia">
-					{ogloszenia.map((announcement, index) => (
-						<AnnouncementCard key={index} {...announcement} />
+					{ogloszenia.map((announcement) => (
+						<AnnouncementCard
+							key={announcement.id}
+							{...announcement}
+						/>
 					))}
 				</AccordionItem>
 			</Accordion>
@@ -246,8 +249,8 @@ export default function InstutionInfo() {
 				)}
 
 				<AccordionItem aria-label="Opinie" title="Opinie">
-					{opinie.map((opinion, index) => (
-						<OpinionCard key={index} {...opinion} />
+					{opinie.map((opinion) => (
+						<OpinionCard key={opinion.id} {...opinion} />
 					))}
 				</AccordionItem>
 			</Accordion>

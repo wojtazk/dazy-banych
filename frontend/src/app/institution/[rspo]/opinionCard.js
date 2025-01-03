@@ -17,7 +17,6 @@ export default function OpinionCard({ autor, ocena, tresc }) {
 				<p className="text-default-600">ocena: {ocena}</p>
 				<q className="italic text-default-600">{tresc}</q>
 			</CardBody>
-			<Divider />
 		</Card>
 	);
 }
