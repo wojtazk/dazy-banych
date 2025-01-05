@@ -1,5 +1,7 @@
 # Dazy Banych - NaszaOświata
-Projekt na bazy danych delta szwadronu super cool komando wilków alfa
+Projekt na bazy danych delta szwadronu super cool komando wilków alfa.
+
+Aplikacja webowa do wyszukiwania oraz oceniania placówek oświatowch, umożliwiająca również publikację ogłoszeń placówką.
 
 ## Drużyna pierścienia
 - [wojtazk](https://github.com/wojtazk)
