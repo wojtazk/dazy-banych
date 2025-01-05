@@ -10,7 +10,5 @@ COPY ./backend/requirements.txt ./
 
 RUN pip install -r requirements.txt
 
-EXPOSE ${PORT}
-
 CMD [ "python", "app.py" ]
 
