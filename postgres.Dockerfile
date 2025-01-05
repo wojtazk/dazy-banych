@@ -1,4 +1,4 @@
-FROM postgres:17.2-bookworm
+FROM postgres:17.2-alpine
 
 ENV POSTGRES_USER="admin"
 ENV POSTGRES_PASSWORD="admin"

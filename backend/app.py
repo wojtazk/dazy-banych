@@ -364,6 +364,7 @@ def search():
 
     return {"search_results": search_results}, 200
 
+
 @api_blueprint.route("/institution/<string:rspo>", methods=["GET"])
 def get_institution_info(rspo):
     conn = get_db_connection()
@@ -381,6 +382,7 @@ def get_institution_info(rspo):
 
     return {"institution_info": institution_info}, 200
 
+
 @api_blueprint.route("/add_opinion", methods=["POST"])
 @login_required
 def add_opinion():
@@ -394,7 +396,7 @@ def add_opinion():
     if not tresc:
         return {"error": "Nie podano tresci"}, 400
 
-    ocena =data.get('ocena', False)
+    ocena = data.get('ocena', False)
     if not ocena:
         return {"error": "Nie podano oceny"}, 400
 
@@ -508,9 +510,10 @@ def get_user_comments():
 
     return {"user_comments": user_comments}, 200
 
+
 # register flask blueprints
 app.register_blueprint(api_blueprint)
 
 if __name__ == "__main__":
     # run the app
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    app.run(debug=False, host="0.0.0.0", port=int(os.getenv("PORT", 5000)))
