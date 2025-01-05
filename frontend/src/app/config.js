@@ -1,1 +1,1 @@
-export const API_URL = "http://192.168.7.25:5000";
+export const API = "/proxy";

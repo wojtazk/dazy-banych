@@ -7,7 +7,7 @@ import {
 	AutocompleteItem,
 } from "@nextui-org/react";
 import { useState, useEffect, useMemo } from "react";
-import { API_URL } from "./config";
+import { API } from "./config";
 
 export const FilterIcon = () => {
 	// original icon by Iconpacks: https://www.iconpacks.net/free-icon/filter-6541.html
@@ -136,7 +136,7 @@ export async function fetchAutocompleteValues() {
 
 	const responses = await Promise.all(
 		endpoints.map((endpoint) =>
-			fetch(API_URL + endpoint, { cache: "force-cache" }).then((res) =>
+			fetch(API + endpoint, { cache: "force-cache" }).then((res) =>
 				res.json()
 			)
 		)

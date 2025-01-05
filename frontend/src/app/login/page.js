@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 import { redirect, useRouter } from "next/navigation";
 
 import { UserContext } from "../layout";
-import { API_URL } from "../config";
+import { API } from "../config";
 
 export default function Login({}) {
 	let redirected = false;
@@ -34,7 +34,7 @@ export default function Login({}) {
 
 		setSubmitted(true);
 
-		const response = await fetch(API_URL + "/api/login", {
+		const response = await fetch(API + "/api/login", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",

@@ -1,6 +1,6 @@
 "use client";
 
-import { API_URL } from "@/app/config";
+import { API } from "@/app/config";
 import {
 	Accordion,
 	AccordionItem,
@@ -30,7 +30,7 @@ export default function InstutionInfo() {
 
 	useEffect(() => {
 		(async () => {
-			const response = await fetch(API_URL + `/api${pathname}`, {
+			const response = await fetch(API + `/api${pathname}`, {
 				// cache: "force-cache", // cache the response data
 				next: { revalidate: 3600 }, // revalidate the data every hour
 				method: "GET",

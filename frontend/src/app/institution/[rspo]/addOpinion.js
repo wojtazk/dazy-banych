@@ -1,6 +1,6 @@
 "use client";
 
-import { API_URL } from "@/app/config";
+import { API } from "@/app/config";
 import { Form, Textarea, Button, Slider } from "@nextui-org/react";
 import { useState } from "react";
 import { toast } from "react-toastify";
@@ -15,7 +15,7 @@ export default function AddOpinion({ rspo }) {
 
 		setSubmitted(true);
 
-		const response = await fetch(API_URL + "/api/add_opinion", {
+		const response = await fetch(API + "/api/add_opinion", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",

@@ -1,6 +1,6 @@
 "use client";
 
-import { API_URL } from "@/app/config";
+import { API } from "@/app/config";
 import { today, getLocalTimeZone } from "@internationalized/date";
 import { Form, Input, Textarea, Button, DatePicker } from "@nextui-org/react";
 import { useState } from "react";
@@ -19,7 +19,7 @@ export default function AddAnnouncement({ rspo }) {
 
 		setSubmitted(true);
 
-		const response = await fetch(API_URL + "/api/add_announcement", {
+		const response = await fetch(API + "/api/add_announcement", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",

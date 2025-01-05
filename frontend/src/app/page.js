@@ -8,13 +8,13 @@ import {
 	Skeleton,
 	Pagination,
 } from "@nextui-org/react";
-import { useEffect, useState } from "react";
-import { API_URL } from "./config";
+import { Suspense, useEffect, useState } from "react";
+import { API } from "./config";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import InstitutionCard from "./institutionCard";
 import AdvancedFilters from "./advancedFiilters";
 
-export default function Home() {
+function Search() {
 	// controlled form madness
 	const [filters, setFilters] = useState({
 		query: "",
@@ -56,7 +56,7 @@ export default function Home() {
 			setSubmitted(true);
 
 			const response = await fetch(
-				API_URL + `/api/search?${searchParams.toString()}`,
+				API + `/api/search?${searchParams.toString()}`,
 				{
 					method: "GET",
 					headers: {
@@ -177,4 +177,12 @@ export default function Home() {
 			</div>
 		</>
 	);
+}
+
+export default function Home(){
+	return (
+		<Suspense>
+			<Search />
+		</Suspense>
+	)
 }

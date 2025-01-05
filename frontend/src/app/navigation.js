@@ -22,7 +22,7 @@ import {
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { toast } from "react-toastify";
-import { API_URL } from "./config";
+import { API } from "./config";
 import { useState } from "react";
 
 const fontMonoton = Monoton({
@@ -61,7 +61,7 @@ export default function Navigation({ darkMode, setDarkMode, user, setUser }) {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const handleLogout = async () => {
-		const response = await fetch(API_URL + "/api/logout", {
+		const response = await fetch(API + "/api/logout", {
 			method: "GET",
 			headers: {
 				"Content-Type": "application/json",

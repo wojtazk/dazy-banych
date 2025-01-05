@@ -6,7 +6,7 @@ import { Slide, ToastContainer, toast } from "react-toastify";
 import "./globals.css";
 import { useState, useEffect, createContext } from "react";
 
-import { API_URL } from "./config";
+import { API } from "./config";
 import Navigation from "./navigation";
 
 const geistSans = Geist({
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
 
 	useEffect(() => {
 		(async () => {
-			const response = await fetch(API_URL + "/api/user", {
+			const response = await fetch(API + "/api/user", {
 				method: "GET",
 				headers: {
 					"Content-Type": "application/json",

@@ -23,7 +23,7 @@ import { toast } from "react-toastify";
 import { redirect } from "next/navigation";
 
 import { UserContext } from "../layout";
-import { API_URL } from "../config";
+import { API } from "../config";
 
 export default function UserInfo({}) {
 	// let redirected = false;
@@ -42,7 +42,7 @@ export default function UserInfo({}) {
 	const [userOpinions, setUserOpinions] = useState([]);
 	useEffect(() => {
 		(async () => {
-			const response = await fetch(API_URL + "/api/user_comments", {
+			const response = await fetch(API + "/api/user_comments", {
 				method: "GET",
 				headers: {
 					"Content-Type": "application/json",
@@ -66,7 +66,7 @@ export default function UserInfo({}) {
 	const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
 	const handleDeleteComment = async (opinion_id) => {
-		const response = await fetch(API_URL + "/api/delete_opinion", {
+		const response = await fetch(API + "/api/delete_opinion", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
