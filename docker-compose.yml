@@ -10,15 +10,21 @@ services:
       dockerfile: pgadmin.Dockerfile
     ports:
       - 8080:8080
+    depends_on:
+      - postgres
 
   backend:
     build:
       dockerfile: backend.Dockerfile
     ports:
       - 5000:5000
+    depends_on:
+      - postgres
 
   frontend:
     build:
       dockerfile: frontend.Dockerfile
     ports:
       - 80:3000
+    depends_on:
+      - backend
