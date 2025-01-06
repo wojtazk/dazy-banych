@@ -2,12 +2,14 @@ services:
   postgres:
     build:
       dockerfile: postgres.Dockerfile
+      context: .
     ports:
       - 5432:5432
 
   pgadmin:
     build:
       dockerfile: pgadmin.Dockerfile
+      context: .
     ports:
       - 8080:8080
     depends_on:
@@ -16,6 +18,7 @@ services:
   backend:
     build:
       dockerfile: backend.Dockerfile
+      context: .
     ports:
       - 5000:5000
     depends_on:
@@ -24,6 +27,7 @@ services:
   frontend:
     build:
       dockerfile: frontend.Dockerfile
+      context: .
     ports:
       - 80:3000
     depends_on:
