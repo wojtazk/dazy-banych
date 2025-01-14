@@ -26,6 +26,8 @@ Aplikacja webowa do wyszukiwania oraz oceniania placówek oświatowch, umożliwi
 ```shell
 docker-compose up -d --build postgres backend
 ```
+> [!IMPORTANT]
+> Poczekaj z budową obrazu frontendu do czasu gdy backend i postgres się podniosą
 ```shell
 docker-compose build frontend
 ```
