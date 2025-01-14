@@ -15,10 +15,25 @@ Aplikacja webowa do wyszukiwania oraz oceniania placówek oświatowch, umożliwi
 
 ![Otwarte Dane zrzut ekranu](https://github.com/user-attachments/assets/589fbfb7-e0d2-4737-859e-a83fd56c5f73)
 
-## Uruchamianie serwisu
-> [!NOTE]
-> Do uruchomienia serwisu potrzebny jest [Docker](https://docs.docker.com/get-started/get-docker/) i Docker Compose
 
+
+## Budowanie i Pierwsze uruchomienie serwisu
+> [!NOTE]
+> Do zbudowania i uruchomienia serwisu potrzebny jest [Docker](https://docs.docker.com/get-started/get-docker/) i Docker Compose
+
+> [!NOTE]
+> Podczas budowania, frontend wymaga dostępu do bazy danych i backendu 
+```shell
+docker-compose up -d --build postgres backend
+```
+```shell
+docker-compose build frontend
+```
+```shell
+docker-compose up
+```
+
+## Uruchamianie serwisu
 ```shell
 docker-compose up
 ```
