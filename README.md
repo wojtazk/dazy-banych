@@ -146,4 +146,8 @@ export default nextConfig;
 ![Użytkownik popover](https://github.com/user-attachments/assets/309391da-6fec-47c6-86d5-a78973e2f43e)
 ![Strona użytkownika](https://github.com/user-attachments/assets/a3859d42-141b-4528-867c-eac3e81e1794)
 ![Modal](https://github.com/user-attachments/assets/d0432ce4-c11e-4db9-8808-78da1651df9d)
+
+![not-found.js](https://github.com/user-attachments/assets/1b2374dd-25c1-46ff-907e-05458ba6f269)
+Strona not-found pobiera kotki z https://cataas.com
+
 ![Darkmode](https://github.com/user-attachments/assets/64b41771-3b14-425a-bf5f-1d16c0c6c718)
