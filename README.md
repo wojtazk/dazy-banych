@@ -1,13 +1,13 @@
 # Dazy Banych - NaszaOświata
 Projekt na bazy danych delta szwadronu super cool komando wilków alfa.
 
-Aplikacja webowa do wyszukiwania oraz oceniania placówek oświatowch, umożliwiająca również publikację ogłoszeń placówką.
+Aplikacja webowa do wyszukiwania oraz oceniania placówek oświatowch, umożliwiająca również publikację komentarzy i ogłoszeń na stronach placówek.
 
 ## Drużyna pierścienia
-- [wojtazk](https://github.com/wojtazk)
-- [Atomowyy](https://github.com/Atomowyy)
-- [Flyyy777](https://github.com/Flyyy777)
-- [Korinv](https://github.com/Korinv)
+- [Wojtek Kowal](https://github.com/wojtazk)
+- [Wojtek Lewko](https://github.com/Atomowyy)
+- [Maks Muszyński](https://github.com/Flyyy777)
+- [Christopher Kostanecki](https://github.com/Korinv)
 
 ## Datasety
 - https://dane.gov.pl/en/dataset/839,wykaz-szko-i-placowek-oswiatowych
@@ -22,7 +22,7 @@ Aplikacja webowa do wyszukiwania oraz oceniania placówek oświatowch, umożliwi
 > Do zbudowania i uruchomienia serwisu potrzebny jest [Docker](https://docs.docker.com/get-started/get-docker/) i Docker Compose
 
 > [!NOTE]
-> Podczas budowania, frontend wymaga dostępu do bazy danych i backendu 
+> Podczas budowania frontend wymaga dostępu do bazy danych i backendu 
 ```shell
 docker-compose up -d --build postgres backend
 ```
@@ -46,6 +46,11 @@ open http://localhost:80
 ![Uruchamianie serwisu zrzut ekranu](https://github.com/user-attachments/assets/bbc330ad-7d63-4743-8374-b6d1996fe3a9)
 
 ## Baza danych - Postgres
+Uruchamianie samej bazy danych (development):
+```shell
+docker-compose up postgres 
+```
+### Informacje
 - port: `5432`
 ```shell
 ENV POSTGRES_USER="admin"
@@ -54,6 +59,11 @@ ENV POSTGRES_DB="nasza_oswiata"
 ```
 
 ## Zarządzanie bazą - pgAdmin
+Uruchamianie samego pgAdmina (development):
+```shell
+docker-compose up pgadmin 
+```
+### Informacje
 - port: `8080`
 - użytkownik: `admin@example.com`
 - hasło: `admin`
@@ -66,6 +76,12 @@ ENV PGADMIN_LISTEN_PORT="8080"
 ```
 
 ![Screenshot_20250105_221713](https://github.com/user-attachments/assets/b8f564d3-06f9-4e10-aff0-b0cb3e211563)
+
+> [!NOTE]
+> Można dodać `id` jakiegoś użytkownika do tabeli `admini_szkoły`, co pozwoli mu na dodawanie ogłoszeń do danej placówki
+```sql
+INSERT INTO admini_szkoly VALUES (<user_id>, <placowka_rspo>);
+```
 
 ## Backend - Flask
 Uruchamianie samego backendu (development):
@@ -133,6 +149,9 @@ const nextConfig = {
 
 export default nextConfig;
 ```
+<br>
+
+Obrazy w awatarze użytkownika są pobierane z https://picsum.photos/
 
 ![Wyszukiwarka](https://github.com/user-attachments/assets/1ee233ff-7d01-4bcf-bab2-810a94af4e25)
 ![Wyszukiwarka - filtry](https://github.com/user-attachments/assets/b0058dd8-a154-4e7d-a6da-418757e62ed6)
