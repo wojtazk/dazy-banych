@@ -57,6 +57,7 @@ ENV POSTGRES_USER="admin"
 ENV POSTGRES_PASSWORD="admin"
 ENV POSTGRES_DB="nasza_oswiata"
 ```
+[naszaOswiata.sql](/naszaOswiata.sql) i [load_data.sql](/load_data.sql) to początkowe skrypty inicjalizujące strukturę bazy danych oraz wczytujące dane do tabel z plików csv
 
 ## Zarządzanie bazą - pgAdmin
 Uruchamianie samego pgAdmina (development):
