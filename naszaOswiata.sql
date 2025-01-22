@@ -1024,8 +1024,7 @@ $$;
 -- Create username for backend
 CREATE USER kot_backendu WITH PASSWORD 'kot_backendu';
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO kot_backendu;
-GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO kot_backendu;
--- zezwala na inkrementacje primary key w uzytkownikacj
+-- zezwalaj na inkrementacje primary key kotowi backendu
 GRANT USAGE, SELECT, UPDATE ON SEQUENCE uzytkownicy_id_seq TO kot_backendu;
 GRANT USAGE, SELECT, UPDATE ON SEQUENCE opinie_id_seq TO kot_backendu;
 GRANT USAGE, SELECT, UPDATE ON SEQUENCE ogloszenia_placowek_id_seq TO kot_backendu;
