@@ -1,7 +1,7 @@
 "use client";
 
 import { API } from "@/app/config";
-import { Form, Textarea, Button, Slider } from "@nextui-org/react";
+import { Form, Textarea, Button, Slider } from "@heroui/react";
 import { useState } from "react";
 import { toast } from "react-toastify";
 

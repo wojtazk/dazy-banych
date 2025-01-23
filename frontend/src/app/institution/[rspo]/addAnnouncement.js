@@ -2,7 +2,7 @@
 
 import { API } from "@/app/config";
 import { today, getLocalTimeZone } from "@internationalized/date";
-import { Form, Input, Textarea, Button, DatePicker } from "@nextui-org/react";
+import { Form, Input, Textarea, Button, DatePicker } from "@heroui/react";
 import { useState } from "react";
 import { toast } from "react-toastify";
 

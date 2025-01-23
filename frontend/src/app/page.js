@@ -7,7 +7,7 @@ import {
 	Input,
 	Skeleton,
 	Pagination,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { Suspense, useEffect, useState } from "react";
 import { API } from "./config";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";

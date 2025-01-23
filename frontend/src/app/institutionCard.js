@@ -8,7 +8,7 @@ import {
 	Divider,
 	LinkIcon,
 	Link as NextLink,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import Link from "next/link";
 
 export default function InstitutionCard({

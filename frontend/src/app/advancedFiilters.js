@@ -5,7 +5,7 @@ import {
 	AccordionItem,
 	Autocomplete,
 	AutocompleteItem,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { useState, useEffect, useMemo } from "react";
 import { API } from "./config";
 

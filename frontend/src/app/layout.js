@@ -1,6 +1,6 @@
 "use client";
 
-import { NextUIProvider } from "@nextui-org/react";
+import { HeroUIProvider } from "@heroui/react";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Slide, ToastContainer, toast } from "react-toastify";
 import "./globals.css";
@@ -90,7 +90,7 @@ export default function RootLayout({ children }) {
 					darkMode ? "dark" : "light"
 				} text-foreground bg-background`}
 			>
-				<NextUIProvider>
+				<HeroUIProvider>
 					<Navigation
 						darkMode={darkMode}
 						setDarkMode={setDarkMode}
@@ -100,7 +100,7 @@ export default function RootLayout({ children }) {
 					<UserContext.Provider value={{ user, setUser }}>
 						{children}
 					</UserContext.Provider>
-				</NextUIProvider>
+				</HeroUIProvider>
 				<ToastContainer
 					position="top-left"
 					autoClose={5000}

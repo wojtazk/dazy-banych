@@ -18,7 +18,7 @@ import {
 	ModalHeader,
 	ModalBody,
 	ModalFooter,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { toast } from "react-toastify";
 import { redirect } from "next/navigation";
 

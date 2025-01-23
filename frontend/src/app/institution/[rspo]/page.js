@@ -6,7 +6,7 @@ import {
 	AccordionItem,
 	Progress,
 	Skeleton,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { notFound, usePathname } from "next/navigation";
 import { useContext, useEffect, useState } from "react";
 import AddOpinion from "./addOpinion";

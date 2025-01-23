@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useContext, useEffect } from "react";
-import { Button, Form, Input, Checkbox } from "@nextui-org/react";
+import { Button, Form, Input, Checkbox } from "@heroui/react";
 import { toast } from "react-toastify";
 import { redirect } from "next/navigation";
 
