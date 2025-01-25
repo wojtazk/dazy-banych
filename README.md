@@ -1,4 +1,8 @@
 # Dazy Banych - NaszaOświata
+[Piosenka o Delta Szwadronie Super Cool Komando Wilków Alpha](https://suno.com/song/59ec1218-c3ac-4a1b-9d84-2e5f0afa4c64)
+
+---
+
 Projekt na bazy danych delta szwadronu super cool komando wilków alfa.
 
 Aplikacja webowa do wyszukiwania oraz oceniania placówek oświatowch, umożliwiająca również publikację komentarzy i ogłoszeń na stronach placówek.
