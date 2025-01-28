@@ -19,7 +19,11 @@ Aplikacja webowa do wyszukiwania oraz oceniania placówek oświatowch, umożliwi
 
 ![Otwarte Dane zrzut ekranu](https://github.com/user-attachments/assets/589fbfb7-e0d2-4737-859e-a83fd56c5f73)
 
-
+## Klonowanie repozytorium
+```shell
+git clone https://github.com/wojtazk/dazy-banych.git
+cd dazy-banych
+```
 
 ## Budowanie i Pierwsze uruchomienie serwisu
 > [!NOTE]
